@@ -1,0 +1,1201 @@
+CustomerID,Gender,Age,City,TenureMonths,PlanType,MonthlyCharges,Contract,PaymentMethod,SupportCallsLast6Mo,AutoPayEnabled,SatisfactionScore,Churn,TenureBucket,ChurnNumeric
+CUST-1320,Male,42,Bengaluru,51,Standard,990.2,1 Year,Net Banking,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1870,Female,31,Delhi,8,Standard,878.1,Month-to-Month,UPI,0,No,3.0,No,New (<12 mo),0
+CUST-1003,Female,46,Mumbai,54,Standard,985.66,Month-to-Month,Net Banking,1,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1305,Female,61,Delhi,30,Premium,1372.01,Month-to-Month,UPI,3,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1133,Male,39,Bengaluru,55,Standard,947.38,1 Year,UPI,3,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1553,Female,42,Delhi,2,Standard,917.15,Month-to-Month,UPI,1,No,2.0,Yes,New (<12 mo),1
+CUST-1169,Male,43,Delhi,56,Standard,924.86,Month-to-Month,Credit Card,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1243,Female,58,Mumbai,24,Premium,1219.91,1 Year,UPI,2,No,5.0,No,Mid (12-36 mo),0
+CUST-1321,Female,37,Delhi,36,Standard,926.8,Month-to-Month,Credit Card,0,No,2.0,No,Mid (12-36 mo),0
+CUST-1129,Male,55,Delhi,16,Basic,442.32,2 Year,UPI,3,No,4.0,Yes,Mid (12-36 mo),1
+CUST-1258,Female,48,Bengaluru,39,Basic,444.97,1 Year,Net Banking,1,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1587,Male,30,Delhi,4,Basic,588.91,Month-to-Month,Credit Card,1,Yes,4.0,Yes,New (<12 mo),1
+CUST-1510,Female,41,Bengaluru,28,Basic,521.1,Month-to-Month,Credit Card,2,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1110,Male,41,Mumbai,23,Standard,881.29,1 Year,Credit Card,0,No,3.0,No,Mid (12-36 mo),0
+CUST-1803,Female,71,Mumbai,55,Standard,954.68,Month-to-Month,UPI,0,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1766,Female,52,Pune,15,Basic,478.31,Month-to-Month,UPI,1,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1700,Male,31,Bengaluru,11,Premium,1273.04,2 Year,Net Banking,0,No,1.0,No,New (<12 mo),0
+CUST-2004,Female,18,Bengaluru,28,Basic,515.85,2 Year,UPI,2,Yes,4.0,No,Mid (12-36 mo),0
+CUST-2028,Female,69,Delhi,12,Basic,502.02,2 Year,Cash,1,No,3.0,No,Mid (12-36 mo),0
+CUST-2024,Female,70,Mumbai,35,Premium,1377.99,Month-to-Month,Credit Card,1,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1460,Male,29,Delhi,19,Standard,909.23,2 Year,Credit Card,3,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1184,Female,23,Mumbai,37,Basic,481.47,Month-to-Month,Cash,2,No,5.0,Yes,Loyal (36+ mo),1
+CUST-1960,Female,24,Delhi,9,Standard,863.22,2 Year,UPI,1,Yes,1.0,No,New (<12 mo),0
+CUST-1730,Male,54,Bengaluru,11,Premium,1423.57,Month-to-Month,Credit Card,3,Yes,3.0,Yes,New (<12 mo),1
+CUST-2108,Female,75,Bengaluru,52,Standard,881.06,2 Year,UPI,4,No,3.0,No,Loyal (36+ mo),0
+CUST-1494,Male,51,Chennai,58,Basic,552.07,1 Year,Cash,1,Yes,2.0,No,Loyal (36+ mo),0
+CUST-2049,Female,19,Delhi,20,Basic,524.7,2 Year,UPI,4,Yes,2.0,No,Mid (12-36 mo),0
+CUST-2067,Male,34,Hyderabad,46,Premium,1235.94,2 Year,UPI,1,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1116,Female,38,Chennai,57,Standard,866.53,1 Year,UPI,0,No,5.0,No,Loyal (36+ mo),0
+CUST-1568,Male,67,Pune,30,Basic,545.54,Month-to-Month,Credit Card,0,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1797,Female,47,Hyderabad,40,Premium,1367.97,Month-to-Month,Net Banking,4,Yes,4.0,No,Loyal (36+ mo),0
+CUST-2189,Male,66,Delhi,28,Basic,507.53,Month-to-Month,Credit Card,1,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1088,Female,75,Mumbai,15,Premium,1458.39,Month-to-Month,UPI,3,No,5.0,No,Mid (12-36 mo),0
+CUST-1862,Male,55,Hyderabad,52,Basic,530.36,Month-to-Month,Unknown,2,No,2.0,No,Loyal (36+ mo),0
+CUST-1257,Female,38,Delhi,58,Standard,982.88,Month-to-Month,UPI,1,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1653,Female,41,Delhi,52,Premium,1247.1,Month-to-Month,Credit Card,2,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1338,Female,62,Hyderabad,43,Standard,897.87,Month-to-Month,Cash,2,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-1696,Female,49,Pune,48,Basic,540.12,Month-to-Month,Credit Card,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1237,Male,35,Bengaluru,42,Premium,1284.53,Month-to-Month,Net Banking,5,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-1027,Male,46,Mumbai,36,Basic,513.66,Month-to-Month,Credit Card,6,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1469,Male,48,Bengaluru,60,Standard,967.07,1 Year,UPI,2,No,4.0,No,Loyal (36+ mo),0
+CUST-2002,Female,56,Delhi,38,Standard,859.86,Month-to-Month,Net Banking,2,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1556,Male,51,Pune,51,Standard,847.92,Month-to-Month,Net Banking,1,No,5.0,No,Loyal (36+ mo),0
+CUST-1180,Male,28,Delhi,36,Basic,524.05,2 Year,Credit Card,5,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1163,Female,43,Chennai,28,Basic,512.39,1 Year,Credit Card,1,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1045,Male,38,Bengaluru,59,Basic,515.44,Month-to-Month,Net Banking,0,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1962,Female,33,Mumbai,44,Premium,1220.03,Month-to-Month,Credit Card,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1117,Female,35,Delhi,46,Basic,511.7,Month-to-Month,UPI,2,No,5.0,No,Loyal (36+ mo),0
+CUST-1716,Female,56,Bengaluru,20,Premium,1351.88,1 Year,Net Banking,1,No,2.0,No,Mid (12-36 mo),0
+CUST-1681,Female,66,Bengaluru,16,Standard,900.24,2 Year,Credit Card,2,No,3.0,No,Mid (12-36 mo),0
+CUST-2138,Male,75,Delhi,8,Basic,556.95,2 Year,UPI,1,No,1.0,Yes,New (<12 mo),1
+CUST-1033,Male,64,Hyderabad,1,Basic,564.69,1 Year,Credit Card,1,No,3.0,Yes,New (<12 mo),1
+CUST-1768,Female,40,Bengaluru,40,Standard,936.53,2 Year,Credit Card,2,No,5.0,No,Loyal (36+ mo),0
+CUST-1953,Male,26,Bengaluru,20,Basic,525.82,Month-to-Month,UPI,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1231,Female,72,Hyderabad,1,Standard,949.0,Month-to-Month,Cash,3,No,4.0,Yes,New (<12 mo),1
+CUST-1920,Male,29,Mumbai,17,Standard,853.12,Month-to-Month,Credit Card,3,No,1.0,Yes,Mid (12-36 mo),1
+CUST-2141,Female,27,Bengaluru,1,Premium,1333.94,Month-to-Month,UPI,0,Yes,5.0,No,New (<12 mo),0
+CUST-1142,Male,32,Mumbai,46,Basic,500.26,1 Year,Credit Card,0,No,1.0,No,Loyal (36+ mo),0
+CUST-1544,Female,43,Delhi,30,Standard,1038.59,Month-to-Month,Credit Card,1,Yes,5.0,No,Mid (12-36 mo),0
+CUST-1158,Female,30,Chennai,43,Standard,889.49,2 Year,UPI,3,Yes,3.0,No,Loyal (36+ mo),0
+CUST-2168,Male,75,Bengaluru,8,Premium,1338.91,1 Year,Credit Card,2,Yes,2.0,Yes,New (<12 mo),1
+CUST-1930,Male,23,Pune,56,Basic,595.4,1 Year,UPI,0,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1762,Male,61,Chennai,33,Standard,729.14,Month-to-Month,UPI,0,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1291,Male,62,Delhi,52,Standard,866.09,Month-to-Month,Cash,2,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1248,Female,52,Chennai,32,Basic,440.97,1 Year,Credit Card,2,Yes,2.0,No,Mid (12-36 mo),0
+CUST-2047,Male,58,Pune,50,Standard,904.95,Month-to-Month,Credit Card,3,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1082,Female,24,Delhi,52,Standard,873.8,2 Year,UPI,2,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1186,Female,56,Bengaluru,28,Standard,927.12,1 Year,Cash,1,Yes,4.0,No,Mid (12-36 mo),0
+CUST-1995,Male,55,Mumbai,39,Premium,1362.27,Month-to-Month,Cash,0,No,2.0,No,Loyal (36+ mo),0
+CUST-2164,Female,26,Delhi,37,Standard,866.51,1 Year,UPI,0,No,5.0,No,Loyal (36+ mo),0
+CUST-1740,Male,21,Mumbai,10,Basic,383.82,Month-to-Month,Credit Card,1,Yes,5.0,Yes,New (<12 mo),1
+CUST-1034,Female,31,Mumbai,19,Basic,470.7,1 Year,Cash,3,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1148,Male,50,Hyderabad,56,Standard,902.74,2 Year,UPI,1,No,5.0,No,Loyal (36+ mo),0
+CUST-2140,Female,67,Chennai,12,Standard,914.97,Month-to-Month,Credit Card,1,No,4.0,No,Mid (12-36 mo),0
+CUST-1666,Male,41,Delhi,38,Premium,1350.85,2 Year,Credit Card,0,No,1.0,No,Loyal (36+ mo),0
+CUST-1401,Male,31,Hyderabad,56,Standard,910.0,2 Year,UPI,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1679,Female,22,Hyderabad,35,Basic,526.44,Month-to-Month,Cash,3,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1584,Male,32,Hyderabad,53,Standard,985.08,Month-to-Month,Credit Card,1,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1032,Male,19,Delhi,4,Basic,543.79,Month-to-Month,Credit Card,0,No,3.0,Yes,New (<12 mo),1
+CUST-1518,Female,75,Hyderabad,23,Premium,1192.53,1 Year,UPI,4,No,3.0,No,Mid (12-36 mo),0
+CUST-1115,Female,25,Delhi,33,Basic,488.29,Month-to-Month,Net Banking,2,No,3.0,No,Mid (12-36 mo),0
+CUST-1630,Male,37,Delhi,11,Standard,897.54,Month-to-Month,Net Banking,6,No,4.0,Yes,New (<12 mo),1
+CUST-2010,Male,38,Delhi,45,Premium,1413.17,Month-to-Month,UPI,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1483,Male,58,Mumbai,31,Premium,1286.59,2 Year,UPI,1,No,1.0,No,Mid (12-36 mo),0
+CUST-1533,Female,28,Delhi,54,Standard,896.09,Month-to-Month,UPI,0,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1982,Female,44,Hyderabad,49,Basic,491.65,Month-to-Month,Cash,1,No,5.0,No,Loyal (36+ mo),0
+CUST-1031,Female,49,Mumbai,29,Basic,520.78,Month-to-Month,Net Banking,5,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1788,Male,33,Bengaluru,11,Basic,532.75,2 Year,UPI,4,No,3.0,Yes,New (<12 mo),1
+CUST-1943,Female,42,Chennai,42,Premium,1359.91,2 Year,Net Banking,3,No,2.0,No,Loyal (36+ mo),0
+CUST-2060,Female,72,Delhi,24,Basic,552.27,Month-to-Month,Net Banking,3,No,5.0,Yes,Mid (12-36 mo),1
+CUST-1286,Male,68,Hyderabad,37,Premium,1389.96,2 Year,UPI,6,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1795,Male,20,Hyderabad,8,Basic,502.96,1 Year,Credit Card,1,Yes,3.0,No,New (<12 mo),0
+CUST-1514,Female,38,Delhi,29,Basic,505.08,1 Year,Credit Card,1,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1385,Female,19,Hyderabad,25,Standard,867.98,Month-to-Month,UPI,4,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1138,Female,29,Mumbai,36,Standard,889.28,Month-to-Month,UPI,3,Yes,4.0,No,Mid (12-36 mo),0
+CUST-1337,Female,53,Delhi,8,Standard,832.43,Month-to-Month,UPI,3,Yes,3.0,Yes,New (<12 mo),1
+CUST-1100,Male,53,Hyderabad,57,Basic,496.53,1 Year,UPI,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1292,Male,35,Mumbai,47,Basic,504.8,Month-to-Month,Credit Card,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1868,Male,59,Mumbai,57,Standard,913.73,Month-to-Month,UPI,6,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1622,Male,48,Chennai,29,Basic,481.94,Month-to-Month,Credit Card,0,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1899,Male,63,Bengaluru,56,Basic,515.35,Month-to-Month,Net Banking,5,Yes,5.0,Yes,Loyal (36+ mo),1
+CUST-1886,Male,31,Hyderabad,49,Basic,536.9,Month-to-Month,UPI,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1037,Male,28,Bengaluru,10,Standard,853.54,1 Year,Net Banking,0,Yes,3.0,No,New (<12 mo),0
+CUST-1975,Male,55,Delhi,59,Premium,1228.74,1 Year,Credit Card,2,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1001,Male,29,Hyderabad,27,Basic,484.22,Month-to-Month,UPI,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1643,Male,39,Bengaluru,3,Standard,953.92,Month-to-Month,UPI,0,Yes,2.0,No,New (<12 mo),0
+CUST-1990,Female,72,Delhi,14,Standard,905.72,Month-to-Month,Credit Card,2,Yes,4.0,No,Mid (12-36 mo),0
+CUST-2085,Female,62,Hyderabad,17,Standard,955.62,1 Year,Net Banking,2,No,4.0,No,Mid (12-36 mo),0
+CUST-2145,Male,44,Bengaluru,51,Standard,921.96,Month-to-Month,Cash,2,No,1.0,Yes,Loyal (36+ mo),1
+CUST-2062,Female,25,Bengaluru,8,Premium,1306.37,1 Year,Unknown,0,Yes,5.0,No,New (<12 mo),0
+CUST-1670,Male,27,Pune,50,Basic,566.62,1 Year,UPI,0,No,2.0,No,Loyal (36+ mo),0
+CUST-1492,Female,28,Chennai,9,Standard,798.3,1 Year,Unknown,1,Yes,4.0,No,New (<12 mo),0
+CUST-1496,Male,63,Mumbai,48,Standard,820.37,Month-to-Month,Unknown,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1376,Male,73,Bengaluru,7,Standard,958.98,Month-to-Month,Cash,2,No,4.0,Yes,New (<12 mo),1
+CUST-1472,Female,70,Mumbai,58,Basic,485.65,Month-to-Month,Credit Card,4,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1375,Male,61,Bengaluru,3,Standard,839.6,Month-to-Month,Credit Card,2,No,4.0,No,New (<12 mo),0
+CUST-1966,Male,56,Hyderabad,7,Standard,1011.95,1 Year,UPI,4,Yes,3.0,Yes,New (<12 mo),1
+CUST-1596,Male,63,Mumbai,20,Standard,817.27,Month-to-Month,Credit Card,1,Yes,1.0,Yes,Mid (12-36 mo),1
+CUST-1828,Male,53,Delhi,57,Standard,890.44,Month-to-Month,UPI,1,No,2.0,Yes,Loyal (36+ mo),1
+CUST-2171,Female,39,Mumbai,35,Standard,928.47,Month-to-Month,Cash,0,No,5.0,Yes,Mid (12-36 mo),1
+CUST-1296,Female,50,Mumbai,17,Standard,958.42,Month-to-Month,Cash,4,No,3.0,Yes,Mid (12-36 mo),1
+CUST-2009,Male,62,Delhi,3,Basic,509.47,2 Year,UPI,0,No,5.0,No,New (<12 mo),0
+CUST-1464,Female,63,Delhi,40,Premium,1291.28,Month-to-Month,Credit Card,3,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1061,Male,66,Bengaluru,36,Standard,906.54,1 Year,Credit Card,0,Yes,3.0,No,Mid (12-36 mo),0
+CUST-2050,Male,65,Delhi,52,Standard,1048.51,1 Year,Net Banking,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1956,Male,26,Hyderabad,21,Premium,1196.08,1 Year,Credit Card,0,No,4.0,No,Mid (12-36 mo),0
+CUST-1348,Male,27,Hyderabad,42,Standard,850.99,Month-to-Month,UPI,0,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1140,Female,63,Delhi,13,Premium,1302.94,Month-to-Month,UPI,0,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1374,Female,73,Hyderabad,49,Basic,513.65,Month-to-Month,UPI,2,No,2.0,No,Loyal (36+ mo),0
+CUST-1173,Female,32,Delhi,58,Premium,1367.52,1 Year,Net Banking,0,No,4.0,No,Loyal (36+ mo),0
+CUST-1838,Male,74,Delhi,53,Standard,876.29,Month-to-Month,Net Banking,0,No,4.0,No,Loyal (36+ mo),0
+CUST-1126,Male,62,Mumbai,58,Standard,822.13,Month-to-Month,UPI,3,No,5.0,Yes,Loyal (36+ mo),1
+CUST-2008,Female,67,Hyderabad,28,Standard,739.71,Month-to-Month,UPI,1,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1532,Female,43,Mumbai,11,Premium,1351.34,Month-to-Month,Credit Card,1,No,2.0,Yes,New (<12 mo),1
+CUST-1602,Male,25,Chennai,37,Basic,491.73,1 Year,UPI,3,Yes,3.0,No,Loyal (36+ mo),0
+CUST-2066,Female,32,Chennai,23,Basic,479.87,Month-to-Month,Unknown,1,No,5.0,Yes,Mid (12-36 mo),1
+CUST-1409,Female,51,Mumbai,44,Premium,1370.63,2 Year,Net Banking,2,No,4.0,No,Loyal (36+ mo),0
+CUST-1419,Female,67,Bengaluru,41,Standard,995.92,Month-to-Month,Net Banking,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1490,Female,48,Mumbai,36,Basic,446.29,Month-to-Month,Net Banking,2,Yes,4.0,No,Mid (12-36 mo),0
+CUST-1255,Male,66,Bengaluru,49,Standard,1070.12,Month-to-Month,Credit Card,1,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1355,Male,22,Bengaluru,54,Standard,829.0,Month-to-Month,Cash,1,No,3.0,Yes,Loyal (36+ mo),1
+CUST-2044,Female,34,Delhi,13,Standard,864.75,1 Year,UPI,3,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1424,Male,40,Mumbai,53,Premium,1217.46,Month-to-Month,UPI,5,No,3.0,No,Loyal (36+ mo),0
+CUST-1195,Male,45,Hyderabad,22,Standard,817.43,1 Year,Credit Card,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1866,Female,47,Delhi,3,Basic,540.18,1 Year,Unknown,2,No,2.0,Yes,New (<12 mo),1
+CUST-1773,Male,61,Mumbai,3,Standard,974.52,1 Year,UPI,1,No,4.0,No,New (<12 mo),0
+CUST-1368,Female,64,Bengaluru,26,Basic,589.95,Month-to-Month,Net Banking,4,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1447,Female,72,Mumbai,45,Basic,478.03,2 Year,UPI,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1029,Female,28,Bengaluru,60,Premium,1272.19,1 Year,Credit Card,4,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1458,Male,57,Delhi,29,Basic,429.36,1 Year,Net Banking,1,No,4.0,No,Mid (12-36 mo),0
+CUST-1977,Female,67,Pune,32,Premium,1195.32,Month-to-Month,UPI,3,Yes,1.0,Yes,Mid (12-36 mo),1
+CUST-1433,Female,38,Mumbai,32,Basic,414.4,2 Year,Cash,2,No,2.0,No,Mid (12-36 mo),0
+CUST-1736,Female,50,Hyderabad,59,Standard,881.9,Month-to-Month,Credit Card,0,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-2020,Male,28,Mumbai,57,Basic,553.13,Month-to-Month,Credit Card,2,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1285,Female,68,Delhi,47,Standard,886.91,2 Year,Credit Card,3,No,3.0,No,Loyal (36+ mo),0
+CUST-1577,Male,64,Delhi,13,Basic,481.09,2 Year,Credit Card,1,No,5.0,No,Mid (12-36 mo),0
+CUST-1301,Male,65,Bengaluru,37,Basic,476.17,2 Year,UPI,3,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1211,Female,28,Hyderabad,38,Premium,1369.54,Month-to-Month,UPI,3,No,5.0,No,Loyal (36+ mo),0
+CUST-1190,Male,67,Mumbai,11,Basic,485.03,Month-to-Month,Net Banking,3,No,3.0,Yes,New (<12 mo),1
+CUST-1219,Female,62,Pune,28,Basic,512.07,Month-to-Month,UPI,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1934,Female,19,Delhi,13,Standard,850.71,1 Year,Credit Card,2,No,3.0,No,Mid (12-36 mo),0
+CUST-1025,Male,32,Mumbai,41,Premium,1359.98,1 Year,UPI,0,No,2.0,No,Loyal (36+ mo),0
+CUST-1268,Female,67,Mumbai,39,Basic,479.18,Month-to-Month,Net Banking,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-2134,Male,31,Delhi,14,Premium,1279.49,Month-to-Month,UPI,0,No,4.0,No,Mid (12-36 mo),0
+CUST-1308,Male,19,Mumbai,33,Basic,451.89,Month-to-Month,Net Banking,2,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1128,Female,50,Delhi,11,Basic,504.75,1 Year,UPI,1,No,1.0,No,New (<12 mo),0
+CUST-1501,Female,51,Mumbai,52,Standard,838.34,Month-to-Month,Net Banking,3,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1073,Male,34,Bengaluru,48,Standard,930.84,Month-to-Month,Credit Card,1,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1632,Female,71,Mumbai,54,Premium,1357.71,Month-to-Month,UPI,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1570,Male,60,Chennai,30,Basic,558.04,2 Year,Net Banking,0,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1722,Male,55,Chennai,11,Basic,429.77,1 Year,UPI,0,Yes,3.0,No,New (<12 mo),0
+CUST-1380,Male,23,Mumbai,53,Basic,518.47,Month-to-Month,Net Banking,2,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1183,Female,26,Bengaluru,43,Basic,430.29,Month-to-Month,Net Banking,3,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1511,Female,71,Bengaluru,9,Standard,1002.04,2 Year,UPI,0,Yes,4.0,No,New (<12 mo),0
+CUST-1775,Female,53,Bengaluru,56,Basic,465.43,Month-to-Month,Credit Card,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1571,Female,62,Bengaluru,45,Basic,439.46,Month-to-Month,UPI,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1615,Female,28,Bengaluru,6,Premium,1226.92,Month-to-Month,Net Banking,0,No,3.0,Yes,New (<12 mo),1
+CUST-1210,Male,31,Delhi,1,Premium,1235.08,Month-to-Month,Unknown,2,Yes,2.0,Yes,New (<12 mo),1
+CUST-1641,Male,30,Hyderabad,32,Premium,1124.95,Month-to-Month,Cash,2,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1101,Male,26,Mumbai,41,Basic,521.61,Month-to-Month,Unknown,0,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-1225,Male,53,Bengaluru,47,Premium,1397.12,2 Year,UPI,0,No,5.0,No,Loyal (36+ mo),0
+CUST-1461,Male,44,Chennai,3,Basic,481.86,1 Year,UPI,2,No,5.0,No,New (<12 mo),0
+CUST-1013,Female,40,Bengaluru,34,Premium,1221.63,Month-to-Month,UPI,0,No,3.0,No,Mid (12-36 mo),0
+CUST-1525,Female,50,Delhi,37,Premium,1308.91,Month-to-Month,Cash,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1994,Female,71,Chennai,60,Standard,890.72,2 Year,Cash,1,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1574,Female,60,Delhi,21,Standard,784.58,1 Year,Net Banking,0,No,3.0,No,Mid (12-36 mo),0
+CUST-1035,Female,37,Bengaluru,26,Premium,1203.13,1 Year,Net Banking,1,No,3.0,Yes,Mid (12-36 mo),1
+CUST-2032,Female,52,Bengaluru,29,Standard,936.59,Month-to-Month,Net Banking,2,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1756,Female,75,Mumbai,46,Standard,904.08,Month-to-Month,UPI,4,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1648,Female,26,Delhi,15,Standard,930.6,Month-to-Month,UPI,4,No,3.0,No,Mid (12-36 mo),0
+CUST-1569,Female,61,Delhi,1,Premium,1338.01,Month-to-Month,Credit Card,1,No,1.0,Yes,New (<12 mo),1
+CUST-1606,Male,47,Mumbai,32,Premium,1341.65,Month-to-Month,UPI,2,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1765,Male,34,Delhi,43,Standard,859.14,Month-to-Month,UPI,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1783,Male,33,Hyderabad,38,Basic,514.33,2 Year,Credit Card,1,No,1.0,No,Loyal (36+ mo),0
+CUST-1869,Female,47,Mumbai,40,Premium,1336.16,Month-to-Month,UPI,0,No,4.0,No,Loyal (36+ mo),0
+CUST-2000,Male,75,Mumbai,59,Premium,1273.14,Month-to-Month,Credit Card,3,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1767,Female,51,Mumbai,12,Standard,877.14,Month-to-Month,UPI,1,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1019,Male,21,Delhi,10,Basic,546.9,Month-to-Month,Net Banking,2,No,3.0,No,New (<12 mo),0
+CUST-1684,Female,51,Bengaluru,10,Standard,920.0,2 Year,UPI,4,No,4.0,Yes,New (<12 mo),1
+CUST-1769,Male,47,Delhi,54,Standard,831.81,Month-to-Month,UPI,2,No,2.0,No,Loyal (36+ mo),0
+CUST-1552,Female,43,Mumbai,26,Premium,1230.38,Month-to-Month,Credit Card,1,No,2.0,No,Mid (12-36 mo),0
+CUST-1865,Male,52,Delhi,20,Premium,1303.97,Month-to-Month,Credit Card,0,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-2113,Male,49,Hyderabad,23,Standard,957.96,Month-to-Month,Cash,1,Yes,1.0,Yes,Mid (12-36 mo),1
+CUST-1324,Male,23,Delhi,42,Premium,1205.02,Month-to-Month,UPI,1,No,5.0,No,Loyal (36+ mo),0
+CUST-1519,Female,24,Delhi,31,Basic,462.35,1 Year,UPI,0,No,4.0,No,Mid (12-36 mo),0
+CUST-2157,Male,28,Bengaluru,40,Standard,916.43,2 Year,Net Banking,5,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1288,Female,71,Delhi,13,Standard,845.99,Month-to-Month,Credit Card,3,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1411,Male,67,Mumbai,54,Premium,1143.08,Month-to-Month,Credit Card,2,No,5.0,No,Loyal (36+ mo),0
+CUST-2039,Male,38,Delhi,58,Basic,423.75,Month-to-Month,Net Banking,2,No,4.0,No,Loyal (36+ mo),0
+CUST-2115,Female,27,Delhi,30,Premium,1440.86,2 Year,Credit Card,4,No,1.0,No,Mid (12-36 mo),0
+CUST-1620,Female,56,Hyderabad,56,Premium,1319.03,2 Year,Credit Card,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1693,Male,52,Hyderabad,43,Standard,872.2,Month-to-Month,Credit Card,1,No,5.0,No,Loyal (36+ mo),0
+CUST-1819,Male,49,Mumbai,35,Basic,449.36,1 Year,UPI,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1827,Male,31,Mumbai,55,Standard,871.19,Month-to-Month,Credit Card,0,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1932,Female,46,Pune,9,Premium,1249.94,2 Year,UPI,0,No,1.0,No,New (<12 mo),0
+CUST-1450,Male,27,Delhi,13,Premium,1315.05,Month-to-Month,UPI,2,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1881,Male,19,Delhi,56,Premium,1476.22,1 Year,UPI,1,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1971,Female,69,Delhi,16,Premium,1337.01,Month-to-Month,Credit Card,2,Yes,5.0,Yes,Mid (12-36 mo),1
+CUST-1565,Male,40,Delhi,3,Basic,460.82,1 Year,UPI,1,Yes,4.0,No,New (<12 mo),0
+CUST-1400,Female,68,Delhi,56,Premium,1255.97,Month-to-Month,UPI,1,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1007,Male,64,Mumbai,20,Standard,942.54,Month-to-Month,Cash,2,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-2188,Male,56,Delhi,38,Standard,804.9,1 Year,Net Banking,1,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1671,Male,42,Bengaluru,49,Standard,858.97,1 Year,Credit Card,1,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1910,Male,70,Bengaluru,38,Standard,858.24,1 Year,UPI,5,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1091,Male,63,Mumbai,59,Standard,882.32,1 Year,Cash,2,No,1.0,No,Loyal (36+ mo),0
+CUST-1810,Male,74,Delhi,59,Standard,1018.9,1 Year,Credit Card,3,No,5.0,Yes,Loyal (36+ mo),1
+CUST-1834,Male,58,Delhi,46,Standard,991.74,Month-to-Month,Credit Card,1,No,1.0,No,Loyal (36+ mo),0
+CUST-1958,Male,63,Mumbai,13,Premium,1429.21,2 Year,UPI,2,No,4.0,No,Mid (12-36 mo),0
+CUST-2096,Male,48,Bengaluru,43,Basic,416.85,1 Year,Cash,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1253,Female,24,Mumbai,46,Basic,599.84,2 Year,Net Banking,0,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1270,Male,68,Delhi,41,Basic,494.86,Month-to-Month,Cash,1,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1988,Male,39,Delhi,60,Basic,450.5,Month-to-Month,UPI,3,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1928,Female,35,Mumbai,42,Basic,500.98,2 Year,Cash,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1623,Male,24,Chennai,7,Standard,863.61,Month-to-Month,UPI,2,No,3.0,No,New (<12 mo),0
+CUST-1196,Male,37,Bengaluru,7,Standard,933.52,Month-to-Month,UPI,3,No,5.0,Yes,New (<12 mo),1
+CUST-2082,Male,40,Bengaluru,2,Standard,811.77,Month-to-Month,Cash,5,No,3.0,Yes,New (<12 mo),1
+CUST-1150,Male,57,Delhi,46,Standard,960.94,1 Year,Credit Card,5,No,2.0,No,Loyal (36+ mo),0
+CUST-2059,Male,28,Delhi,17,Premium,1206.88,1 Year,UPI,5,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1304,Female,59,Hyderabad,18,Basic,452.39,1 Year,UPI,4,Yes,3.0,No,Mid (12-36 mo),0
+CUST-2149,Female,30,Bengaluru,31,Standard,904.5,1 Year,Cash,0,No,4.0,No,Mid (12-36 mo),0
+CUST-2173,Female,47,Hyderabad,11,Basic,519.64,1 Year,UPI,1,No,3.0,No,New (<12 mo),0
+CUST-1726,Female,62,Bengaluru,54,Standard,847.04,Month-to-Month,Cash,4,Yes,5.0,Yes,Loyal (36+ mo),1
+CUST-1703,Male,42,Mumbai,55,Standard,832.57,2 Year,UPI,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1942,Female,27,Chennai,15,Basic,539.41,2 Year,Credit Card,3,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1598,Male,46,Bengaluru,33,Basic,552.09,Month-to-Month,Net Banking,1,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1250,Female,71,Pune,32,Premium,1403.11,Month-to-Month,Cash,0,No,4.0,No,Mid (12-36 mo),0
+CUST-1631,Female,21,Delhi,33,Standard,1026.0,1 Year,Credit Card,4,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1883,Male,19,Mumbai,10,Standard,894.23,Month-to-Month,Net Banking,0,No,3.0,Yes,New (<12 mo),1
+CUST-2046,Female,26,Mumbai,42,Premium,1282.25,Month-to-Month,Net Banking,3,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1755,Male,61,Delhi,29,Basic,499.73,1 Year,Net Banking,1,Yes,1.0,Yes,Mid (12-36 mo),1
+CUST-2120,Male,45,Pune,54,Basic,473.9,Month-to-Month,Credit Card,0,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1720,Female,21,Bengaluru,11,Basic,505.68,Month-to-Month,UPI,3,No,4.0,Yes,New (<12 mo),1
+CUST-1396,Female,70,Bengaluru,25,Standard,839.73,1 Year,UPI,2,Yes,2.0,No,Mid (12-36 mo),0
+CUST-2103,Female,24,Delhi,40,Standard,879.75,Month-to-Month,Cash,1,No,2.0,No,Loyal (36+ mo),0
+CUST-1644,Male,71,Pune,45,Basic,441.17,Month-to-Month,Credit Card,0,No,2.0,No,Loyal (36+ mo),0
+CUST-1626,Male,59,Pune,38,Basic,495.8,Month-to-Month,UPI,0,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1086,Male,70,Bengaluru,28,Standard,894.11,Month-to-Month,UPI,2,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1057,Male,55,Chennai,4,Premium,1329.12,Month-to-Month,UPI,2,Yes,2.0,Yes,New (<12 mo),1
+CUST-1314,Female,58,Hyderabad,51,Premium,1361.62,Month-to-Month,UPI,0,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1038,Male,44,Mumbai,53,Premium,1335.65,1 Year,UPI,0,No,2.0,No,Loyal (36+ mo),0
+CUST-1261,Female,37,Hyderabad,49,Standard,892.43,Month-to-Month,UPI,2,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1353,Female,58,Mumbai,51,Standard,853.97,Month-to-Month,Credit Card,2,Yes,4.0,No,Loyal (36+ mo),0
+CUST-2109,Female,22,Chennai,10,Basic,575.95,Month-to-Month,UPI,1,Yes,1.0,Yes,New (<12 mo),1
+CUST-1122,Female,48,Hyderabad,40,Basic,522.36,1 Year,Credit Card,2,No,1.0,No,Loyal (36+ mo),0
+CUST-1784,Male,59,Bengaluru,2,Standard,1033.99,1 Year,Credit Card,0,No,4.0,Yes,New (<12 mo),1
+CUST-1534,Female,52,Mumbai,16,Premium,1133.85,2 Year,Credit Card,2,No,3.0,No,Mid (12-36 mo),0
+CUST-1613,Female,42,Chennai,50,Premium,1284.65,Month-to-Month,Net Banking,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1008,Female,32,Mumbai,35,Basic,600.54,1 Year,Credit Card,5,No,1.0,No,Mid (12-36 mo),0
+CUST-1078,Male,44,Hyderabad,27,Basic,550.2,2 Year,UPI,1,Yes,4.0,No,Mid (12-36 mo),0
+CUST-2130,Male,20,Hyderabad,15,Basic,493.59,1 Year,UPI,2,No,2.0,No,Mid (12-36 mo),0
+CUST-1051,Female,36,Delhi,25,Premium,1316.21,1 Year,Credit Card,2,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1123,Male,55,Delhi,11,Basic,572.96,1 Year,Credit Card,0,Yes,2.0,Yes,New (<12 mo),1
+CUST-1326,Female,42,Chennai,11,Standard,937.23,1 Year,UPI,3,No,5.0,Yes,New (<12 mo),1
+CUST-1141,Female,49,Delhi,56,Premium,1285.81,Month-to-Month,UPI,3,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1075,Female,70,Bengaluru,17,Basic,465.09,Month-to-Month,UPI,3,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1238,Male,36,Bengaluru,23,Basic,514.45,Month-to-Month,Net Banking,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1545,Female,25,Bengaluru,12,Basic,495.74,1 Year,Credit Card,3,No,4.0,No,Mid (12-36 mo),0
+CUST-1619,Female,27,Mumbai,59,Basic,482.36,Month-to-Month,UPI,0,No,4.0,No,Loyal (36+ mo),0
+CUST-1787,Female,72,Pune,26,Standard,841.37,Month-to-Month,Credit Card,1,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1056,Female,75,Bengaluru,45,Standard,869.13,Month-to-Month,Net Banking,0,No,4.0,Yes,Loyal (36+ mo),1
+CUST-1334,Male,57,Bengaluru,15,Premium,1400.1,Month-to-Month,UPI,0,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1660,Female,66,Bengaluru,30,Basic,537.0,Month-to-Month,Credit Card,2,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1535,Female,25,Chennai,8,Standard,870.61,1 Year,Credit Card,0,No,2.0,Yes,New (<12 mo),1
+CUST-2029,Male,65,Hyderabad,49,Basic,450.15,1 Year,UPI,0,No,4.0,No,Loyal (36+ mo),0
+CUST-1936,Male,36,Bengaluru,48,Premium,1226.5,1 Year,Cash,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1669,Male,56,Mumbai,24,Basic,521.08,Month-to-Month,UPI,1,No,3.0,No,Mid (12-36 mo),0
+CUST-2019,Female,66,Bengaluru,8,Standard,894.39,2 Year,Unknown,2,No,4.0,No,New (<12 mo),0
+CUST-2127,Male,19,Mumbai,16,Standard,994.58,Month-to-Month,UPI,1,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-1859,Female,64,Hyderabad,24,Basic,502.29,Month-to-Month,Cash,3,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1836,Male,19,Bengaluru,60,Basic,443.61,Month-to-Month,UPI,2,No,2.0,No,Loyal (36+ mo),0
+CUST-1993,Male,38,Mumbai,4,Standard,937.14,1 Year,UPI,1,Yes,1.0,Yes,New (<12 mo),1
+CUST-1062,Male,42,Mumbai,19,Standard,1005.85,1 Year,UPI,2,No,3.0,No,Mid (12-36 mo),0
+CUST-1735,Male,25,Mumbai,41,Standard,870.19,Month-to-Month,Net Banking,4,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1136,Male,58,Bengaluru,38,Basic,539.62,Month-to-Month,Credit Card,5,No,4.0,No,Loyal (36+ mo),0
+CUST-1860,Male,66,Mumbai,10,Premium,1233.93,2 Year,Net Banking,0,Yes,2.0,Yes,New (<12 mo),1
+CUST-1104,Male,74,Delhi,20,Basic,572.47,1 Year,Credit Card,1,No,1.0,No,Mid (12-36 mo),0
+CUST-1805,Male,37,Bengaluru,46,Basic,520.88,1 Year,Cash,0,No,4.0,No,Loyal (36+ mo),0
+CUST-1356,Female,37,Delhi,1,Standard,886.38,1 Year,Credit Card,1,No,3.0,No,New (<12 mo),0
+CUST-2159,Female,32,Mumbai,56,Standard,1041.06,Month-to-Month,UPI,1,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1808,Female,61,Bengaluru,16,Basic,525.18,Month-to-Month,Net Banking,2,No,2.0,No,Mid (12-36 mo),0
+CUST-1176,Male,72,Delhi,60,Premium,1249.81,Month-to-Month,UPI,2,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1992,Female,44,Mumbai,54,Standard,974.75,2 Year,Cash,0,No,1.0,No,Loyal (36+ mo),0
+CUST-1502,Female,35,Delhi,17,Premium,1289.44,Month-to-Month,UPI,0,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1654,Female,75,Bengaluru,11,Standard,873.74,Month-to-Month,Credit Card,1,No,1.0,Yes,New (<12 mo),1
+CUST-1275,Female,70,Bengaluru,17,Basic,439.09,2 Year,Credit Card,2,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1599,Male,64,Delhi,28,Standard,962.25,1 Year,Unknown,1,No,1.0,No,Mid (12-36 mo),0
+CUST-1516,Male,18,Delhi,17,Standard,761.47,1 Year,Net Banking,2,Yes,5.0,No,Mid (12-36 mo),0
+CUST-1069,Male,44,Bengaluru,42,Premium,1203.21,Month-to-Month,Net Banking,1,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1340,Male,64,Delhi,47,Standard,885.05,Month-to-Month,Unknown,1,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1487,Male,26,Bengaluru,15,Standard,939.7,1 Year,Unknown,0,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1802,Male,57,Chennai,52,Basic,573.96,1 Year,Cash,2,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1112,Male,28,Hyderabad,32,Premium,1220.4,2 Year,Net Banking,2,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1247,Male,68,Hyderabad,46,Basic,544.36,Month-to-Month,Credit Card,1,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1440,Male,22,Delhi,40,Standard,814.07,Month-to-Month,UPI,0,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1202,Male,21,Bengaluru,15,Premium,1218.62,2 Year,Net Banking,0,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1731,Male,50,Hyderabad,21,Basic,525.67,Month-to-Month,UPI,1,Yes,1.0,Yes,Mid (12-36 mo),1
+CUST-1455,Male,43,Pune,29,Standard,920.25,Month-to-Month,Credit Card,4,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1729,Male,57,Mumbai,23,Standard,886.32,Month-to-Month,UPI,1,No,2.0,No,Mid (12-36 mo),0
+CUST-2193,Male,35,Delhi,37,Standard,901.11,1 Year,Credit Card,2,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1468,Female,36,Mumbai,59,Premium,1265.65,Month-to-Month,Net Banking,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1521,Female,38,Hyderabad,21,Premium,1272.41,Month-to-Month,Net Banking,1,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1998,Male,27,Mumbai,13,Standard,990.77,Month-to-Month,Credit Card,3,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-1066,Female,32,Mumbai,9,Basic,536.32,1 Year,UPI,1,Yes,4.0,No,New (<12 mo),0
+CUST-1043,Male,45,Hyderabad,48,Standard,832.22,Month-to-Month,Credit Card,2,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1484,Female,42,Delhi,60,Standard,941.73,Month-to-Month,Credit Card,5,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1017,Male,51,Bengaluru,15,Standard,791.62,Month-to-Month,Net Banking,3,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1916,Male,42,Delhi,44,Basic,406.77,2 Year,Net Banking,1,No,1.0,No,Loyal (36+ mo),0
+CUST-1408,Male,60,Bengaluru,51,Premium,1250.34,Month-to-Month,Credit Card,0,Yes,4.0,Yes,Loyal (36+ mo),1
+CUST-1813,Male,37,Bengaluru,48,Basic,583.62,Month-to-Month,Net Banking,6,No,3.0,Yes,Loyal (36+ mo),1
+CUST-2118,Female,49,Mumbai,52,Standard,871.51,Month-to-Month,Net Banking,1,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1758,Female,39,Delhi,50,Premium,1373.84,Month-to-Month,Net Banking,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1649,Female,43,Hyderabad,16,Basic,535.45,1 Year,UPI,4,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-1127,Female,42,Bengaluru,33,Basic,391.41,1 Year,Cash,3,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1476,Female,43,Delhi,27,Standard,902.55,Month-to-Month,Unknown,1,No,5.0,No,Mid (12-36 mo),0
+CUST-1699,Male,26,Mumbai,24,Basic,569.62,1 Year,Cash,3,No,3.0,No,Mid (12-36 mo),0
+CUST-1366,Male,60,Delhi,39,Standard,829.1,2 Year,Credit Card,6,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1394,Female,23,Hyderabad,60,Standard,998.47,Month-to-Month,Cash,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1213,Female,71,Mumbai,21,Basic,549.06,Month-to-Month,Net Banking,2,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1652,Female,27,Chennai,35,Premium,1407.39,Month-to-Month,UPI,3,No,4.0,No,Mid (12-36 mo),0
+CUST-2177,Female,49,Delhi,51,Standard,819.96,Month-to-Month,Net Banking,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1049,Female,37,Delhi,34,Premium,1349.88,1 Year,Net Banking,0,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1695,Male,24,Mumbai,20,Basic,519.21,1 Year,UPI,6,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1873,Female,33,Mumbai,56,Standard,925.6,2 Year,Credit Card,1,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1361,Male,74,Bengaluru,13,Premium,1272.98,1 Year,Cash,1,No,5.0,No,Mid (12-36 mo),0
+CUST-1152,Male,67,Mumbai,51,Basic,494.32,Month-to-Month,Net Banking,6,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1921,Female,49,Mumbai,1,Basic,492.26,1 Year,UPI,1,Yes,3.0,No,New (<12 mo),0
+CUST-1328,Female,45,Hyderabad,39,Basic,510.36,2 Year,Credit Card,4,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1242,Female,73,Bengaluru,52,Basic,496.16,Month-to-Month,Cash,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1332,Female,22,Chennai,19,Standard,911.35,1 Year,Net Banking,4,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1919,Female,62,Delhi,23,Basic,492.96,Month-to-Month,Net Banking,5,No,4.0,Yes,Mid (12-36 mo),1
+CUST-2179,Female,63,Mumbai,40,Basic,424.69,1 Year,Cash,3,No,3.0,No,Loyal (36+ mo),0
+CUST-1108,Female,70,Delhi,49,Standard,867.44,Month-to-Month,UPI,3,No,4.0,No,Loyal (36+ mo),0
+CUST-1430,Male,72,Mumbai,51,Premium,1166.84,Month-to-Month,UPI,2,No,4.0,No,Loyal (36+ mo),0
+CUST-2053,Female,27,Bengaluru,54,Basic,500.33,1 Year,UPI,3,No,5.0,Yes,Loyal (36+ mo),1
+CUST-1139,Male,74,Mumbai,59,Basic,525.09,Month-to-Month,UPI,3,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1299,Female,25,Delhi,21,Standard,843.99,1 Year,UPI,3,Yes,5.0,Yes,Mid (12-36 mo),1
+CUST-1063,Female,41,Bengaluru,1,Standard,912.47,Month-to-Month,Credit Card,1,No,4.0,Yes,New (<12 mo),1
+CUST-1701,Female,30,Hyderabad,46,Basic,507.95,2 Year,Credit Card,2,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1779,Female,48,Pune,13,Basic,622.06,Month-to-Month,UPI,1,No,4.0,Yes,Mid (12-36 mo),1
+CUST-1877,Female,26,Pune,46,Basic,544.88,1 Year,Credit Card,6,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1232,Male,49,Pune,4,Standard,865.41,2 Year,Credit Card,1,Yes,4.0,No,New (<12 mo),0
+CUST-2185,Male,49,Bengaluru,6,Standard,880.98,1 Year,UPI,5,Yes,4.0,No,New (<12 mo),0
+CUST-2093,Female,38,Bengaluru,30,Basic,448.4,Month-to-Month,Credit Card,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1059,Male,51,Delhi,49,Standard,931.48,Month-to-Month,UPI,3,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1099,Male,37,Bengaluru,43,Basic,568.99,Month-to-Month,Credit Card,1,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1064,Male,29,Delhi,10,Basic,540.34,2 Year,UPI,1,Yes,2.0,Yes,New (<12 mo),1
+CUST-1608,Male,19,Mumbai,15,Standard,878.83,Month-to-Month,UPI,3,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1891,Female,19,Delhi,37,Basic,471.96,Month-to-Month,Net Banking,2,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1799,Female,40,Mumbai,30,Basic,448.2,Month-to-Month,UPI,1,No,5.0,Yes,Mid (12-36 mo),1
+CUST-1965,Male,21,Delhi,60,Basic,576.63,Month-to-Month,Cash,0,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-1418,Male,60,Bengaluru,2,Premium,1339.14,Month-to-Month,Net Banking,0,Yes,1.0,Yes,New (<12 mo),1
+CUST-1382,Female,37,Mumbai,49,Basic,545.09,2 Year,UPI,2,Yes,3.0,No,Loyal (36+ mo),0
+CUST-2116,Female,55,Mumbai,33,Standard,847.69,2 Year,Cash,1,No,4.0,No,Mid (12-36 mo),0
+CUST-1422,Female,55,Delhi,3,Standard,874.22,Month-to-Month,Net Banking,3,Yes,3.0,Yes,New (<12 mo),1
+CUST-1597,Female,44,Delhi,12,Basic,478.82,2 Year,Net Banking,0,Yes,4.0,No,Mid (12-36 mo),0
+CUST-1945,Male,28,Bengaluru,15,Basic,492.5,1 Year,Credit Card,0,No,5.0,No,Mid (12-36 mo),0
+CUST-1923,Female,45,Pune,31,Basic,508.3,Month-to-Month,Net Banking,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1770,Female,69,Delhi,20,Premium,1292.38,1 Year,Credit Card,1,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1498,Male,55,Mumbai,39,Basic,592.31,1 Year,UPI,6,No,4.0,No,Loyal (36+ mo),0
+CUST-1546,Male,65,Bengaluru,10,Basic,507.4,1 Year,Credit Card,1,No,5.0,Yes,New (<12 mo),1
+CUST-1687,Female,38,Mumbai,4,Standard,967.09,2 Year,UPI,5,Yes,4.0,Yes,New (<12 mo),1
+CUST-1241,Female,49,Chennai,58,Basic,585.89,Month-to-Month,UPI,2,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1226,Male,62,Delhi,20,Standard,927.41,1 Year,Credit Card,1,No,5.0,No,Mid (12-36 mo),0
+CUST-1347,Female,33,Delhi,47,Standard,938.4,2 Year,Credit Card,3,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1107,Male,70,Mumbai,39,Basic,429.43,Month-to-Month,UPI,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1760,Female,19,Delhi,50,Standard,963.22,1 Year,UPI,3,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1010,Female,68,Bengaluru,2,Basic,595.69,2 Year,UPI,0,Yes,1.0,No,New (<12 mo),0
+CUST-1181,Male,20,Hyderabad,50,Basic,521.57,Month-to-Month,UPI,4,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1421,Female,61,Delhi,15,Basic,551.43,Month-to-Month,UPI,1,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1307,Female,31,Bengaluru,54,Premium,1215.43,Month-to-Month,UPI,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1614,Male,47,Bengaluru,48,Basic,508.75,1 Year,Net Banking,5,No,2.0,No,Loyal (36+ mo),0
+CUST-1778,Female,46,Hyderabad,13,Premium,1163.97,2 Year,Cash,1,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1858,Male,29,Pune,38,Basic,512.46,1 Year,Credit Card,0,No,3.0,No,Loyal (36+ mo),0
+CUST-2081,Female,74,Delhi,55,Standard,928.84,1 Year,UPI,1,No,5.0,No,Loyal (36+ mo),0
+CUST-1172,Male,67,Bengaluru,2,Basic,403.51,1 Year,Credit Card,0,No,3.0,No,New (<12 mo),0
+CUST-1833,Male,19,Mumbai,30,Standard,913.72,Month-to-Month,Credit Card,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1205,Female,39,Mumbai,3,Standard,933.21,Month-to-Month,Net Banking,5,No,4.0,No,New (<12 mo),0
+CUST-1987,Female,54,Hyderabad,57,Standard,855.71,Month-to-Month,UPI,3,No,5.0,Yes,Loyal (36+ mo),1
+CUST-1594,Male,70,Delhi,58,Basic,494.48,Month-to-Month,UPI,3,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1586,Male,38,Delhi,15,Basic,486.6,Month-to-Month,UPI,2,No,2.0,No,Mid (12-36 mo),0
+CUST-1815,Female,39,Chennai,53,Basic,461.18,Month-to-Month,Net Banking,6,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1926,Male,31,Mumbai,57,Basic,586.33,Month-to-Month,Credit Card,0,No,4.0,No,Loyal (36+ mo),0
+CUST-1738,Female,58,Delhi,41,Standard,1029.32,2 Year,Net Banking,3,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1471,Male,31,Delhi,11,Standard,846.95,1 Year,Cash,1,Yes,3.0,No,New (<12 mo),0
+CUST-1009,Female,49,Mumbai,47,Basic,475.42,Month-to-Month,Credit Card,2,No,4.0,No,Loyal (36+ mo),0
+CUST-1790,Female,34,Delhi,44,Basic,459.11,Month-to-Month,Net Banking,2,No,3.0,No,Loyal (36+ mo),0
+CUST-2080,Female,25,Mumbai,16,Premium,1224.59,Month-to-Month,Unknown,1,No,5.0,No,Mid (12-36 mo),0
+CUST-1792,Female,29,Delhi,43,Basic,530.92,2 Year,Credit Card,0,Yes,4.0,Yes,Loyal (36+ mo),1
+CUST-1367,Female,54,Delhi,24,Basic,439.92,Month-to-Month,Credit Card,1,No,1.0,No,Mid (12-36 mo),0
+CUST-2095,Male,75,Chennai,13,Standard,881.31,Month-to-Month,UPI,3,Yes,5.0,No,Mid (12-36 mo),0
+CUST-2131,Female,66,Mumbai,12,Premium,1165.38,Month-to-Month,Net Banking,2,No,4.0,No,Mid (12-36 mo),0
+CUST-2084,Female,18,Bengaluru,18,Basic,550.55,2 Year,Net Banking,5,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1217,Male,30,Mumbai,49,Standard,909.91,Month-to-Month,Credit Card,3,No,3.0,No,Loyal (36+ mo),0
+CUST-2160,Male,34,Hyderabad,6,Premium,1343.37,1 Year,Credit Card,2,No,3.0,No,New (<12 mo),0
+CUST-1837,Female,44,Bengaluru,39,Standard,796.37,Month-to-Month,UPI,2,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1806,Female,57,Delhi,43,Standard,1063.34,Month-to-Month,Unknown,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1024,Male,56,Hyderabad,6,Standard,825.3,Month-to-Month,Net Banking,0,No,4.0,No,New (<12 mo),0
+CUST-1412,Female,46,Delhi,41,Premium,1230.42,Month-to-Month,Net Banking,0,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1821,Female,70,Delhi,20,Basic,485.97,Month-to-Month,Net Banking,0,No,5.0,No,Mid (12-36 mo),0
+CUST-1124,Male,49,Delhi,50,Standard,919.99,Month-to-Month,UPI,0,No,4.0,No,Loyal (36+ mo),0
+CUST-1143,Male,33,Chennai,3,Basic,510.05,1 Year,Net Banking,4,No,5.0,Yes,New (<12 mo),1
+CUST-1824,Male,55,Delhi,17,Standard,958.6,Month-to-Month,Credit Card,2,No,5.0,No,Mid (12-36 mo),0
+CUST-1981,Male,24,Delhi,17,Basic,445.09,2 Year,UPI,4,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1875,Male,69,Chennai,40,Premium,1277.87,Month-to-Month,UPI,0,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1109,Male,19,Delhi,53,Premium,1227.95,1 Year,Credit Card,1,No,1.0,No,Loyal (36+ mo),0
+CUST-1801,Female,68,Delhi,20,Basic,483.35,Month-to-Month,Unknown,2,No,1.0,Yes,Mid (12-36 mo),1
+CUST-2054,Female,67,Pune,36,Standard,967.06,Month-to-Month,Net Banking,1,No,5.0,No,Mid (12-36 mo),0
+CUST-1763,Male,19,Delhi,55,Basic,475.85,2 Year,Credit Card,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1850,Female,52,Delhi,50,Premium,1293.01,Month-to-Month,UPI,0,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1480,Female,23,Delhi,49,Basic,448.24,Month-to-Month,UPI,1,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1900,Male,33,Mumbai,23,Standard,1042.59,Month-to-Month,UPI,1,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1282,Male,23,Bengaluru,22,Basic,533.77,1 Year,Credit Card,1,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1319,Male,56,Bengaluru,60,Basic,540.39,1 Year,UPI,0,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1414,Female,56,Bengaluru,14,Standard,855.07,1 Year,Credit Card,0,No,4.0,No,Mid (12-36 mo),0
+CUST-1898,Female,18,Chennai,24,Standard,882.3,Month-to-Month,UPI,1,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1465,Female,21,Hyderabad,59,Standard,833.72,Month-to-Month,UPI,1,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1390,Female,46,Mumbai,53,Premium,1381.92,2 Year,UPI,4,No,2.0,No,Loyal (36+ mo),0
+CUST-1336,Male,73,Delhi,24,Standard,940.6,Month-to-Month,UPI,0,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1453,Male,35,Delhi,15,Standard,903.9,Month-to-Month,Credit Card,0,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-1188,Female,49,Bengaluru,34,Premium,1313.68,2 Year,UPI,2,Yes,5.0,No,Mid (12-36 mo),0
+CUST-1192,Female,25,Delhi,57,Basic,416.63,1 Year,UPI,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1996,Male,32,Bengaluru,8,Standard,858.53,Month-to-Month,Unknown,0,No,1.0,Yes,New (<12 mo),1
+CUST-1266,Female,37,Bengaluru,45,Standard,957.17,Month-to-Month,Credit Card,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1856,Male,69,Delhi,20,Basic,571.64,2 Year,Net Banking,4,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1846,Male,21,Hyderabad,19,Standard,968.01,2 Year,Credit Card,0,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1417,Male,64,Bengaluru,19,Basic,579.52,1 Year,Cash,4,No,5.0,No,Mid (12-36 mo),0
+CUST-1436,Female,25,Mumbai,6,Standard,850.97,1 Year,Credit Card,6,No,2.0,Yes,New (<12 mo),1
+CUST-1187,Female,48,Mumbai,18,Standard,955.83,Month-to-Month,Credit Card,0,Yes,4.0,No,Mid (12-36 mo),0
+CUST-1707,Male,38,Mumbai,5,Standard,956.85,Month-to-Month,Credit Card,1,No,2.0,Yes,New (<12 mo),1
+CUST-2013,Female,54,Chennai,16,Standard,819.1,Month-to-Month,Net Banking,0,No,2.0,No,Mid (12-36 mo),0
+CUST-1489,Female,30,Bengaluru,25,Standard,804.87,Month-to-Month,UPI,3,No,5.0,Yes,Mid (12-36 mo),1
+CUST-2069,Male,41,Hyderabad,8,Premium,1338.69,1 Year,Credit Card,1,Yes,4.0,No,New (<12 mo),0
+CUST-1750,Female,55,Mumbai,22,Standard,807.12,1 Year,Cash,2,No,3.0,No,Mid (12-36 mo),0
+CUST-2040,Male,59,Mumbai,20,Standard,884.07,2 Year,Credit Card,4,No,1.0,No,Mid (12-36 mo),0
+CUST-2169,Male,42,Bengaluru,41,Standard,801.31,2 Year,Unknown,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1300,Male,53,Bengaluru,2,Basic,450.56,1 Year,Credit Card,4,No,2.0,Yes,New (<12 mo),1
+CUST-2104,Female,68,Pune,19,Standard,897.5,1 Year,Net Banking,6,No,2.0,No,Mid (12-36 mo),0
+CUST-1105,Female,39,Bengaluru,45,Premium,1200.39,Month-to-Month,UPI,1,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1549,Female,45,Pune,15,Basic,462.82,Month-to-Month,UPI,1,No,5.0,No,Mid (12-36 mo),0
+CUST-2007,Female,43,Bengaluru,3,Standard,918.75,Month-to-Month,Net Banking,4,Yes,3.0,Yes,New (<12 mo),1
+CUST-1162,Female,69,Bengaluru,60,Basic,503.26,Month-to-Month,Cash,1,Yes,4.0,Yes,Loyal (36+ mo),1
+CUST-1955,Male,38,Bengaluru,27,Standard,852.84,1 Year,Unknown,4,No,3.0,No,Mid (12-36 mo),0
+CUST-2137,Female,42,Mumbai,8,Premium,1271.1,Month-to-Month,Net Banking,2,Yes,1.0,No,New (<12 mo),0
+CUST-1794,Female,37,Mumbai,20,Basic,539.48,Month-to-Month,Net Banking,3,Yes,1.0,Yes,Mid (12-36 mo),1
+CUST-1564,Male,65,Delhi,47,Basic,551.85,Month-to-Month,Unknown,2,No,4.0,Yes,Loyal (36+ mo),1
+CUST-1861,Female,59,Chennai,32,Basic,513.39,Month-to-Month,Credit Card,6,No,2.0,Yes,Mid (12-36 mo),1
+CUST-2153,Female,33,Delhi,58,Standard,860.3,1 Year,UPI,2,No,3.0,No,Loyal (36+ mo),0
+CUST-2121,Female,34,Delhi,47,Standard,889.77,Month-to-Month,UPI,4,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1199,Female,28,Bengaluru,24,Basic,420.96,Month-to-Month,UPI,1,No,5.0,No,Mid (12-36 mo),0
+CUST-1915,Female,21,Bengaluru,35,Premium,1407.7,1 Year,Net Banking,0,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1413,Female,74,Delhi,7,Standard,875.98,2 Year,Credit Card,1,No,5.0,No,New (<12 mo),0
+CUST-1175,Female,59,Bengaluru,59,Basic,554.0,1 Year,UPI,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1800,Female,45,Bengaluru,17,Basic,551.02,2 Year,Net Banking,0,No,3.0,No,Mid (12-36 mo),0
+CUST-1741,Male,30,Bengaluru,22,Premium,1412.32,1 Year,Credit Card,2,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1269,Male,66,Chennai,22,Standard,871.18,Month-to-Month,Credit Card,4,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1229,Female,72,Hyderabad,4,Standard,864.11,1 Year,Credit Card,0,No,3.0,Yes,New (<12 mo),1
+CUST-1817,Female,25,Delhi,24,Premium,1373.6,Month-to-Month,Credit Card,1,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-2186,Female,47,Bengaluru,19,Basic,497.05,2 Year,Credit Card,3,No,3.0,No,Mid (12-36 mo),0
+CUST-1661,Male,43,Bengaluru,60,Basic,495.68,Month-to-Month,UPI,4,Yes,4.0,Yes,Loyal (36+ mo),1
+CUST-1640,Male,64,Delhi,27,Basic,483.61,Month-to-Month,Net Banking,3,Yes,1.0,Yes,Mid (12-36 mo),1
+CUST-1662,Female,44,Mumbai,48,Standard,948.82,Month-to-Month,UPI,0,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-1759,Female,23,Hyderabad,20,Basic,546.74,1 Year,UPI,0,No,1.0,No,Mid (12-36 mo),0
+CUST-1774,Male,75,Mumbai,28,Basic,574.78,Month-to-Month,UPI,3,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1206,Male,43,Hyderabad,14,Standard,822.17,Month-to-Month,Unknown,3,No,3.0,No,Mid (12-36 mo),0
+CUST-1927,Male,37,Pune,55,Standard,891.17,Month-to-Month,Net Banking,1,Yes,4.0,Yes,Loyal (36+ mo),1
+CUST-1404,Female,37,Delhi,57,Standard,952.61,2 Year,Net Banking,1,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1818,Male,56,Mumbai,9,Standard,844.82,1 Year,Credit Card,0,No,5.0,No,New (<12 mo),0
+CUST-1131,Male,25,Hyderabad,30,Basic,483.21,Month-to-Month,UPI,0,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1880,Male,52,Mumbai,30,Basic,540.52,Month-to-Month,Net Banking,1,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1825,Female,69,Delhi,47,Standard,915.67,Month-to-Month,UPI,1,No,2.0,No,Loyal (36+ mo),0
+CUST-1185,Male,26,Hyderabad,15,Standard,824.53,Month-to-Month,Net Banking,0,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-1446,Female,72,Delhi,49,Standard,983.58,Month-to-Month,UPI,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1637,Female,73,Bengaluru,12,Basic,463.92,1 Year,Net Banking,4,No,5.0,Yes,Mid (12-36 mo),1
+CUST-2038,Female,59,Delhi,21,Standard,752.03,Month-to-Month,Credit Card,0,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1793,Male,25,Delhi,22,Standard,916.63,2 Year,Credit Card,3,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1119,Female,35,Chennai,43,Standard,918.91,Month-to-Month,Cash,2,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-2099,Female,28,Delhi,21,Basic,504.57,1 Year,Credit Card,1,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1969,Female,54,Delhi,48,Basic,433.77,Month-to-Month,Cash,0,No,4.0,No,Loyal (36+ mo),0
+CUST-1651,Male,32,Mumbai,49,Basic,510.02,2 Year,Credit Card,0,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1754,Male,71,Bengaluru,17,Standard,858.49,Month-to-Month,Unknown,1,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1342,Male,28,Mumbai,33,Basic,529.11,Month-to-Month,Credit Card,3,Yes,5.0,Yes,Mid (12-36 mo),1
+CUST-1335,Male,29,Mumbai,28,Standard,956.13,2 Year,Credit Card,1,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1529,Male,52,Bengaluru,12,Premium,1267.83,Month-to-Month,Credit Card,4,No,3.0,Yes,Mid (12-36 mo),1
+CUST-2087,Female,41,Bengaluru,39,Basic,575.76,1 Year,Net Banking,0,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1456,Male,25,Mumbai,59,Standard,946.09,Month-to-Month,Credit Card,3,No,3.0,No,Loyal (36+ mo),0
+CUST-1354,Male,18,Pune,13,Standard,907.05,Month-to-Month,Net Banking,3,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1362,Female,71,Bengaluru,48,Basic,542.55,1 Year,Net Banking,3,No,4.0,Yes,Loyal (36+ mo),1
+CUST-1135,Female,41,Hyderabad,18,Basic,538.41,Month-to-Month,Net Banking,3,No,4.0,Yes,Mid (12-36 mo),1
+CUST-1997,Female,38,Mumbai,25,Standard,798.18,2 Year,Unknown,2,No,2.0,No,Mid (12-36 mo),0
+CUST-1156,Male,50,Delhi,9,Premium,1261.38,1 Year,Credit Card,4,No,5.0,No,New (<12 mo),0
+CUST-1689,Female,39,Delhi,19,Standard,915.86,1 Year,Cash,1,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1939,Male,22,Pune,12,Standard,974.66,Month-to-Month,Net Banking,2,No,3.0,No,Mid (12-36 mo),0
+CUST-1309,Female,72,Bengaluru,30,Basic,562.32,Month-to-Month,Net Banking,0,No,3.0,No,Mid (12-36 mo),0
+CUST-1642,Male,72,Hyderabad,10,Standard,969.02,2 Year,Net Banking,1,No,3.0,No,New (<12 mo),0
+CUST-2196,Female,38,Pune,4,Basic,451.21,Month-to-Month,Credit Card,2,No,3.0,Yes,New (<12 mo),1
+CUST-1749,Female,25,Bengaluru,12,Premium,1365.93,1 Year,Net Banking,0,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1155,Female,50,Bengaluru,17,Premium,1335.26,Month-to-Month,UPI,0,No,4.0,No,Mid (12-36 mo),0
+CUST-1095,Female,31,Pune,19,Standard,878.15,1 Year,Credit Card,1,No,3.0,No,Mid (12-36 mo),0
+CUST-2083,Male,60,Delhi,54,Premium,1243.03,2 Year,UPI,3,No,3.0,No,Loyal (36+ mo),0
+CUST-1979,Male,69,Hyderabad,13,Premium,1240.6,Month-to-Month,Credit Card,4,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1149,Male,27,Mumbai,27,Basic,501.1,1 Year,Cash,6,No,3.0,No,Mid (12-36 mo),0
+CUST-2033,Male,58,Hyderabad,5,Basic,493.25,Month-to-Month,Credit Card,0,Yes,3.0,No,New (<12 mo),0
+CUST-1727,Male,63,Mumbai,18,Standard,883.83,Month-to-Month,UPI,3,No,4.0,Yes,Mid (12-36 mo),1
+CUST-1449,Male,60,Mumbai,2,Premium,1216.73,Month-to-Month,Credit Card,5,No,2.0,Yes,New (<12 mo),1
+CUST-1683,Male,61,Hyderabad,21,Premium,1276.32,Month-to-Month,UPI,2,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1523,Female,46,Chennai,36,Standard,817.49,Month-to-Month,Net Banking,0,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1871,Male,23,Bengaluru,40,Premium,1228.84,2 Year,UPI,0,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1796,Female,33,Delhi,29,Standard,860.41,Month-to-Month,Net Banking,5,Yes,1.0,Yes,Mid (12-36 mo),1
+CUST-1848,Female,72,Delhi,11,Premium,1418.91,Month-to-Month,Credit Card,1,No,2.0,Yes,New (<12 mo),1
+CUST-1214,Male,29,Chennai,48,Standard,953.93,Month-to-Month,UPI,2,No,1.0,Yes,Loyal (36+ mo),1
+CUST-2088,Male,52,Bengaluru,13,Standard,813.84,Month-to-Month,UPI,2,No,4.0,No,Mid (12-36 mo),0
+CUST-1203,Male,23,Hyderabad,1,Standard,865.14,1 Year,Net Banking,0,No,1.0,Yes,New (<12 mo),1
+CUST-1863,Female,35,Hyderabad,15,Standard,870.3,Month-to-Month,UPI,2,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1114,Female,34,Bengaluru,47,Basic,527.98,Month-to-Month,Credit Card,0,No,5.0,No,Loyal (36+ mo),0
+CUST-1918,Female,21,Mumbai,60,Basic,502.2,1 Year,UPI,2,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1894,Male,50,Delhi,4,Premium,1478.65,Month-to-Month,UPI,4,No,5.0,No,New (<12 mo),0
+CUST-1028,Female,46,Mumbai,59,Basic,424.19,2 Year,Unknown,3,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-2150,Female,70,Mumbai,17,Standard,903.7,Month-to-Month,Cash,3,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1507,Female,62,Mumbai,29,Basic,507.78,1 Year,Credit Card,1,Yes,5.0,No,Mid (12-36 mo),0
+CUST-2114,Female,25,Bengaluru,52,Premium,1342.92,Month-to-Month,Credit Card,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1721,Female,43,Mumbai,32,Standard,1023.08,1 Year,Cash,3,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1963,Male,50,Bengaluru,38,Basic,429.38,Month-to-Month,UPI,3,No,2.0,Yes,Loyal (36+ mo),1
+CUST-2074,Male,61,Bengaluru,13,Standard,877.88,2 Year,UPI,2,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1952,Female,36,Bengaluru,40,Standard,973.84,Month-to-Month,Credit Card,0,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1771,Male,25,Bengaluru,30,Basic,495.84,1 Year,Net Banking,4,No,5.0,Yes,Mid (12-36 mo),1
+CUST-1371,Male,54,Bengaluru,13,Basic,497.87,1 Year,Net Banking,1,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1434,Male,18,Bengaluru,8,Premium,1349.15,1 Year,Credit Card,0,Yes,5.0,No,New (<12 mo),0
+CUST-1665,Male,67,Hyderabad,22,Standard,921.06,1 Year,UPI,0,No,3.0,No,Mid (12-36 mo),0
+CUST-1168,Male,56,Pune,18,Basic,509.95,Month-to-Month,Net Banking,3,No,3.0,Yes,Mid (12-36 mo),1
+CUST-2126,Female,26,Pune,34,Basic,495.54,Month-to-Month,Net Banking,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1524,Female,42,Delhi,42,Basic,515.99,Month-to-Month,Credit Card,3,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1389,Female,43,Bengaluru,29,Standard,933.47,Month-to-Month,Credit Card,3,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1228,Male,46,Bengaluru,35,Premium,1283.64,2 Year,UPI,0,No,4.0,No,Mid (12-36 mo),0
+CUST-1462,Female,25,Bengaluru,54,Basic,513.1,Month-to-Month,Net Banking,1,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1986,Male,24,Delhi,13,Basic,492.78,Month-to-Month,UPI,1,No,4.0,No,Mid (12-36 mo),0
+CUST-2142,Male,38,Hyderabad,43,Standard,949.37,Month-to-Month,UPI,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1426,Female,69,Delhi,30,Basic,537.43,Month-to-Month,UPI,1,Yes,1.0,Yes,Mid (12-36 mo),1
+CUST-1964,Male,21,Mumbai,19,Basic,503.57,Month-to-Month,UPI,1,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-1959,Male,68,Mumbai,16,Standard,956.78,Month-to-Month,UPI,2,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1580,Male,42,Mumbai,7,Basic,463.39,1 Year,Credit Card,5,No,5.0,No,New (<12 mo),0
+CUST-1289,Male,29,Delhi,32,Standard,917.12,Month-to-Month,Net Banking,1,No,4.0,Yes,Mid (12-36 mo),1
+CUST-1295,Male,32,Mumbai,45,Premium,1294.22,Month-to-Month,Credit Card,1,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1557,Male,65,Delhi,26,Standard,906.89,Month-to-Month,UPI,1,Yes,1.0,No,Mid (12-36 mo),0
+CUST-2102,Female,36,Delhi,17,Basic,543.84,Month-to-Month,Cash,1,No,4.0,No,Mid (12-36 mo),0
+CUST-1369,Male,54,Delhi,17,Standard,798.24,Month-to-Month,Credit Card,1,No,3.0,Yes,Mid (12-36 mo),1
+CUST-2034,Male,46,Bengaluru,52,Standard,816.44,2 Year,Credit Card,0,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1085,Male,61,Hyderabad,25,Standard,840.57,2 Year,Cash,2,No,1.0,No,Mid (12-36 mo),0
+CUST-1537,Female,31,Mumbai,59,Standard,983.77,Month-to-Month,Credit Card,3,No,3.0,No,Loyal (36+ mo),0
+CUST-1914,Male,51,Delhi,24,Basic,496.55,Month-to-Month,UPI,0,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1973,Female,69,Mumbai,39,Standard,867.59,Month-to-Month,UPI,0,No,1.0,Yes,Loyal (36+ mo),1
+CUST-2106,Male,68,Bengaluru,15,Basic,395.35,Month-to-Month,Net Banking,3,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1090,Male,37,Delhi,29,Premium,1285.45,1 Year,UPI,0,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1364,Female,45,Mumbai,53,Premium,1169.81,Month-to-Month,Credit Card,1,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1197,Female,64,Delhi,43,Basic,532.16,1 Year,Credit Card,0,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1084,Male,46,Bengaluru,21,Premium,1264.58,Month-to-Month,UPI,0,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1259,Female,75,Mumbai,16,Basic,466.35,Month-to-Month,Credit Card,3,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1235,Male,35,Delhi,27,Standard,892.49,1 Year,Credit Card,1,Yes,4.0,No,Mid (12-36 mo),0
+CUST-1905,Male,52,Mumbai,11,Basic,436.28,Month-to-Month,Credit Card,4,Yes,5.0,Yes,New (<12 mo),1
+CUST-1714,Male,66,Delhi,49,Premium,1131.43,1 Year,Cash,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1474,Female,22,Bengaluru,43,Premium,1354.69,Month-to-Month,Cash,1,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1629,Male,53,Bengaluru,8,Basic,514.4,Month-to-Month,UPI,1,No,5.0,Yes,New (<12 mo),1
+CUST-1102,Female,55,Delhi,42,Basic,470.98,1 Year,Credit Card,0,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1690,Male,65,Mumbai,43,Premium,1260.49,1 Year,UPI,1,Yes,3.0,No,Loyal (36+ mo),0
+CUST-2192,Female,64,Delhi,55,Premium,1222.61,Month-to-Month,Net Banking,3,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1515,Male,32,Bengaluru,58,Premium,1288.31,Month-to-Month,Net Banking,2,No,5.0,Yes,Loyal (36+ mo),1
+CUST-1611,Male,21,Mumbai,56,Standard,855.2,Month-to-Month,Credit Card,2,No,4.0,Yes,Loyal (36+ mo),1
+CUST-1563,Male,60,Hyderabad,57,Basic,474.65,Month-to-Month,Credit Card,3,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1477,Male,45,Delhi,30,Standard,818.99,Month-to-Month,Credit Card,1,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1776,Male,22,Bengaluru,26,Basic,409.0,Month-to-Month,Net Banking,4,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1040,Male,34,Hyderabad,59,Standard,784.96,Month-to-Month,Credit Card,2,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1517,Male,29,Delhi,16,Basic,448.37,Month-to-Month,Cash,3,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1889,Male,27,Hyderabad,32,Standard,943.68,2 Year,Credit Card,2,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1435,Male,72,Mumbai,22,Premium,1170.11,1 Year,UPI,3,Yes,5.0,Yes,Mid (12-36 mo),1
+CUST-1322,Female,19,Mumbai,34,Basic,473.57,Month-to-Month,UPI,2,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1392,Male,72,Chennai,32,Standard,860.83,Month-to-Month,Cash,2,Yes,3.0,No,Mid (12-36 mo),0
+CUST-2190,Female,29,Delhi,2,Standard,895.8,1 Year,Unknown,0,Yes,1.0,No,New (<12 mo),0
+CUST-2042,Female,66,Hyderabad,22,Standard,962.31,Month-to-Month,UPI,1,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1482,Female,50,Mumbai,28,Basic,524.44,1 Year,UPI,1,No,2.0,No,Mid (12-36 mo),0
+CUST-2003,Female,22,Pune,56,Basic,548.56,2 Year,UPI,6,No,2.0,No,Loyal (36+ mo),0
+CUST-1691,Male,54,Delhi,2,Premium,1369.15,1 Year,UPI,2,No,3.0,No,New (<12 mo),0
+CUST-1323,Female,56,Mumbai,9,Basic,538.47,1 Year,Net Banking,0,Yes,3.0,No,New (<12 mo),0
+CUST-2172,Female,69,Delhi,51,Standard,947.41,Month-to-Month,Credit Card,1,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1267,Female,41,Bengaluru,35,Standard,969.34,Month-to-Month,Credit Card,1,No,4.0,Yes,Mid (12-36 mo),1
+CUST-1780,Female,64,Bengaluru,2,Standard,842.26,Month-to-Month,Net Banking,3,No,4.0,No,New (<12 mo),0
+CUST-1748,Female,38,Delhi,40,Premium,1325.08,Month-to-Month,Credit Card,1,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1065,Male,35,Hyderabad,36,Basic,503.16,Month-to-Month,UPI,1,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1572,Female,38,Hyderabad,32,Standard,1049.81,Month-to-Month,UPI,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1627,Male,59,Delhi,18,Basic,501.31,Month-to-Month,Credit Card,1,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1189,Female,58,Bengaluru,22,Standard,898.94,Month-to-Month,Credit Card,1,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1030,Male,69,Pune,2,Standard,824.03,Month-to-Month,UPI,0,No,3.0,No,New (<12 mo),0
+CUST-1901,Male,71,Mumbai,22,Standard,917.78,Month-to-Month,Credit Card,4,No,2.0,Yes,Mid (12-36 mo),1
+CUST-2154,Female,49,Delhi,29,Premium,1331.4,2 Year,Net Banking,3,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1874,Male,24,Pune,23,Standard,883.7,2 Year,Net Banking,0,No,5.0,No,Mid (12-36 mo),0
+CUST-2072,Male,22,Bengaluru,47,Standard,1023.2,Month-to-Month,UPI,1,No,3.0,No,Loyal (36+ mo),0
+CUST-2152,Female,48,Delhi,32,Premium,1463.7,1 Year,Net Banking,2,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1558,Male,54,Mumbai,23,Standard,881.72,Month-to-Month,UPI,0,No,5.0,No,Mid (12-36 mo),0
+CUST-1753,Female,20,Mumbai,47,Standard,1066.03,Month-to-Month,UPI,0,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1280,Female,51,Hyderabad,30,Basic,545.31,Month-to-Month,UPI,3,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-2110,Male,22,Delhi,44,Premium,1355.73,1 Year,UPI,0,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1715,Male,28,Mumbai,42,Standard,863.47,Month-to-Month,Net Banking,2,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1531,Female,55,Delhi,13,Basic,503.45,1 Year,Credit Card,1,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1327,Female,74,Chennai,14,Standard,689.87,Month-to-Month,Credit Card,4,No,5.0,No,Mid (12-36 mo),0
+CUST-1005,Male,50,Pune,44,Basic,453.06,2 Year,UPI,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1315,Female,71,Mumbai,14,Standard,844.24,1 Year,UPI,2,No,3.0,No,Mid (12-36 mo),0
+CUST-2071,Male,36,Bengaluru,26,Basic,539.46,2 Year,Unknown,0,Yes,3.0,No,Mid (12-36 mo),0
+CUST-2017,Male,34,Delhi,8,Basic,472.07,Month-to-Month,UPI,0,Yes,5.0,No,New (<12 mo),0
+CUST-1070,Female,25,Mumbai,32,Standard,908.13,Month-to-Month,Credit Card,1,No,1.0,No,Mid (12-36 mo),0
+CUST-1573,Male,40,Pune,28,Basic,486.23,2 Year,Net Banking,2,No,5.0,No,Mid (12-36 mo),0
+CUST-1207,Male,20,Mumbai,38,Basic,410.54,1 Year,UPI,1,No,1.0,No,Loyal (36+ mo),0
+CUST-1746,Female,44,Bengaluru,1,Basic,559.34,Month-to-Month,Credit Card,2,Yes,2.0,Yes,New (<12 mo),1
+CUST-1561,Female,53,Mumbai,49,Standard,914.05,Month-to-Month,Net Banking,1,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1791,Male,33,Mumbai,40,Premium,1336.51,Month-to-Month,Credit Card,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1147,Female,37,Delhi,55,Standard,885.74,Month-to-Month,Unknown,0,No,5.0,No,Loyal (36+ mo),0
+CUST-1016,Male,63,Bengaluru,6,Premium,1227.91,Month-to-Month,Net Banking,0,Yes,2.0,Yes,New (<12 mo),1
+CUST-1407,Male,41,Bengaluru,41,Basic,545.69,Month-to-Month,Net Banking,0,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1530,Female,61,Bengaluru,42,Premium,1290.01,1 Year,UPI,3,No,3.0,No,Loyal (36+ mo),0
+CUST-2195,Male,30,Bengaluru,52,Premium,1329.31,Month-to-Month,Unknown,4,No,4.0,Yes,Loyal (36+ mo),1
+CUST-2097,Male,63,Bengaluru,21,Premium,1230.32,Month-to-Month,Unknown,3,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-1174,Male,51,Pune,43,Basic,443.9,Month-to-Month,Credit Card,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1991,Female,19,Bengaluru,31,Basic,511.97,Month-to-Month,UPI,0,No,3.0,No,Mid (12-36 mo),0
+CUST-2090,Male,34,Chennai,50,Premium,1322.38,Month-to-Month,Credit Card,1,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-2178,Male,68,Pune,2,Standard,954.74,Month-to-Month,Net Banking,0,No,4.0,Yes,New (<12 mo),1
+CUST-1585,Female,21,Delhi,15,Standard,894.59,1 Year,UPI,0,No,3.0,No,Mid (12-36 mo),0
+CUST-1844,Female,40,Mumbai,30,Basic,437.49,Month-to-Month,Cash,0,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1949,Female,32,Delhi,17,Standard,825.34,1 Year,Credit Card,0,No,3.0,No,Mid (12-36 mo),0
+CUST-1913,Female,38,Hyderabad,46,Standard,900.32,Month-to-Month,Net Banking,3,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1273,Female,53,Bengaluru,42,Basic,444.55,1 Year,UPI,1,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1081,Female,69,Mumbai,35,Basic,505.44,1 Year,UPI,1,No,1.0,No,Mid (12-36 mo),0
+CUST-2027,Female,51,Bengaluru,59,Standard,972.57,Month-to-Month,UPI,1,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1249,Female,46,Delhi,55,Basic,508.62,Month-to-Month,Cash,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1724,Female,49,Delhi,27,Basic,510.71,1 Year,UPI,1,No,5.0,No,Mid (12-36 mo),0
+CUST-1234,Male,61,Bengaluru,60,Standard,890.71,Month-to-Month,Credit Card,3,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-2166,Female,57,Delhi,51,Standard,946.4,Month-to-Month,UPI,4,No,4.0,No,Loyal (36+ mo),0
+CUST-1575,Female,72,Pune,58,Standard,1041.73,2 Year,UPI,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1725,Female,56,Bengaluru,55,Basic,463.18,2 Year,UPI,3,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1491,Male,58,Bengaluru,8,Standard,930.12,1 Year,Cash,0,No,2.0,No,New (<12 mo),0
+CUST-2079,Male,30,Pune,25,Premium,1358.91,Month-to-Month,UPI,2,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1443,Male,64,Bengaluru,28,Premium,1272.8,Month-to-Month,UPI,1,No,1.0,No,Mid (12-36 mo),0
+CUST-1171,Female,75,Mumbai,21,Basic,455.98,Month-to-Month,Net Banking,0,No,4.0,No,Mid (12-36 mo),0
+CUST-2091,Female,22,Hyderabad,29,Standard,716.46,Month-to-Month,UPI,3,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-1265,Female,61,Pune,51,Standard,909.2,Month-to-Month,Credit Card,2,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1339,Male,40,Bengaluru,9,Standard,975.99,1 Year,Credit Card,0,No,2.0,No,New (<12 mo),0
+CUST-1887,Female,37,Bengaluru,36,Basic,495.9,1 Year,Unknown,1,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1583,Male,68,Hyderabad,39,Standard,900.24,Month-to-Month,Net Banking,3,Yes,4.0,Yes,Loyal (36+ mo),1
+CUST-1694,Male,45,Chennai,25,Standard,804.42,Month-to-Month,Credit Card,1,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1717,Female,41,Pune,38,Basic,551.99,Month-to-Month,UPI,2,No,2.0,No,Loyal (36+ mo),0
+CUST-1054,Female,20,Delhi,1,Standard,857.83,1 Year,UPI,2,No,4.0,No,New (<12 mo),0
+CUST-1393,Male,52,Bengaluru,26,Standard,1015.81,1 Year,Credit Card,0,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1845,Male,43,Hyderabad,29,Standard,935.71,Month-to-Month,UPI,4,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1087,Female,41,Delhi,47,Standard,892.69,Month-to-Month,Credit Card,2,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1442,Female,39,Bengaluru,15,Basic,548.18,1 Year,Net Banking,0,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1621,Male,30,Delhi,40,Basic,574.2,Month-to-Month,Net Banking,0,No,3.0,No,Loyal (36+ mo),0
+CUST-2041,Female,30,Mumbai,39,Basic,480.92,2 Year,UPI,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1463,Female,42,Bengaluru,14,Premium,1322.58,2 Year,Credit Card,1,No,1.0,No,Mid (12-36 mo),0
+CUST-1728,Female,53,Bengaluru,56,Standard,918.03,2 Year,Unknown,3,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1177,Female,61,Mumbai,38,Basic,452.78,Month-to-Month,Credit Card,0,No,4.0,No,Loyal (36+ mo),0
+CUST-1566,Female,23,Chennai,38,Basic,426.46,2 Year,Net Banking,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1118,Male,47,Delhi,5,Premium,1171.96,Month-to-Month,UPI,1,No,3.0,No,New (<12 mo),0
+CUST-1839,Female,26,Hyderabad,55,Standard,949.9,Month-to-Month,UPI,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1329,Male,19,Hyderabad,55,Basic,512.48,Month-to-Month,UPI,0,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1125,Male,28,Mumbai,3,Standard,886.01,Month-to-Month,Credit Card,1,No,3.0,Yes,New (<12 mo),1
+CUST-1941,Male,51,Hyderabad,17,Standard,874.07,1 Year,UPI,1,Yes,5.0,No,Mid (12-36 mo),0
+CUST-1039,Female,20,Delhi,15,Basic,435.87,Month-to-Month,UPI,2,No,4.0,No,Mid (12-36 mo),0
+CUST-2194,Female,38,Delhi,51,Basic,449.81,Month-to-Month,UPI,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1526,Male,66,Bengaluru,53,Standard,908.53,Month-to-Month,Cash,1,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1425,Male,62,Mumbai,46,Basic,380.11,2 Year,UPI,1,Yes,3.0,No,Loyal (36+ mo),0
+CUST-2170,Male,67,Bengaluru,49,Standard,793.09,Month-to-Month,Net Banking,3,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1121,Female,64,Mumbai,34,Standard,894.9,Month-to-Month,UPI,4,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1984,Male,39,Pune,6,Standard,970.56,1 Year,Net Banking,3,No,1.0,Yes,New (<12 mo),1
+CUST-1467,Male,18,Hyderabad,4,Basic,583.01,Month-to-Month,Unknown,0,Yes,3.0,Yes,New (<12 mo),1
+CUST-1686,Female,72,Delhi,25,Basic,474.75,2 Year,Credit Card,2,No,5.0,No,Mid (12-36 mo),0
+CUST-1294,Male,38,Hyderabad,23,Basic,523.71,2 Year,Net Banking,3,Yes,1.0,Yes,Mid (12-36 mo),1
+CUST-2183,Female,52,Mumbai,59,Premium,1332.09,Month-to-Month,Cash,3,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1042,Male,73,Mumbai,51,Standard,946.22,1 Year,UPI,2,No,4.0,No,Loyal (36+ mo),0
+CUST-2063,Female,39,Hyderabad,50,Basic,439.95,Month-to-Month,Net Banking,1,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1165,Male,56,Delhi,54,Basic,532.67,Month-to-Month,Unknown,0,No,3.0,No,Loyal (36+ mo),0
+CUST-2092,Female,37,Bengaluru,46,Basic,491.91,1 Year,Net Banking,1,No,3.0,Yes,Loyal (36+ mo),1
+CUST-2068,Male,40,Pune,8,Basic,494.86,Month-to-Month,Cash,1,No,4.0,No,New (<12 mo),0
+CUST-1132,Male,28,Mumbai,48,Standard,914.57,Month-to-Month,Credit Card,4,Yes,5.0,Yes,Loyal (36+ mo),1
+CUST-1055,Female,18,Delhi,49,Basic,508.09,Month-to-Month,Unknown,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1459,Male,66,Delhi,3,Standard,904.15,Month-to-Month,UPI,3,No,3.0,Yes,New (<12 mo),1
+CUST-2100,Male,69,Hyderabad,48,Standard,905.78,1 Year,Net Banking,0,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1804,Female,22,Bengaluru,16,Basic,479.93,Month-to-Month,UPI,3,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1668,Male,53,Pune,14,Premium,1256.25,Month-to-Month,UPI,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1688,Male,34,Delhi,29,Standard,964.59,1 Year,UPI,2,No,3.0,No,Mid (12-36 mo),0
+CUST-2005,Female,30,Delhi,53,Basic,485.33,2 Year,Credit Card,3,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-1067,Male,61,Bengaluru,45,Standard,799.34,1 Year,Net Banking,1,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1782,Female,72,Mumbai,49,Standard,959.71,Month-to-Month,Credit Card,0,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1262,Female,54,Bengaluru,21,Standard,919.0,2 Year,Cash,0,No,2.0,No,Mid (12-36 mo),0
+CUST-2107,Male,60,Bengaluru,9,Premium,1286.65,1 Year,Net Banking,5,No,5.0,No,New (<12 mo),0
+CUST-1999,Female,40,Mumbai,32,Premium,1253.17,Month-to-Month,Credit Card,6,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1264,Female,45,Delhi,6,Basic,421.98,1 Year,UPI,2,No,4.0,Yes,New (<12 mo),1
+CUST-1161,Male,30,Pune,49,Basic,485.45,Month-to-Month,Net Banking,2,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1260,Male,41,Chennai,33,Standard,828.8,2 Year,Credit Card,1,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1333,Male,18,Bengaluru,54,Standard,901.21,Month-to-Month,Net Banking,5,Yes,5.0,Yes,Loyal (36+ mo),1
+CUST-1439,Female,55,Mumbai,57,Premium,1366.81,Month-to-Month,Credit Card,0,No,5.0,Yes,Loyal (36+ mo),1
+CUST-1429,Male,59,Delhi,18,Standard,887.68,Month-to-Month,Credit Card,1,Yes,4.0,No,Mid (12-36 mo),0
+CUST-2052,Female,50,Mumbai,17,Premium,1332.31,Month-to-Month,Net Banking,6,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1387,Male,54,Mumbai,3,Basic,491.97,Month-to-Month,Credit Card,0,No,5.0,No,New (<12 mo),0
+CUST-1475,Female,58,Mumbai,32,Standard,1053.7,Month-to-Month,Net Banking,2,No,2.0,Yes,Mid (12-36 mo),1
+CUST-2191,Male,58,Mumbai,38,Basic,450.58,1 Year,Cash,0,No,5.0,No,Loyal (36+ mo),0
+CUST-1486,Female,30,Bengaluru,56,Basic,583.04,2 Year,Credit Card,4,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1365,Female,74,Mumbai,29,Premium,1185.41,1 Year,Net Banking,5,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1551,Female,46,Bengaluru,17,Premium,1338.48,2 Year,Net Banking,4,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1617,Male,48,Mumbai,56,Standard,887.49,Month-to-Month,Credit Card,1,No,5.0,Yes,Loyal (36+ mo),1
+CUST-1835,Male,38,Pune,20,Standard,1020.98,Month-to-Month,UPI,0,No,1.0,No,Mid (12-36 mo),0
+CUST-2180,Female,66,Bengaluru,19,Standard,1030.32,Month-to-Month,Cash,0,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1279,Female,32,Mumbai,3,Basic,502.99,1 Year,Cash,0,Yes,3.0,No,New (<12 mo),0
+CUST-1179,Female,57,Mumbai,40,Standard,939.05,Month-to-Month,UPI,3,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1402,Female,29,Bengaluru,1,Basic,465.13,1 Year,Cash,0,No,3.0,No,New (<12 mo),0
+CUST-1504,Female,58,Delhi,37,Standard,848.17,Month-to-Month,Credit Card,2,No,4.0,No,Loyal (36+ mo),0
+CUST-1548,Female,23,Mumbai,11,Standard,893.16,Month-to-Month,Credit Card,2,Yes,2.0,No,New (<12 mo),0
+CUST-1398,Male,50,Delhi,28,Premium,1371.13,2 Year,UPI,1,No,2.0,No,Mid (12-36 mo),0
+CUST-1944,Female,19,Pune,15,Premium,1274.62,Month-to-Month,UPI,2,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1058,Male,32,Bengaluru,7,Basic,445.22,Month-to-Month,Credit Card,0,Yes,4.0,Yes,New (<12 mo),1
+CUST-2076,Male,40,Mumbai,37,Basic,551.98,Month-to-Month,Credit Card,3,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1867,Male,41,Mumbai,37,Standard,879.57,1 Year,UPI,4,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1160,Female,50,Bengaluru,39,Standard,927.18,2 Year,UPI,3,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1423,Male,37,Delhi,11,Basic,457.73,Month-to-Month,UPI,0,No,2.0,Yes,New (<12 mo),1
+CUST-1876,Male,31,Hyderabad,11,Basic,526.19,Month-to-Month,UPI,1,No,4.0,No,New (<12 mo),0
+CUST-1925,Male,48,Hyderabad,42,Basic,467.32,2 Year,Credit Card,1,No,2.0,No,Loyal (36+ mo),0
+CUST-2198,Female,63,Mumbai,26,Standard,824.2,Month-to-Month,UPI,3,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1831,Male,67,Bengaluru,31,Basic,538.61,Month-to-Month,Net Banking,1,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1888,Male,35,Mumbai,13,Basic,492.26,1 Year,Credit Card,3,No,2.0,No,Mid (12-36 mo),0
+CUST-2187,Female,72,Delhi,56,Basic,451.68,2 Year,Credit Card,1,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1318,Male,73,Bengaluru,47,Basic,527.84,2 Year,Net Banking,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1737,Male,23,Delhi,25,Standard,825.59,2 Year,UPI,2,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1539,Male,19,Bengaluru,40,Standard,792.71,Month-to-Month,Net Banking,3,No,4.0,Yes,Loyal (36+ mo),1
+CUST-1256,Female,47,Mumbai,42,Premium,1304.1,Month-to-Month,Credit Card,1,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1618,Male,61,Hyderabad,46,Standard,908.44,1 Year,Net Banking,2,No,1.0,No,Loyal (36+ mo),0
+CUST-1777,Male,30,Pune,30,Basic,488.11,2 Year,UPI,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1781,Female,74,Delhi,37,Basic,524.37,1 Year,Credit Card,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1625,Female,66,Delhi,13,Standard,895.12,2 Year,Credit Card,5,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1448,Female,43,Bengaluru,18,Basic,436.45,Month-to-Month,UPI,2,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1718,Female,63,Bengaluru,25,Standard,855.0,1 Year,UPI,0,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1386,Female,26,Bengaluru,59,Standard,951.76,Month-to-Month,UPI,2,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1020,Male,34,Bengaluru,9,Basic,511.22,2 Year,Unknown,0,No,3.0,No,New (<12 mo),0
+CUST-1604,Male,59,Bengaluru,6,Standard,905.67,Month-to-Month,Credit Card,2,No,5.0,Yes,New (<12 mo),1
+CUST-1352,Female,47,Hyderabad,34,Basic,477.82,2 Year,Unknown,3,No,3.0,No,Mid (12-36 mo),0
+CUST-1656,Male,59,Chennai,21,Premium,1291.09,1 Year,Cash,4,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1343,Male,27,Delhi,19,Standard,1010.12,Month-to-Month,UPI,0,No,5.0,No,Mid (12-36 mo),0
+CUST-2056,Male,57,Bengaluru,1,Standard,851.78,Month-to-Month,Credit Card,2,No,2.0,Yes,New (<12 mo),1
+CUST-1957,Female,45,Delhi,18,Premium,1260.16,Month-to-Month,Credit Card,1,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1911,Female,51,Mumbai,10,Premium,1281.06,Month-to-Month,Net Banking,2,No,5.0,Yes,New (<12 mo),1
+CUST-1657,Male,25,Mumbai,51,Standard,936.68,1 Year,Credit Card,0,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1157,Female,58,Delhi,6,Standard,941.84,1 Year,Cash,2,No,4.0,No,New (<12 mo),0
+CUST-1674,Female,53,Mumbai,32,Standard,943.52,Month-to-Month,Credit Card,3,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-1847,Male,35,Mumbai,46,Standard,775.06,1 Year,Net Banking,2,No,1.0,No,Loyal (36+ mo),0
+CUST-1764,Female,55,Chennai,59,Standard,896.7,Month-to-Month,Net Banking,2,No,4.0,Yes,Loyal (36+ mo),1
+CUST-1346,Female,31,Chennai,40,Basic,496.29,2 Year,Credit Card,3,No,3.0,No,Loyal (36+ mo),0
+CUST-1578,Female,70,Delhi,27,Standard,885.63,Month-to-Month,Credit Card,2,No,4.0,No,Mid (12-36 mo),0
+CUST-1933,Female,60,Bengaluru,22,Basic,494.38,Month-to-Month,Credit Card,1,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1283,Male,56,Bengaluru,9,Basic,445.46,Month-to-Month,Credit Card,5,No,3.0,Yes,New (<12 mo),1
+CUST-1302,Female,47,Bengaluru,6,Premium,1374.4,1 Year,Net Banking,2,No,4.0,No,New (<12 mo),0
+CUST-1713,Male,58,Delhi,54,Basic,577.68,Month-to-Month,Net Banking,0,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1946,Male,67,Pune,55,Basic,479.45,1 Year,UPI,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1287,Male,75,Delhi,23,Standard,928.2,Month-to-Month,Credit Card,4,Yes,4.0,No,Mid (12-36 mo),0
+CUST-2167,Female,31,Chennai,54,Standard,791.56,Month-to-Month,UPI,2,No,4.0,No,Loyal (36+ mo),0
+CUST-1370,Male,29,Delhi,7,Basic,541.18,Month-to-Month,Credit Card,1,No,3.0,Yes,New (<12 mo),1
+CUST-1451,Female,47,Bengaluru,45,Premium,1165.59,Month-to-Month,UPI,2,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-2147,Female,19,Chennai,39,Standard,877.7,1 Year,UPI,4,No,2.0,No,Loyal (36+ mo),0
+CUST-1166,Female,19,Delhi,37,Premium,1321.7,1 Year,Net Banking,2,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1902,Male,63,Mumbai,2,Basic,521.9,1 Year,UPI,3,Yes,4.0,No,New (<12 mo),0
+CUST-1313,Male,62,Mumbai,42,Standard,931.73,Month-to-Month,Net Banking,2,No,4.0,No,Loyal (36+ mo),0
+CUST-2055,Female,75,Mumbai,33,Basic,508.13,Month-to-Month,Credit Card,0,Yes,4.0,No,Mid (12-36 mo),0
+CUST-1473,Male,65,Bengaluru,31,Standard,897.9,1 Year,Credit Card,2,No,3.0,No,Mid (12-36 mo),0
+CUST-1373,Male,66,Chennai,26,Premium,1222.01,Month-to-Month,Credit Card,0,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1415,Female,48,Pune,29,Premium,1308.87,1 Year,Cash,0,No,3.0,No,Mid (12-36 mo),0
+CUST-1857,Male,59,Bengaluru,50,Basic,500.37,Month-to-Month,Credit Card,0,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1167,Male,55,Bengaluru,9,Basic,381.61,Month-to-Month,Cash,2,Yes,2.0,No,New (<12 mo),0
+CUST-1970,Male,56,Mumbai,18,Basic,546.12,Month-to-Month,Net Banking,0,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1325,Female,34,Bengaluru,28,Basic,489.0,Month-to-Month,Credit Card,4,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1284,Male,59,Delhi,29,Basic,533.62,1 Year,Net Banking,0,No,5.0,No,Mid (12-36 mo),0
+CUST-1527,Male,49,Delhi,22,Standard,1014.64,2 Year,UPI,2,No,5.0,No,Mid (12-36 mo),0
+CUST-1854,Female,39,Delhi,34,Basic,521.09,Month-to-Month,Cash,1,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1182,Male,23,Bengaluru,60,Basic,467.15,1 Year,UPI,4,No,2.0,No,Loyal (36+ mo),0
+CUST-2125,Female,42,Bengaluru,11,Standard,737.4,1 Year,UPI,1,Yes,5.0,No,New (<12 mo),0
+CUST-1079,Male,63,Delhi,54,Basic,503.88,2 Year,UPI,4,No,3.0,Yes,Loyal (36+ mo),1
+CUST-2078,Female,25,Bengaluru,28,Standard,930.53,1 Year,Unknown,2,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1383,Female,67,Bengaluru,17,Premium,1383.65,1 Year,UPI,2,No,2.0,No,Mid (12-36 mo),0
+CUST-2129,Male,67,Bengaluru,32,Basic,566.43,1 Year,Credit Card,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1830,Male,40,Delhi,15,Premium,1293.03,Month-to-Month,Unknown,2,No,5.0,Yes,Mid (12-36 mo),1
+CUST-1849,Male,23,Mumbai,34,Premium,1338.49,Month-to-Month,Unknown,3,No,4.0,Yes,Mid (12-36 mo),1
+CUST-1428,Female,67,Delhi,40,Basic,562.37,Month-to-Month,Net Banking,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1096,Male,24,Chennai,56,Standard,932.53,Month-to-Month,UPI,1,No,2.0,No,Loyal (36+ mo),0
+CUST-2163,Male,72,Bengaluru,38,Basic,476.3,Month-to-Month,UPI,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1350,Female,27,Chennai,29,Standard,923.58,Month-to-Month,UPI,2,No,4.0,Yes,Mid (12-36 mo),1
+CUST-1879,Male,38,Pune,29,Basic,471.44,Month-to-Month,Unknown,0,No,2.0,No,Mid (12-36 mo),0
+CUST-1634,Female,71,Delhi,48,Basic,429.47,Month-to-Month,Net Banking,2,No,5.0,No,Loyal (36+ mo),0
+CUST-1947,Male,48,Hyderabad,39,Basic,491.29,Month-to-Month,Credit Card,6,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1682,Male,52,Hyderabad,5,Premium,1350.52,Month-to-Month,Credit Card,0,No,2.0,Yes,New (<12 mo),1
+CUST-2057,Female,38,Bengaluru,15,Premium,1199.97,Month-to-Month,Credit Card,2,No,2.0,No,Mid (12-36 mo),0
+CUST-1601,Male,52,Pune,1,Standard,894.52,Month-to-Month,UPI,0,No,3.0,No,New (<12 mo),0
+CUST-1938,Female,68,Bengaluru,51,Basic,527.06,Month-to-Month,Credit Card,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1702,Male,74,Bengaluru,34,Basic,476.66,Month-to-Month,UPI,0,Yes,5.0,No,Mid (12-36 mo),0
+CUST-1757,Female,20,Delhi,14,Standard,944.41,1 Year,UPI,0,No,4.0,No,Mid (12-36 mo),0
+CUST-1528,Male,66,Bengaluru,42,Premium,1312.84,Month-to-Month,Credit Card,0,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1384,Female,31,Pune,43,Basic,497.7,1 Year,Net Banking,0,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1807,Female,73,Mumbai,7,Standard,948.03,Month-to-Month,UPI,1,No,2.0,Yes,New (<12 mo),1
+CUST-1638,Male,62,Hyderabad,43,Standard,858.2,Month-to-Month,Net Banking,5,No,5.0,No,Loyal (36+ mo),0
+CUST-2061,Female,51,Delhi,58,Standard,934.96,Month-to-Month,UPI,1,No,2.0,No,Loyal (36+ mo),0
+CUST-1823,Male,29,Mumbai,42,Basic,478.57,Month-to-Month,Credit Card,2,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1692,Male,32,Mumbai,10,Standard,979.37,Month-to-Month,UPI,2,No,2.0,Yes,New (<12 mo),1
+CUST-1092,Female,32,Mumbai,9,Standard,869.9,Month-to-Month,Credit Card,1,Yes,2.0,Yes,New (<12 mo),1
+CUST-2200,Male,63,Pune,43,Standard,745.45,Month-to-Month,Credit Card,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1841,Male,28,Bengaluru,49,Basic,546.43,Month-to-Month,Cash,1,No,2.0,No,Loyal (36+ mo),0
+CUST-1826,Female,51,Mumbai,31,Standard,865.48,Month-to-Month,UPI,3,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1277,Female,53,Mumbai,23,Basic,548.56,Month-to-Month,Net Banking,1,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1605,Male,53,Bengaluru,21,Basic,513.59,Month-to-Month,UPI,1,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1493,Male,21,Bengaluru,58,Basic,470.9,Month-to-Month,Credit Card,3,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1582,Female,28,Bengaluru,10,Basic,532.91,Month-to-Month,Net Banking,2,Yes,1.0,Yes,New (<12 mo),1
+CUST-2058,Male,45,Hyderabad,13,Standard,938.68,1 Year,Credit Card,2,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1708,Female,35,Delhi,51,Standard,1063.56,2 Year,UPI,1,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1201,Female,33,Mumbai,28,Basic,455.22,2 Year,Credit Card,2,Yes,3.0,No,Mid (12-36 mo),0
+CUST-2148,Female,71,Mumbai,43,Standard,896.88,Month-to-Month,UPI,2,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-1554,Female,29,Mumbai,50,Premium,1285.39,Month-to-Month,Net Banking,0,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1071,Female,63,Bengaluru,32,Standard,923.97,Month-to-Month,UPI,2,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-2001,Male,73,Hyderabad,38,Premium,1280.63,Month-to-Month,Cash,3,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1579,Male,32,Bengaluru,36,Basic,518.98,Month-to-Month,UPI,1,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1044,Female,46,Mumbai,21,Basic,537.21,Month-to-Month,UPI,0,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1293,Female,57,Bengaluru,48,Basic,438.85,2 Year,Credit Card,0,No,4.0,No,Loyal (36+ mo),0
+CUST-1732,Female,53,Hyderabad,44,Standard,923.91,Month-to-Month,Credit Card,0,No,4.0,No,Loyal (36+ mo),0
+CUST-1200,Female,37,Bengaluru,4,Premium,1406.5,Month-to-Month,UPI,4,No,3.0,Yes,New (<12 mo),1
+CUST-1950,Female,26,Bengaluru,32,Standard,964.35,2 Year,Credit Card,0,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1550,Female,70,Delhi,16,Basic,539.0,2 Year,UPI,2,No,2.0,No,Mid (12-36 mo),0
+CUST-1935,Male,40,Delhi,25,Premium,1370.92,Month-to-Month,UPI,2,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1427,Male,33,Pune,57,Standard,815.14,1 Year,Cash,4,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1297,Female,52,Mumbai,55,Standard,932.86,Month-to-Month,Unknown,3,No,5.0,Yes,Loyal (36+ mo),1
+CUST-1144,Male,71,Mumbai,10,Standard,894.0,Month-to-Month,UPI,1,No,3.0,Yes,New (<12 mo),1
+CUST-1676,Female,50,Hyderabad,15,Premium,1376.61,1 Year,UPI,1,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1441,Male,64,Hyderabad,36,Basic,485.12,1 Year,Net Banking,4,No,4.0,No,Mid (12-36 mo),0
+CUST-1752,Female,67,Mumbai,50,Standard,954.31,Month-to-Month,UPI,3,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1678,Male,67,Mumbai,58,Basic,470.25,2 Year,Net Banking,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1134,Male,68,Mumbai,10,Premium,1389.21,Month-to-Month,UPI,1,No,3.0,No,New (<12 mo),0
+CUST-1330,Male,52,Bengaluru,47,Standard,825.16,1 Year,Cash,0,No,4.0,No,Loyal (36+ mo),0
+CUST-2065,Male,66,Delhi,45,Basic,571.75,2 Year,Net Banking,2,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1822,Male,33,Hyderabad,37,Basic,468.7,Month-to-Month,Net Banking,1,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1843,Male,69,Mumbai,42,Basic,410.95,2 Year,UPI,2,No,3.0,No,Loyal (36+ mo),0
+CUST-2133,Male,21,Bengaluru,45,Basic,473.87,Month-to-Month,Net Banking,2,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1052,Female,74,Chennai,45,Premium,1209.93,Month-to-Month,Credit Card,0,No,5.0,No,Loyal (36+ mo),0
+CUST-1645,Male,38,Mumbai,27,Basic,501.56,1 Year,Credit Card,2,No,3.0,No,Mid (12-36 mo),0
+CUST-1378,Male,64,Mumbai,49,Standard,890.23,Month-to-Month,Unknown,1,Yes,1.0,No,Loyal (36+ mo),0
+CUST-2064,Male,25,Mumbai,27,Premium,1356.4,Month-to-Month,UPI,2,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-2156,Female,51,Delhi,21,Standard,782.09,2 Year,UPI,2,No,3.0,No,Mid (12-36 mo),0
+CUST-1316,Female,64,Hyderabad,58,Basic,515.87,Month-to-Month,Credit Card,1,No,1.0,No,Loyal (36+ mo),0
+CUST-1786,Female,74,Delhi,54,Basic,461.43,1 Year,Net Banking,0,No,4.0,No,Loyal (36+ mo),0
+CUST-1853,Male,32,Delhi,58,Basic,539.37,Month-to-Month,UPI,1,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1628,Female,73,Hyderabad,2,Basic,520.07,1 Year,Net Banking,0,No,5.0,No,New (<12 mo),0
+CUST-1244,Male,20,Bengaluru,25,Premium,1209.97,Month-to-Month,UPI,1,Yes,3.0,No,Mid (12-36 mo),0
+CUST-2123,Female,25,Bengaluru,44,Standard,937.56,2 Year,Unknown,2,No,2.0,No,Loyal (36+ mo),0
+CUST-2139,Male,72,Delhi,27,Standard,820.33,1 Year,Credit Card,6,No,4.0,Yes,Mid (12-36 mo),1
+CUST-1667,Male,36,Mumbai,31,Premium,1292.48,Month-to-Month,Net Banking,4,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1904,Female,20,Delhi,55,Premium,1320.89,Month-to-Month,UPI,4,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-2146,Female,57,Hyderabad,11,Standard,791.86,1 Year,Credit Card,4,No,3.0,No,New (<12 mo),0
+CUST-1646,Female,39,Mumbai,35,Premium,1204.09,2 Year,UPI,3,No,3.0,No,Mid (12-36 mo),0
+CUST-1505,Female,40,Bengaluru,19,Basic,538.39,Month-to-Month,UPI,1,No,5.0,Yes,Mid (12-36 mo),1
+CUST-1675,Male,27,Bengaluru,55,Standard,921.45,Month-to-Month,Credit Card,1,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1851,Male,39,Hyderabad,7,Basic,470.79,Month-to-Month,UPI,2,No,3.0,Yes,New (<12 mo),1
+CUST-1194,Female,67,Chennai,4,Standard,1017.74,Month-to-Month,UPI,5,No,3.0,Yes,New (<12 mo),1
+CUST-1223,Male,72,Delhi,3,Basic,504.42,Month-to-Month,Cash,1,Yes,3.0,Yes,New (<12 mo),1
+CUST-2031,Male,57,Delhi,31,Standard,771.69,1 Year,Net Banking,2,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1221,Female,75,Mumbai,50,Standard,953.2,Month-to-Month,Net Banking,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1272,Female,58,Mumbai,5,Standard,983.67,1 Year,UPI,2,Yes,1.0,Yes,New (<12 mo),1
+CUST-1711,Female,71,Delhi,50,Basic,545.58,1 Year,Credit Card,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1014,Male,43,Hyderabad,22,Standard,886.13,1 Year,UPI,2,No,3.0,No,Mid (12-36 mo),0
+CUST-1432,Female,67,Delhi,2,Basic,507.58,1 Year,Credit Card,0,No,2.0,No,New (<12 mo),0
+CUST-1745,Male,61,Mumbai,4,Standard,871.17,1 Year,Credit Card,4,No,5.0,Yes,New (<12 mo),1
+CUST-1903,Male,69,Bengaluru,31,Standard,733.32,2 Year,UPI,6,No,5.0,No,Mid (12-36 mo),0
+CUST-1744,Male,22,Delhi,7,Standard,755.74,2 Year,UPI,2,No,2.0,No,New (<12 mo),0
+CUST-2143,Female,53,Delhi,40,Standard,875.37,Month-to-Month,Credit Card,4,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1212,Female,35,Bengaluru,38,Standard,903.57,Month-to-Month,Credit Card,1,No,2.0,No,Loyal (36+ mo),0
+CUST-1673,Male,36,Delhi,36,Basic,500.2,Month-to-Month,Credit Card,2,Yes,5.0,No,Mid (12-36 mo),0
+CUST-1018,Female,46,Bengaluru,27,Basic,578.48,Month-to-Month,Credit Card,2,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1809,Male,18,Bengaluru,45,Basic,472.24,Month-to-Month,Credit Card,1,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1154,Male,19,Mumbai,42,Standard,936.25,Month-to-Month,Credit Card,2,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1743,Female,19,Bengaluru,1,Standard,932.84,1 Year,Unknown,0,No,3.0,No,New (<12 mo),0
+CUST-2111,Female,47,Delhi,31,Premium,1263.88,1 Year,UPI,2,No,4.0,No,Mid (12-36 mo),0
+CUST-2199,Female,57,Mumbai,49,Standard,824.48,Month-to-Month,Net Banking,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1015,Male,51,Bengaluru,3,Premium,1234.73,1 Year,UPI,1,No,4.0,No,New (<12 mo),0
+CUST-1855,Male,54,Mumbai,59,Standard,851.46,2 Year,Cash,2,No,5.0,No,Loyal (36+ mo),0
+CUST-1074,Female,46,Bengaluru,38,Premium,1270.37,Month-to-Month,Credit Card,3,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-1882,Female,44,Mumbai,60,Standard,907.19,Month-to-Month,Net Banking,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-2197,Female,25,Bengaluru,22,Basic,510.51,Month-to-Month,UPI,2,No,2.0,Yes,Mid (12-36 mo),1
+CUST-2122,Female,48,Mumbai,1,Premium,1316.98,1 Year,Credit Card,0,No,5.0,No,New (<12 mo),0
+CUST-1444,Male,51,Delhi,52,Basic,512.24,2 Year,Credit Card,3,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1878,Female,32,Bengaluru,8,Basic,552.63,2 Year,Net Banking,1,No,1.0,No,New (<12 mo),0
+CUST-2015,Female,49,Hyderabad,32,Standard,970.32,2 Year,Net Banking,1,No,5.0,No,Mid (12-36 mo),0
+CUST-1709,Male,20,Hyderabad,21,Standard,931.49,Month-to-Month,Credit Card,3,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1931,Male,49,Bengaluru,34,Premium,1203.52,Month-to-Month,Net Banking,0,Yes,4.0,No,Mid (12-36 mo),0
+CUST-1094,Female,47,Bengaluru,26,Basic,599.71,1 Year,Net Banking,0,No,5.0,No,Mid (12-36 mo),0
+CUST-1077,Female,32,Delhi,50,Standard,903.48,1 Year,UPI,2,No,1.0,No,Loyal (36+ mo),0
+CUST-1345,Male,71,Bengaluru,10,Basic,492.04,1 Year,UPI,2,Yes,3.0,Yes,New (<12 mo),1
+CUST-2094,Female,57,Delhi,18,Basic,449.42,2 Year,Net Banking,3,No,3.0,No,Mid (12-36 mo),0
+CUST-1705,Male,52,Delhi,5,Basic,531.27,Month-to-Month,Credit Card,1,Yes,1.0,Yes,New (<12 mo),1
+CUST-2036,Female,46,Chennai,41,Basic,467.16,Month-to-Month,UPI,0,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-1890,Male,42,Bengaluru,36,Standard,949.67,Month-to-Month,Net Banking,2,Yes,4.0,No,Mid (12-36 mo),0
+CUST-1976,Male,56,Chennai,25,Basic,509.77,Month-to-Month,UPI,3,No,3.0,No,Mid (12-36 mo),0
+CUST-1224,Male,63,Chennai,45,Basic,412.68,1 Year,UPI,3,No,5.0,No,Loyal (36+ mo),0
+CUST-2182,Male,38,Pune,28,Standard,1080.34,Month-to-Month,UPI,0,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1216,Male,29,Chennai,5,Standard,965.42,Month-to-Month,Credit Card,4,No,3.0,Yes,New (<12 mo),1
+CUST-1522,Male,36,Hyderabad,26,Standard,848.38,1 Year,Credit Card,1,Yes,2.0,No,Mid (12-36 mo),0
+CUST-2155,Female,49,Bengaluru,21,Premium,1409.61,1 Year,Credit Card,1,Yes,4.0,No,Mid (12-36 mo),0
+CUST-1895,Female,53,Chennai,31,Premium,1424.56,1 Year,UPI,0,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1397,Female,22,Bengaluru,54,Standard,847.91,1 Year,Credit Card,3,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1388,Male,37,Hyderabad,15,Basic,504.12,Month-to-Month,Net Banking,1,No,3.0,No,Mid (12-36 mo),0
+CUST-1481,Female,26,Hyderabad,9,Standard,935.26,1 Year,UPI,2,No,3.0,No,New (<12 mo),0
+CUST-1151,Female,49,Mumbai,8,Premium,1395.1,Month-to-Month,Cash,1,No,1.0,Yes,New (<12 mo),1
+CUST-1512,Male,24,Hyderabad,28,Standard,884.72,1 Year,UPI,2,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1785,Male,47,Mumbai,36,Standard,885.84,Month-to-Month,Net Banking,2,No,3.0,No,Mid (12-36 mo),0
+CUST-2043,Male,58,Mumbai,4,Standard,857.93,2 Year,Credit Card,5,No,4.0,No,New (<12 mo),0
+CUST-2184,Female,75,Delhi,17,Standard,958.81,Month-to-Month,Credit Card,4,No,4.0,No,Mid (12-36 mo),0
+CUST-1298,Male,43,Delhi,40,Basic,480.68,Month-to-Month,Credit Card,3,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1153,Male,50,Chennai,46,Basic,494.64,2 Year,Credit Card,3,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1840,Female,18,Hyderabad,12,Premium,1330.96,1 Year,Net Banking,3,Yes,3.0,No,Mid (12-36 mo),0
+CUST-2089,Female,41,Delhi,32,Premium,1281.57,1 Year,UPI,1,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1303,Female,40,Delhi,44,Standard,784.84,Month-to-Month,UPI,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1351,Male,29,Hyderabad,50,Standard,875.18,1 Year,Unknown,0,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1495,Male,55,Bengaluru,37,Standard,857.02,1 Year,UPI,2,No,5.0,No,Loyal (36+ mo),0
+CUST-2073,Male,49,Mumbai,59,Basic,513.86,Month-to-Month,Cash,1,No,2.0,No,Loyal (36+ mo),0
+CUST-2098,Male,53,Hyderabad,30,Basic,417.9,1 Year,Credit Card,3,No,1.0,No,Mid (12-36 mo),0
+CUST-1747,Male,49,Mumbai,15,Basic,561.85,1 Year,UPI,3,No,2.0,No,Mid (12-36 mo),0
+CUST-1170,Female,63,Bengaluru,59,Standard,938.06,Month-to-Month,Credit Card,1,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1416,Male,73,Bengaluru,19,Standard,925.09,1 Year,Credit Card,2,No,1.0,No,Mid (12-36 mo),0
+CUST-1251,Male,32,Mumbai,5,Basic,497.18,Month-to-Month,UPI,2,No,4.0,Yes,New (<12 mo),1
+CUST-1610,Female,30,Bengaluru,60,Premium,1216.9,1 Year,UPI,1,No,1.0,No,Loyal (36+ mo),0
+CUST-1609,Male,66,Delhi,5,Standard,911.86,2 Year,Net Banking,1,No,3.0,No,New (<12 mo),0
+CUST-1046,Female,64,Mumbai,56,Basic,568.61,Month-to-Month,Credit Card,6,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1410,Male,42,Bengaluru,51,Basic,512.22,Month-to-Month,UPI,0,No,5.0,No,Loyal (36+ mo),0
+CUST-1002,Female,24,Bengaluru,41,Standard,875.89,Month-to-Month,Credit Card,0,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1917,Male,32,Mumbai,48,Premium,1319.82,Month-to-Month,Credit Card,0,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1113,Female,30,Delhi,52,Standard,821.86,1 Year,UPI,1,No,4.0,No,Loyal (36+ mo),0
+CUST-1399,Female,66,Delhi,9,Standard,1018.28,Month-to-Month,Credit Card,0,No,3.0,Yes,New (<12 mo),1
+CUST-1603,Male,33,Bengaluru,22,Basic,509.63,Month-to-Month,Credit Card,2,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1278,Female,19,Bengaluru,16,Basic,435.06,Month-to-Month,Credit Card,1,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1639,Male,59,Pune,31,Basic,500.17,1 Year,Credit Card,6,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1497,Female,21,Chennai,45,Basic,529.04,1 Year,Credit Card,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1591,Male,31,Delhi,6,Standard,900.23,Month-to-Month,UPI,1,No,2.0,Yes,New (<12 mo),1
+CUST-1929,Female,46,Pune,53,Standard,985.83,1 Year,Cash,4,No,5.0,No,Loyal (36+ mo),0
+CUST-1381,Male,61,Hyderabad,1,Standard,923.8,Month-to-Month,UPI,2,No,1.0,No,New (<12 mo),0
+CUST-1680,Female,64,Hyderabad,3,Premium,1326.25,1 Year,Net Banking,1,Yes,2.0,No,New (<12 mo),0
+CUST-1739,Male,56,Delhi,54,Basic,540.88,Month-to-Month,Unknown,1,Yes,3.0,No,Loyal (36+ mo),0
+CUST-2045,Female,73,Bengaluru,45,Premium,1258.18,1 Year,UPI,1,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1438,Female,49,Mumbai,47,Basic,520.04,1 Year,Credit Card,1,Yes,5.0,No,Loyal (36+ mo),0
+CUST-2070,Male,62,Delhi,59,Premium,1253.85,Month-to-Month,Credit Card,1,Yes,1.0,Yes,Loyal (36+ mo),1
+CUST-1972,Female,46,Bengaluru,55,Basic,484.77,1 Year,UPI,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1647,Female,45,Hyderabad,31,Basic,471.6,Month-to-Month,Cash,3,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-2117,Male,64,Hyderabad,57,Standard,962.38,1 Year,UPI,3,No,4.0,No,Loyal (36+ mo),0
+CUST-2037,Male,55,Bengaluru,31,Basic,470.04,1 Year,Credit Card,4,Yes,3.0,No,Mid (12-36 mo),0
+CUST-2175,Female,38,Delhi,49,Standard,922.97,Month-to-Month,Net Banking,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1311,Male,22,Bengaluru,43,Basic,458.75,2 Year,Net Banking,5,No,5.0,No,Loyal (36+ mo),0
+CUST-1391,Female,18,Mumbai,43,Premium,1321.17,Month-to-Month,Credit Card,1,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1542,Female,20,Mumbai,2,Basic,481.3,Month-to-Month,Credit Card,0,No,5.0,No,New (<12 mo),0
+CUST-1406,Female,67,Bengaluru,16,Premium,1120.3,2 Year,UPI,2,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1698,Female,27,Delhi,23,Standard,1000.73,Month-to-Month,Net Banking,0,Yes,4.0,No,Mid (12-36 mo),0
+CUST-1103,Male,65,Hyderabad,50,Standard,915.74,1 Year,Net Banking,1,Yes,4.0,No,Loyal (36+ mo),0
+CUST-2025,Female,43,Mumbai,10,Standard,946.53,Month-to-Month,Credit Card,0,Yes,1.0,Yes,New (<12 mo),1
+CUST-1239,Female,39,Hyderabad,25,Basic,458.28,Month-to-Month,Credit Card,0,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1026,Female,72,Delhi,59,Basic,487.2,1 Year,UPI,0,No,4.0,No,Loyal (36+ mo),0
+CUST-1968,Male,34,Mumbai,35,Basic,471.88,1 Year,UPI,0,No,3.0,No,Mid (12-36 mo),0
+CUST-1978,Male,54,Mumbai,40,Standard,1043.85,Month-to-Month,Credit Card,0,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1560,Female,61,Delhi,32,Standard,952.29,1 Year,UPI,6,No,3.0,No,Mid (12-36 mo),0
+CUST-2144,Female,29,Bengaluru,42,Standard,913.35,Month-to-Month,Net Banking,2,No,5.0,Yes,Loyal (36+ mo),1
+CUST-1431,Male,25,Bengaluru,48,Premium,1203.99,1 Year,Net Banking,2,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1772,Female,39,Bengaluru,38,Basic,523.96,Month-to-Month,UPI,5,No,4.0,Yes,Loyal (36+ mo),1
+CUST-1159,Male,47,Mumbai,25,Standard,890.87,Month-to-Month,Net Banking,3,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1723,Male,59,Bengaluru,18,Standard,878.58,1 Year,Net Banking,2,Yes,5.0,No,Mid (12-36 mo),0
+CUST-1021,Female,52,Bengaluru,33,Standard,889.64,Month-to-Month,Credit Card,0,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1940,Female,36,Mumbai,40,Standard,843.85,Month-to-Month,Net Banking,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1906,Female,58,Pune,28,Premium,1257.61,Month-to-Month,Net Banking,2,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1290,Female,20,Hyderabad,46,Standard,952.2,Month-to-Month,Credit Card,0,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1588,Male,39,Mumbai,32,Premium,1324.14,Month-to-Month,Net Banking,4,No,4.0,No,Mid (12-36 mo),0
+CUST-1331,Male,54,Delhi,54,Standard,920.18,Month-to-Month,Net Banking,2,No,5.0,Yes,Loyal (36+ mo),1
+CUST-1989,Male,22,Bengaluru,26,Basic,566.67,1 Year,Net Banking,5,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1719,Male,36,Delhi,14,Basic,460.38,1 Year,Credit Card,0,No,4.0,No,Mid (12-36 mo),0
+CUST-1538,Male,27,Mumbai,57,Standard,847.92,Month-to-Month,Unknown,0,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1377,Female,45,Chennai,58,Basic,544.25,Month-to-Month,UPI,1,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1636,Male,61,Delhi,20,Basic,505.87,1 Year,Net Banking,0,Yes,4.0,No,Mid (12-36 mo),0
+CUST-2021,Female,38,Delhi,6,Premium,1187.18,Month-to-Month,UPI,4,Yes,5.0,Yes,New (<12 mo),1
+CUST-1503,Male,30,Delhi,35,Premium,1293.12,Month-to-Month,UPI,1,No,5.0,Yes,Mid (12-36 mo),1
+CUST-2048,Male,18,Mumbai,49,Standard,872.59,1 Year,Credit Card,1,No,1.0,No,Loyal (36+ mo),0
+CUST-1842,Female,20,Pune,17,Basic,481.34,Month-to-Month,Net Banking,0,No,2.0,No,Mid (12-36 mo),0
+CUST-2014,Male,62,Delhi,22,Standard,1031.51,Month-to-Month,Credit Card,1,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1454,Female,34,Bengaluru,20,Premium,1233.84,Month-to-Month,Credit Card,2,No,4.0,No,Mid (12-36 mo),0
+CUST-2136,Male,58,Hyderabad,57,Standard,898.43,Month-to-Month,Credit Card,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1120,Female,63,Hyderabad,48,Premium,1291.03,1 Year,UPI,0,Yes,2.0,No,Loyal (36+ mo),0
+CUST-2018,Female,52,Mumbai,55,Standard,849.31,Month-to-Month,Unknown,2,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1607,Male,35,Delhi,35,Basic,444.5,1 Year,UPI,2,No,5.0,No,Mid (12-36 mo),0
+CUST-1589,Male,36,Mumbai,23,Standard,834.93,1 Year,UPI,6,No,3.0,No,Mid (12-36 mo),0
+CUST-1252,Male,50,Mumbai,36,Standard,867.05,1 Year,UPI,3,No,5.0,No,Mid (12-36 mo),0
+CUST-1595,Female,69,Bengaluru,37,Standard,888.13,Month-to-Month,Unknown,3,Yes,2.0,No,Loyal (36+ mo),0
+CUST-2161,Female,57,Delhi,22,Standard,924.16,2 Year,Credit Card,5,No,4.0,No,Mid (12-36 mo),0
+CUST-1445,Female,18,Chennai,57,Basic,506.31,2 Year,UPI,4,No,3.0,No,Loyal (36+ mo),0
+CUST-1403,Male,59,Chennai,29,Basic,575.51,Month-to-Month,UPI,1,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1581,Male,53,Bengaluru,22,Basic,545.77,Month-to-Month,Unknown,1,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-1246,Female,27,Delhi,55,Basic,572.22,Month-to-Month,Net Banking,1,No,3.0,Yes,Loyal (36+ mo),1
+CUST-1146,Male,45,Hyderabad,1,Basic,422.37,Month-to-Month,UPI,1,Yes,4.0,Yes,New (<12 mo),1
+CUST-2132,Male,53,Hyderabad,33,Basic,479.52,Month-to-Month,Cash,0,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1872,Male,20,Delhi,44,Basic,469.18,2 Year,Credit Card,3,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1985,Female,31,Bengaluru,19,Basic,533.35,1 Year,Credit Card,0,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1612,Female,43,Pune,46,Standard,884.84,Month-to-Month,Credit Card,0,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1479,Female,67,Mumbai,2,Standard,871.58,1 Year,Net Banking,3,No,1.0,Yes,New (<12 mo),1
+CUST-1222,Female,36,Mumbai,7,Basic,530.69,Month-to-Month,UPI,1,No,2.0,Yes,New (<12 mo),1
+CUST-1312,Male,55,Mumbai,32,Basic,546.01,Month-to-Month,UPI,0,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-2105,Female,45,Hyderabad,52,Basic,458.23,2 Year,UPI,3,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1672,Female,35,Hyderabad,32,Basic,487.83,1 Year,UPI,3,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1178,Male,66,Mumbai,58,Standard,921.73,1 Year,UPI,4,No,2.0,No,Loyal (36+ mo),0
+CUST-1685,Female,50,Mumbai,19,Standard,814.16,Month-to-Month,UPI,2,No,3.0,No,Mid (12-36 mo),0
+CUST-1811,Female,47,Bengaluru,47,Basic,558.31,Month-to-Month,UPI,2,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1036,Female,39,Bengaluru,25,Standard,871.79,2 Year,UPI,1,No,4.0,No,Mid (12-36 mo),0
+CUST-1547,Male,19,Delhi,44,Basic,560.59,Month-to-Month,Credit Card,0,Yes,4.0,Yes,Loyal (36+ mo),1
+CUST-2026,Male,21,Chennai,3,Basic,435.21,Month-to-Month,Net Banking,2,Yes,3.0,Yes,New (<12 mo),1
+CUST-1635,Male,18,Bengaluru,27,Standard,853.78,Month-to-Month,Unknown,0,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1359,Female,29,Chennai,48,Basic,514.92,Month-to-Month,UPI,2,Yes,5.0,No,Loyal (36+ mo),0
+CUST-1663,Female,54,Delhi,53,Basic,520.88,Month-to-Month,Credit Card,0,No,5.0,Yes,Loyal (36+ mo),1
+CUST-1892,Female,42,Bengaluru,26,Standard,861.5,1 Year,UPI,2,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1208,Female,58,Delhi,50,Basic,551.04,1 Year,UPI,1,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1012,Female,75,Mumbai,53,Basic,486.41,Month-to-Month,Credit Card,3,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1457,Male,64,Delhi,42,Premium,1337.67,Month-to-Month,UPI,6,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1677,Male,72,Bengaluru,43,Basic,587.83,1 Year,Credit Card,1,No,1.0,No,Loyal (36+ mo),0
+CUST-1164,Female,39,Mumbai,33,Standard,952.12,Month-to-Month,Credit Card,1,No,4.0,No,Mid (12-36 mo),0
+CUST-1885,Female,35,Bengaluru,28,Standard,829.86,Month-to-Month,Credit Card,0,Yes,3.0,No,Mid (12-36 mo),0
+CUST-2112,Male,71,Mumbai,53,Standard,908.21,Month-to-Month,Credit Card,1,No,3.0,No,Loyal (36+ mo),0
+CUST-1360,Female,18,Mumbai,47,Basic,528.31,1 Year,UPI,3,No,4.0,No,Loyal (36+ mo),0
+CUST-1193,Female,25,Mumbai,13,Basic,444.72,2 Year,Unknown,1,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1734,Female,26,Bengaluru,23,Standard,925.05,2 Year,Net Banking,5,No,3.0,No,Mid (12-36 mo),0
+CUST-1209,Male,59,Mumbai,57,Basic,448.02,Month-to-Month,Credit Card,1,Yes,5.0,No,Loyal (36+ mo),0
+CUST-2151,Female,49,Bengaluru,33,Standard,927.44,Month-to-Month,Cash,0,No,3.0,No,Mid (12-36 mo),0
+CUST-2174,Male,37,Mumbai,24,Standard,1021.17,Month-to-Month,Unknown,0,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1111,Male,25,Mumbai,47,Basic,460.8,1 Year,UPI,0,No,2.0,No,Loyal (36+ mo),0
+CUST-1098,Male,61,Delhi,17,Standard,873.42,Month-to-Month,Cash,1,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1922,Male,49,Hyderabad,55,Basic,425.49,Month-to-Month,Unknown,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1245,Male,45,Hyderabad,45,Basic,442.07,1 Year,UPI,3,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1023,Male,58,Bengaluru,48,Basic,464.04,1 Year,UPI,2,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1555,Female,22,Bengaluru,12,Basic,481.67,1 Year,UPI,2,No,4.0,No,Mid (12-36 mo),0
+CUST-1349,Male,46,Delhi,1,Basic,426.66,Month-to-Month,Net Banking,0,No,2.0,Yes,New (<12 mo),1
+CUST-2158,Female,27,Delhi,23,Premium,1156.17,1 Year,UPI,0,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1592,Female,21,Pune,24,Standard,743.13,1 Year,UPI,1,No,4.0,No,Mid (12-36 mo),0
+CUST-1089,Female,20,Delhi,4,Basic,462.74,Month-to-Month,Cash,0,Yes,5.0,Yes,New (<12 mo),1
+CUST-2075,Female,18,Bengaluru,39,Basic,518.8,Month-to-Month,UPI,0,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1593,Male,65,Bengaluru,20,Standard,857.86,Month-to-Month,UPI,1,No,4.0,Yes,Mid (12-36 mo),1
+CUST-1706,Female,24,Delhi,59,Basic,512.63,1 Year,Net Banking,1,No,2.0,No,Loyal (36+ mo),0
+CUST-1658,Male,41,Delhi,54,Standard,917.54,2 Year,Credit Card,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1567,Male,63,Mumbai,3,Standard,829.39,1 Year,Unknown,4,No,1.0,No,New (<12 mo),0
+CUST-1233,Female,68,Mumbai,12,Standard,881.17,Month-to-Month,UPI,4,Yes,2.0,No,Mid (12-36 mo),0
+CUST-2051,Female,46,Mumbai,13,Basic,461.86,Month-to-Month,UPI,1,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1470,Female,33,Mumbai,52,Basic,500.75,Month-to-Month,UPI,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1664,Male,21,Delhi,35,Standard,991.59,Month-to-Month,Unknown,1,Yes,3.0,No,Mid (12-36 mo),0
+CUST-2006,Female,38,Bengaluru,30,Premium,1190.57,Month-to-Month,UPI,5,No,3.0,No,Mid (12-36 mo),0
+CUST-1488,Male,70,Delhi,48,Standard,957.22,Month-to-Month,Cash,0,No,4.0,Yes,Loyal (36+ mo),1
+CUST-2011,Male,70,Chennai,54,Basic,501.91,1 Year,Net Banking,0,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1236,Female,23,Hyderabad,56,Basic,471.2,1 Year,Net Banking,2,No,1.0,No,Loyal (36+ mo),0
+CUST-2016,Female,53,Delhi,38,Premium,1339.46,2 Year,Credit Card,2,Yes,2.0,No,Loyal (36+ mo),0
+CUST-1097,Female,34,Bengaluru,28,Basic,412.94,2 Year,Net Banking,2,No,3.0,No,Mid (12-36 mo),0
+CUST-1191,Male,29,Delhi,58,Premium,1382.33,Month-to-Month,UPI,5,No,5.0,No,Loyal (36+ mo),0
+CUST-1011,Male,28,Hyderabad,30,Premium,1298.08,Month-to-Month,Net Banking,1,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1967,Female,57,Bengaluru,57,Basic,526.36,1 Year,Net Banking,2,No,4.0,No,Loyal (36+ mo),0
+CUST-1145,Male,39,Delhi,38,Standard,843.99,1 Year,UPI,2,No,4.0,No,Loyal (36+ mo),0
+CUST-2077,Male,54,Hyderabad,49,Standard,909.38,Month-to-Month,Credit Card,2,No,4.0,No,Loyal (36+ mo),0
+CUST-1559,Female,32,Mumbai,18,Standard,917.51,Month-to-Month,Cash,1,Yes,5.0,No,Mid (12-36 mo),0
+CUST-1271,Female,49,Mumbai,54,Basic,507.37,Month-to-Month,UPI,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1820,Male,50,Bengaluru,51,Basic,479.25,Month-to-Month,UPI,3,Yes,4.0,Yes,Loyal (36+ mo),1
+CUST-1659,Female,33,Bengaluru,11,Standard,858.44,Month-to-Month,Credit Card,2,No,2.0,No,New (<12 mo),0
+CUST-2086,Male,68,Mumbai,30,Premium,1276.03,1 Year,Net Banking,0,No,4.0,No,Mid (12-36 mo),0
+CUST-1485,Female,65,Chennai,34,Premium,1304.5,Month-to-Month,Credit Card,2,No,4.0,Yes,Mid (12-36 mo),1
+CUST-1080,Male,67,Mumbai,50,Standard,893.49,Month-to-Month,UPI,0,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1130,Female,58,Bengaluru,18,Standard,733.88,1 Year,Credit Card,0,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1812,Female,38,Delhi,56,Standard,860.94,1 Year,Net Banking,3,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1068,Female,33,Delhi,46,Basic,500.48,1 Year,UPI,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1650,Male,26,Chennai,13,Standard,950.13,2 Year,Cash,6,Yes,3.0,No,Mid (12-36 mo),0
+CUST-2023,Female,72,Mumbai,32,Standard,946.72,Month-to-Month,Cash,0,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1814,Female,23,Mumbai,27,Standard,909.71,Month-to-Month,UPI,2,No,5.0,Yes,Mid (12-36 mo),1
+CUST-1220,Female,68,Hyderabad,21,Standard,813.88,Month-to-Month,Credit Card,3,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-1050,Male,23,Mumbai,30,Standard,917.19,Month-to-Month,Cash,2,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1310,Male,54,Delhi,17,Basic,493.44,Month-to-Month,Net Banking,4,Yes,3.0,Yes,Mid (12-36 mo),1
+CUST-1816,Female,35,Delhi,23,Standard,860.1,Month-to-Month,Net Banking,0,No,1.0,No,Mid (12-36 mo),0
+CUST-1829,Female,50,Delhi,8,Basic,495.65,Month-to-Month,Credit Card,2,Yes,1.0,No,New (<12 mo),0
+CUST-1961,Male,33,Chennai,12,Standard,870.04,Month-to-Month,Cash,3,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1405,Male,70,Bengaluru,22,Standard,845.4,Month-to-Month,UPI,1,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1281,Female,53,Hyderabad,57,Standard,950.0,Month-to-Month,Net Banking,2,Yes,2.0,Yes,Loyal (36+ mo),1
+CUST-1254,Male,29,Chennai,42,Premium,1137.05,2 Year,Cash,2,No,4.0,No,Loyal (36+ mo),0
+CUST-1053,Female,22,Pune,28,Basic,533.88,Month-to-Month,Cash,1,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1562,Male,32,Mumbai,38,Standard,915.16,1 Year,Unknown,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1655,Male,74,Bengaluru,59,Basic,382.24,1 Year,UPI,6,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1896,Male,48,Delhi,18,Standard,944.96,Month-to-Month,Credit Card,1,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1697,Male,28,Bengaluru,19,Standard,937.19,Month-to-Month,Net Banking,1,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1590,Male,51,Delhi,55,Premium,1226.73,Month-to-Month,Credit Card,1,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1083,Male,20,Hyderabad,59,Basic,507.77,Month-to-Month,UPI,0,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1704,Male,19,Mumbai,28,Basic,455.65,1 Year,UPI,3,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1218,Female,42,Delhi,10,Premium,1248.14,Month-to-Month,Credit Card,2,No,3.0,Yes,New (<12 mo),1
+CUST-1983,Male,45,Chennai,37,Basic,538.81,1 Year,Credit Card,1,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1306,Female,31,Pune,22,Basic,558.8,1 Year,UPI,1,No,1.0,No,Mid (12-36 mo),0
+CUST-1006,Male,23,Chennai,19,Standard,843.43,1 Year,UPI,0,Yes,1.0,No,Mid (12-36 mo),0
+CUST-1540,Male,63,Bengaluru,45,Basic,501.9,Month-to-Month,UPI,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1789,Male,29,Delhi,8,Standard,886.66,2 Year,UPI,1,Yes,4.0,No,New (<12 mo),0
+CUST-1712,Female,56,Chennai,4,Premium,1230.45,Month-to-Month,Net Banking,0,No,3.0,No,New (<12 mo),0
+CUST-1357,Male,25,Hyderabad,34,Standard,845.13,Month-to-Month,Net Banking,2,No,3.0,No,Mid (12-36 mo),0
+CUST-2119,Male,65,Bengaluru,9,Standard,911.59,Month-to-Month,Credit Card,2,No,2.0,No,New (<12 mo),0
+CUST-1536,Female,63,Delhi,40,Basic,499.07,Month-to-Month,UPI,2,No,4.0,No,Loyal (36+ mo),0
+CUST-1466,Male,50,Pune,55,Basic,497.8,Month-to-Month,Credit Card,4,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1022,Male,30,Chennai,32,Basic,498.75,Month-to-Month,Credit Card,2,No,3.0,Yes,Mid (12-36 mo),1
+CUST-2176,Female,61,Delhi,21,Standard,910.06,Month-to-Month,Credit Card,1,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1798,Female,62,Hyderabad,26,Basic,458.95,2 Year,UPI,5,No,4.0,Yes,Mid (12-36 mo),1
+CUST-1509,Female,18,Delhi,7,Standard,950.49,1 Year,Credit Card,2,No,3.0,No,New (<12 mo),0
+CUST-1047,Male,33,Pune,22,Standard,846.85,1 Year,Credit Card,0,No,5.0,No,Mid (12-36 mo),0
+CUST-1954,Female,52,Mumbai,26,Standard,919.28,Month-to-Month,UPI,1,No,4.0,No,Mid (12-36 mo),0
+CUST-1452,Female,67,Chennai,54,Premium,1252.72,1 Year,Net Banking,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1227,Female,25,Mumbai,19,Standard,897.51,Month-to-Month,UPI,1,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1358,Female,60,Delhi,29,Basic,471.59,Month-to-Month,Net Banking,0,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1072,Male,42,Bengaluru,6,Standard,951.49,Month-to-Month,Net Banking,2,Yes,1.0,Yes,New (<12 mo),1
+CUST-1230,Female,70,Delhi,5,Basic,483.5,Month-to-Month,Net Banking,3,Yes,1.0,Yes,New (<12 mo),1
+CUST-2128,Male,32,Bengaluru,9,Standard,893.48,Month-to-Month,UPI,0,No,1.0,No,New (<12 mo),0
+CUST-1263,Male,21,Pune,9,Basic,547.01,1 Year,Credit Card,5,No,3.0,Yes,New (<12 mo),1
+CUST-1948,Female,73,Mumbai,13,Premium,1216.95,Month-to-Month,Net Banking,0,No,2.0,Yes,Mid (12-36 mo),1
+CUST-1633,Female,24,Hyderabad,38,Premium,1206.41,2 Year,Net Banking,2,No,4.0,No,Loyal (36+ mo),0
+CUST-1198,Female,24,Delhi,54,Standard,773.79,2 Year,Credit Card,2,No,5.0,No,Loyal (36+ mo),0
+CUST-1506,Male,36,Mumbai,44,Basic,429.71,Month-to-Month,Credit Card,1,No,5.0,Yes,Loyal (36+ mo),1
+CUST-1710,Female,59,Chennai,12,Standard,847.79,Month-to-Month,Cash,1,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1341,Male,48,Pune,33,Standard,1000.03,2 Year,UPI,2,No,3.0,No,Mid (12-36 mo),0
+CUST-1852,Female,60,Bengaluru,44,Standard,1002.43,1 Year,Credit Card,2,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1004,Female,28,Bengaluru,20,Standard,880.25,Month-to-Month,UPI,3,No,3.0,No,Mid (12-36 mo),0
+CUST-1541,Female,26,Delhi,59,Standard,955.31,2 Year,Net Banking,4,No,4.0,No,Loyal (36+ mo),0
+CUST-2181,Female,73,Mumbai,39,Basic,538.19,1 Year,Credit Card,4,Yes,4.0,No,Loyal (36+ mo),0
+CUST-1395,Male,54,Chennai,16,Standard,832.83,1 Year,Net Banking,2,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1508,Female,28,Bengaluru,59,Premium,1390.3,Month-to-Month,Credit Card,2,No,4.0,No,Loyal (36+ mo),0
+CUST-1908,Male,42,Mumbai,32,Standard,879.36,1 Year,UPI,0,No,2.0,No,Mid (12-36 mo),0
+CUST-1093,Female,42,Bengaluru,27,Standard,932.35,Month-to-Month,UPI,2,No,4.0,No,Mid (12-36 mo),0
+CUST-2022,Male,69,Hyderabad,14,Standard,899.68,Month-to-Month,Net Banking,0,No,3.0,No,Mid (12-36 mo),0
+CUST-2162,Male,35,Delhi,50,Standard,777.23,1 Year,Net Banking,0,No,3.0,No,Loyal (36+ mo),0
+CUST-1215,Female,40,Chennai,29,Standard,869.53,Month-to-Month,UPI,5,No,3.0,No,Mid (12-36 mo),0
+CUST-1742,Male,66,Mumbai,19,Basic,433.03,1 Year,Net Banking,1,No,1.0,Yes,Mid (12-36 mo),1
+CUST-1951,Female,40,Mumbai,9,Standard,885.65,1 Year,Credit Card,1,No,4.0,No,New (<12 mo),0
+CUST-1048,Female,54,Delhi,36,Standard,794.58,Month-to-Month,UPI,2,No,2.0,No,Mid (12-36 mo),0
+CUST-1379,Female,32,Mumbai,39,Basic,495.88,1 Year,Credit Card,0,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1924,Female,30,Hyderabad,31,Basic,516.46,1 Year,UPI,1,Yes,3.0,No,Mid (12-36 mo),0
+CUST-1500,Female,23,Mumbai,58,Standard,978.56,2 Year,Net Banking,1,Yes,4.0,No,Loyal (36+ mo),0
+CUST-2035,Male,69,Mumbai,25,Premium,1274.34,Month-to-Month,Credit Card,0,No,4.0,Yes,Mid (12-36 mo),1
+CUST-1543,Male,38,Delhi,30,Premium,1501.56,1 Year,UPI,2,Yes,2.0,Yes,Mid (12-36 mo),1
+CUST-1420,Female,40,Mumbai,45,Standard,868.01,1 Year,UPI,2,No,1.0,No,Loyal (36+ mo),0
+CUST-1499,Female,36,Bengaluru,32,Basic,462.61,Month-to-Month,Net Banking,0,No,3.0,Yes,Mid (12-36 mo),1
+CUST-1893,Female,71,Delhi,22,Premium,1246.18,Month-to-Month,Credit Card,0,Yes,2.0,No,Mid (12-36 mo),0
+CUST-2012,Female,35,Chennai,34,Basic,553.28,1 Year,UPI,0,Yes,5.0,No,Mid (12-36 mo),0
+CUST-1204,Female,75,Delhi,55,Premium,1216.51,Month-to-Month,Credit Card,1,No,1.0,No,Loyal (36+ mo),0
+CUST-1761,Male,40,Hyderabad,48,Standard,802.73,1 Year,UPI,0,Yes,1.0,No,Loyal (36+ mo),0
+CUST-1274,Female,75,Bengaluru,23,Basic,463.62,Month-to-Month,Credit Card,2,Yes,4.0,Yes,Mid (12-36 mo),1
+CUST-2165,Male,42,Mumbai,45,Premium,1449.15,Month-to-Month,UPI,0,No,5.0,No,Loyal (36+ mo),0
+CUST-1363,Male,37,Mumbai,49,Basic,455.23,Month-to-Month,UPI,0,No,5.0,No,Loyal (36+ mo),0
+CUST-1513,Female,42,Bengaluru,6,Standard,799.89,Month-to-Month,Credit Card,5,No,2.0,Yes,New (<12 mo),1
+CUST-1912,Male,25,Delhi,40,Premium,1277.35,Month-to-Month,UPI,4,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1616,Female,24,Hyderabad,25,Basic,542.56,1 Year,UPI,1,No,4.0,No,Mid (12-36 mo),0
+CUST-1751,Male,25,Hyderabad,22,Standard,933.99,Month-to-Month,Credit Card,1,Yes,1.0,Yes,Mid (12-36 mo),1
+CUST-1437,Male,46,Mumbai,12,Standard,911.92,2 Year,Cash,1,Yes,1.0,Yes,Mid (12-36 mo),1
+CUST-1907,Female,23,Bengaluru,46,Basic,501.11,Month-to-Month,UPI,1,No,4.0,Yes,Loyal (36+ mo),1
+CUST-1520,Male,32,Hyderabad,3,Premium,1269.15,Month-to-Month,UPI,1,Yes,3.0,No,New (<12 mo),0
+CUST-1832,Male,62,Bengaluru,53,Standard,911.81,Month-to-Month,UPI,4,Yes,4.0,Yes,Loyal (36+ mo),1
+CUST-2124,Female,57,Hyderabad,35,Standard,902.99,2 Year,Net Banking,0,No,1.0,No,Mid (12-36 mo),0
+CUST-1980,Female,52,Delhi,45,Premium,1354.11,2 Year,UPI,2,No,4.0,No,Loyal (36+ mo),0
+CUST-1240,Male,54,Delhi,21,Basic,491.55,1 Year,Credit Card,5,No,5.0,No,Mid (12-36 mo),0
+CUST-1106,Male,71,Bengaluru,40,Standard,1041.13,Month-to-Month,Cash,1,No,2.0,No,Loyal (36+ mo),0
+CUST-1897,Male,31,Delhi,38,Basic,482.11,Month-to-Month,UPI,3,Yes,5.0,Yes,Loyal (36+ mo),1
+CUST-1344,Male,20,Mumbai,3,Basic,450.97,1 Year,UPI,4,No,3.0,Yes,New (<12 mo),1
+CUST-2101,Male,32,Mumbai,55,Standard,876.34,Month-to-Month,Credit Card,0,Yes,3.0,Yes,Loyal (36+ mo),1
+CUST-1276,Male,51,Chennai,12,Basic,518.25,Month-to-Month,Net Banking,2,No,5.0,No,Mid (12-36 mo),0
+CUST-1060,Male,52,Delhi,9,Standard,941.74,Month-to-Month,Credit Card,1,Yes,4.0,Yes,New (<12 mo),1
+CUST-1884,Male,52,Mumbai,39,Standard,880.69,1 Year,UPI,2,No,3.0,No,Loyal (36+ mo),0
+CUST-1372,Male,66,Mumbai,5,Standard,913.6,Month-to-Month,Net Banking,4,No,5.0,Yes,New (<12 mo),1
+CUST-1137,Female,34,Pune,19,Standard,803.58,Month-to-Month,Credit Card,3,No,4.0,No,Mid (12-36 mo),0
+CUST-1624,Male,73,Mumbai,40,Standard,845.04,Month-to-Month,UPI,1,No,2.0,Yes,Loyal (36+ mo),1
+CUST-1041,Male,61,Bengaluru,22,Premium,1269.55,Month-to-Month,Cash,3,Yes,5.0,Yes,Mid (12-36 mo),1
+CUST-1478,Female,19,Delhi,43,Standard,791.45,Month-to-Month,UPI,1,No,1.0,Yes,Loyal (36+ mo),1
+CUST-1909,Male,30,Bengaluru,5,Standard,857.66,1 Year,Cash,2,No,2.0,No,New (<12 mo),0
+CUST-2030,Female,35,Hyderabad,59,Basic,497.91,1 Year,Cash,1,No,1.0,No,Loyal (36+ mo),0
+CUST-2135,Female,58,Mumbai,57,Standard,821.95,Month-to-Month,Credit Card,1,Yes,3.0,No,Loyal (36+ mo),0
+CUST-1733,Female,20,Bengaluru,5,Premium,1386.35,Month-to-Month,Credit Card,1,Yes,5.0,No,New (<12 mo),0
+CUST-1317,Male,31,Delhi,10,Standard,980.01,2 Year,UPI,2,Yes,1.0,Yes,New (<12 mo),1
+CUST-1937,Male,48,Mumbai,18,Standard,981.33,Month-to-Month,UPI,2,Yes,2.0,No,Mid (12-36 mo),0
+CUST-1576,Female,33,Delhi,46,Basic,440.05,2 Year,Credit Card,2,No,4.0,No,Loyal (36+ mo),0
+CUST-1974,Male,53,Delhi,4,Standard,938.03,2 Year,Credit Card,0,Yes,2.0,No,New (<12 mo),0
+CUST-1076,Female,25,Hyderabad,10,Basic,393.59,Month-to-Month,Unknown,2,Yes,1.0,No,New (<12 mo),0
+CUST-1600,Male,45,Delhi,8,Premium,1307.13,Month-to-Month,UPI,3,No,1.0,Yes,New (<12 mo),1
+CUST-1864,Male,62,Delhi,37,Standard,914.21,Month-to-Month,Credit Card,0,No,3.0,Yes,Loyal (36+ mo),1

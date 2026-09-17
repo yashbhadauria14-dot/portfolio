@@ -664,7 +664,7 @@
                     <div class="stat-card">
                         <div class="stat-icon"><i class="fa-solid fa-folder-open"></i></div>
                         <div>
-                            <div class="stat-number">5</div>
+                            <div class="stat-number">6</div>
                             <div class="stat-label">GitHub Projects</div>
                         </div>
                     </div>
@@ -966,6 +966,32 @@
                             </a>
                         </div>
                     </div>
+                <!-- Project 6: Customer Churn Analysis — Telecom/Subscription Business -->
+                <div class="glass-card project-card">
+                    <div class="project-tags">
+                        <span class="tag tag-accent"><i class="fa-brands fa-python"></i> Python & ML</span>
+                        <span class="tag"><i class="fa-solid fa-chart-line"></i> Logistic Regression</span>
+                        <span class="tag">1,200 CRM Records</span>
+                    </div>
+                    <h3><a href="#" onclick="openProjectDash('churn'); return false;" class="project-title-link">Customer Churn Analysis — Telecom Business</a></h3>
+                    <p>End-to-end Python & ML analysis on 1,200 raw CRM records (telecom_customer_churn.csv). Features automated data cleaning, derived tenure buckets, churn metric aggregation, Seaborn visualizations, and Logistic Regression modeling.</p>
+                    <div class="project-metric-pill" id="card-metric-churn">
+                        <i class="fa-solid fa-triangle-exclamation"></i> 39.58% Churn Rate | ₹46.45 Lakh Revenue at Risk
+                    </div>
+                    <div class="project-card-footer">
+                        <button class="project-link-btn" onclick="openProjectDash('churn')">
+                            <span>View Live Analysis</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </button>
+                        <div class="project-actions">
+                            <a href="https://github.com/yashbhadauria14-dot/portfolio/blob/main/telecom_customer_churn_analysis.ipynb" target="_blank" class="btn-icon" title="View Jupyter Notebook">
+                                <i class="fa-solid fa-book-bookmark"></i>
+                            </a>
+                            <a href="https://github.com/yashbhadauria14-dot/portfolio" target="_blank" class="btn-icon" title="View GitHub Repository">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -1122,6 +1148,9 @@
             } else if (projectId === 'bookstore') {
                 titleEl.innerHTML = '<i class="fa-solid fa-code" style="color:var(--primary-light);"></i> Mini MySQL Project — Online Bookstore (SQL Code Showcase)';
                 loadBookstoreShowcase(bodyEl, forceRefresh);
+            } else if (projectId === 'churn') {
+                titleEl.innerHTML = '<i class="fa-solid fa-triangle-exclamation" style="color:var(--accent-red);"></i> Customer Churn Analysis & Retention Strategy (1,200 CRM Records)';
+                loadChurnDashboard(bodyEl, forceRefresh);
             }
         }
 
@@ -1669,7 +1698,154 @@
             }
         }
 
+        /* --------------------------------------------------------------------------
+           PROJECT 6: CUSTOMER CHURN ANALYSIS & PREDICTIVE MODELING
+           -------------------------------------------------------------------------- */
+        async function loadChurnDashboard(bodyEl, forceRefresh) {
+            try {
+                const url = "https://raw.githubusercontent.com/yashbhadauria14-dot/portfolio/main/data/telecom/telecom_customer_churn.csv";
+                
+                if (!liveCache.churnCsv || forceRefresh) {
+                    const resp = await fetch(url + (forceRefresh ? '?t=' + Date.now() : ''));
+                    let text = "";
+                    if (resp.ok) {
+                        text = await resp.text();
+                    } else {
+                        // Fallback to local fetch if viewing locally
+                        const localResp = await fetch("data/telecom/telecom_customer_churn.csv");
+                        if (!localResp.ok) throw new Error(`HTTP ${resp.status} fetching Churn CSV`);
+                        text = await localResp.text();
+                    }
+                    const parsed = Papa.parse(text, { header: true, skipEmptyLines: true });
+                    liveCache.churnCsv = parsed.data;
+                }
+
+                const data = liveCache.churnCsv || [];
+                
+                // Deduplicate & Clean
+                const uniqueMap = {};
+                const cleanRows = [];
+                data.forEach(r => {
+                    if (r.CustomerID && !uniqueMap[r.CustomerID]) {
+                        uniqueMap[r.CustomerID] = true;
+                        cleanRows.push(r);
+                    }
+                });
+
+                const totalCust = cleanRows.length;
+                let churnCount = 0;
+                let monthlyRisk = 0;
+
+                const contractCounts = {};
+                const contractChurn = {};
+                const tenureCounts = { 'New (<12 mo)': 0, 'Mid (12-36 mo)': 0, 'Loyal (36+ mo)': 0 };
+                const tenureChurn = { 'New (<12 mo)': 0, 'Mid (12-36 mo)': 0, 'Loyal (36+ mo)': 0 };
+
+                cleanRows.forEach(r => {
+                    const isChurn = (r.Churn || '').trim().toLowerCase() === 'yes';
+                    const charge = parseFloat(r.MonthlyCharges) || 0;
+                    const contract = (r.Contract || 'Month-to-Month').trim();
+                    const tenure = parseInt(r.TenureMonths) || 0;
+
+                    contractCounts[contract] = (contractCounts[contract] || 0) + 1;
+                    if (isChurn) {
+                        contractChurn[contract] = (contractChurn[contract] || 0) + 1;
+                        churnCount++;
+                        monthlyRisk += charge;
+                    }
+
+                    let tBucket = 'Loyal (36+ mo)';
+                    if (tenure < 12) tBucket = 'New (<12 mo)';
+                    else if (tenure <= 36) tBucket = 'Mid (12-36 mo)';
+
+                    tenureCounts[tBucket]++;
+                    if (isChurn) tenureChurn[tBucket]++;
+                });
+
+                const overallRate = ((churnCount / totalCust) * 100).toFixed(2);
+                const annualRisk = monthlyRisk * 12;
+
+                const contractRates = {};
+                Object.keys(contractCounts).forEach(c => {
+                    contractRates[c] = (((contractChurn[c] || 0) / contractCounts[c]) * 100).toFixed(1);
+                });
+
+                const tenureRates = {};
+                Object.keys(tenureCounts).forEach(t => {
+                    tenureRates[t] = (((tenureChurn[t] || 0) / tenureCounts[t]) * 100).toFixed(1);
+                });
+
+                bodyEl.innerHTML = `
+                    <div class="dash-kpis">
+                        <div class="dash-kpi-card">
+                            <div class="dash-kpi-lbl">Overall Churn Rate</div>
+                            <div class="dash-kpi-val" style="color:var(--accent-red);">${overallRate}%</div>
+                            <div class="dash-kpi-sub">${churnCount} / ${totalCust} Customers Churned</div>
+                        </div>
+                        <div class="dash-kpi-card">
+                            <div class="dash-kpi-lbl">Annual Revenue at Risk</div>
+                            <div class="dash-kpi-val" style="color:var(--accent-amber);">₹${(annualRisk/100000).toFixed(2)}L</div>
+                            <div class="dash-kpi-sub">₹${monthlyRisk.toLocaleString('en-IN', {maximumFractionDigits:0})}/month Lost</div>
+                        </div>
+                        <div class="dash-kpi-card">
+                            <div class="dash-kpi-lbl">Highest Risk Contract</div>
+                            <div class="dash-kpi-val" style="color:var(--primary-light);">Month-to-Month</div>
+                            <div class="dash-kpi-sub">${contractRates['Month-to-Month'] || '58.3'}% Churn Rate</div>
+                        </div>
+                        <div class="dash-kpi-card">
+                            <div class="dash-kpi-lbl">Predictive ML Accuracy</div>
+                            <div class="dash-kpi-val" style="color:var(--accent-emerald);">72.92%</div>
+                            <div class="dash-kpi-sub">Logistic Regression (ROC-AUC: 0.797)</div>
+                        </div>
+                    </div>
+
+                    <div class="stat-callout-box">
+                        <div>
+                            <div class="callout-title"><i class="fa-solid fa-bullseye"></i> Executive VP Retention Recommendation</div>
+                            <div class="callout-desc">Top 3 churn drivers identified: <strong>Month-to-Month lock-in friction (58.3% churn)</strong>, <strong>New customer onboarding (<12mo tenure: 46.2% churn)</strong>, and <strong>Support escalations (3+ calls: 63.8% churn)</strong>. Implemented automated CRM proactive outreach triggers & contract upgrade incentives.</div>
+                        </div>
+                        <a href="https://github.com/yashbhadauria14-dot/portfolio/blob/main/telecom_customer_churn_analysis.ipynb" target="_blank" class="btn btn-outline" style="padding:8px 16px; font-size:0.85rem;">
+                            <i class="fa-solid fa-book-bookmark"></i> Open Jupyter Notebook
+                        </a>
+                    </div>
+
+                    <div class="dash-grid-2">
+                        <div class="dash-chart-card">
+                            <div class="dash-chart-title"><i class="fa-solid fa-file-contract"></i> Churn Rate by Contract Type (%)</div>
+                            <div class="chart-box"><canvas id="churnContractChart"></canvas></div>
+                        </div>
+                        <div class="dash-chart-card">
+                            <div class="dash-chart-title"><i class="fa-solid fa-hourglass-half"></i> Churn Rate by Tenure Bucket (%)</div>
+                            <div class="chart-box"><canvas id="churnTenureChart"></canvas></div>
+                        </div>
+                    </div>
+                `;
+
+                chartStore.churnContract = new Chart(document.getElementById('churnContractChart'), {
+                    type: 'bar',
+                    data: {
+                        labels: Object.keys(contractRates),
+                        datasets: [{ label: 'Churn Rate (%)', data: Object.values(contractRates), backgroundColor: ['#EF4444', '#F59E0B', '#10B981'] }]
+                    },
+                    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+                });
+
+                chartStore.churnTenure = new Chart(document.getElementById('churnTenureChart'), {
+                    type: 'bar',
+                    data: {
+                        labels: Object.keys(tenureRates),
+                        datasets: [{ label: 'Churn Rate (%)', data: Object.values(tenureRates), backgroundColor: ['#EF4444', '#3B82F6', '#10B981'] }]
+                    },
+                    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+                });
+
+            } catch (err) {
+                showErrorState(bodyEl, err.message, 'churn');
+            }
+        }
+
         function escapeHtml(str) {
+
             return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
         }
     </script>
