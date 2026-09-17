@@ -1,0 +1,189 @@
+treatment_id,appointment_id,patient_id,treatment_type,cost
+1,1,9,Dental Cleaning,1040.7
+2,3,8,Dental Cleaning,1001.69
+3,7,13,Health Checkup,4682.93
+4,9,19,ECG,821.34
+5,12,11,Blood Test,1180.87
+6,14,11,Minor Surgery,26388.9
+7,15,2,MRI Scan,8004.62
+8,16,2,Blood Test,402.28
+9,18,1,X-Ray,2106.09
+10,19,4,Dental Cleaning,1023.22
+11,20,9,Blood Test,2475.13
+12,21,13,X-Ray,1850.94
+13,23,19,Blood Test,1934.6
+14,24,11,Physiotherapy,1608.64
+15,26,16,Minor Surgery,29789.59
+16,27,2,X-Ray,2211.47
+17,28,15,Blood Test,1514.07
+18,29,9,Medication,1071.35
+19,30,11,MRI Scan,9396.56
+20,31,10,Minor Surgery,26169.75
+21,32,10,MRI Scan,5606.82
+22,33,12,Blood Test,1638.11
+23,34,6,Minor Surgery,19233.58
+24,35,8,ECG,1538.01
+25,36,1,CT Scan,11400.07
+26,38,13,Health Checkup,1593.89
+27,42,12,CT Scan,10585.7
+28,43,6,ECG,1540.02
+29,49,15,Minor Surgery,14593.1
+30,50,2,CT Scan,6639.11
+31,55,4,Physiotherapy,2854.63
+32,56,11,CT Scan,9787.77
+33,57,7,X-Ray,2478.0
+34,59,1,Consultation,1087.36
+35,60,1,MRI Scan,5278.79
+36,61,3,Minor Surgery,23652.04
+37,62,8,Ultrasound,3347.91
+38,63,16,Minor Surgery,13895.84
+39,64,3,CT Scan,7374.12
+40,65,19,Blood Test,1473.74
+41,66,17,X-Ray,1980.06
+42,68,15,Medication,3887.15
+43,69,9,Medication,610.74
+44,71,19,Health Checkup,4837.0
+45,72,14,MRI Scan,5603.49
+46,73,19,Dental Cleaning,2530.74
+47,74,4,Medication,3785.96
+48,75,14,Blood Test,426.6
+49,76,9,Consultation,663.83
+50,78,17,Health Checkup,2407.36
+51,79,10,Health Checkup,4233.93
+52,80,20,Blood Test,2020.0
+53,81,57,Minor Surgery,18255.55
+54,82,56,Health Checkup,4912.68
+55,83,51,Dental Cleaning,2137.99
+56,85,96,Dental Cleaning,3148.4
+57,86,65,X-Ray,1361.26
+58,87,59,CT Scan,12067.08
+59,88,54,Health Checkup,3280.89
+60,89,80,Consultation,744.55
+61,90,76,Minor Surgery,33165.21
+62,91,29,Consultation,1052.86
+63,93,26,Minor Surgery,17163.85
+64,94,73,Health Checkup,2619.77
+65,96,46,Blood Test,1454.29
+66,98,75,Ultrasound,3947.96
+67,101,57,Dental Cleaning,3165.08
+68,103,13,ECG,1125.49
+69,104,75,Consultation,868.92
+70,105,91,ECG,1661.45
+71,107,3,Physiotherapy,2101.72
+72,109,13,MRI Scan,10127.24
+73,112,93,MRI Scan,6053.96
+74,114,37,Ultrasound,2169.99
+75,124,82,Medication,2068.49
+76,125,3,ECG,835.13
+77,126,1,MRI Scan,7938.71
+78,129,48,ECG,820.93
+79,134,97,Health Checkup,4634.52
+80,136,50,Health Checkup,1797.16
+81,137,67,X-Ray,2201.87
+82,138,24,CT Scan,11110.39
+83,139,38,X-Ray,1320.9
+84,140,6,Physiotherapy,2837.29
+85,141,82,Health Checkup,2641.88
+86,144,48,MRI Scan,5522.81
+87,145,51,CT Scan,6980.76
+88,146,64,Dental Cleaning,2165.14
+89,147,28,Ultrasound,2203.2
+90,148,10,Dental Cleaning,1770.77
+91,149,91,Blood Test,589.88
+92,152,71,Health Checkup,3939.07
+93,155,45,Physiotherapy,1126.31
+94,156,8,Physiotherapy,1671.74
+95,157,91,ECG,1038.22
+96,159,83,Minor Surgery,31655.83
+97,161,99,Ultrasound,1899.59
+98,162,39,X-Ray,1067.2
+99,163,8,MRI Scan,5915.01
+100,166,35,Medication,4706.6
+101,167,50,CT Scan,8329.39
+102,170,31,Blood Test,815.28
+103,171,84,X-Ray,1002.35
+104,174,98,Dental Cleaning,1126.59
+105,176,6,Health Checkup,2882.5
+106,178,79,Medication,2305.32
+107,179,3,X-Ray,1404.96
+108,181,75,X-Ray,876.23
+109,182,90,MRI Scan,9530.95
+110,183,53,Ultrasound,2541.29
+111,184,67,Minor Surgery,15156.43
+112,185,41,Ultrasound,1897.61
+113,187,29,Consultation,1489.4
+114,189,51,Ultrasound,3388.02
+115,191,69,CT Scan,10521.54
+116,192,76,X-Ray,857.34
+117,193,30,Consultation,1395.76
+118,194,99,Consultation,1308.65
+119,195,26,Physiotherapy,2487.05
+120,203,18,Medication,1433.42
+121,204,58,Health Checkup,1695.68
+122,206,88,Minor Surgery,20160.51
+123,210,73,CT Scan,8862.04
+124,211,42,Physiotherapy,2810.76
+125,212,63,Health Checkup,2730.89
+126,213,66,X-Ray,2038.84
+127,214,40,Dental Cleaning,2355.31
+128,215,6,Consultation,590.26
+129,218,88,MRI Scan,5139.5
+130,221,20,Physiotherapy,2819.37
+131,222,3,X-Ray,1549.67
+132,223,87,Physiotherapy,931.02
+133,224,28,Health Checkup,4710.28
+134,225,99,Ultrasound,3609.87
+135,227,7,Medication,2159.3
+136,228,39,ECG,1119.38
+137,231,83,Minor Surgery,30212.38
+138,235,97,X-Ray,2355.8
+139,236,100,CT Scan,13082.93
+140,237,47,CT Scan,13330.09
+141,239,29,Health Checkup,3909.74
+142,240,26,Health Checkup,1506.29
+143,241,84,CT Scan,9524.41
+144,245,65,CT Scan,8863.95
+145,247,36,Medication,2958.09
+146,251,84,Health Checkup,1772.32
+147,252,8,Physiotherapy,1169.35
+148,255,36,Health Checkup,3845.09
+149,257,73,Physiotherapy,1782.59
+150,259,10,MRI Scan,9852.23
+151,261,88,Blood Test,1912.87
+152,263,82,Dental Cleaning,2831.46
+153,266,71,Minor Surgery,20078.32
+154,267,100,Dental Cleaning,2971.82
+155,268,49,Medication,1360.24
+156,269,9,Consultation,794.91
+157,270,10,Blood Test,555.82
+158,271,26,Minor Surgery,15700.8
+159,273,84,Blood Test,1109.7
+160,277,94,Minor Surgery,33676.17
+161,279,85,Minor Surgery,15613.39
+162,282,46,MRI Scan,11820.79
+163,284,67,Ultrasound,3221.71
+164,285,87,ECG,1558.78
+165,286,38,Blood Test,504.23
+166,287,44,Dental Cleaning,1383.97
+167,288,93,Minor Surgery,14015.45
+168,292,85,Dental Cleaning,1499.19
+169,293,55,X-Ray,2204.02
+170,296,76,Blood Test,1047.54
+171,298,15,Dental Cleaning,3237.19
+172,299,18,Medication,2857.39
+173,300,89,Minor Surgery,20496.24
+174,301,41,ECG,1271.66
+175,302,50,ECG,1433.52
+176,303,91,Health Checkup,3836.14
+177,304,98,Physiotherapy,2578.0
+178,305,22,CT Scan,8047.61
+179,306,70,Minor Surgery,30823.32
+180,307,28,Ultrasound,3123.79
+181,311,45,MRI Scan,8333.84
+182,312,74,Health Checkup,1621.55
+183,314,32,Ultrasound,3441.26
+184,315,54,CT Scan,7327.03
+185,318,90,X-Ray,2938.76
+186,2,6,Major Surgery,65000.0
+187,15,2,Major Surgery,85000.0
+188,28,15,Major Surgery,120000.0

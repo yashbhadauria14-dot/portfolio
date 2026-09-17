@@ -1,0 +1,1001 @@
+﻿Row_ID,Order_ID,Order_Date,Ship_Date,Ship_Mode,Customer_ID,Customer_Name,Segment,Country,Region,State,City,Category,Sub_Category,Product_Name,Quantity,Discount,Sales,Profit,Shipping_Days,Year,Month_Number,Month_Name,Quarter
+1,ORD-000001,2023-04-13,2023-04-18,Standard Class,CUST-1227,Customer 1227,Corporate,United Kingdom,Europe,Scotland,Berlin,Office Supplies,Labels,Address Labels,6,0.25,96.42,-7.59,5,2023,4,April,Q2
+2,ORD-000002,2024-03-11,2024-03-12,First Class,CUST-0802,Customer 0802,Home Office,Brazil,South America,São Paulo,London,Office Supplies,Art,Art Set,4,0.15,133.51,0.77,1,2024,3,March,Q1
+3,ORD-000003,2023-09-28,2023-09-30,First Class,CUST-1794,Customer 1794,Home Office,India,Asia,Karnataka,Paris,Office Supplies,Appliances,Printer,3,0.3,1185.27,-11.21,2,2023,9,September,Q3
+4,ORD-000004,2023-04-17,2023-04-19,Second Class,CUST-0339,Customer 0339,Consumer,Australia,Oceania,Western Australia,Los Angeles,Office Supplies,Envelopes,Business Envelopes,5,0.0,121.54,13.31,2,2023,4,April,Q2
+5,ORD-000005,2023-03-13,2023-03-15,Second Class,CUST-1143,Customer 1143,Corporate,United Kingdom,Europe,Northern Ireland,Tokyo,Office Supplies,Envelopes,Business Envelopes,1,0.0,24.21,-6.62,2,2023,3,March,Q1
+6,ORD-000006,2024-12-01,2024-12-02,Same Day,CUST-1831,Customer 1831,Corporate,India,Asia,Karnataka,Melbourne,Office Supplies,Appliances,Printer,1,0.0,499.8,54.58,1,2024,12,December,Q4
+7,ORD-000007,2023-01-21,2023-01-22,First Class,CUST-0759,Customer 0759,Home Office,Japan,Asia,Tokyo,Paris,Office Supplies,Storage,Storage Box,1,0.0,81.48,1.87,1,2023,1,January,Q1
+8,ORD-000008,2024-09-06,2024-09-12,Standard Class,CUST-1859,Customer 1859,Consumer,India,Asia,Uttar Pradesh,São Paulo,Office Supplies,Binders,Premium Binder,3,0.3,98.99,-78.11,6,2024,9,September,Q3
+9,ORD-000009,2023-05-02,2023-05-05,Second Class,CUST-1993,Customer 1993,Corporate,Canada,North America,British Columbia,New York,Office Supplies,Supplies,Office Supplies Kit,2,0.0,117.09,13.25,3,2023,5,May,Q2
+10,ORD-000010,2024-04-11,2024-04-17,Standard Class,CUST-0752,Customer 0752,Corporate,India,Asia,Tamil Nadu,London,Office Supplies,Supplies,Office Supplies Kit,10,0.2,562.85,-14.27,6,2024,4,April,Q2
+11,ORD-000011,2023-08-03,2023-08-09,Standard Class,CUST-0871,Customer 0871,Home Office,Mexico,North America,Yucatán,Madrid,Technology,Machines,Desktop Computer,3,0.15,3088.67,352.25,6,2023,8,August,Q3
+12,ORD-000012,2023-11-27,2023-12-03,Standard Class,CUST-0622,Customer 0622,Home Office,Brazil,South America,São Paulo,Madrid,Furniture,Tables,Conference Table,4,0.05,1534.35,179.9,6,2023,11,November,Q4
+13,ORD-000013,2024-04-03,2024-04-07,Second Class,CUST-1612,Customer 1612,Consumer,United States,North America,Texas,Shanghai,Technology,Phones,Smartphone,2,0.0,1183.23,174.15,4,2024,4,April,Q2
+14,ORD-000014,2023-03-29,2023-04-04,Standard Class,CUST-0268,Customer 0268,Consumer,United States,North America,Florida,Bengaluru,Office Supplies,Labels,Address Labels,2,0.0,40.07,0.07,6,2023,3,March,Q1
+15,ORD-000015,2024-01-08,2024-01-12,Standard Class,CUST-0764,Customer 0764,Home Office,United States,North America,New York,Madrid,Furniture,Furnishings,Office Desk Lamp,2,0.0,165.57,5.89,4,2024,1,January,Q1
+16,ORD-000016,2023-04-10,2023-04-11,First Class,CUST-1017,Customer 1017,Consumer,India,Asia,Tamil Nadu,Bengaluru,Office Supplies,Storage,Storage Box,4,0.1,407.71,23.81,1,2023,4,April,Q2
+17,ORD-000017,2024-10-25,2024-10-28,Second Class,CUST-0457,Customer 0457,Corporate,Japan,Asia,Aichi,Los Angeles,Furniture,Bookcases,Office Bookcase,3,0.05,631.36,51.42,3,2024,10,October,Q4
+18,ORD-000018,2023-05-11,2023-05-14,Standard Class,CUST-1191,Customer 1191,Home Office,Spain,Europe,Catalonia,Paris,Office Supplies,Paper,Copy Paper,3,0.1,104.6,-1.23,3,2023,5,May,Q2
+19,ORD-000019,2024-10-23,2024-10-26,Standard Class,CUST-1312,Customer 1312,Home Office,United Kingdom,Europe,Scotland,Delhi,Technology,Phones,Smartphone,4,0.15,2858.25,233.02,3,2024,10,October,Q4
+20,ORD-000020,2023-11-05,2023-11-10,Standard Class,CUST-1733,Customer 1733,Corporate,United Kingdom,Europe,Scotland,Toronto,Office Supplies,Supplies,Office Supplies Kit,5,0.05,324.8,28.08,5,2023,11,November,Q4
+21,ORD-000021,2023-12-10,2023-12-11,First Class,CUST-1480,Customer 1480,Home Office,India,Asia,Karnataka,Berlin,Technology,Machines,Desktop Computer,1,0.0,1129.09,203.55,1,2023,12,December,Q4
+22,ORD-000022,2024-05-06,2024-05-11,Standard Class,CUST-0618,Customer 0618,Corporate,Mexico,North America,Puebla,Los Angeles,Office Supplies,Envelopes,Business Envelopes,5,0.15,125.34,4.71,5,2024,5,May,Q2
+23,ORD-000023,2024-02-18,2024-02-25,Standard Class,CUST-1952,Customer 1952,Consumer,Mexico,North America,Puebla,Los Angeles,Technology,Machines,Desktop Computer,3,0.05,3187.98,492.54,7,2024,2,February,Q1
+24,ORD-000024,2024-01-21,2024-01-26,Standard Class,CUST-0278,Customer 0278,Corporate,Germany,Europe,Saxony,Delhi,Furniture,Chairs,Ergonomic Office Chair,4,0.0,853.42,127.15,5,2024,1,January,Q1
+25,ORD-000025,2023-07-11,2023-07-18,Standard Class,CUST-0472,Customer 0472,Home Office,India,Asia,Delhi,Madrid,Furniture,Furnishings,Office Desk Lamp,2,0.15,171.09,9.8,7,2023,7,July,Q3
+26,ORD-000026,2023-10-04,2023-10-11,Standard Class,CUST-0179,Customer 0179,Consumer,France,Europe,Île-de-France,Delhi,Furniture,Furnishings,Office Desk Lamp,2,0.25,140.79,8.18,7,2023,10,October,Q4
+27,ORD-000027,2023-06-10,2023-06-11,First Class,CUST-0091,Customer 0091,Corporate,Canada,North America,Quebec,Melbourne,Office Supplies,Art,Art Set,2,0.2,73.31,-9.85,1,2023,6,June,Q2
+28,ORD-000028,2024-04-04,2024-04-08,Second Class,CUST-1833,Customer 1833,Consumer,United States,North America,California,Berlin,Office Supplies,Labels,Address Labels,8,0.0,142.83,0.41,4,2024,4,April,Q2
+29,ORD-000029,2023-11-10,2023-11-12,First Class,CUST-1202,Customer 1202,Corporate,Canada,North America,British Columbia,Mumbai,Technology,Phones,Smartphone,3,0.1,1893.38,202.85,2,2023,11,November,Q4
+30,ORD-000030,2023-01-22,2023-01-23,Same Day,CUST-0401,Customer 0401,Consumer,United States,North America,New York,Berlin,Technology,Phones,Smartphone,10,0.0,6230.82,947.52,1,2023,1,January,Q1
+31,ORD-000031,2023-09-10,2023-09-11,Same Day,CUST-1453,Customer 1453,Corporate,China,Asia,Guangdong,Sydney,Technology,Accessories,Wireless Keyboard,3,0.25,224.13,3.97,1,2023,9,September,Q3
+32,ORD-000032,2024-07-14,2024-07-20,Standard Class,CUST-0699,Customer 0699,Home Office,China,Asia,Beijing,Shanghai,Technology,Copiers,Laser Copier,2,0.0,1902.64,295.54,6,2024,7,July,Q3
+33,ORD-000033,2024-04-19,2024-04-20,First Class,CUST-0428,Customer 0428,Home Office,India,Asia,Maharashtra,Bengaluru,Office Supplies,Binders,Premium Binder,3,0.0,86.79,-2.65,1,2024,4,April,Q2
+34,ORD-000034,2023-02-28,2023-03-07,Standard Class,CUST-1184,Customer 1184,Consumer,China,Asia,Jiangsu,New York,Furniture,Bookcases,Office Bookcase,1,0.2,194.86,6.92,7,2023,2,February,Q1
+35,ORD-000035,2024-05-25,2024-05-27,Second Class,CUST-1642,Customer 1642,Consumer,Australia,Oceania,Victoria,Paris,Technology,Machines,Desktop Computer,7,0.25,7943.99,539.08,2,2024,5,May,Q2
+36,ORD-000036,2024-11-12,2024-11-13,First Class,CUST-1142,Customer 1142,Consumer,Spain,Europe,Madrid,Tokyo,Office Supplies,Appliances,Printer,5,0.15,2077.19,128.05,1,2024,11,November,Q4
+37,ORD-000037,2024-04-20,2024-04-27,Standard Class,CUST-0493,Customer 0493,Home Office,Germany,Europe,Hesse,New York,Furniture,Bookcases,Office Bookcase,5,0.0,938.6,104.0,7,2024,4,April,Q2
+38,ORD-000038,2024-11-30,2024-12-05,Standard Class,CUST-0816,Customer 0816,Home Office,Mexico,North America,Puebla,Sydney,Technology,Machines,Desktop Computer,4,0.1,3939.59,486.17,5,2024,11,November,Q4
+39,ORD-000039,2023-07-09,2023-07-11,Second Class,CUST-0030,Customer 0030,Corporate,Spain,Europe,Catalonia,Mumbai,Office Supplies,Labels,Address Labels,3,0.15,63.59,-3.9,2,2023,7,July,Q3
+40,ORD-000040,2024-11-17,2024-11-21,Standard Class,CUST-0100,Customer 0100,Consumer,Canada,North America,Quebec,Los Angeles,Office Supplies,Storage,Storage Box,10,0.1,827.09,49.71,4,2024,11,November,Q4
+41,ORD-000041,2024-07-16,2024-07-18,Second Class,CUST-1948,Customer 1948,Home Office,Canada,North America,Quebec,Melbourne,Furniture,Chairs,Ergonomic Office Chair,2,0.0,573.69,71.87,2,2024,7,July,Q3
+42,ORD-000042,2024-07-20,2024-07-26,Standard Class,CUST-1778,Customer 1778,Home Office,Japan,Asia,Osaka,Mumbai,Technology,Copiers,Laser Copier,5,0.0,4065.74,660.13,6,2024,7,July,Q3
+43,ORD-000043,2023-09-01,2023-09-01,Same Day,CUST-0211,Customer 0211,Corporate,China,Asia,Jiangsu,London,Technology,Accessories,USB-C Hub,3,0.2,213.15,3.05,0,2023,9,September,Q3
+44,ORD-000044,2024-05-19,2024-05-24,Standard Class,CUST-0786,Customer 0786,Consumer,Mexico,North America,Jalisco,Delhi,Office Supplies,Supplies,Office Supplies Kit,8,0.1,403.47,28.91,5,2024,5,May,Q2
+45,ORD-000045,2023-05-11,2023-05-12,First Class,CUST-1900,Customer 1900,Corporate,Germany,Europe,Bavaria,New York,Technology,Phones,Smartphone,6,0.15,3896.79,326.39,1,2023,5,May,Q2
+46,ORD-000046,2024-04-29,2024-05-01,Second Class,CUST-0916,Customer 0916,Consumer,United States,North America,Texas,Tokyo,Technology,Accessories,Wireless Keyboard,10,0.05,700.32,56.85,2,2024,4,April,Q2
+47,ORD-000047,2024-10-08,2024-10-08,Same Day,CUST-1610,Customer 1610,Consumer,Spain,Europe,Madrid,Delhi,Technology,Phones,Smartphone,3,0.1,2010.23,213.04,0,2024,10,October,Q4
+48,ORD-000048,2023-01-21,2023-01-24,Second Class,CUST-1419,Customer 1419,Consumer,Australia,Oceania,Queensland,São Paulo,Furniture,Chairs,Ergonomic Office Chair,2,0.3,471.21,20.32,3,2023,1,January,Q1
+49,ORD-000049,2023-06-16,2023-06-20,Standard Class,CUST-0444,Customer 0444,Home Office,Germany,Europe,North Rhine-Westphalia,São Paulo,Furniture,Chairs,Ergonomic Office Chair,3,0.05,753.63,91.3,4,2023,6,June,Q2
+50,ORD-000050,2023-10-01,2023-10-03,Second Class,CUST-0744,Customer 0744,Corporate,Brazil,South America,São Paulo,Berlin,Furniture,Furnishings,Office Desk Lamp,4,0.15,343.07,24.42,2,2023,10,October,Q4
+51,ORD-000051,2024-01-23,2024-01-23,Same Day,CUST-1903,Customer 1903,Corporate,United Kingdom,Europe,Scotland,Tokyo,Office Supplies,Appliances,Printer,5,0.0,2401.61,315.3,0,2024,1,January,Q1
+52,ORD-000052,2024-08-23,2024-08-24,First Class,CUST-0802,Customer 0802,Corporate,China,Asia,Zhejiang,Madrid,Technology,Copiers,Laser Copier,1,0.0,938.55,160.89,1,2024,8,August,Q3
+53,ORD-000053,2023-11-12,2023-11-19,Standard Class,CUST-1703,Customer 1703,Home Office,United States,North America,Florida,Melbourne,Technology,Accessories,USB-C Hub,3,0.15,284.01,19.03,7,2023,11,November,Q4
+54,ORD-000054,2023-01-14,2023-01-15,First Class,CUST-0678,Customer 0678,Consumer,Brazil,South America,São Paulo,Berlin,Office Supplies,Storage,Storage Box,2,0.2,179.62,0.8,1,2023,1,January,Q1
+55,ORD-000055,2023-08-30,2023-09-02,Second Class,CUST-1425,Customer 1425,Consumer,United States,North America,California,New York,Office Supplies,Fasteners,Fastener Pack,6,0.15,61.39,13.62,3,2023,8,August,Q3
+56,ORD-000056,2023-12-12,2023-12-14,First Class,CUST-1073,Customer 1073,Home Office,United States,North America,New York,Toronto,Technology,Accessories,Wireless Keyboard,1,0.0,61.87,13.2,2,2023,12,December,Q4
+57,ORD-000057,2024-07-18,2024-07-23,Standard Class,CUST-0599,Customer 0599,Corporate,China,Asia,Zhejiang,Shanghai,Technology,Copiers,Laser Copier,4,0.0,3280.59,523.01,5,2024,7,July,Q3
+58,ORD-000058,2023-12-06,2023-12-12,Standard Class,CUST-1655,Customer 1655,Consumer,United States,North America,Texas,Shanghai,Office Supplies,Paper,Copy Paper,2,0.2,66.66,1.39,6,2023,12,December,Q4
+59,ORD-000059,2023-04-02,2023-04-09,Standard Class,CUST-0967,Customer 0967,Corporate,Germany,Europe,Saxony,Melbourne,Office Supplies,Art,Art Set,2,0.0,81.67,2.01,7,2023,4,April,Q2
+60,ORD-000060,2024-01-02,2024-01-04,Second Class,CUST-1139,Customer 1139,Corporate,Germany,Europe,Saxony,São Paulo,Office Supplies,Labels,Address Labels,8,0.15,164.64,-2.02,2,2024,1,January,Q1
+61,ORD-000061,2024-03-30,2024-04-01,Second Class,CUST-1798,Customer 1798,Home Office,Brazil,South America,Paraná,Shanghai,Office Supplies,Envelopes,Business Envelopes,2,0.0,40.98,12.02,2,2024,3,March,Q1
+62,ORD-000062,2024-03-03,2024-03-05,Second Class,CUST-0234,Customer 0234,Consumer,Australia,Oceania,New South Wales,Mumbai,Technology,Copiers,Laser Copier,1,0.25,877.02,40.36,2,2024,3,March,Q1
+63,ORD-000063,2024-05-23,2024-05-27,Second Class,CUST-0440,Customer 0440,Consumer,Canada,North America,Ontario,Sydney,Furniture,Furnishings,Office Desk Lamp,1,0.2,81.05,-6.19,4,2024,5,May,Q2
+64,ORD-000064,2023-02-04,2023-02-10,Standard Class,CUST-1816,Customer 1816,Corporate,Australia,Oceania,Western Australia,Madrid,Furniture,Chairs,Ergonomic Office Chair,3,0.0,860.85,121.39,6,2023,2,February,Q1
+65,ORD-000065,2023-07-25,2023-07-30,Standard Class,CUST-1340,Customer 1340,Home Office,Mexico,North America,Jalisco,Paris,Technology,Copiers,Laser Copier,4,0.15,2927.25,271.36,5,2023,7,July,Q3
+66,ORD-000066,2023-03-22,2023-03-24,First Class,CUST-1864,Customer 1864,Consumer,Spain,Europe,Andalusia,Los Angeles,Office Supplies,Fasteners,Fastener Pack,2,0.0,24.3,-5.25,2,2023,3,March,Q1
+67,ORD-000067,2024-07-15,2024-07-20,Standard Class,CUST-1146,Customer 1146,Home Office,Spain,Europe,Madrid,Shanghai,Technology,Copiers,Laser Copier,4,0.0,4065.85,639.07,5,2024,7,July,Q3
+68,ORD-000068,2024-01-23,2024-01-23,Same Day,CUST-0503,Customer 0503,Corporate,Japan,Asia,Osaka,Delhi,Furniture,Tables,Conference Table,1,0.05,417.21,39.43,0,2024,1,January,Q1
+69,ORD-000069,2023-01-02,2023-01-09,Standard Class,CUST-1924,Customer 1924,Consumer,Japan,Asia,Tokyo,Los Angeles,Office Supplies,Labels,Address Labels,6,0.1,104.3,9.92,7,2023,1,January,Q1
+70,ORD-000070,2024-01-25,2024-01-30,Standard Class,CUST-1013,Customer 1013,Consumer,France,Europe,Nouvelle-Aquitaine,London,Office Supplies,Supplies,Office Supplies Kit,5,0.05,233.75,14.64,5,2024,1,January,Q1
+71,ORD-000071,2024-07-19,2024-07-25,Standard Class,CUST-0630,Customer 0630,Corporate,China,Asia,Beijing,Melbourne,Technology,Phones,Smartphone,10,0.1,6859.82,720.74,6,2024,7,July,Q3
+72,ORD-000072,2023-04-16,2023-04-20,Standard Class,CUST-1105,Customer 1105,Corporate,India,Asia,Tamil Nadu,Madrid,Technology,Accessories,USB-C Hub,7,0.0,645.92,76.24,4,2023,4,April,Q2
+73,ORD-000073,2024-04-21,2024-04-22,Same Day,CUST-1474,Customer 1474,Home Office,Japan,Asia,Tokyo,Delhi,Furniture,Tables,Conference Table,2,0.0,674.45,89.77,1,2024,4,April,Q2
+74,ORD-000074,2024-12-03,2024-12-10,Standard Class,CUST-1430,Customer 1430,Corporate,Australia,Oceania,Western Australia,Paris,Office Supplies,Fasteners,Fastener Pack,2,0.1,28.25,-4.77,7,2024,12,December,Q4
+75,ORD-000075,2024-02-06,2024-02-13,Standard Class,CUST-0307,Customer 0307,Corporate,India,Asia,Maharashtra,Berlin,Furniture,Tables,Conference Table,5,0.1,1691.28,158.46,7,2024,2,February,Q1
+76,ORD-000076,2024-12-30,2024-12-30,Same Day,CUST-0563,Customer 0563,Consumer,Brazil,South America,Rio de Janeiro,Bengaluru,Technology,Copiers,Laser Copier,1,0.15,904.03,70.36,0,2024,12,December,Q4
+77,ORD-000077,2024-07-09,2024-07-11,Second Class,CUST-1892,Customer 1892,Home Office,Australia,Oceania,Western Australia,London,Technology,Accessories,USB-C Hub,2,0.1,176.43,23.71,2,2024,7,July,Q3
+78,ORD-000078,2023-06-11,2023-06-11,Same Day,CUST-0400,Customer 0400,Corporate,United States,North America,Illinois,Delhi,Furniture,Chairs,Ergonomic Office Chair,1,0.2,233.01,13.85,0,2023,6,June,Q2
+79,ORD-000079,2023-07-21,2023-07-25,Standard Class,CUST-0881,Customer 0881,Home Office,United States,North America,California,Berlin,Technology,Accessories,Wireless Keyboard,3,0.05,189.79,20.12,4,2023,7,July,Q3
+80,ORD-000080,2023-09-27,2023-09-30,Standard Class,CUST-0981,Customer 0981,Home Office,Australia,Oceania,Victoria,Delhi,Furniture,Furnishings,Office Desk Lamp,3,0.0,228.26,30.14,3,2023,9,September,Q3
+81,ORD-000081,2023-09-28,2023-10-02,Standard Class,CUST-0296,Customer 0296,Home Office,China,Asia,Jiangsu,Mumbai,Furniture,Tables,Conference Table,2,0.1,799.63,82.67,4,2023,9,September,Q3
+82,ORD-000082,2024-03-31,2024-04-06,Standard Class,CUST-0904,Customer 0904,Home Office,United Kingdom,Europe,Scotland,Bengaluru,Furniture,Bookcases,Office Bookcase,1,0.15,159.35,3.77,6,2024,3,March,Q1
+83,ORD-000083,2024-04-06,2024-04-12,Standard Class,CUST-1351,Customer 1351,Consumer,Canada,North America,Alberta,Berlin,Office Supplies,Fasteners,Fastener Pack,4,0.1,51.41,5.09,6,2024,4,April,Q2
+84,ORD-000084,2024-12-27,2024-12-28,First Class,CUST-1984,Customer 1984,Home Office,France,Europe,Île-de-France,São Paulo,Technology,Machines,Desktop Computer,1,0.15,1032.72,120.93,1,2024,12,December,Q4
+85,ORD-000085,2023-09-09,2023-09-10,Same Day,CUST-0839,Customer 0839,Consumer,Germany,Europe,Saxony,Berlin,Technology,Accessories,Wireless Keyboard,8,0.05,543.53,-59.73,1,2023,9,September,Q3
+86,ORD-000086,2024-12-02,2024-12-03,Same Day,CUST-1540,Customer 1540,Home Office,United States,North America,Illinois,London,Technology,Machines,Desktop Computer,2,0.0,2237.33,411.21,1,2024,12,December,Q4
+87,ORD-000087,2023-10-23,2023-10-29,Standard Class,CUST-1945,Customer 1945,Consumer,France,Europe,Occitanie,London,Furniture,Bookcases,Office Bookcase,4,0.15,763.7,46.49,6,2023,10,October,Q4
+88,ORD-000088,2024-12-25,2025-01-01,Standard Class,CUST-0059,Customer 0059,Consumer,Spain,Europe,Madrid,São Paulo,Office Supplies,Labels,Address Labels,3,0.0,57.89,8.71,7,2024,12,December,Q4
+89,ORD-000089,2024-12-20,2024-12-26,Standard Class,CUST-1606,Customer 1606,Corporate,Australia,Oceania,Western Australia,London,Technology,Copiers,Laser Copier,1,0.05,900.93,134.8,6,2024,12,December,Q4
+90,ORD-000090,2023-12-04,2023-12-11,Standard Class,CUST-0768,Customer 0768,Corporate,United Kingdom,Europe,Scotland,Toronto,Furniture,Furnishings,Office Desk Lamp,3,0.1,248.11,13.88,7,2023,12,December,Q4
+91,ORD-000091,2023-02-22,2023-02-25,Second Class,CUST-1874,Customer 1874,Home Office,Australia,Oceania,New South Wales,Toronto,Office Supplies,Storage,Storage Box,3,0.1,228.84,13.05,3,2023,2,February,Q1
+92,ORD-000092,2023-08-05,2023-08-07,Second Class,CUST-1259,Customer 1259,Corporate,Germany,Europe,Bavaria,Madrid,Furniture,Furnishings,Office Desk Lamp,6,0.1,523.35,35.34,2,2023,8,August,Q3
+93,ORD-000093,2023-07-07,2023-07-12,Standard Class,CUST-1743,Customer 1743,Home Office,China,Asia,Shanghai,London,Technology,Accessories,USB-C Hub,5,0.0,345.95,43.55,5,2023,7,July,Q3
+94,ORD-000094,2024-01-15,2024-01-16,First Class,CUST-1365,Customer 1365,Corporate,France,Europe,Auvergne-Rhône-Alpes,New York,Technology,Machines,Desktop Computer,1,0.3,1020.55,49.78,1,2024,1,January,Q1
+95,ORD-000095,2024-05-07,2024-05-09,First Class,CUST-1168,Customer 1168,Home Office,Brazil,South America,Paraná,Delhi,Technology,Phones,Smartphone,2,0.15,1385.04,109.78,2,2024,5,May,Q2
+96,ORD-000096,2023-02-10,2023-02-12,First Class,CUST-1919,Customer 1919,Consumer,Germany,Europe,Bavaria,Mumbai,Office Supplies,Binders,Premium Binder,2,0.05,51.68,-15.78,2,2023,2,February,Q1
+97,ORD-000097,2023-06-06,2023-06-10,Standard Class,CUST-1591,Customer 1591,Corporate,China,Asia,Shanghai,São Paulo,Office Supplies,Binders,Premium Binder,1,0.0,24.2,6.48,4,2023,6,June,Q2
+98,ORD-000098,2023-01-15,2023-01-15,Same Day,CUST-1260,Customer 1260,Corporate,India,Asia,Maharashtra,Delhi,Office Supplies,Appliances,Printer,3,0.0,1132.23,134.8,0,2023,1,January,Q1
+99,ORD-000099,2023-03-06,2023-03-08,First Class,CUST-0536,Customer 0536,Home Office,China,Asia,Zhejiang,Madrid,Office Supplies,Envelopes,Business Envelopes,10,0.15,207.92,-7.15,2,2023,3,March,Q1
+100,ORD-000100,2024-06-04,2024-06-10,Standard Class,CUST-1662,Customer 1662,Consumer,China,Asia,Shanghai,São Paulo,Technology,Copiers,Laser Copier,3,0.05,2954.78,412.84,6,2024,6,June,Q2
+101,ORD-000101,2023-12-10,2023-12-13,Standard Class,CUST-0267,Customer 0267,Consumer,Germany,Europe,Bavaria,Delhi,Technology,Copiers,Laser Copier,5,0.0,4885.4,788.32,3,2023,12,December,Q4
+102,ORD-000102,2023-05-09,2023-05-15,Standard Class,CUST-0839,Customer 0839,Corporate,Australia,Oceania,New South Wales,São Paulo,Technology,Accessories,USB-C Hub,4,0.05,279.15,39.41,6,2023,5,May,Q2
+103,ORD-000103,2024-10-09,2024-10-10,First Class,CUST-1706,Customer 1706,Consumer,United Kingdom,Europe,Scotland,Mumbai,Office Supplies,Binders,Premium Binder,6,0.1,159.81,-12.16,1,2024,10,October,Q4
+104,ORD-000104,2024-04-16,2024-04-23,Standard Class,CUST-1667,Customer 1667,Consumer,Germany,Europe,Hesse,Berlin,Office Supplies,Appliances,Printer,2,0.15,975.46,63.33,7,2024,4,April,Q2
+105,ORD-000105,2023-03-04,2023-03-07,Standard Class,CUST-0741,Customer 0741,Home Office,Mexico,North America,Yucatán,Paris,Office Supplies,Paper,Copy Paper,5,0.1,149.25,0.18,3,2023,3,March,Q1
+106,ORD-000106,2023-05-19,2023-05-22,Second Class,CUST-0639,Customer 0639,Consumer,Canada,North America,British Columbia,Melbourne,Office Supplies,Labels,Address Labels,6,0.2,129.45,2.73,3,2023,5,May,Q2
+107,ORD-000107,2024-05-13,2024-05-14,First Class,CUST-0809,Customer 0809,Home Office,Japan,Asia,Osaka,Mumbai,Office Supplies,Fasteners,Fastener Pack,1,0.0,11.28,12.37,1,2024,5,May,Q2
+108,ORD-000108,2024-08-15,2024-08-17,Second Class,CUST-1558,Customer 1558,Corporate,United Kingdom,Europe,England,New York,Furniture,Bookcases,Office Bookcase,2,0.1,399.13,19.46,2,2024,8,August,Q3
+109,ORD-000109,2024-01-27,2024-01-31,Second Class,CUST-1562,Customer 1562,Corporate,Brazil,South America,Paraná,Sydney,Furniture,Bookcases,Office Bookcase,8,0.0,1434.2,172.23,4,2024,1,January,Q1
+110,ORD-000110,2024-11-05,2024-11-08,Second Class,CUST-1532,Customer 1532,Corporate,United Kingdom,Europe,Northern Ireland,Toronto,Office Supplies,Envelopes,Business Envelopes,5,0.1,98.75,8.14,3,2024,11,November,Q4
+111,ORD-000111,2024-02-23,2024-02-27,Standard Class,CUST-0772,Customer 0772,Home Office,Spain,Europe,Andalusia,Madrid,Furniture,Furnishings,Office Desk Lamp,2,0.1,140.9,5.05,4,2024,2,February,Q1
+112,ORD-000112,2023-10-16,2023-10-17,First Class,CUST-0886,Customer 0886,Home Office,Australia,Oceania,Queensland,Madrid,Furniture,Chairs,Ergonomic Office Chair,3,0.0,782.13,131.29,1,2023,10,October,Q4
+113,ORD-000113,2024-01-14,2024-01-20,Standard Class,CUST-1296,Customer 1296,Corporate,Brazil,South America,Paraná,Paris,Furniture,Tables,Conference Table,2,0.05,677.58,76.4,6,2024,1,January,Q1
+114,ORD-000114,2024-05-04,2024-05-07,Standard Class,CUST-1727,Customer 1727,Home Office,India,Asia,Delhi,Melbourne,Office Supplies,Paper,Copy Paper,3,0.2,101.9,-5.46,3,2024,5,May,Q2
+115,ORD-000115,2023-08-19,2023-08-24,Standard Class,CUST-0638,Customer 0638,Consumer,Germany,Europe,North Rhine-Westphalia,São Paulo,Office Supplies,Appliances,Printer,2,0.0,774.43,92.09,5,2023,8,August,Q3
+116,ORD-000116,2023-02-10,2023-02-14,Second Class,CUST-0763,Customer 0763,Consumer,China,Asia,Shanghai,Sydney,Office Supplies,Labels,Address Labels,2,0.05,36.25,2.23,4,2023,2,February,Q1
+117,ORD-000117,2023-01-28,2023-01-30,First Class,CUST-1425,Customer 1425,Consumer,Australia,Oceania,Victoria,Sydney,Office Supplies,Envelopes,Business Envelopes,4,0.25,90.58,-28.9,2,2023,1,January,Q1
+118,ORD-000118,2023-05-15,2023-05-18,Second Class,CUST-0531,Customer 0531,Consumer,Germany,Europe,North Rhine-Westphalia,Melbourne,Office Supplies,Supplies,Office Supplies Kit,5,0.1,273.48,10.32,3,2023,5,May,Q2
+119,ORD-000119,2023-07-20,2023-07-25,Standard Class,CUST-1780,Customer 1780,Home Office,Spain,Europe,Andalusia,Toronto,Office Supplies,Appliances,Printer,6,0.15,2316.56,154.94,5,2023,7,July,Q3
+120,ORD-000120,2023-02-02,2023-02-06,Second Class,CUST-0079,Customer 0079,Consumer,Australia,Oceania,New South Wales,Melbourne,Office Supplies,Storage,Storage Box,1,0.2,85.98,-10.31,4,2023,2,February,Q1
+121,ORD-000121,2023-02-17,2023-02-21,Standard Class,CUST-1799,Customer 1799,Corporate,France,Europe,Nouvelle-Aquitaine,Bengaluru,Office Supplies,Supplies,Office Supplies Kit,6,0.0,360.53,-62.65,4,2023,2,February,Q1
+122,ORD-000122,2024-05-17,2024-05-18,Same Day,CUST-1602,Customer 1602,Corporate,Spain,Europe,Valencia,London,Office Supplies,Envelopes,Business Envelopes,2,0.0,52.26,12.07,1,2024,5,May,Q2
+123,ORD-000123,2024-02-11,2024-02-12,Same Day,CUST-1335,Customer 1335,Consumer,Mexico,North America,Jalisco,Tokyo,Technology,Accessories,USB-C Hub,3,0.15,270.32,26.91,1,2024,2,February,Q1
+124,ORD-000124,2024-07-27,2024-08-01,Standard Class,CUST-1659,Customer 1659,Consumer,China,Asia,Shanghai,Paris,Office Supplies,Supplies,Office Supplies Kit,7,0.15,349.01,-2.99,5,2024,7,July,Q3
+125,ORD-000125,2024-12-28,2025-01-04,Standard Class,CUST-1278,Customer 1278,Consumer,China,Asia,Zhejiang,Madrid,Furniture,Bookcases,Office Bookcase,3,0.0,510.54,75.13,7,2024,12,December,Q4
+126,ORD-000126,2023-04-09,2023-04-11,Second Class,CUST-1384,Customer 1384,Home Office,United States,North America,California,Madrid,Office Supplies,Art,Art Set,1,0.05,30.72,5.23,2,2023,4,April,Q2
+127,ORD-000127,2024-11-14,2024-11-16,Second Class,CUST-0237,Customer 0237,Consumer,France,Europe,Occitanie,New York,Office Supplies,Paper,Copy Paper,1,0.05,28.72,9.47,2,2024,11,November,Q4
+128,ORD-000128,2024-12-26,2024-12-29,Standard Class,CUST-1965,Customer 1965,Corporate,United States,North America,Texas,Sydney,Office Supplies,Supplies,Office Supplies Kit,3,0.2,154.73,-6.33,3,2024,12,December,Q4
+129,ORD-000129,2024-06-30,2024-07-02,Second Class,CUST-1528,Customer 1528,Corporate,India,Asia,Delhi,São Paulo,Furniture,Bookcases,Office Bookcase,5,0.05,827.85,92.63,2,2024,6,June,Q2
+130,ORD-000130,2024-09-04,2024-09-07,Second Class,CUST-0215,Customer 0215,Corporate,Canada,North America,British Columbia,Berlin,Office Supplies,Paper,Copy Paper,10,0.25,295.93,-17.68,3,2024,9,September,Q3
+131,ORD-000131,2024-04-06,2024-04-11,Standard Class,CUST-1480,Customer 1480,Home Office,Japan,Asia,Kanagawa,Melbourne,Office Supplies,Paper,Copy Paper,5,0.3,148.92,-13.67,5,2024,4,April,Q2
+132,ORD-000132,2024-10-04,2024-10-09,Standard Class,CUST-0888,Customer 0888,Home Office,Canada,North America,Alberta,Shanghai,Office Supplies,Envelopes,Business Envelopes,6,0.15,126.09,2.91,5,2024,10,October,Q4
+133,ORD-000133,2023-01-05,2023-01-09,Second Class,CUST-0129,Customer 0129,Home Office,Germany,Europe,North Rhine-Westphalia,Bengaluru,Furniture,Furnishings,Office Desk Lamp,5,0.15,335.23,7.76,4,2023,1,January,Q1
+134,ORD-000134,2023-08-06,2023-08-09,Standard Class,CUST-0017,Customer 0017,Home Office,Canada,North America,Quebec,Bengaluru,Office Supplies,Storage,Storage Box,7,0.05,563.61,31.51,3,2023,8,August,Q3
+135,ORD-000135,2024-05-17,2024-05-18,Same Day,CUST-0167,Customer 0167,Corporate,China,Asia,Guangdong,London,Office Supplies,Art,Art Set,1,0.0,38.18,4.11,1,2024,5,May,Q2
+136,ORD-000136,2024-02-02,2024-02-08,Standard Class,CUST-1544,Customer 1544,Corporate,Spain,Europe,Valencia,Toronto,Office Supplies,Envelopes,Business Envelopes,7,0.1,143.64,-0.39,6,2024,2,February,Q1
+137,ORD-000137,2024-01-28,2024-02-03,Standard Class,CUST-0057,Customer 0057,Corporate,France,Europe,Occitanie,Tokyo,Office Supplies,Appliances,Printer,2,0.05,764.52,76.04,6,2024,1,January,Q1
+138,ORD-000138,2023-07-26,2023-07-31,Standard Class,CUST-1109,Customer 1109,Home Office,Germany,Europe,Hesse,Melbourne,Office Supplies,Labels,Address Labels,7,0.05,110.09,12.95,5,2023,7,July,Q3
+139,ORD-000139,2023-01-15,2023-01-19,Second Class,CUST-1330,Customer 1330,Home Office,Germany,Europe,North Rhine-Westphalia,Toronto,Technology,Copiers,Laser Copier,1,0.15,871.24,99.73,4,2023,1,January,Q1
+140,ORD-000140,2024-07-07,2024-07-13,Standard Class,CUST-1335,Customer 1335,Home Office,France,Europe,Auvergne-Rhône-Alpes,Shanghai,Office Supplies,Storage,Storage Box,4,0.1,389.2,14.05,6,2024,7,July,Q3
+141,ORD-000141,2024-04-05,2024-04-09,Standard Class,CUST-0538,Customer 0538,Home Office,China,Asia,Jiangsu,Los Angeles,Technology,Machines,Desktop Computer,5,0.15,4135.62,466.84,4,2024,4,April,Q2
+142,ORD-000142,2024-11-21,2024-11-24,Standard Class,CUST-1717,Customer 1717,Home Office,Japan,Asia,Kanagawa,Sydney,Office Supplies,Art,Art Set,10,0.05,363.93,17.74,3,2024,11,November,Q4
+143,ORD-000143,2024-07-28,2024-08-04,Standard Class,CUST-0801,Customer 0801,Corporate,India,Asia,Tamil Nadu,Bengaluru,Office Supplies,Fasteners,Fastener Pack,5,0.0,64.66,21.54,7,2024,7,July,Q3
+144,ORD-000144,2023-08-29,2023-08-30,First Class,CUST-1182,Customer 1182,Corporate,India,Asia,Delhi,Madrid,Office Supplies,Labels,Address Labels,2,0.1,38.07,4.12,1,2023,8,August,Q3
+145,ORD-000145,2024-07-17,2024-07-21,Standard Class,CUST-0606,Customer 0606,Consumer,Germany,Europe,North Rhine-Westphalia,Delhi,Technology,Accessories,Wireless Keyboard,3,0.25,225.65,9.11,4,2024,7,July,Q3
+146,ORD-000146,2023-04-06,2023-04-10,Standard Class,CUST-0420,Customer 0420,Corporate,India,Asia,Karnataka,Sydney,Technology,Accessories,Wireless Keyboard,2,0.15,149.92,17.33,4,2023,4,April,Q2
+147,ORD-000147,2024-04-29,2024-05-06,Standard Class,CUST-0021,Customer 0021,Corporate,China,Asia,Zhejiang,Bengaluru,Technology,Machines,Desktop Computer,1,0.0,826.55,149.82,7,2024,4,April,Q2
+148,ORD-000148,2024-02-11,2024-02-17,Standard Class,CUST-1577,Customer 1577,Home Office,Mexico,North America,Jalisco,Melbourne,Technology,Copiers,Laser Copier,2,0.05,1659.76,226.73,6,2024,2,February,Q1
+149,ORD-000149,2023-08-19,2023-08-21,Second Class,CUST-0421,Customer 0421,Home Office,Mexico,North America,Puebla,Bengaluru,Furniture,Tables,Conference Table,2,0.25,759.35,33.03,2,2023,8,August,Q3
+150,ORD-000150,2024-10-16,2024-10-18,Second Class,CUST-1685,Customer 1685,Consumer,United States,North America,Florida,Mumbai,Furniture,Chairs,Ergonomic Office Chair,3,0.0,852.02,134.03,2,2024,10,October,Q4
+151,ORD-000151,2023-06-20,2023-06-23,Standard Class,CUST-1437,Customer 1437,Corporate,United Kingdom,Europe,England,Berlin,Technology,Copiers,Laser Copier,7,0.0,6733.26,1070.55,3,2023,6,June,Q2
+152,ORD-000152,2024-06-24,2024-06-28,Second Class,CUST-1032,Customer 1032,Consumer,Brazil,South America,Rio de Janeiro,Shanghai,Furniture,Bookcases,Office Bookcase,7,0.0,1148.88,132.07,4,2024,6,June,Q2
+153,ORD-000153,2023-02-05,2023-02-09,Standard Class,CUST-1204,Customer 1204,Consumer,Canada,North America,Alberta,Toronto,Furniture,Furnishings,Office Desk Lamp,1,0.1,71.08,0.79,4,2023,2,February,Q1
+154,ORD-000154,2024-06-08,2024-06-09,First Class,CUST-1703,Customer 1703,Home Office,India,Asia,Uttar Pradesh,Shanghai,Office Supplies,Paper,Copy Paper,1,0.05,35.75,10.61,1,2024,6,June,Q2
+155,ORD-000155,2023-06-09,2023-06-11,Second Class,CUST-1861,Customer 1861,Consumer,Mexico,North America,Yucatán,London,Technology,Copiers,Laser Copier,2,0.0,1725.53,287.87,2,2023,6,June,Q2
+156,ORD-000156,2024-11-29,2024-12-05,Standard Class,CUST-0782,Customer 0782,Consumer,Spain,Europe,Catalonia,Berlin,Technology,Phones,Smartphone,2,0.1,1354.02,159.39,6,2024,11,November,Q4
+157,ORD-000157,2023-08-31,2023-09-01,Same Day,CUST-0085,Customer 0085,Corporate,France,Europe,Nouvelle-Aquitaine,Melbourne,Technology,Accessories,USB-C Hub,1,0.0,85.05,-21.28,1,2023,8,August,Q3
+158,ORD-000158,2023-03-27,2023-03-31,Second Class,CUST-1702,Customer 1702,Home Office,United Kingdom,Europe,Northern Ireland,New York,Office Supplies,Fasteners,Fastener Pack,2,0.1,21.27,1.23,4,2023,3,March,Q1
+159,ORD-000159,2024-07-31,2024-08-01,First Class,CUST-0120,Customer 0120,Consumer,United States,North America,California,Shanghai,Office Supplies,Storage,Storage Box,3,0.1,293.14,12.92,1,2024,7,July,Q3
+160,ORD-000160,2024-11-12,2024-11-12,Same Day,CUST-0640,Customer 0640,Consumer,Brazil,South America,Minas Gerais,Bengaluru,Technology,Phones,Smartphone,3,0.1,2246.59,190.22,0,2024,11,November,Q4
+161,ORD-000161,2024-07-10,2024-07-11,First Class,CUST-0911,Customer 0911,Consumer,Mexico,North America,Nuevo León,New York,Office Supplies,Appliances,Printer,3,0.0,1277.49,173.51,1,2024,7,July,Q3
+162,ORD-000162,2024-07-27,2024-08-03,Standard Class,CUST-1950,Customer 1950,Corporate,United States,North America,California,São Paulo,Office Supplies,Envelopes,Business Envelopes,2,0.1,47.05,0.34,7,2024,7,July,Q3
+163,ORD-000163,2024-10-07,2024-10-12,Standard Class,CUST-0327,Customer 0327,Corporate,Australia,Oceania,Victoria,São Paulo,Furniture,Furnishings,Office Desk Lamp,4,0.05,324.29,35.66,5,2024,10,October,Q4
+164,ORD-000164,2023-01-28,2023-02-01,Second Class,CUST-0283,Customer 0283,Home Office,United Kingdom,Europe,Northern Ireland,Mumbai,Furniture,Chairs,Ergonomic Office Chair,6,0.05,1319.62,164.12,4,2023,1,January,Q1
+165,ORD-000165,2024-09-11,2024-09-18,Standard Class,CUST-1992,Customer 1992,Corporate,France,Europe,Occitanie,Bengaluru,Office Supplies,Envelopes,Business Envelopes,2,0.1,39.13,6.52,7,2024,9,September,Q3
+166,ORD-000166,2024-07-09,2024-07-15,Standard Class,CUST-0291,Customer 0291,Corporate,Canada,North America,Alberta,Melbourne,Furniture,Chairs,Ergonomic Office Chair,1,0.1,205.74,18.06,6,2024,7,July,Q3
+167,ORD-000167,2023-12-06,2023-12-12,Standard Class,CUST-0937,Customer 0937,Corporate,Mexico,North America,Yucatán,Toronto,Furniture,Bookcases,Office Bookcase,2,0.0,421.02,35.82,6,2023,12,December,Q4
+168,ORD-000168,2023-11-27,2023-12-04,Standard Class,CUST-0949,Customer 0949,Corporate,Japan,Asia,Aichi,Paris,Office Supplies,Supplies,Office Supplies Kit,1,0.0,53.4,-3.37,7,2023,11,November,Q4
+169,ORD-000169,2024-10-01,2024-10-03,First Class,CUST-0061,Customer 0061,Corporate,France,Europe,Nouvelle-Aquitaine,Sydney,Technology,Machines,Desktop Computer,3,0.0,2508.12,452.45,2,2024,10,October,Q4
+170,ORD-000170,2024-05-20,2024-05-24,Standard Class,CUST-0125,Customer 0125,Home Office,Brazil,South America,Paraná,Bengaluru,Furniture,Furnishings,Office Desk Lamp,1,0.15,75.98,17.84,4,2024,5,May,Q2
+171,ORD-000171,2023-12-14,2023-12-15,First Class,CUST-0743,Customer 0743,Home Office,India,Asia,Delhi,Los Angeles,Office Supplies,Fasteners,Fastener Pack,3,0.1,31.55,-3.52,1,2023,12,December,Q4
+172,ORD-000172,2024-04-17,2024-04-21,Second Class,CUST-1661,Customer 1661,Home Office,United Kingdom,Europe,Northern Ireland,Tokyo,Office Supplies,Appliances,Printer,2,0.15,739.06,44.84,4,2024,4,April,Q2
+173,ORD-000173,2023-08-19,2023-08-22,Second Class,CUST-0991,Customer 0991,Consumer,Brazil,South America,Paraná,Mumbai,Office Supplies,Art,Art Set,5,0.15,178.69,6.15,3,2023,8,August,Q3
+174,ORD-000174,2023-07-09,2023-07-12,Second Class,CUST-0766,Customer 0766,Home Office,Canada,North America,Quebec,Sydney,Furniture,Tables,Conference Table,1,0.2,359.83,13.2,3,2023,7,July,Q3
+175,ORD-000175,2023-08-13,2023-08-18,Standard Class,CUST-0045,Customer 0045,Home Office,France,Europe,Occitanie,Melbourne,Technology,Machines,Desktop Computer,3,0.05,3001.19,468.82,5,2023,8,August,Q3
+176,ORD-000176,2024-01-20,2024-01-24,Second Class,CUST-1438,Customer 1438,Consumer,China,Asia,Jiangsu,Toronto,Technology,Copiers,Laser Copier,1,0.05,917.75,126.77,4,2024,1,January,Q1
+177,ORD-000177,2024-01-12,2024-01-14,First Class,CUST-1115,Customer 1115,Home Office,Canada,North America,Quebec,São Paulo,Technology,Copiers,Laser Copier,1,0.2,921.31,61.0,2,2024,1,January,Q1
+178,ORD-000178,2023-10-10,2023-10-16,Standard Class,CUST-0641,Customer 0641,Corporate,Australia,Oceania,Western Australia,Paris,Office Supplies,Paper,Copy Paper,6,0.0,192.3,-2.73,6,2023,10,October,Q4
+179,ORD-000179,2024-09-24,2024-09-29,Standard Class,CUST-0929,Customer 0929,Corporate,Germany,Europe,North Rhine-Westphalia,Madrid,Furniture,Chairs,Ergonomic Office Chair,4,0.1,1032.23,103.18,5,2024,9,September,Q3
+180,ORD-000180,2024-09-19,2024-09-21,Second Class,CUST-1486,Customer 1486,Home Office,Mexico,North America,Jalisco,Delhi,Technology,Machines,Desktop Computer,1,0.0,908.83,168.51,2,2024,9,September,Q3
+181,ORD-000181,2023-09-16,2023-09-17,First Class,CUST-1915,Customer 1915,Home Office,India,Asia,Tamil Nadu,Bengaluru,Technology,Accessories,USB-C Hub,4,0.2,321.43,18.03,1,2023,9,September,Q3
+182,ORD-000182,2023-12-25,2023-12-27,Second Class,CUST-0391,Customer 0391,Consumer,Japan,Asia,Aichi,Sydney,Technology,Phones,Smartphone,4,0.05,2567.93,338.1,2,2023,12,December,Q4
+183,ORD-000183,2024-12-10,2024-12-14,Second Class,CUST-1387,Customer 1387,Home Office,United Kingdom,Europe,Northern Ireland,Sydney,Office Supplies,Labels,Address Labels,3,0.0,52.12,12.65,4,2024,12,December,Q4
+184,ORD-000184,2024-03-31,2024-04-02,Second Class,CUST-1214,Customer 1214,Corporate,Spain,Europe,Valencia,Paris,Office Supplies,Art,Art Set,2,0.15,65.34,-6.38,2,2024,3,March,Q1
+185,ORD-000185,2024-02-15,2024-02-22,Standard Class,CUST-0406,Customer 0406,Home Office,Japan,Asia,Kanagawa,New York,Technology,Copiers,Laser Copier,6,0.0,4475.05,710.04,7,2024,2,February,Q1
+186,ORD-000186,2024-10-10,2024-10-13,Standard Class,CUST-0819,Customer 0819,Home Office,France,Europe,Auvergne-Rhône-Alpes,Shanghai,Office Supplies,Appliances,Printer,2,0.25,862.74,9.49,3,2024,10,October,Q4
+187,ORD-000187,2023-11-14,2023-11-16,Second Class,CUST-0837,Customer 0837,Home Office,Australia,Oceania,Western Australia,Toronto,Office Supplies,Storage,Storage Box,2,0.05,176.47,12.46,2,2023,11,November,Q4
+188,ORD-000188,2024-11-07,2024-11-14,Standard Class,CUST-1365,Customer 1365,Consumer,China,Asia,Guangdong,Sydney,Office Supplies,Art,Art Set,2,0.15,67.74,-4.14,7,2024,11,November,Q4
+189,ORD-000189,2023-08-13,2023-08-16,Standard Class,CUST-1079,Customer 1079,Consumer,Spain,Europe,Andalusia,Bengaluru,Technology,Accessories,Wireless Keyboard,5,0.05,387.25,36.36,3,2023,8,August,Q3
+190,ORD-000190,2023-08-22,2023-08-23,Same Day,CUST-0114,Customer 0114,Corporate,Japan,Asia,Osaka,New York,Technology,Copiers,Laser Copier,7,0.15,6217.37,568.13,1,2023,8,August,Q3
+191,ORD-000191,2024-11-14,2024-11-16,First Class,CUST-1567,Customer 1567,Consumer,Australia,Oceania,Western Australia,Bengaluru,Office Supplies,Binders,Premium Binder,6,0.2,195.07,2.37,2,2024,11,November,Q4
+192,ORD-000192,2024-10-25,2024-11-01,Standard Class,CUST-1334,Customer 1334,Home Office,Mexico,North America,Yucatán,Sydney,Furniture,Chairs,Ergonomic Office Chair,5,0.15,1259.44,96.32,7,2024,10,October,Q4
+193,ORD-000193,2024-01-09,2024-01-13,Standard Class,CUST-1563,Customer 1563,Consumer,Mexico,North America,Nuevo León,Tokyo,Office Supplies,Art,Art Set,10,0.2,320.76,-11.19,4,2024,1,January,Q1
+194,ORD-000194,2024-11-02,2024-11-04,First Class,CUST-1964,Customer 1964,Consumer,United Kingdom,Europe,Northern Ireland,Mumbai,Office Supplies,Fasteners,Fastener Pack,4,0.0,57.17,7.02,2,2024,11,November,Q4
+195,ORD-000195,2024-08-30,2024-09-06,Standard Class,CUST-0335,Customer 0335,Corporate,Japan,Asia,Kanagawa,Berlin,Office Supplies,Binders,Premium Binder,5,0.25,162.38,-1.12,7,2024,8,August,Q3
+196,ORD-000196,2024-04-16,2024-04-21,Standard Class,CUST-0599,Customer 0599,Corporate,China,Asia,Shanghai,Mumbai,Furniture,Chairs,Ergonomic Office Chair,10,0.1,2435.87,253.97,5,2024,4,April,Q2
+197,ORD-000197,2023-08-21,2023-08-27,Standard Class,CUST-1596,Customer 1596,Consumer,Mexico,North America,Yucatán,Toronto,Office Supplies,Envelopes,Business Envelopes,1,0.2,20.57,6.33,6,2023,8,August,Q3
+198,ORD-000198,2024-11-22,2024-11-27,Standard Class,CUST-0309,Customer 0309,Corporate,Spain,Europe,Madrid,Tokyo,Office Supplies,Paper,Copy Paper,4,0.15,118.78,5.48,5,2024,11,November,Q4
+199,ORD-000199,2023-04-23,2023-04-27,Standard Class,CUST-1425,Customer 1425,Consumer,China,Asia,Beijing,Madrid,Furniture,Tables,Conference Table,5,0.0,1981.19,292.56,4,2023,4,April,Q2
+200,ORD-000200,2024-05-11,2024-05-13,Second Class,CUST-0734,Customer 0734,Consumer,Australia,Oceania,Victoria,Berlin,Technology,Copiers,Laser Copier,7,0.1,5201.44,604.03,2,2024,5,May,Q2
+201,ORD-000201,2024-03-17,2024-03-21,Standard Class,CUST-1828,Customer 1828,Corporate,Spain,Europe,Madrid,Delhi,Technology,Phones,Smartphone,6,0.0,4185.95,641.55,4,2024,3,March,Q1
+202,ORD-000202,2024-07-17,2024-07-21,Second Class,CUST-0834,Customer 0834,Corporate,Canada,North America,Alberta,Los Angeles,Office Supplies,Supplies,Office Supplies Kit,6,0.15,354.44,8.47,4,2024,7,July,Q3
+203,ORD-000203,2023-09-25,2023-09-29,Standard Class,CUST-0770,Customer 0770,Corporate,Australia,Oceania,Victoria,Delhi,Office Supplies,Appliances,Printer,8,0.05,3070.57,341.28,4,2023,9,September,Q3
+204,ORD-000204,2024-05-24,2024-05-25,First Class,CUST-0353,Customer 0353,Corporate,Brazil,South America,São Paulo,Tokyo,Furniture,Chairs,Ergonomic Office Chair,3,0.0,789.64,129.81,1,2024,5,May,Q2
+205,ORD-000205,2024-01-21,2024-01-24,Standard Class,CUST-0117,Customer 0117,Home Office,China,Asia,Guangdong,Mumbai,Office Supplies,Paper,Copy Paper,1,0.3,35.1,-3.77,3,2024,1,January,Q1
+206,ORD-000206,2024-01-22,2024-01-24,First Class,CUST-1649,Customer 1649,Home Office,United States,North America,California,London,Furniture,Bookcases,Office Bookcase,1,0.2,175.05,-0.26,2,2024,1,January,Q1
+207,ORD-000207,2023-04-23,2023-04-26,Standard Class,CUST-1300,Customer 1300,Home Office,Brazil,South America,Paraná,Mumbai,Office Supplies,Supplies,Office Supplies Kit,3,0.2,168.16,-80.44,3,2023,4,April,Q2
+208,ORD-000208,2024-09-04,2024-09-07,Standard Class,CUST-1034,Customer 1034,Corporate,Australia,Oceania,Queensland,Shanghai,Office Supplies,Appliances,Printer,3,0.15,1438.25,93.21,3,2024,9,September,Q3
+209,ORD-000209,2024-09-16,2024-09-20,Second Class,CUST-0965,Customer 0965,Home Office,Japan,Asia,Osaka,Paris,Technology,Phones,Smartphone,3,0.15,2014.55,157.0,4,2024,9,September,Q3
+210,ORD-000210,2023-03-22,2023-03-29,Standard Class,CUST-0570,Customer 0570,Consumer,Brazil,South America,Rio de Janeiro,Berlin,Technology,Accessories,Wireless Keyboard,2,0.1,138.63,6.77,7,2023,3,March,Q1
+211,ORD-000211,2024-11-29,2024-12-03,Standard Class,CUST-0465,Customer 0465,Corporate,China,Asia,Jiangsu,Bengaluru,Office Supplies,Supplies,Office Supplies Kit,7,0.0,382.87,44.04,4,2024,11,November,Q4
+212,ORD-000212,2023-04-23,2023-04-25,Second Class,CUST-1327,Customer 1327,Corporate,India,Asia,Tamil Nadu,São Paulo,Office Supplies,Binders,Premium Binder,2,0.2,50.53,4.32,2,2023,4,April,Q2
+213,ORD-000213,2023-01-02,2023-01-09,Standard Class,CUST-1215,Customer 1215,Home Office,Mexico,North America,Nuevo León,Tokyo,Office Supplies,Envelopes,Business Envelopes,6,0.2,158.31,-23.57,7,2023,1,January,Q1
+214,ORD-000214,2024-10-03,2024-10-07,Standard Class,CUST-0755,Customer 0755,Home Office,Canada,North America,Alberta,Los Angeles,Technology,Phones,Smartphone,7,0.15,4713.97,378.24,4,2024,10,October,Q4
+215,ORD-000215,2023-08-08,2023-08-14,Standard Class,CUST-1703,Customer 1703,Home Office,India,Asia,Karnataka,Paris,Office Supplies,Binders,Premium Binder,3,0.25,81.29,13.82,6,2023,8,August,Q3
+216,ORD-000216,2024-07-19,2024-07-22,Second Class,CUST-0062,Customer 0062,Consumer,India,Asia,Delhi,São Paulo,Technology,Machines,Desktop Computer,3,0.1,3134.5,432.59,3,2024,7,July,Q3
+217,ORD-000217,2023-08-13,2023-08-17,Second Class,CUST-1234,Customer 1234,Corporate,United States,North America,Illinois,Bengaluru,Technology,Copiers,Laser Copier,5,0.05,4535.97,619.03,4,2023,8,August,Q3
+218,ORD-000218,2024-01-20,2024-01-24,Standard Class,CUST-1084,Customer 1084,Home Office,France,Europe,Île-de-France,Paris,Office Supplies,Paper,Copy Paper,4,0.25,119.23,-18.17,4,2024,1,January,Q1
+219,ORD-000219,2024-02-07,2024-02-14,Standard Class,CUST-0329,Customer 0329,Home Office,China,Asia,Guangdong,Bengaluru,Furniture,Bookcases,Office Bookcase,2,0.1,416.49,21.24,7,2024,2,February,Q1
+220,ORD-000220,2024-09-29,2024-10-03,Second Class,CUST-1610,Customer 1610,Corporate,Spain,Europe,Andalusia,Los Angeles,Office Supplies,Envelopes,Business Envelopes,1,0.1,19.25,4.36,4,2024,9,September,Q3
+221,ORD-000221,2023-05-10,2023-05-14,Standard Class,CUST-1024,Customer 1024,Consumer,Mexico,North America,Nuevo León,Bengaluru,Furniture,Bookcases,Office Bookcase,2,0.05,382.32,53.09,4,2023,5,May,Q2
+222,ORD-000222,2023-02-22,2023-02-23,First Class,CUST-1824,Customer 1824,Corporate,Japan,Asia,Tokyo,São Paulo,Office Supplies,Fasteners,Fastener Pack,1,0.1,12.21,15.37,1,2023,2,February,Q1
+223,ORD-000223,2024-11-14,2024-11-20,Standard Class,CUST-1471,Customer 1471,Home Office,India,Asia,Delhi,Madrid,Office Supplies,Fasteners,Fastener Pack,2,0.15,23.07,-13.01,6,2024,11,November,Q4
+224,ORD-000224,2024-12-30,2025-01-01,First Class,CUST-0512,Customer 0512,Home Office,Canada,North America,Quebec,Berlin,Office Supplies,Labels,Address Labels,2,0.1,41.01,-2.16,2,2024,12,December,Q4
+225,ORD-000225,2024-11-02,2024-11-08,Standard Class,CUST-0551,Customer 0551,Corporate,France,Europe,Île-de-France,Los Angeles,Office Supplies,Paper,Copy Paper,4,0.1,138.2,-4.78,6,2024,11,November,Q4
+226,ORD-000226,2024-12-10,2024-12-14,Second Class,CUST-1170,Customer 1170,Home Office,United States,North America,New York,Madrid,Furniture,Bookcases,Office Bookcase,8,0.05,1606.79,157.76,4,2024,12,December,Q4
+227,ORD-000227,2024-02-20,2024-02-26,Standard Class,CUST-1560,Customer 1560,Corporate,Germany,Europe,Hesse,Sydney,Office Supplies,Envelopes,Business Envelopes,4,0.1,87.57,-9.33,6,2024,2,February,Q1
+228,ORD-000228,2023-09-04,2023-09-08,Second Class,CUST-1538,Customer 1538,Corporate,Mexico,North America,Puebla,Los Angeles,Office Supplies,Storage,Storage Box,7,0.2,702.0,2.65,4,2023,9,September,Q3
+229,ORD-000229,2024-03-14,2024-03-18,Standard Class,CUST-1680,Customer 1680,Home Office,Germany,Europe,Saxony,New York,Furniture,Bookcases,Office Bookcase,5,0.0,873.59,97.89,4,2024,3,March,Q1
+230,ORD-000230,2023-07-22,2023-07-24,Second Class,CUST-1487,Customer 1487,Consumer,Brazil,South America,Paraná,Delhi,Office Supplies,Labels,Address Labels,5,0.0,93.23,8.85,2,2023,7,July,Q3
+231,ORD-000231,2023-07-03,2023-07-07,Second Class,CUST-0435,Customer 0435,Home Office,India,Asia,Karnataka,São Paulo,Furniture,Tables,Conference Table,2,0.0,823.74,111.2,4,2023,7,July,Q3
+232,ORD-000232,2023-05-03,2023-05-08,Standard Class,CUST-1876,Customer 1876,Consumer,United Kingdom,Europe,Wales,Toronto,Technology,Accessories,USB-C Hub,2,0.25,140.66,-0.51,5,2023,5,May,Q2
+233,ORD-000233,2024-02-05,2024-02-09,Standard Class,CUST-0566,Customer 0566,Corporate,Mexico,North America,Jalisco,Toronto,Office Supplies,Art,Art Set,6,0.15,186.5,6.42,4,2024,2,February,Q1
+234,ORD-000234,2023-10-21,2023-10-22,First Class,CUST-1720,Customer 1720,Home Office,Spain,Europe,Catalonia,New York,Office Supplies,Appliances,Printer,7,0.25,3522.02,74.78,1,2023,10,October,Q4
+235,ORD-000235,2023-10-07,2023-10-10,Second Class,CUST-0872,Customer 0872,Consumer,France,Europe,Île-de-France,Berlin,Office Supplies,Appliances,Printer,3,0.1,1499.38,144.37,3,2023,10,October,Q4
+236,ORD-000236,2024-09-01,2024-09-02,Same Day,CUST-1519,Customer 1519,Corporate,Canada,North America,Ontario,Madrid,Technology,Phones,Smartphone,1,0.1,728.06,80.09,1,2024,9,September,Q3
+237,ORD-000237,2023-07-17,2023-07-24,Standard Class,CUST-1598,Customer 1598,Corporate,Mexico,North America,Yucatán,London,Furniture,Furnishings,Office Desk Lamp,5,0.15,382.3,11.72,7,2023,7,July,Q3
+238,ORD-000238,2024-05-25,2024-05-29,Standard Class,CUST-0488,Customer 0488,Corporate,Spain,Europe,Catalonia,Mumbai,Furniture,Chairs,Ergonomic Office Chair,2,0.0,493.02,84.48,4,2024,5,May,Q2
+239,ORD-000239,2023-05-24,2023-05-29,Standard Class,CUST-0327,Customer 0327,Corporate,China,Asia,Zhejiang,Shanghai,Furniture,Tables,Conference Table,1,0.05,329.01,48.0,5,2023,5,May,Q2
+240,ORD-000240,2024-08-31,2024-09-03,Second Class,CUST-1362,Customer 1362,Home Office,Germany,Europe,Bavaria,Melbourne,Technology,Phones,Smartphone,5,0.1,3254.73,348.8,3,2024,8,August,Q3
+241,ORD-000241,2023-07-20,2023-07-25,Standard Class,CUST-0985,Customer 0985,Home Office,China,Asia,Guangdong,Mumbai,Office Supplies,Fasteners,Fastener Pack,3,0.0,36.04,-92.44,5,2023,7,July,Q3
+242,ORD-000242,2023-05-04,2023-05-07,Standard Class,CUST-1869,Customer 1869,Home Office,France,Europe,Île-de-France,Delhi,Office Supplies,Labels,Address Labels,4,0.05,62.11,11.37,3,2023,5,May,Q2
+243,ORD-000243,2023-07-06,2023-07-09,Standard Class,CUST-0700,Customer 0700,Corporate,United States,North America,Florida,Bengaluru,Technology,Accessories,USB-C Hub,7,0.0,564.82,76.29,3,2023,7,July,Q3
+244,ORD-000244,2023-11-22,2023-11-23,First Class,CUST-1227,Customer 1227,Consumer,India,Asia,Tamil Nadu,Mumbai,Furniture,Bookcases,Office Bookcase,3,0.0,549.68,58.81,1,2023,11,November,Q4
+245,ORD-000245,2024-04-08,2024-04-11,Second Class,CUST-0101,Customer 0101,Corporate,Mexico,North America,Puebla,Paris,Office Supplies,Paper,Copy Paper,3,0.05,103.97,-1.48,3,2024,4,April,Q2
+246,ORD-000246,2023-12-15,2023-12-22,Standard Class,CUST-0968,Customer 0968,Corporate,United Kingdom,Europe,Wales,New York,Technology,Accessories,Wireless Keyboard,2,0.15,134.0,11.69,7,2023,12,December,Q4
+247,ORD-000247,2024-10-21,2024-10-24,Second Class,CUST-1371,Customer 1371,Corporate,Germany,Europe,North Rhine-Westphalia,São Paulo,Office Supplies,Labels,Address Labels,2,0.0,41.46,-18.02,3,2024,10,October,Q4
+248,ORD-000248,2024-02-07,2024-02-12,Standard Class,CUST-0020,Customer 0020,Home Office,Germany,Europe,Saxony,Madrid,Technology,Copiers,Laser Copier,5,0.05,4159.25,570.89,5,2024,2,February,Q1
+249,ORD-000249,2023-12-12,2023-12-17,Standard Class,CUST-1400,Customer 1400,Corporate,Mexico,North America,Puebla,London,Office Supplies,Envelopes,Business Envelopes,3,0.0,65.56,-1.31,5,2023,12,December,Q4
+250,ORD-000250,2024-05-25,2024-05-28,Second Class,CUST-0064,Customer 0064,Consumer,Brazil,South America,Paraná,Mumbai,Furniture,Chairs,Ergonomic Office Chair,1,0.1,252.0,20.4,3,2024,5,May,Q2
+251,ORD-000251,2023-05-27,2023-05-29,Second Class,CUST-1151,Customer 1151,Home Office,China,Asia,Shanghai,Toronto,Office Supplies,Binders,Premium Binder,1,0.1,25.79,-3.01,2,2023,5,May,Q2
+252,ORD-000252,2023-05-28,2023-06-04,Standard Class,CUST-0098,Customer 0098,Consumer,Germany,Europe,Hesse,Paris,Office Supplies,Binders,Premium Binder,3,0.2,82.97,-13.49,7,2023,5,May,Q2
+253,ORD-000253,2024-12-11,2024-12-18,Standard Class,CUST-0324,Customer 0324,Home Office,Spain,Europe,Valencia,Mumbai,Technology,Accessories,USB-C Hub,3,0.15,261.64,24.77,7,2024,12,December,Q4
+254,ORD-000254,2024-05-03,2024-05-08,Standard Class,CUST-0207,Customer 0207,Home Office,Canada,North America,Ontario,São Paulo,Office Supplies,Envelopes,Business Envelopes,4,0.0,87.48,-11.77,5,2024,5,May,Q2
+255,ORD-000255,2024-10-01,2024-10-05,Second Class,CUST-0461,Customer 0461,Corporate,India,Asia,Delhi,Madrid,Technology,Accessories,Wireless Keyboard,3,0.0,227.63,28.67,4,2024,10,October,Q4
+256,ORD-000256,2024-07-04,2024-07-06,Second Class,CUST-1969,Customer 1969,Corporate,Germany,Europe,Hesse,Toronto,Furniture,Bookcases,Office Bookcase,1,0.0,191.76,16.23,2,2024,7,July,Q3
+257,ORD-000257,2023-12-04,2023-12-06,First Class,CUST-1622,Customer 1622,Home Office,Spain,Europe,Catalonia,Shanghai,Office Supplies,Supplies,Office Supplies Kit,3,0.25,149.13,12.51,2,2023,12,December,Q4
+258,ORD-000258,2024-10-02,2024-10-05,Standard Class,CUST-0282,Customer 0282,Corporate,France,Europe,Nouvelle-Aquitaine,London,Furniture,Furnishings,Office Desk Lamp,7,0.15,535.82,17.6,3,2024,10,October,Q4
+259,ORD-000259,2024-04-17,2024-04-20,Second Class,CUST-0754,Customer 0754,Consumer,France,Europe,Occitanie,Paris,Office Supplies,Art,Art Set,1,0.0,39.12,-13.86,3,2024,4,April,Q2
+260,ORD-000260,2023-05-31,2023-06-06,Standard Class,CUST-1460,Customer 1460,Consumer,India,Asia,Uttar Pradesh,Madrid,Technology,Accessories,USB-C Hub,4,0.0,344.05,49.1,6,2023,5,May,Q2
+261,ORD-000261,2024-02-19,2024-02-24,Standard Class,CUST-1597,Customer 1597,Consumer,Brazil,South America,Minas Gerais,Shanghai,Furniture,Tables,Conference Table,4,0.1,1623.78,145.52,5,2024,2,February,Q1
+262,ORD-000262,2023-10-25,2023-10-30,Standard Class,CUST-1791,Customer 1791,Corporate,Japan,Asia,Aichi,Madrid,Furniture,Furnishings,Office Desk Lamp,5,0.0,417.19,49.6,5,2023,10,October,Q4
+263,ORD-000263,2024-09-02,2024-09-05,Standard Class,CUST-1020,Customer 1020,Corporate,Japan,Asia,Kanagawa,London,Furniture,Tables,Conference Table,1,0.15,305.05,27.06,3,2024,9,September,Q3
+264,ORD-000264,2023-09-20,2023-09-21,First Class,CUST-1545,Customer 1545,Corporate,United Kingdom,Europe,Scotland,Mumbai,Office Supplies,Appliances,Printer,8,0.1,2988.31,265.79,1,2023,9,September,Q3
+265,ORD-000265,2023-05-24,2023-05-27,Standard Class,CUST-1029,Customer 1029,Home Office,India,Asia,Delhi,New York,Technology,Phones,Smartphone,4,0.1,2801.27,209.1,3,2023,5,May,Q2
+266,ORD-000266,2023-12-12,2023-12-15,Standard Class,CUST-1182,Customer 1182,Corporate,United States,North America,Illinois,Delhi,Office Supplies,Labels,Address Labels,6,0.1,100.81,7.06,3,2023,12,December,Q4
+267,ORD-000267,2024-09-15,2024-09-17,Second Class,CUST-1284,Customer 1284,Home Office,Brazil,South America,Minas Gerais,São Paulo,Office Supplies,Envelopes,Business Envelopes,2,0.0,46.45,3.13,2,2024,9,September,Q3
+268,ORD-000268,2024-07-25,2024-07-30,Standard Class,CUST-1695,Customer 1695,Corporate,Germany,Europe,North Rhine-Westphalia,Sydney,Office Supplies,Storage,Storage Box,5,0.1,479.09,21.63,5,2024,7,July,Q3
+269,ORD-000269,2023-01-02,2023-01-05,Standard Class,CUST-0782,Customer 0782,Corporate,Japan,Asia,Osaka,Delhi,Furniture,Furnishings,Office Desk Lamp,5,0.15,394.47,21.35,3,2023,1,January,Q1
+270,ORD-000270,2023-10-31,2023-10-31,Same Day,CUST-1817,Customer 1817,Corporate,India,Asia,Tamil Nadu,Paris,Technology,Phones,Smartphone,2,0.05,1294.05,155.15,0,2023,10,October,Q4
+271,ORD-000271,2023-09-11,2023-09-15,Standard Class,CUST-0625,Customer 0625,Consumer,Japan,Asia,Kanagawa,São Paulo,Office Supplies,Envelopes,Business Envelopes,2,0.1,47.35,0.42,4,2023,9,September,Q3
+272,ORD-000272,2024-10-13,2024-10-17,Standard Class,CUST-1308,Customer 1308,Home Office,Australia,Oceania,Queensland,Mumbai,Furniture,Bookcases,Office Bookcase,4,0.2,648.19,14.9,4,2024,10,October,Q4
+273,ORD-000273,2024-03-28,2024-03-31,Standard Class,CUST-0399,Customer 0399,Home Office,China,Asia,Guangdong,Berlin,Technology,Accessories,Wireless Keyboard,1,0.0,71.7,-67.42,3,2024,3,March,Q1
+274,ORD-000274,2023-02-06,2023-02-12,Standard Class,CUST-0624,Customer 0624,Home Office,France,Europe,Île-de-France,London,Office Supplies,Supplies,Office Supplies Kit,5,0.1,300.84,5.96,6,2023,2,February,Q1
+275,ORD-000275,2023-06-09,2023-06-09,Same Day,CUST-0451,Customer 0451,Corporate,Australia,Oceania,Queensland,São Paulo,Office Supplies,Storage,Storage Box,1,0.05,87.55,3.51,0,2023,6,June,Q2
+276,ORD-000276,2023-01-09,2023-01-15,Standard Class,CUST-0479,Customer 0479,Consumer,Spain,Europe,Andalusia,Bengaluru,Furniture,Furnishings,Office Desk Lamp,1,0.15,71.07,2.66,6,2023,1,January,Q1
+277,ORD-000277,2023-08-21,2023-08-22,First Class,CUST-1357,Customer 1357,Home Office,India,Asia,Karnataka,London,Technology,Phones,Smartphone,4,0.0,2935.78,452.27,1,2023,8,August,Q3
+278,ORD-000278,2023-04-09,2023-04-11,Second Class,CUST-1801,Customer 1801,Corporate,China,Asia,Jiangsu,Berlin,Office Supplies,Supplies,Office Supplies Kit,1,0.15,56.58,-2.99,2,2023,4,April,Q2
+279,ORD-000279,2024-10-20,2024-10-26,Standard Class,CUST-0578,Customer 0578,Consumer,Brazil,South America,São Paulo,Mumbai,Technology,Accessories,USB-C Hub,8,0.0,557.26,69.24,6,2024,10,October,Q4
+280,ORD-000280,2023-07-27,2023-07-28,First Class,CUST-0535,Customer 0535,Corporate,United States,North America,Illinois,Sydney,Office Supplies,Labels,Address Labels,6,0.0,126.52,-4.46,1,2023,7,July,Q3
+281,ORD-000281,2023-05-11,2023-05-14,Standard Class,CUST-1328,Customer 1328,Home Office,Spain,Europe,Madrid,Shanghai,Furniture,Bookcases,Office Bookcase,4,0.15,805.46,34.42,3,2023,5,May,Q2
+282,ORD-000282,2024-02-08,2024-02-13,Standard Class,CUST-0161,Customer 0161,Home Office,Canada,North America,Alberta,Shanghai,Office Supplies,Art,Art Set,5,0.1,184.57,9.76,5,2024,2,February,Q1
+283,ORD-000283,2023-06-01,2023-06-07,Standard Class,CUST-0412,Customer 0412,Home Office,Japan,Asia,Osaka,Mumbai,Office Supplies,Fasteners,Fastener Pack,6,0.2,72.21,-2.63,6,2023,6,June,Q2
+284,ORD-000284,2023-02-23,2023-02-27,Second Class,CUST-1343,Customer 1343,Consumer,United States,North America,Texas,Delhi,Office Supplies,Labels,Address Labels,2,0.1,42.69,0.6,4,2023,2,February,Q1
+285,ORD-000285,2023-04-30,2023-05-04,Standard Class,CUST-0392,Customer 0392,Consumer,Germany,Europe,Bavaria,Madrid,Technology,Accessories,USB-C Hub,6,0.1,538.2,59.68,4,2023,4,April,Q2
+286,ORD-000286,2024-11-03,2024-11-05,First Class,CUST-0420,Customer 0420,Home Office,Australia,Oceania,Queensland,Bengaluru,Office Supplies,Fasteners,Fastener Pack,1,0.15,12.45,-13.6,2,2024,11,November,Q4
+287,ORD-000287,2024-09-19,2024-09-24,Standard Class,CUST-1147,Customer 1147,Consumer,China,Asia,Shanghai,Melbourne,Technology,Accessories,Wireless Keyboard,2,0.05,140.22,32.21,5,2024,9,September,Q3
+288,ORD-000288,2024-08-09,2024-08-16,Standard Class,CUST-0386,Customer 0386,Corporate,India,Asia,Delhi,Madrid,Office Supplies,Paper,Copy Paper,3,0.0,91.03,14.89,7,2024,8,August,Q3
+289,ORD-000289,2024-09-16,2024-09-23,Standard Class,CUST-1816,Customer 1816,Corporate,Japan,Asia,Osaka,Delhi,Office Supplies,Binders,Premium Binder,4,0.0,102.87,4.59,7,2024,9,September,Q3
+290,ORD-000290,2024-02-24,2024-02-26,Second Class,CUST-1430,Customer 1430,Corporate,Australia,Oceania,Western Australia,Berlin,Furniture,Chairs,Ergonomic Office Chair,1,0.0,226.96,37.17,2,2024,2,February,Q1
+291,ORD-000291,2024-02-26,2024-02-27,First Class,CUST-0335,Customer 0335,Corporate,Australia,Oceania,New South Wales,Toronto,Technology,Accessories,Wireless Keyboard,2,0.05,123.84,-54.44,1,2024,2,February,Q1
+292,ORD-000292,2023-04-14,2023-04-15,Same Day,CUST-0024,Customer 0024,Corporate,India,Asia,Karnataka,Shanghai,Office Supplies,Art,Art Set,4,0.25,155.25,-52.29,1,2023,4,April,Q2
+293,ORD-000293,2023-09-11,2023-09-12,First Class,CUST-1278,Customer 1278,Corporate,Mexico,North America,Puebla,Tokyo,Office Supplies,Appliances,Printer,2,0.15,755.18,64.4,1,2023,9,September,Q3
+294,ORD-000294,2023-08-15,2023-08-18,Standard Class,CUST-1477,Customer 1477,Home Office,France,Europe,Île-de-France,Shanghai,Office Supplies,Appliances,Printer,5,0.25,2356.53,36.07,3,2023,8,August,Q3
+295,ORD-000295,2023-04-22,2023-04-24,First Class,CUST-1883,Customer 1883,Consumer,Germany,Europe,Bavaria,Toronto,Office Supplies,Art,Art Set,4,0.3,144.65,-9.81,2,2023,4,April,Q2
+296,ORD-000296,2024-05-24,2024-05-28,Second Class,CUST-0949,Customer 0949,Home Office,China,Asia,Jiangsu,Paris,Office Supplies,Labels,Address Labels,2,0.05,35.45,-5.08,4,2024,5,May,Q2
+297,ORD-000297,2024-04-17,2024-04-24,Standard Class,CUST-1109,Customer 1109,Home Office,India,Asia,Maharashtra,London,Technology,Accessories,Wireless Keyboard,1,0.0,62.08,2.68,7,2024,4,April,Q2
+298,ORD-000298,2023-04-09,2023-04-12,Standard Class,CUST-0721,Customer 0721,Corporate,Canada,North America,Ontario,Los Angeles,Technology,Machines,Desktop Computer,4,0.1,3912.56,524.97,3,2023,4,April,Q2
+299,ORD-000299,2023-06-02,2023-06-07,Standard Class,CUST-0186,Customer 0186,Corporate,Spain,Europe,Valencia,Paris,Furniture,Furnishings,Office Desk Lamp,3,0.2,216.25,-6.6,5,2023,6,June,Q2
+300,ORD-000300,2023-12-04,2023-12-10,Standard Class,CUST-0035,Customer 0035,Home Office,Germany,Europe,North Rhine-Westphalia,Toronto,Furniture,Bookcases,Office Bookcase,1,0.1,180.06,11.4,6,2023,12,December,Q4
+301,ORD-000301,2024-12-06,2024-12-12,Standard Class,CUST-0247,Customer 0247,Home Office,Brazil,South America,Paraná,Toronto,Office Supplies,Labels,Address Labels,2,0.1,39.91,0.63,6,2024,12,December,Q4
+302,ORD-000302,2023-06-12,2023-06-16,Second Class,CUST-0439,Customer 0439,Home Office,Canada,North America,Quebec,São Paulo,Furniture,Furnishings,Office Desk Lamp,2,0.0,160.36,12.81,4,2023,6,June,Q2
+303,ORD-000303,2024-12-20,2024-12-24,Standard Class,CUST-1946,Customer 1946,Consumer,Spain,Europe,Valencia,London,Office Supplies,Appliances,Printer,1,0.05,466.95,31.8,4,2024,12,December,Q4
+304,ORD-000304,2024-11-11,2024-11-13,Second Class,CUST-0302,Customer 0302,Corporate,Japan,Asia,Tokyo,Berlin,Office Supplies,Labels,Address Labels,3,0.05,59.38,0.4,2,2024,11,November,Q4
+305,ORD-000305,2023-06-10,2023-06-13,Standard Class,CUST-0153,Customer 0153,Consumer,United Kingdom,Europe,England,Delhi,Technology,Copiers,Laser Copier,5,0.05,4824.92,634.96,3,2023,6,June,Q2
+306,ORD-000306,2024-08-02,2024-08-04,First Class,CUST-0213,Customer 0213,Corporate,France,Europe,Île-de-France,Melbourne,Furniture,Bookcases,Office Bookcase,3,0.2,497.12,30.09,2,2024,8,August,Q3
+307,ORD-000307,2024-02-02,2024-02-05,Standard Class,CUST-0760,Customer 0760,Home Office,Japan,Asia,Aichi,Paris,Office Supplies,Art,Art Set,6,0.0,251.64,20.35,3,2024,2,February,Q1
+308,ORD-000308,2023-10-04,2023-10-05,Same Day,CUST-1675,Customer 1675,Consumer,Germany,Europe,Bavaria,Shanghai,Office Supplies,Fasteners,Fastener Pack,1,0.3,12.2,6.45,1,2023,10,October,Q4
+309,ORD-000309,2024-05-18,2024-05-23,Standard Class,CUST-0792,Customer 0792,Corporate,China,Asia,Jiangsu,Los Angeles,Office Supplies,Appliances,Printer,3,0.0,1387.74,177.0,5,2024,5,May,Q2
+310,ORD-000310,2024-01-27,2024-02-03,Standard Class,CUST-0590,Customer 0590,Consumer,United States,North America,California,Tokyo,Technology,Accessories,Wireless Keyboard,4,0.25,282.68,12.51,7,2024,1,January,Q1
+311,ORD-000311,2023-05-15,2023-05-17,First Class,CUST-1432,Customer 1432,Home Office,Spain,Europe,Andalusia,Los Angeles,Office Supplies,Labels,Address Labels,4,0.1,75.47,-7.18,2,2023,5,May,Q2
+312,ORD-000312,2023-07-14,2023-07-17,Standard Class,CUST-0329,Customer 0329,Corporate,Brazil,South America,Rio de Janeiro,Sydney,Furniture,Chairs,Ergonomic Office Chair,4,0.15,1150.59,98.96,3,2023,7,July,Q3
+313,ORD-000313,2024-02-05,2024-02-07,First Class,CUST-1922,Customer 1922,Corporate,India,Asia,Tamil Nadu,Melbourne,Office Supplies,Appliances,Printer,5,0.0,1944.73,259.54,2,2024,2,February,Q1
+314,ORD-000314,2024-10-01,2024-10-02,Same Day,CUST-0006,Customer 0006,Consumer,United States,North America,Illinois,Berlin,Furniture,Bookcases,Office Bookcase,4,0.1,718.28,59.42,1,2024,10,October,Q4
+315,ORD-000315,2023-02-02,2023-02-06,Standard Class,CUST-1817,Customer 1817,Home Office,Japan,Asia,Aichi,Bengaluru,Office Supplies,Labels,Address Labels,1,0.2,16.1,16.67,4,2023,2,February,Q1
+316,ORD-000316,2024-11-18,2024-11-23,Standard Class,CUST-1873,Customer 1873,Home Office,Canada,North America,Alberta,Shanghai,Office Supplies,Fasteners,Fastener Pack,4,0.0,43.85,-2.48,5,2024,11,November,Q4
+317,ORD-000317,2024-04-04,2024-04-07,Standard Class,CUST-0515,Customer 0515,Corporate,France,Europe,Nouvelle-Aquitaine,Madrid,Furniture,Furnishings,Office Desk Lamp,5,0.0,412.33,52.54,3,2024,4,April,Q2
+318,ORD-000318,2024-04-14,2024-04-16,Second Class,CUST-0133,Customer 0133,Home Office,Japan,Asia,Osaka,Madrid,Technology,Accessories,USB-C Hub,10,0.05,681.36,82.49,2,2024,4,April,Q2
+319,ORD-000319,2024-01-10,2024-01-13,Standard Class,CUST-0416,Customer 0416,Home Office,China,Asia,Jiangsu,New York,Furniture,Tables,Conference Table,4,0.0,1626.01,228.04,3,2024,1,January,Q1
+320,ORD-000320,2023-01-22,2023-01-26,Second Class,CUST-1328,Customer 1328,Home Office,Japan,Asia,Aichi,Paris,Office Supplies,Supplies,Office Supplies Kit,4,0.0,235.76,35.93,4,2023,1,January,Q1
+321,ORD-000321,2024-10-31,2024-11-03,Second Class,CUST-1591,Customer 1591,Consumer,United States,North America,California,Toronto,Office Supplies,Art,Art Set,3,0.15,105.45,0.15,3,2024,10,October,Q4
+322,ORD-000322,2023-02-07,2023-02-11,Second Class,CUST-0733,Customer 0733,Home Office,Brazil,South America,São Paulo,Paris,Technology,Machines,Desktop Computer,6,0.0,5506.07,991.27,4,2023,2,February,Q1
+323,ORD-000323,2023-08-18,2023-08-24,Standard Class,CUST-0420,Customer 0420,Consumer,Spain,Europe,Catalonia,Toronto,Office Supplies,Appliances,Printer,10,0.15,3755.62,234.68,6,2023,8,August,Q3
+324,ORD-000324,2023-12-31,2024-01-04,Standard Class,CUST-1828,Customer 1828,Corporate,China,Asia,Zhejiang,Mumbai,Technology,Accessories,USB-C Hub,5,0.2,469.02,8.58,4,2023,12,December,Q4
+325,ORD-000325,2024-07-16,2024-07-20,Standard Class,CUST-0893,Customer 0893,Home Office,United Kingdom,Europe,Wales,London,Office Supplies,Envelopes,Business Envelopes,4,0.1,96.74,7.54,4,2024,7,July,Q3
+326,ORD-000326,2024-03-13,2024-03-16,Standard Class,CUST-0119,Customer 0119,Corporate,India,Asia,Uttar Pradesh,São Paulo,Office Supplies,Appliances,Printer,1,0.0,406.45,57.68,3,2024,3,March,Q1
+327,ORD-000327,2023-10-10,2023-10-11,First Class,CUST-1661,Customer 1661,Corporate,Japan,Asia,Tokyo,London,Office Supplies,Supplies,Office Supplies Kit,5,0.1,240.58,9.99,1,2023,10,October,Q4
+328,ORD-000328,2023-01-27,2023-02-02,Standard Class,CUST-0921,Customer 0921,Consumer,Japan,Asia,Tokyo,Mumbai,Furniture,Bookcases,Office Bookcase,4,0.05,694.07,81.77,6,2023,1,January,Q1
+329,ORD-000329,2023-08-14,2023-08-21,Standard Class,CUST-0952,Customer 0952,Corporate,France,Europe,Île-de-France,New York,Furniture,Bookcases,Office Bookcase,5,0.05,823.16,76.76,7,2023,8,August,Q3
+330,ORD-000330,2023-10-04,2023-10-08,Standard Class,CUST-1436,Customer 1436,Consumer,United States,North America,Illinois,Toronto,Office Supplies,Binders,Premium Binder,1,0.05,31.51,-12.34,4,2023,10,October,Q4
+331,ORD-000331,2024-08-31,2024-09-01,First Class,CUST-0892,Customer 0892,Consumer,France,Europe,Nouvelle-Aquitaine,Melbourne,Office Supplies,Appliances,Printer,4,0.25,1851.12,47.61,1,2024,8,August,Q3
+332,ORD-000332,2023-10-11,2023-10-14,Second Class,CUST-1955,Customer 1955,Home Office,France,Europe,Île-de-France,São Paulo,Technology,Accessories,Wireless Keyboard,2,0.15,133.17,15.08,3,2023,10,October,Q4
+333,ORD-000333,2024-04-25,2024-05-02,Standard Class,CUST-0500,Customer 0500,Home Office,France,Europe,Nouvelle-Aquitaine,Los Angeles,Technology,Accessories,USB-C Hub,5,0.0,464.02,65.33,7,2024,4,April,Q2
+334,ORD-000334,2024-03-28,2024-04-04,Standard Class,CUST-1165,Customer 1165,Corporate,Spain,Europe,Valencia,Paris,Technology,Machines,Desktop Computer,2,0.1,1735.15,231.53,7,2024,3,March,Q1
+335,ORD-000335,2024-10-20,2024-10-23,Standard Class,CUST-1359,Customer 1359,Home Office,France,Europe,Auvergne-Rhône-Alpes,Madrid,Technology,Phones,Smartphone,4,0.05,2621.29,336.95,3,2024,10,October,Q4
+336,ORD-000336,2024-05-30,2024-06-02,Second Class,CUST-0369,Customer 0369,Consumer,United Kingdom,Europe,Northern Ireland,Madrid,Office Supplies,Binders,Premium Binder,2,0.3,61.53,-14.08,3,2024,5,May,Q2
+337,ORD-000337,2024-06-30,2024-07-06,Standard Class,CUST-1340,Customer 1340,Corporate,Japan,Asia,Tokyo,Melbourne,Technology,Phones,Smartphone,1,0.3,567.93,6.72,6,2024,6,June,Q2
+338,ORD-000338,2023-07-11,2023-07-11,Same Day,CUST-1307,Customer 1307,Home Office,Canada,North America,Ontario,London,Office Supplies,Binders,Premium Binder,4,0.05,109.81,-2.01,0,2023,7,July,Q3
+339,ORD-000339,2023-02-18,2023-02-22,Second Class,CUST-0075,Customer 0075,Consumer,Brazil,South America,São Paulo,Paris,Office Supplies,Envelopes,Business Envelopes,1,0.05,23.1,2.96,4,2023,2,February,Q1
+340,ORD-000340,2024-05-26,2024-05-28,First Class,CUST-1798,Customer 1798,Consumer,China,Asia,Beijing,Mumbai,Office Supplies,Supplies,Office Supplies Kit,4,0.1,215.24,17.07,2,2024,5,May,Q2
+341,ORD-000341,2023-01-17,2023-01-20,Second Class,CUST-0056,Customer 0056,Corporate,United Kingdom,Europe,England,Tokyo,Technology,Phones,Smartphone,7,0.1,4632.22,478.0,3,2023,1,January,Q1
+342,ORD-000342,2023-06-21,2023-06-24,Standard Class,CUST-0155,Customer 0155,Consumer,China,Asia,Jiangsu,Shanghai,Office Supplies,Paper,Copy Paper,8,0.0,272.09,22.12,3,2023,6,June,Q2
+343,ORD-000343,2023-08-08,2023-08-15,Standard Class,CUST-0682,Customer 0682,Consumer,Brazil,South America,São Paulo,Paris,Office Supplies,Fasteners,Fastener Pack,2,0.15,23.49,1.19,7,2023,8,August,Q3
+344,ORD-000344,2023-06-07,2023-06-11,Standard Class,CUST-1761,Customer 1761,Home Office,Canada,North America,Alberta,Berlin,Furniture,Bookcases,Office Bookcase,5,0.05,798.39,31.6,4,2023,6,June,Q2
+345,ORD-000345,2024-04-21,2024-04-22,Same Day,CUST-0038,Customer 0038,Corporate,Germany,Europe,North Rhine-Westphalia,Toronto,Office Supplies,Envelopes,Business Envelopes,2,0.1,39.55,-1.34,1,2024,4,April,Q2
+346,ORD-000346,2023-02-15,2023-02-22,Standard Class,CUST-0439,Customer 0439,Corporate,China,Asia,Shanghai,Melbourne,Office Supplies,Storage,Storage Box,7,0.05,615.5,53.33,7,2023,2,February,Q1
+347,ORD-000347,2024-01-08,2024-01-11,Second Class,CUST-1043,Customer 1043,Corporate,China,Asia,Zhejiang,New York,Furniture,Chairs,Ergonomic Office Chair,5,0.15,1093.39,84.64,3,2024,1,January,Q1
+348,ORD-000348,2024-06-01,2024-06-04,Second Class,CUST-1013,Customer 1013,Home Office,Canada,North America,Alberta,São Paulo,Technology,Accessories,USB-C Hub,1,0.15,92.92,-7.65,3,2024,6,June,Q2
+349,ORD-000349,2023-04-09,2023-04-13,Second Class,CUST-0877,Customer 0877,Home Office,United States,North America,California,Paris,Technology,Phones,Smartphone,2,0.1,1484.55,144.25,4,2023,4,April,Q2
+350,ORD-000350,2023-02-06,2023-02-10,Standard Class,CUST-1238,Customer 1238,Home Office,United Kingdom,Europe,Scotland,London,Technology,Machines,Desktop Computer,2,0.15,1847.11,203.78,4,2023,2,February,Q1
+351,ORD-000351,2023-10-07,2023-10-09,First Class,CUST-1895,Customer 1895,Home Office,Australia,Oceania,Western Australia,Sydney,Technology,Accessories,USB-C Hub,5,0.1,456.34,25.89,2,2023,10,October,Q4
+352,ORD-000352,2023-12-15,2023-12-15,Same Day,CUST-0141,Customer 0141,Corporate,United States,North America,Texas,Sydney,Office Supplies,Fasteners,Fastener Pack,2,0.0,24.88,13.65,0,2023,12,December,Q4
+353,ORD-000353,2024-05-11,2024-05-13,Second Class,CUST-1604,Customer 1604,Home Office,United States,North America,Illinois,Shanghai,Furniture,Furnishings,Office Desk Lamp,4,0.0,271.7,26.51,2,2024,5,May,Q2
+354,ORD-000354,2023-10-29,2023-11-05,Standard Class,CUST-1798,Customer 1798,Home Office,United States,North America,Florida,Madrid,Technology,Phones,Smartphone,4,0.0,2768.93,422.69,7,2023,10,October,Q4
+355,ORD-000355,2023-06-30,2023-07-02,First Class,CUST-0925,Customer 0925,Home Office,France,Europe,Île-de-France,São Paulo,Office Supplies,Envelopes,Business Envelopes,8,0.0,191.45,17.78,2,2023,6,June,Q2
+356,ORD-000356,2024-08-29,2024-09-02,Second Class,CUST-1630,Customer 1630,Corporate,India,Asia,Maharashtra,São Paulo,Furniture,Bookcases,Office Bookcase,7,0.15,1108.0,58.22,4,2024,8,August,Q3
+357,ORD-000357,2023-04-09,2023-04-12,Second Class,CUST-1753,Customer 1753,Corporate,China,Asia,Zhejiang,Paris,Technology,Accessories,USB-C Hub,3,0.05,230.41,53.06,3,2023,4,April,Q2
+358,ORD-000358,2024-11-30,2024-12-02,First Class,CUST-1469,Customer 1469,Corporate,Japan,Asia,Kanagawa,Los Angeles,Office Supplies,Labels,Address Labels,5,0.0,76.67,27.25,2,2024,11,November,Q4
+359,ORD-000359,2023-04-26,2023-04-29,Second Class,CUST-0015,Customer 0015,Home Office,Australia,Oceania,Queensland,Madrid,Office Supplies,Storage,Storage Box,6,0.15,489.98,27.06,3,2023,4,April,Q2
+360,ORD-000360,2023-07-10,2023-07-11,First Class,CUST-0140,Customer 0140,Consumer,United States,North America,Florida,Paris,Office Supplies,Art,Art Set,7,0.15,237.01,-4.28,1,2023,7,July,Q3
+361,ORD-000361,2023-09-10,2023-09-11,Same Day,CUST-0533,Customer 0533,Home Office,United Kingdom,Europe,Wales,Tokyo,Office Supplies,Supplies,Office Supplies Kit,1,0.05,58.88,15.44,1,2023,9,September,Q3
+362,ORD-000362,2023-06-10,2023-06-17,Standard Class,CUST-1874,Customer 1874,Corporate,India,Asia,Delhi,Bengaluru,Furniture,Tables,Conference Table,2,0.0,643.77,76.14,7,2023,6,June,Q2
+363,ORD-000363,2023-09-13,2023-09-16,Standard Class,CUST-0793,Customer 0793,Home Office,India,Asia,Maharashtra,Bengaluru,Office Supplies,Supplies,Office Supplies Kit,2,0.0,94.66,19.69,3,2023,9,September,Q3
+364,ORD-000364,2023-11-19,2023-11-24,Standard Class,CUST-0806,Customer 0806,Consumer,United States,North America,Illinois,New York,Technology,Machines,Desktop Computer,3,0.05,2737.35,410.68,5,2023,11,November,Q4
+365,ORD-000365,2023-05-08,2023-05-09,Same Day,CUST-0251,Customer 0251,Corporate,Spain,Europe,Catalonia,Berlin,Furniture,Bookcases,Office Bookcase,1,0.2,205.01,3.6,1,2023,5,May,Q2
+366,ORD-000366,2023-01-18,2023-01-23,Standard Class,CUST-1349,Customer 1349,Corporate,United States,North America,Florida,Los Angeles,Office Supplies,Appliances,Printer,3,0.0,1247.02,171.79,5,2023,1,January,Q1
+367,ORD-000367,2024-07-19,2024-07-23,Second Class,CUST-1740,Customer 1740,Consumer,Spain,Europe,Andalusia,Los Angeles,Technology,Machines,Desktop Computer,4,0.1,3782.07,513.66,4,2024,7,July,Q3
+368,ORD-000368,2024-07-23,2024-07-26,Standard Class,CUST-1073,Customer 1073,Corporate,United States,North America,Illinois,Bengaluru,Technology,Phones,Smartphone,3,0.25,1977.61,62.33,3,2024,7,July,Q3
+369,ORD-000369,2023-11-19,2023-11-20,First Class,CUST-0029,Customer 0029,Consumer,Australia,Oceania,Western Australia,Los Angeles,Office Supplies,Binders,Premium Binder,4,0.1,124.67,4.48,1,2023,11,November,Q4
+370,ORD-000370,2024-11-16,2024-11-18,Second Class,CUST-0958,Customer 0958,Corporate,United Kingdom,Europe,England,Los Angeles,Technology,Copiers,Laser Copier,1,0.05,865.31,122.07,2,2024,11,November,Q4
+371,ORD-000371,2024-09-17,2024-09-21,Second Class,CUST-0682,Customer 0682,Corporate,Spain,Europe,Andalusia,São Paulo,Office Supplies,Envelopes,Business Envelopes,6,0.15,116.42,0.77,4,2024,9,September,Q3
+372,ORD-000372,2023-10-15,2023-10-19,Second Class,CUST-1302,Customer 1302,Corporate,France,Europe,Île-de-France,Tokyo,Office Supplies,Storage,Storage Box,7,0.2,548.73,2.23,4,2023,10,October,Q4
+373,ORD-000373,2024-10-24,2024-10-30,Standard Class,CUST-0251,Customer 0251,Consumer,India,Asia,Karnataka,Madrid,Technology,Accessories,Wireless Keyboard,4,0.1,238.1,24.7,6,2024,10,October,Q4
+374,ORD-000374,2024-09-30,2024-10-02,First Class,CUST-1512,Customer 1512,Consumer,United States,North America,California,Sydney,Office Supplies,Paper,Copy Paper,6,0.2,197.33,3.24,2,2024,9,September,Q3
+375,ORD-000375,2023-06-04,2023-06-10,Standard Class,CUST-1631,Customer 1631,Corporate,India,Asia,Delhi,Berlin,Office Supplies,Storage,Storage Box,1,0.1,73.14,2.79,6,2023,6,June,Q2
+376,ORD-000376,2024-05-04,2024-05-09,Standard Class,CUST-1840,Customer 1840,Home Office,United States,North America,New York,Shanghai,Office Supplies,Supplies,Office Supplies Kit,5,0.2,261.05,12.16,5,2024,5,May,Q2
+377,ORD-000377,2024-01-21,2024-01-27,Standard Class,CUST-1564,Customer 1564,Home Office,China,Asia,Zhejiang,Tokyo,Office Supplies,Envelopes,Business Envelopes,1,0.25,23.38,-69.66,6,2024,1,January,Q1
+378,ORD-000378,2023-04-14,2023-04-17,Standard Class,CUST-1263,Customer 1263,Consumer,China,Asia,Beijing,São Paulo,Furniture,Bookcases,Office Bookcase,2,0.1,350.69,22.38,3,2023,4,April,Q2
+379,ORD-000379,2024-01-28,2024-01-31,Second Class,CUST-0151,Customer 0151,Corporate,Mexico,North America,Nuevo León,Toronto,Office Supplies,Fasteners,Fastener Pack,2,0.1,26.34,10.99,3,2024,1,January,Q1
+380,ORD-000380,2023-09-03,2023-09-06,Second Class,CUST-0565,Customer 0565,Consumer,United States,North America,Illinois,London,Furniture,Chairs,Ergonomic Office Chair,3,0.1,710.59,85.18,3,2023,9,September,Q3
+381,ORD-000381,2023-06-25,2023-07-01,Standard Class,CUST-1013,Customer 1013,Consumer,Mexico,North America,Jalisco,Mumbai,Technology,Accessories,Wireless Keyboard,2,0.15,155.06,3.18,6,2023,6,June,Q2
+382,ORD-000382,2023-02-08,2023-02-12,Second Class,CUST-1006,Customer 1006,Corporate,Australia,Oceania,New South Wales,Sydney,Office Supplies,Supplies,Office Supplies Kit,4,0.2,261.33,-6.12,4,2023,2,February,Q1
+383,ORD-000383,2024-04-21,2024-04-26,Standard Class,CUST-0882,Customer 0882,Home Office,Japan,Asia,Tokyo,Melbourne,Technology,Copiers,Laser Copier,2,0.0,1920.91,321.46,5,2024,4,April,Q2
+384,ORD-000384,2024-11-12,2024-11-14,First Class,CUST-1407,Customer 1407,Home Office,Canada,North America,Alberta,Mumbai,Furniture,Chairs,Ergonomic Office Chair,6,0.15,1705.01,139.84,2,2024,11,November,Q4
+385,ORD-000385,2024-06-21,2024-06-25,Second Class,CUST-0383,Customer 0383,Corporate,Canada,North America,British Columbia,London,Furniture,Tables,Conference Table,4,0.15,1290.34,93.58,4,2024,6,June,Q2
+386,ORD-000386,2024-02-12,2024-02-15,Second Class,CUST-0784,Customer 0784,Consumer,India,Asia,Delhi,Tokyo,Office Supplies,Storage,Storage Box,2,0.15,189.18,4.13,3,2024,2,February,Q1
+387,ORD-000387,2024-06-08,2024-06-12,Standard Class,CUST-1980,Customer 1980,Corporate,Spain,Europe,Madrid,São Paulo,Technology,Copiers,Laser Copier,2,0.15,1636.39,161.94,4,2024,6,June,Q2
+388,ORD-000388,2024-05-20,2024-05-23,Standard Class,CUST-1576,Customer 1576,Consumer,United States,North America,Florida,Bengaluru,Office Supplies,Labels,Address Labels,6,0.0,119.22,23.11,3,2024,5,May,Q2
+389,ORD-000389,2023-02-05,2023-02-08,Standard Class,CUST-0119,Customer 0119,Consumer,Australia,Oceania,Queensland,Tokyo,Furniture,Furnishings,Office Desk Lamp,2,0.05,147.13,11.96,3,2023,2,February,Q1
+390,ORD-000390,2024-11-15,2024-11-19,Second Class,CUST-0865,Customer 0865,Consumer,Brazil,South America,Minas Gerais,Shanghai,Furniture,Tables,Conference Table,3,0.15,998.86,91.76,4,2024,11,November,Q4
+391,ORD-000391,2023-01-20,2023-01-23,Second Class,CUST-0551,Customer 0551,Home Office,United States,North America,Texas,London,Office Supplies,Art,Art Set,4,0.25,165.98,-9.83,3,2023,1,January,Q1
+392,ORD-000392,2023-11-17,2023-11-24,Standard Class,CUST-0068,Customer 0068,Home Office,United States,North America,California,Paris,Office Supplies,Appliances,Printer,2,0.0,775.71,98.58,7,2023,11,November,Q4
+393,ORD-000393,2024-05-26,2024-06-02,Standard Class,CUST-1798,Customer 1798,Consumer,Australia,Oceania,Victoria,Madrid,Technology,Phones,Smartphone,2,0.1,1450.15,157.65,7,2024,5,May,Q2
+394,ORD-000394,2024-02-04,2024-02-04,Same Day,CUST-1327,Customer 1327,Consumer,Australia,Oceania,Victoria,Tokyo,Furniture,Furnishings,Office Desk Lamp,3,0.15,244.38,-80.14,0,2024,2,February,Q1
+395,ORD-000395,2024-10-15,2024-10-18,Standard Class,CUST-1163,Customer 1163,Corporate,Brazil,South America,São Paulo,Delhi,Office Supplies,Labels,Address Labels,2,0.15,34.42,4.68,3,2024,10,October,Q4
+396,ORD-000396,2024-04-15,2024-04-17,Second Class,CUST-1802,Customer 1802,Corporate,Canada,North America,Quebec,Berlin,Office Supplies,Paper,Copy Paper,2,0.1,64.67,-3.18,2,2024,4,April,Q2
+397,ORD-000397,2023-05-23,2023-05-24,First Class,CUST-0287,Customer 0287,Corporate,Mexico,North America,Nuevo León,Sydney,Technology,Accessories,Wireless Keyboard,1,0.0,58.5,-5.33,1,2023,5,May,Q2
+398,ORD-000398,2023-04-02,2023-04-05,Second Class,CUST-1863,Customer 1863,Home Office,Japan,Asia,Kanagawa,Paris,Office Supplies,Paper,Copy Paper,2,0.15,75.04,-14.5,3,2023,4,April,Q2
+399,ORD-000399,2023-12-20,2023-12-23,Second Class,CUST-0398,Customer 0398,Corporate,India,Asia,Karnataka,Berlin,Furniture,Tables,Conference Table,2,0.15,832.19,57.74,3,2023,12,December,Q4
+400,ORD-000400,2024-12-27,2024-12-29,Second Class,CUST-0630,Customer 0630,Consumer,Canada,North America,Ontario,Los Angeles,Office Supplies,Art,Art Set,8,0.15,309.78,7.21,2,2024,12,December,Q4
+401,ORD-000401,2023-02-20,2023-02-26,Standard Class,CUST-1211,Customer 1211,Corporate,Brazil,South America,São Paulo,Tokyo,Technology,Machines,Desktop Computer,3,0.15,3269.8,356.96,6,2023,2,February,Q1
+402,ORD-000402,2024-10-26,2024-11-01,Standard Class,CUST-0390,Customer 0390,Consumer,United States,North America,Illinois,Toronto,Office Supplies,Supplies,Office Supplies Kit,5,0.05,241.7,17.74,6,2024,10,October,Q4
+403,ORD-000403,2024-11-28,2024-12-03,Standard Class,CUST-0485,Customer 0485,Home Office,Canada,North America,Ontario,Bengaluru,Office Supplies,Labels,Address Labels,1,0.3,17.72,-0.05,5,2024,11,November,Q4
+404,ORD-000404,2024-07-28,2024-07-31,Standard Class,CUST-0826,Customer 0826,Consumer,United Kingdom,Europe,Northern Ireland,Tokyo,Office Supplies,Paper,Copy Paper,1,0.15,30.91,-1.57,3,2024,7,July,Q3
+405,ORD-000405,2023-07-09,2023-07-14,Standard Class,CUST-1652,Customer 1652,Consumer,China,Asia,Jiangsu,Madrid,Office Supplies,Art,Art Set,5,0.1,183.35,-0.99,5,2023,7,July,Q3
+406,ORD-000406,2023-05-05,2023-05-07,First Class,CUST-1903,Customer 1903,Home Office,United States,North America,California,Los Angeles,Furniture,Chairs,Ergonomic Office Chair,4,0.25,877.61,34.83,2,2023,5,May,Q2
+407,ORD-000407,2023-05-30,2023-06-02,Second Class,CUST-1554,Customer 1554,Consumer,Japan,Asia,Kanagawa,New York,Furniture,Bookcases,Office Bookcase,1,0.2,188.49,4.52,3,2023,5,May,Q2
+408,ORD-000408,2023-11-10,2023-11-15,Standard Class,CUST-0033,Customer 0033,Corporate,Germany,Europe,Bavaria,Bengaluru,Office Supplies,Paper,Copy Paper,2,0.15,69.06,7.34,5,2023,11,November,Q4
+409,ORD-000409,2024-07-23,2024-07-27,Standard Class,CUST-0926,Customer 0926,Home Office,Brazil,South America,Rio de Janeiro,Toronto,Technology,Copiers,Laser Copier,3,0.1,2285.63,252.5,4,2024,7,July,Q3
+410,ORD-000410,2023-12-08,2023-12-12,Standard Class,CUST-1620,Customer 1620,Consumer,France,Europe,Nouvelle-Aquitaine,Paris,Furniture,Furnishings,Office Desk Lamp,6,0.1,403.25,23.09,4,2023,12,December,Q4
+411,ORD-000411,2023-11-01,2023-11-03,First Class,CUST-0476,Customer 0476,Home Office,Spain,Europe,Madrid,New York,Office Supplies,Appliances,Printer,1,0.05,362.21,28.76,2,2023,11,November,Q4
+412,ORD-000412,2024-11-22,2024-11-25,Standard Class,CUST-0875,Customer 0875,Corporate,France,Europe,Nouvelle-Aquitaine,Los Angeles,Technology,Accessories,USB-C Hub,4,0.0,357.22,44.54,3,2024,11,November,Q4
+413,ORD-000413,2024-11-12,2024-11-16,Standard Class,CUST-1025,Customer 1025,Home Office,Canada,North America,Quebec,New York,Technology,Accessories,USB-C Hub,4,0.1,309.07,17.51,4,2024,11,November,Q4
+414,ORD-000414,2023-02-23,2023-02-25,Second Class,CUST-0697,Customer 0697,Corporate,United States,North America,Illinois,New York,Furniture,Tables,Conference Table,8,0.1,2600.91,239.75,2,2023,2,February,Q1
+415,ORD-000415,2024-03-19,2024-03-19,Same Day,CUST-1361,Customer 1361,Consumer,Spain,Europe,Catalonia,London,Furniture,Tables,Conference Table,5,0.0,1964.08,274.94,0,2024,3,March,Q1
+416,ORD-000416,2024-09-04,2024-09-08,Standard Class,CUST-1211,Customer 1211,Corporate,Spain,Europe,Valencia,Sydney,Office Supplies,Envelopes,Business Envelopes,2,0.25,39.61,-6.6,4,2024,9,September,Q3
+417,ORD-000417,2023-09-21,2023-09-24,Second Class,CUST-1946,Customer 1946,Consumer,India,Asia,Delhi,Mumbai,Office Supplies,Binders,Premium Binder,4,0.1,111.95,14.53,3,2023,9,September,Q3
+418,ORD-000418,2023-02-22,2023-03-01,Standard Class,CUST-0181,Customer 0181,Corporate,France,Europe,Nouvelle-Aquitaine,Delhi,Technology,Machines,Desktop Computer,5,0.1,5275.71,721.65,7,2023,2,February,Q1
+419,ORD-000419,2024-07-25,2024-07-29,Second Class,CUST-0146,Customer 0146,Consumer,Australia,Oceania,New South Wales,Shanghai,Technology,Accessories,USB-C Hub,5,0.05,420.34,51.62,4,2024,7,July,Q3
+420,ORD-000420,2024-09-11,2024-09-11,Same Day,CUST-1638,Customer 1638,Home Office,United States,North America,Illinois,Toronto,Office Supplies,Appliances,Printer,6,0.0,2630.63,348.26,0,2024,9,September,Q3
+421,ORD-000421,2023-01-05,2023-01-07,Second Class,CUST-1048,Customer 1048,Consumer,India,Asia,Tamil Nadu,London,Office Supplies,Supplies,Office Supplies Kit,7,0.2,348.47,1.04,2,2023,1,January,Q1
+422,ORD-000422,2023-04-13,2023-04-17,Standard Class,CUST-1298,Customer 1298,Home Office,Australia,Oceania,New South Wales,Toronto,Furniture,Tables,Conference Table,1,0.05,319.66,48.0,4,2023,4,April,Q2
+423,ORD-000423,2023-07-15,2023-07-17,Second Class,CUST-0167,Customer 0167,Home Office,Mexico,North America,Nuevo León,São Paulo,Technology,Machines,Desktop Computer,1,0.1,1001.2,132.81,2,2023,7,July,Q3
+424,ORD-000424,2023-12-16,2023-12-18,First Class,CUST-0751,Customer 0751,Consumer,Japan,Asia,Tokyo,Delhi,Technology,Machines,Desktop Computer,5,0.1,4076.68,567.31,2,2023,12,December,Q4
+425,ORD-000425,2023-02-16,2023-02-23,Standard Class,CUST-1231,Customer 1231,Home Office,France,Europe,Île-de-France,London,Technology,Accessories,Wireless Keyboard,2,0.1,150.04,3.72,7,2023,2,February,Q1
+426,ORD-000426,2024-10-17,2024-10-21,Second Class,CUST-0932,Customer 0932,Corporate,China,Asia,Jiangsu,New York,Technology,Accessories,Wireless Keyboard,1,0.1,63.22,-4.29,4,2024,10,October,Q4
+427,ORD-000427,2023-09-26,2023-09-29,Standard Class,CUST-0090,Customer 0090,Consumer,China,Asia,Zhejiang,Toronto,Technology,Machines,Desktop Computer,2,0.0,1892.05,329.41,3,2023,9,September,Q3
+428,ORD-000428,2024-01-05,2024-01-09,Standard Class,CUST-1952,Customer 1952,Home Office,Japan,Asia,Osaka,Toronto,Office Supplies,Envelopes,Business Envelopes,5,0.0,103.45,-3.56,4,2024,1,January,Q1
+429,ORD-000429,2024-09-27,2024-10-01,Standard Class,CUST-1748,Customer 1748,Home Office,Australia,Oceania,Queensland,London,Furniture,Chairs,Ergonomic Office Chair,1,0.1,277.64,16.12,4,2024,9,September,Q3
+430,ORD-000430,2023-04-16,2023-04-18,First Class,CUST-0070,Customer 0070,Corporate,India,Asia,Maharashtra,Bengaluru,Office Supplies,Supplies,Office Supplies Kit,4,0.15,236.47,7.03,2,2023,4,April,Q2
+431,ORD-000431,2024-10-31,2024-11-07,Standard Class,CUST-1115,Customer 1115,Consumer,Japan,Asia,Kanagawa,Los Angeles,Technology,Copiers,Laser Copier,1,0.05,856.35,124.58,7,2024,10,October,Q4
+432,ORD-000432,2024-10-20,2024-10-27,Standard Class,CUST-1151,Customer 1151,Consumer,Mexico,North America,Jalisco,Los Angeles,Technology,Copiers,Laser Copier,1,0.0,896.63,143.73,7,2024,10,October,Q4
+433,ORD-000433,2024-10-18,2024-10-22,Second Class,CUST-1096,Customer 1096,Corporate,United Kingdom,Europe,Wales,Delhi,Office Supplies,Art,Art Set,2,0.0,68.82,-5.58,4,2024,10,October,Q4
+434,ORD-000434,2023-04-30,2023-05-04,Second Class,CUST-0807,Customer 0807,Consumer,United Kingdom,Europe,England,Los Angeles,Furniture,Tables,Conference Table,1,0.15,354.53,21.95,4,2023,4,April,Q2
+435,ORD-000435,2024-08-26,2024-08-28,First Class,CUST-0086,Customer 0086,Consumer,China,Asia,Zhejiang,Paris,Furniture,Furnishings,Office Desk Lamp,6,0.05,438.83,40.74,2,2024,8,August,Q3
+436,ORD-000436,2023-02-27,2023-03-06,Standard Class,CUST-0037,Customer 0037,Consumer,Germany,Europe,Bavaria,Delhi,Office Supplies,Art,Art Set,6,0.0,208.68,13.96,7,2023,2,February,Q1
+437,ORD-000437,2023-12-12,2023-12-15,Second Class,CUST-1574,Customer 1574,Consumer,Brazil,South America,Paraná,Toronto,Furniture,Tables,Conference Table,5,0.15,1680.42,69.41,3,2023,12,December,Q4
+438,ORD-000438,2024-04-18,2024-04-21,Second Class,CUST-0967,Customer 0967,Consumer,Japan,Asia,Aichi,Bengaluru,Technology,Phones,Smartphone,2,0.0,1140.33,158.94,3,2024,4,April,Q2
+439,ORD-000439,2023-04-27,2023-05-01,Second Class,CUST-1993,Customer 1993,Corporate,Brazil,South America,Rio de Janeiro,Shanghai,Office Supplies,Art,Art Set,3,0.1,90.62,-0.21,4,2023,4,April,Q2
+440,ORD-000440,2023-05-07,2023-05-11,Standard Class,CUST-1698,Customer 1698,Home Office,Germany,Europe,Saxony,Los Angeles,Office Supplies,Appliances,Printer,1,0.05,382.59,35.51,4,2023,5,May,Q2
+441,ORD-000441,2024-01-28,2024-02-02,Standard Class,CUST-1264,Customer 1264,Corporate,India,Asia,Tamil Nadu,Madrid,Office Supplies,Fasteners,Fastener Pack,2,0.25,22.51,-2.1,5,2024,1,January,Q1
+442,ORD-000442,2024-10-02,2024-10-05,Standard Class,CUST-0482,Customer 0482,Corporate,Japan,Asia,Aichi,São Paulo,Office Supplies,Paper,Copy Paper,3,0.0,111.52,10.5,3,2024,10,October,Q4
+443,ORD-000443,2023-02-27,2023-03-01,Second Class,CUST-1436,Customer 1436,Home Office,Brazil,South America,Rio de Janeiro,Bengaluru,Office Supplies,Art,Art Set,5,0.05,186.19,8.45,2,2023,2,February,Q1
+444,ORD-000444,2024-09-25,2024-09-28,Second Class,CUST-1471,Customer 1471,Consumer,Brazil,South America,Paraná,Shanghai,Technology,Copiers,Laser Copier,1,0.25,1007.59,49.34,3,2024,9,September,Q3
+445,ORD-000445,2024-05-27,2024-05-27,Same Day,CUST-1481,Customer 1481,Home Office,France,Europe,Nouvelle-Aquitaine,Shanghai,Office Supplies,Paper,Copy Paper,2,0.05,62.01,6.1,0,2024,5,May,Q2
+446,ORD-000446,2023-04-06,2023-04-09,Standard Class,CUST-1566,Customer 1566,Consumer,France,Europe,Nouvelle-Aquitaine,Shanghai,Technology,Accessories,USB-C Hub,7,0.1,554.74,37.31,3,2023,4,April,Q2
+447,ORD-000447,2024-09-29,2024-10-03,Standard Class,CUST-0230,Customer 0230,Consumer,Germany,Europe,Saxony,New York,Office Supplies,Fasteners,Fastener Pack,3,0.05,39.67,16.18,4,2024,9,September,Q3
+448,ORD-000448,2023-04-28,2023-05-02,Second Class,CUST-1065,Customer 1065,Consumer,United States,North America,California,Paris,Office Supplies,Fasteners,Fastener Pack,7,0.0,88.39,-1.51,4,2023,4,April,Q2
+449,ORD-000449,2024-07-13,2024-07-17,Standard Class,CUST-1402,Customer 1402,Consumer,Japan,Asia,Tokyo,Los Angeles,Furniture,Tables,Conference Table,10,0.1,3621.65,348.19,4,2024,7,July,Q3
+450,ORD-000450,2024-08-23,2024-08-25,First Class,CUST-0735,Customer 0735,Home Office,Mexico,North America,Nuevo León,Melbourne,Office Supplies,Labels,Address Labels,3,0.2,56.78,-11.36,2,2024,8,August,Q3
+451,ORD-000451,2024-05-02,2024-05-04,First Class,CUST-1288,Customer 1288,Consumer,India,Asia,Maharashtra,Los Angeles,Office Supplies,Fasteners,Fastener Pack,2,0.05,25.31,1.58,2,2024,5,May,Q2
+452,ORD-000452,2023-08-25,2023-08-27,First Class,CUST-1275,Customer 1275,Corporate,France,Europe,Auvergne-Rhône-Alpes,Sydney,Technology,Accessories,USB-C Hub,5,0.1,447.2,39.19,2,2023,8,August,Q3
+453,ORD-000453,2023-09-29,2023-10-02,Second Class,CUST-1288,Customer 1288,Corporate,France,Europe,Île-de-France,Los Angeles,Furniture,Chairs,Ergonomic Office Chair,1,0.1,260.12,6.87,3,2023,9,September,Q3
+454,ORD-000454,2023-07-08,2023-07-14,Standard Class,CUST-1125,Customer 1125,Corporate,United Kingdom,Europe,Northern Ireland,Shanghai,Office Supplies,Labels,Address Labels,2,0.05,42.66,-0.69,6,2023,7,July,Q3
+455,ORD-000455,2024-12-04,2024-12-10,Standard Class,CUST-0974,Customer 0974,Corporate,Japan,Asia,Kanagawa,Bengaluru,Technology,Machines,Desktop Computer,5,0.1,5613.49,768.22,6,2024,12,December,Q4
+456,ORD-000456,2024-03-22,2024-03-27,Standard Class,CUST-1033,Customer 1033,Consumer,Mexico,North America,Puebla,Shanghai,Furniture,Chairs,Ergonomic Office Chair,3,0.0,718.32,110.07,5,2024,3,March,Q1
+457,ORD-000457,2024-08-03,2024-08-04,First Class,CUST-1259,Customer 1259,Corporate,Japan,Asia,Aichi,Mumbai,Technology,Machines,Desktop Computer,2,0.05,1638.76,272.92,1,2024,8,August,Q3
+458,ORD-000458,2023-09-04,2023-09-08,Standard Class,CUST-0866,Customer 0866,Consumer,United Kingdom,Europe,Northern Ireland,Bengaluru,Technology,Phones,Smartphone,4,0.05,2220.08,268.82,4,2023,9,September,Q3
+459,ORD-000459,2023-03-17,2023-03-18,First Class,CUST-0153,Customer 0153,Consumer,United States,North America,New York,Sydney,Technology,Machines,Desktop Computer,5,0.2,4242.31,385.67,1,2023,3,March,Q1
+460,ORD-000460,2023-06-03,2023-06-07,Standard Class,CUST-0905,Customer 0905,Home Office,Mexico,North America,Nuevo León,Shanghai,Furniture,Chairs,Ergonomic Office Chair,1,0.05,210.29,5.43,4,2023,6,June,Q2
+461,ORD-000461,2024-10-17,2024-10-24,Standard Class,CUST-1088,Customer 1088,Consumer,Brazil,South America,Rio de Janeiro,Sydney,Furniture,Bookcases,Office Bookcase,2,0.1,353.04,26.01,7,2024,10,October,Q4
+462,ORD-000462,2024-03-10,2024-03-14,Second Class,CUST-1795,Customer 1795,Corporate,United Kingdom,Europe,Scotland,New York,Office Supplies,Paper,Copy Paper,2,0.0,55.58,11.5,4,2024,3,March,Q1
+463,ORD-000463,2023-03-27,2023-03-31,Standard Class,CUST-1529,Customer 1529,Consumer,China,Asia,Guangdong,Shanghai,Office Supplies,Labels,Address Labels,2,0.0,38.47,13.49,4,2023,3,March,Q1
+464,ORD-000464,2024-11-27,2024-12-04,Standard Class,CUST-0358,Customer 0358,Consumer,India,Asia,Maharashtra,Toronto,Office Supplies,Appliances,Printer,5,0.1,1924.78,169.52,7,2024,11,November,Q4
+465,ORD-000465,2023-10-12,2023-10-17,Standard Class,CUST-0480,Customer 0480,Corporate,Brazil,South America,Minas Gerais,Los Angeles,Technology,Copiers,Laser Copier,4,0.15,3501.62,321.58,5,2023,10,October,Q4
+466,ORD-000466,2023-08-08,2023-08-08,Same Day,CUST-0539,Customer 0539,Corporate,Mexico,North America,Jalisco,London,Office Supplies,Appliances,Printer,4,0.1,1488.61,130.89,0,2023,8,August,Q3
+467,ORD-000467,2023-03-10,2023-03-11,First Class,CUST-1150,Customer 1150,Consumer,China,Asia,Beijing,New York,Office Supplies,Storage,Storage Box,1,0.05,96.87,27.64,1,2023,3,March,Q1
+468,ORD-000468,2023-02-16,2023-02-22,Standard Class,CUST-0499,Customer 0499,Corporate,United States,North America,New York,New York,Furniture,Tables,Conference Table,1,0.2,393.04,20.26,6,2023,2,February,Q1
+469,ORD-000469,2023-04-04,2023-04-11,Standard Class,CUST-0586,Customer 0586,Corporate,China,Asia,Zhejiang,Berlin,Office Supplies,Art,Art Set,2,0.0,68.97,13.21,7,2023,4,April,Q2
+470,ORD-000470,2024-03-28,2024-04-01,Second Class,CUST-1090,Customer 1090,Consumer,France,Europe,Auvergne-Rhône-Alpes,Tokyo,Office Supplies,Fasteners,Fastener Pack,2,0.15,28.05,-3.93,4,2024,3,March,Q1
+471,ORD-000471,2023-07-23,2023-07-28,Standard Class,CUST-0629,Customer 0629,Home Office,Germany,Europe,Saxony,Berlin,Office Supplies,Storage,Storage Box,1,0.15,77.77,11.09,5,2023,7,July,Q3
+472,ORD-000472,2023-08-06,2023-08-09,Standard Class,CUST-0850,Customer 0850,Corporate,China,Asia,Shanghai,New York,Technology,Accessories,USB-C Hub,2,0.15,181.58,18.6,3,2023,8,August,Q3
+473,ORD-000473,2024-04-18,2024-04-20,First Class,CUST-0059,Customer 0059,Corporate,Spain,Europe,Catalonia,London,Technology,Copiers,Laser Copier,1,0.25,884.89,37.15,2,2024,4,April,Q2
+474,ORD-000474,2024-03-07,2024-03-14,Standard Class,CUST-0680,Customer 0680,Home Office,Australia,Oceania,Queensland,Shanghai,Office Supplies,Supplies,Office Supplies Kit,5,0.15,265.47,12.19,7,2024,3,March,Q1
+475,ORD-000475,2023-12-07,2023-12-08,Same Day,CUST-1816,Customer 1816,Home Office,United States,North America,Texas,London,Office Supplies,Binders,Premium Binder,5,0.05,123.13,12.45,1,2023,12,December,Q4
+476,ORD-000476,2024-07-04,2024-07-06,Second Class,CUST-0151,Customer 0151,Corporate,Australia,Oceania,Queensland,Shanghai,Furniture,Tables,Conference Table,3,0.05,955.46,118.19,2,2024,7,July,Q3
+477,ORD-000477,2024-09-03,2024-09-05,First Class,CUST-0937,Customer 0937,Home Office,Brazil,South America,São Paulo,Delhi,Office Supplies,Paper,Copy Paper,1,0.05,36.86,1.05,2,2024,9,September,Q3
+478,ORD-000478,2023-10-16,2023-10-19,Second Class,CUST-0253,Customer 0253,Consumer,Japan,Asia,Osaka,New York,Office Supplies,Envelopes,Business Envelopes,7,0.0,163.61,19.65,3,2023,10,October,Q4
+479,ORD-000479,2023-09-11,2023-09-14,Second Class,CUST-0309,Customer 0309,Consumer,United Kingdom,Europe,Wales,New York,Office Supplies,Art,Art Set,8,0.2,261.24,-10.09,3,2023,9,September,Q3
+480,ORD-000480,2023-12-23,2023-12-29,Standard Class,CUST-1841,Customer 1841,Corporate,Canada,North America,Ontario,Toronto,Office Supplies,Labels,Address Labels,2,0.0,36.85,1.92,6,2023,12,December,Q4
+481,ORD-000481,2023-01-23,2023-01-28,Standard Class,CUST-1218,Customer 1218,Consumer,United States,North America,New York,Madrid,Office Supplies,Binders,Premium Binder,4,0.15,99.43,1.14,5,2023,1,January,Q1
+482,ORD-000482,2024-06-05,2024-06-08,Second Class,CUST-1597,Customer 1597,Home Office,Spain,Europe,Andalusia,Delhi,Office Supplies,Binders,Premium Binder,6,0.15,148.61,9.74,3,2024,6,June,Q2
+483,ORD-000483,2023-04-10,2023-04-16,Standard Class,CUST-1001,Customer 1001,Corporate,France,Europe,Occitanie,Shanghai,Furniture,Tables,Conference Table,3,0.2,1226.1,53.57,6,2023,4,April,Q2
+484,ORD-000484,2023-06-29,2023-07-02,Standard Class,CUST-1088,Customer 1088,Consumer,United Kingdom,Europe,England,London,Furniture,Furnishings,Office Desk Lamp,2,0.1,151.54,10.26,3,2023,6,June,Q2
+485,ORD-000485,2023-08-11,2023-08-14,Standard Class,CUST-1954,Customer 1954,Corporate,India,Asia,Delhi,Melbourne,Office Supplies,Binders,Premium Binder,3,0.15,82.03,-3.73,3,2023,8,August,Q3
+486,ORD-000486,2024-10-20,2024-10-24,Standard Class,CUST-0283,Customer 0283,Consumer,Japan,Asia,Tokyo,Tokyo,Furniture,Tables,Conference Table,3,0.05,1241.28,146.73,4,2024,10,October,Q4
+487,ORD-000487,2024-03-17,2024-03-23,Standard Class,CUST-0064,Customer 0064,Home Office,Japan,Asia,Kanagawa,Toronto,Office Supplies,Supplies,Office Supplies Kit,2,0.15,108.86,5.59,6,2024,3,March,Q1
+488,ORD-000488,2024-08-30,2024-09-01,First Class,CUST-0367,Customer 0367,Home Office,Canada,North America,Quebec,Toronto,Technology,Machines,Desktop Computer,7,0.05,6435.1,1003.3,2,2024,8,August,Q3
+489,ORD-000489,2023-11-21,2023-11-26,Standard Class,CUST-0828,Customer 0828,Corporate,China,Asia,Guangdong,Melbourne,Office Supplies,Binders,Premium Binder,5,0.2,132.38,7.46,5,2023,11,November,Q4
+490,ORD-000490,2024-05-30,2024-06-03,Standard Class,CUST-1827,Customer 1827,Corporate,Australia,Oceania,Queensland,Tokyo,Technology,Machines,Desktop Computer,2,0.0,1990.77,361.76,4,2024,5,May,Q2
+491,ORD-000491,2023-01-16,2023-01-22,Standard Class,CUST-1077,Customer 1077,Home Office,Spain,Europe,Madrid,Madrid,Furniture,Tables,Conference Table,3,0.05,1097.72,122.11,6,2023,1,January,Q1
+492,ORD-000492,2023-12-02,2023-12-06,Second Class,CUST-0200,Customer 0200,Corporate,Japan,Asia,Tokyo,New York,Office Supplies,Paper,Copy Paper,4,0.1,109.53,-1.09,4,2023,12,December,Q4
+493,ORD-000493,2023-09-15,2023-09-20,Standard Class,CUST-1402,Customer 1402,Corporate,China,Asia,Guangdong,Sydney,Furniture,Furnishings,Office Desk Lamp,1,0.15,80.92,14.58,5,2023,9,September,Q3
+494,ORD-000494,2024-05-11,2024-05-14,Second Class,CUST-0768,Customer 0768,Corporate,India,Asia,Delhi,Berlin,Office Supplies,Paper,Copy Paper,2,0.15,72.06,2.79,3,2024,5,May,Q2
+495,ORD-000495,2023-06-09,2023-06-13,Second Class,CUST-1148,Customer 1148,Corporate,United States,North America,Florida,London,Furniture,Furnishings,Office Desk Lamp,7,0.0,559.43,48.22,4,2023,6,June,Q2
+496,ORD-000496,2024-04-19,2024-04-20,First Class,CUST-0071,Customer 0071,Home Office,Germany,Europe,Bavaria,Melbourne,Office Supplies,Storage,Storage Box,3,0.0,294.39,23.17,1,2024,4,April,Q2
+497,ORD-000497,2024-10-25,2024-11-01,Standard Class,CUST-1978,Customer 1978,Corporate,Spain,Europe,Valencia,Delhi,Furniture,Bookcases,Office Bookcase,2,0.05,340.83,38.23,7,2024,10,October,Q4
+498,ORD-000498,2024-11-20,2024-11-22,First Class,CUST-0141,Customer 0141,Home Office,Mexico,North America,Yucatán,Bengaluru,Furniture,Tables,Conference Table,1,0.1,321.02,36.46,2,2024,11,November,Q4
+499,ORD-000499,2024-11-05,2024-11-09,Second Class,CUST-1484,Customer 1484,Corporate,Brazil,South America,Rio de Janeiro,Bengaluru,Technology,Accessories,Wireless Keyboard,3,0.1,213.34,18.9,4,2024,11,November,Q4
+500,ORD-000500,2024-01-15,2024-01-17,First Class,CUST-0627,Customer 0627,Home Office,Mexico,North America,Yucatán,Sydney,Furniture,Bookcases,Office Bookcase,3,0.05,494.64,45.9,2,2024,1,January,Q1
+501,ORD-000501,2024-06-28,2024-06-29,First Class,CUST-0589,Customer 0589,Consumer,Germany,Europe,North Rhine-Westphalia,Bengaluru,Technology,Accessories,Wireless Keyboard,2,0.15,114.65,12.5,1,2024,6,June,Q2
+502,ORD-000502,2024-11-21,2024-11-23,Second Class,CUST-1333,Customer 1333,Home Office,India,Asia,Delhi,Berlin,Office Supplies,Supplies,Office Supplies Kit,4,0.05,194.44,10.63,2,2024,11,November,Q4
+503,ORD-000503,2024-03-02,2024-03-03,First Class,CUST-1041,Customer 1041,Corporate,Mexico,North America,Jalisco,Shanghai,Office Supplies,Supplies,Office Supplies Kit,1,0.25,61.54,-8.22,1,2024,3,March,Q1
+504,ORD-000504,2024-09-04,2024-09-08,Standard Class,CUST-1209,Customer 1209,Corporate,France,Europe,Occitanie,Delhi,Technology,Accessories,USB-C Hub,1,0.0,68.8,21.64,4,2024,9,September,Q3
+505,ORD-000505,2023-09-25,2023-09-28,Standard Class,CUST-1340,Customer 1340,Consumer,Spain,Europe,Catalonia,Tokyo,Technology,Machines,Desktop Computer,3,0.1,2711.23,369.93,3,2023,9,September,Q3
+506,ORD-000506,2024-07-30,2024-08-03,Standard Class,CUST-1935,Customer 1935,Corporate,France,Europe,Nouvelle-Aquitaine,Toronto,Office Supplies,Storage,Storage Box,1,0.1,76.09,-2.09,4,2024,7,July,Q3
+507,ORD-000507,2024-02-21,2024-02-22,First Class,CUST-0078,Customer 0078,Corporate,Canada,North America,Ontario,Toronto,Technology,Accessories,Wireless Keyboard,6,0.0,434.55,53.22,1,2024,2,February,Q1
+508,ORD-000508,2023-06-17,2023-06-23,Standard Class,CUST-1911,Customer 1911,Home Office,Germany,Europe,North Rhine-Westphalia,Sydney,Office Supplies,Storage,Storage Box,1,0.05,87.23,6.98,6,2023,6,June,Q2
+509,ORD-000509,2023-02-12,2023-02-14,First Class,CUST-0403,Customer 0403,Home Office,Canada,North America,Quebec,Berlin,Technology,Phones,Smartphone,4,0.05,2397.0,302.82,2,2023,2,February,Q1
+510,ORD-000510,2024-07-09,2024-07-14,Standard Class,CUST-0163,Customer 0163,Corporate,Canada,North America,Quebec,London,Furniture,Tables,Conference Table,2,0.0,778.85,110.91,5,2024,7,July,Q3
+511,ORD-000511,2023-10-12,2023-10-14,First Class,CUST-0146,Customer 0146,Corporate,Canada,North America,Alberta,Paris,Technology,Accessories,Wireless Keyboard,2,0.1,144.64,3.42,2,2023,10,October,Q4
+512,ORD-000512,2024-02-01,2024-02-02,First Class,CUST-0529,Customer 0529,Consumer,Japan,Asia,Aichi,Sydney,Office Supplies,Supplies,Office Supplies Kit,5,0.05,284.09,-76.22,1,2024,2,February,Q1
+513,ORD-000513,2023-01-12,2023-01-14,Second Class,CUST-1876,Customer 1876,Consumer,United States,North America,Illinois,Toronto,Technology,Phones,Smartphone,3,0.0,1845.77,276.82,2,2023,1,January,Q1
+514,ORD-000514,2024-08-29,2024-08-29,Same Day,CUST-1177,Customer 1177,Consumer,Japan,Asia,Osaka,Bengaluru,Office Supplies,Paper,Copy Paper,5,0.05,168.83,-6.54,0,2024,8,August,Q3
+515,ORD-000515,2023-10-29,2023-11-02,Second Class,CUST-1829,Customer 1829,Consumer,United States,North America,Illinois,São Paulo,Office Supplies,Art,Art Set,3,0.05,123.56,5.28,4,2023,10,October,Q4
+516,ORD-000516,2023-09-10,2023-09-15,Standard Class,CUST-1431,Customer 1431,Corporate,Germany,Europe,Saxony,Shanghai,Office Supplies,Fasteners,Fastener Pack,4,0.0,41.67,-2.84,5,2023,9,September,Q3
+517,ORD-000517,2024-05-13,2024-05-13,Same Day,CUST-0151,Customer 0151,Consumer,Australia,Oceania,Victoria,Toronto,Office Supplies,Storage,Storage Box,5,0.0,400.96,16.17,0,2024,5,May,Q2
+518,ORD-000518,2023-02-04,2023-02-07,Second Class,CUST-0459,Customer 0459,Consumer,United Kingdom,Europe,Wales,Sydney,Technology,Accessories,Wireless Keyboard,4,0.1,246.93,17.27,3,2023,2,February,Q1
+519,ORD-000519,2024-12-27,2025-01-01,Standard Class,CUST-0558,Customer 0558,Consumer,Japan,Asia,Aichi,Berlin,Technology,Accessories,USB-C Hub,4,0.15,342.76,29.72,5,2024,12,December,Q4
+520,ORD-000520,2023-03-31,2023-04-05,Standard Class,CUST-0724,Customer 0724,Corporate,Mexico,North America,Nuevo León,New York,Office Supplies,Paper,Copy Paper,5,0.25,172.47,-9.92,5,2023,3,March,Q1
+521,ORD-000521,2024-08-27,2024-08-30,Second Class,CUST-0135,Customer 0135,Home Office,United States,North America,Illinois,Los Angeles,Office Supplies,Art,Art Set,8,0.0,258.22,26.32,3,2024,8,August,Q3
+522,ORD-000522,2024-08-24,2024-08-28,Second Class,CUST-1623,Customer 1623,Home Office,Japan,Asia,Aichi,Bengaluru,Technology,Accessories,Wireless Keyboard,2,0.0,120.33,14.51,4,2024,8,August,Q3
+523,ORD-000523,2024-02-22,2024-02-23,First Class,CUST-1854,Customer 1854,Corporate,China,Asia,Jiangsu,Los Angeles,Furniture,Furnishings,Office Desk Lamp,3,0.0,264.35,22.78,1,2024,2,February,Q1
+524,ORD-000524,2023-04-25,2023-05-02,Standard Class,CUST-0407,Customer 0407,Consumer,France,Europe,Auvergne-Rhône-Alpes,Mumbai,Office Supplies,Paper,Copy Paper,1,0.1,35.67,-5.32,7,2023,4,April,Q2
+525,ORD-000525,2024-09-08,2024-09-10,First Class,CUST-0603,Customer 0603,Consumer,Japan,Asia,Osaka,Tokyo,Technology,Machines,Desktop Computer,2,0.1,2236.29,291.64,2,2024,9,September,Q3
+526,ORD-000526,2023-07-15,2023-07-19,Standard Class,CUST-0213,Customer 0213,Corporate,United States,North America,Illinois,Tokyo,Technology,Machines,Desktop Computer,2,0.05,2166.73,348.67,4,2023,7,July,Q3
+527,ORD-000527,2024-05-15,2024-05-20,Standard Class,CUST-0149,Customer 0149,Consumer,India,Asia,Maharashtra,Toronto,Furniture,Furnishings,Office Desk Lamp,6,0.15,445.83,20.34,5,2024,5,May,Q2
+528,ORD-000528,2024-09-17,2024-09-22,Standard Class,CUST-0314,Customer 0314,Corporate,Canada,North America,Quebec,New York,Technology,Accessories,Wireless Keyboard,3,0.15,174.07,6.91,5,2024,9,September,Q3
+529,ORD-000529,2024-05-07,2024-05-13,Standard Class,CUST-0946,Customer 0946,Corporate,United States,North America,Florida,São Paulo,Office Supplies,Binders,Premium Binder,5,0.3,149.85,-25.93,6,2024,5,May,Q2
+530,ORD-000530,2023-03-16,2023-03-19,Second Class,CUST-0668,Customer 0668,Corporate,Australia,Oceania,Queensland,Melbourne,Furniture,Furnishings,Office Desk Lamp,1,0.0,72.99,11.08,3,2023,3,March,Q1
+531,ORD-000531,2024-02-17,2024-02-23,Standard Class,CUST-1125,Customer 1125,Home Office,Germany,Europe,Saxony,Melbourne,Furniture,Chairs,Ergonomic Office Chair,3,0.0,719.2,100.64,6,2024,2,February,Q1
+532,ORD-000532,2024-01-11,2024-01-14,Standard Class,CUST-1090,Customer 1090,Consumer,France,Europe,Auvergne-Rhône-Alpes,New York,Technology,Machines,Desktop Computer,7,0.0,6643.74,1166.58,3,2024,1,January,Q1
+533,ORD-000533,2024-02-24,2024-02-28,Standard Class,CUST-1373,Customer 1373,Corporate,France,Europe,Nouvelle-Aquitaine,Shanghai,Office Supplies,Fasteners,Fastener Pack,2,0.0,28.27,-10.92,4,2024,2,February,Q1
+534,ORD-000534,2024-12-29,2025-01-01,Second Class,CUST-0370,Customer 0370,Home Office,United Kingdom,Europe,England,Sydney,Office Supplies,Art,Art Set,1,0.25,30.59,-0.26,3,2024,12,December,Q4
+535,ORD-000535,2023-10-04,2023-10-06,First Class,CUST-0521,Customer 0521,Home Office,Japan,Asia,Osaka,London,Office Supplies,Fasteners,Fastener Pack,3,0.05,33.03,-0.14,2,2023,10,October,Q4
+536,ORD-000536,2024-11-06,2024-11-11,Standard Class,CUST-1059,Customer 1059,Home Office,Brazil,South America,Paraná,São Paulo,Office Supplies,Appliances,Printer,4,0.1,1785.47,132.49,5,2024,11,November,Q4
+537,ORD-000537,2024-01-29,2024-02-01,Second Class,CUST-0486,Customer 0486,Corporate,Japan,Asia,Kanagawa,Berlin,Furniture,Chairs,Ergonomic Office Chair,3,0.05,834.71,119.37,3,2024,1,January,Q1
+538,ORD-000538,2024-04-01,2024-04-02,First Class,CUST-0743,Customer 0743,Home Office,Brazil,South America,Paraná,Los Angeles,Technology,Accessories,USB-C Hub,3,0.0,281.11,33.94,1,2024,4,April,Q2
+539,ORD-000539,2023-07-11,2023-07-12,First Class,CUST-1903,Customer 1903,Consumer,Mexico,North America,Jalisco,São Paulo,Office Supplies,Fasteners,Fastener Pack,4,0.0,50.19,0.44,1,2023,7,July,Q3
+540,ORD-000540,2024-11-19,2024-11-23,Standard Class,CUST-0061,Customer 0061,Consumer,China,Asia,Zhejiang,Tokyo,Office Supplies,Labels,Address Labels,2,0.05,31.04,5.13,4,2024,11,November,Q4
+541,ORD-000541,2023-04-09,2023-04-14,Standard Class,CUST-0580,Customer 0580,Corporate,Spain,Europe,Andalusia,Bengaluru,Furniture,Tables,Conference Table,5,0.1,1709.76,162.02,5,2023,4,April,Q2
+542,ORD-000542,2024-07-01,2024-07-04,Second Class,CUST-1918,Customer 1918,Home Office,Germany,Europe,Saxony,New York,Office Supplies,Labels,Address Labels,1,0.3,21.09,1.12,3,2024,7,July,Q3
+543,ORD-000543,2023-04-06,2023-04-10,Second Class,CUST-0470,Customer 0470,Corporate,India,Asia,Delhi,Shanghai,Office Supplies,Envelopes,Business Envelopes,2,0.1,45.1,-8.48,4,2023,4,April,Q2
+544,ORD-000544,2024-10-25,2024-10-29,Second Class,CUST-1815,Customer 1815,Corporate,United States,North America,Texas,São Paulo,Office Supplies,Supplies,Office Supplies Kit,4,0.1,242.95,9.8,4,2024,10,October,Q4
+545,ORD-000545,2024-10-24,2024-10-28,Standard Class,CUST-0390,Customer 0390,Home Office,Germany,Europe,Saxony,São Paulo,Office Supplies,Binders,Premium Binder,6,0.0,158.63,-4.17,4,2024,10,October,Q4
+546,ORD-000546,2023-07-09,2023-07-14,Standard Class,CUST-0100,Customer 0100,Consumer,China,Asia,Shanghai,Melbourne,Office Supplies,Binders,Premium Binder,5,0.2,120.23,-4.31,5,2023,7,July,Q3
+547,ORD-000547,2023-02-06,2023-02-08,Second Class,CUST-0468,Customer 0468,Corporate,Brazil,South America,Minas Gerais,Sydney,Furniture,Tables,Conference Table,5,0.0,1841.75,269.41,2,2023,2,February,Q1
+548,ORD-000548,2024-01-04,2024-01-07,Standard Class,CUST-0453,Customer 0453,Corporate,Germany,Europe,North Rhine-Westphalia,Paris,Technology,Accessories,USB-C Hub,2,0.2,182.76,-4.74,3,2024,1,January,Q1
+549,ORD-000549,2024-11-25,2024-11-29,Second Class,CUST-1932,Customer 1932,Consumer,Australia,Oceania,Western Australia,Melbourne,Office Supplies,Storage,Storage Box,1,0.1,101.71,2.79,4,2024,11,November,Q4
+550,ORD-000550,2024-06-08,2024-06-11,Second Class,CUST-0315,Customer 0315,Consumer,United States,North America,New York,Delhi,Technology,Copiers,Laser Copier,2,0.0,1948.74,294.81,3,2024,6,June,Q2
+551,ORD-000551,2023-10-06,2023-10-12,Standard Class,CUST-1857,Customer 1857,Consumer,United Kingdom,Europe,Scotland,Paris,Office Supplies,Art,Art Set,6,0.05,219.22,12.67,6,2023,10,October,Q4
+552,ORD-000552,2023-08-05,2023-08-09,Second Class,CUST-1703,Customer 1703,Consumer,Mexico,North America,Yucatán,Tokyo,Office Supplies,Fasteners,Fastener Pack,6,0.3,76.54,-2.78,4,2023,8,August,Q3
+553,ORD-000553,2023-09-30,2023-10-04,Standard Class,CUST-1833,Customer 1833,Home Office,United Kingdom,Europe,Northern Ireland,Sydney,Furniture,Furnishings,Office Desk Lamp,8,0.05,683.07,56.01,4,2023,9,September,Q3
+554,ORD-000554,2023-03-03,2023-03-08,Standard Class,CUST-1539,Customer 1539,Consumer,Brazil,South America,São Paulo,Toronto,Office Supplies,Envelopes,Business Envelopes,1,0.0,18.85,-3.68,5,2023,3,March,Q1
+555,ORD-000555,2024-08-18,2024-08-25,Standard Class,CUST-0126,Customer 0126,Consumer,Canada,North America,Ontario,London,Office Supplies,Binders,Premium Binder,3,0.0,99.38,-10.2,7,2024,8,August,Q3
+556,ORD-000556,2024-12-29,2024-12-30,Same Day,CUST-1066,Customer 1066,Consumer,Japan,Asia,Kanagawa,Bengaluru,Furniture,Tables,Conference Table,4,0.1,1450.3,127.85,1,2024,12,December,Q4
+557,ORD-000557,2023-12-08,2023-12-11,Second Class,CUST-0683,Customer 0683,Corporate,Brazil,South America,São Paulo,Toronto,Office Supplies,Supplies,Office Supplies Kit,4,0.0,260.31,33.48,3,2023,12,December,Q4
+558,ORD-000558,2024-02-01,2024-02-05,Standard Class,CUST-0632,Customer 0632,Consumer,Mexico,North America,Yucatán,Sydney,Office Supplies,Binders,Premium Binder,4,0.15,125.17,7.34,4,2024,2,February,Q1
+559,ORD-000559,2024-11-29,2024-12-03,Standard Class,CUST-1237,Customer 1237,Corporate,United States,North America,Florida,Toronto,Office Supplies,Labels,Address Labels,5,0.2,81.3,-3.98,4,2024,11,November,Q4
+560,ORD-000560,2023-01-19,2023-01-25,Standard Class,CUST-1730,Customer 1730,Home Office,Australia,Oceania,Western Australia,São Paulo,Office Supplies,Storage,Storage Box,2,0.25,154.33,-0.63,6,2023,1,January,Q1
+561,ORD-000561,2023-06-26,2023-06-30,Second Class,CUST-0096,Customer 0096,Home Office,China,Asia,Zhejiang,Paris,Furniture,Furnishings,Office Desk Lamp,1,0.0,73.03,-0.92,4,2023,6,June,Q2
+562,ORD-000562,2024-09-03,2024-09-08,Standard Class,CUST-0285,Customer 0285,Consumer,Spain,Europe,Andalusia,Bengaluru,Office Supplies,Storage,Storage Box,2,0.1,160.21,19.14,5,2024,9,September,Q3
+563,ORD-000563,2024-01-31,2024-02-02,Second Class,CUST-1199,Customer 1199,Consumer,United Kingdom,Europe,Scotland,Mumbai,Technology,Accessories,USB-C Hub,1,0.0,80.3,4.69,2,2024,1,January,Q1
+564,ORD-000564,2024-03-20,2024-03-23,Second Class,CUST-1500,Customer 1500,Consumer,Brazil,South America,Rio de Janeiro,São Paulo,Office Supplies,Envelopes,Business Envelopes,2,0.1,46.7,4.2,3,2024,3,March,Q1
+565,ORD-000565,2023-08-21,2023-08-24,Second Class,CUST-0225,Customer 0225,Consumer,China,Asia,Zhejiang,Berlin,Office Supplies,Storage,Storage Box,1,0.15,85.24,-7.85,3,2023,8,August,Q3
+566,ORD-000566,2023-03-17,2023-03-21,Second Class,CUST-0922,Customer 0922,Home Office,Australia,Oceania,Western Australia,London,Office Supplies,Art,Art Set,2,0.1,60.88,0.71,4,2023,3,March,Q1
+567,ORD-000567,2023-09-22,2023-09-25,Standard Class,CUST-0253,Customer 0253,Consumer,United Kingdom,Europe,Wales,Sydney,Office Supplies,Labels,Address Labels,4,0.2,85.79,6.56,3,2023,9,September,Q3
+568,ORD-000568,2024-03-30,2024-03-31,First Class,CUST-1679,Customer 1679,Corporate,Brazil,South America,Rio de Janeiro,Sydney,Furniture,Chairs,Ergonomic Office Chair,7,0.15,1677.97,130.86,1,2024,3,March,Q1
+569,ORD-000569,2024-12-18,2024-12-23,Standard Class,CUST-0301,Customer 0301,Home Office,Mexico,North America,Puebla,Madrid,Office Supplies,Supplies,Office Supplies Kit,6,0.0,378.8,40.09,5,2024,12,December,Q4
+570,ORD-000570,2024-01-19,2024-01-23,Second Class,CUST-0986,Customer 0986,Consumer,United Kingdom,Europe,Northern Ireland,Tokyo,Office Supplies,Binders,Premium Binder,2,0.1,49.05,-7.42,4,2024,1,January,Q1
+571,ORD-000571,2024-07-17,2024-07-22,Standard Class,CUST-1225,Customer 1225,Consumer,Brazil,South America,São Paulo,Delhi,Office Supplies,Envelopes,Business Envelopes,1,0.0,24.94,-5.72,5,2024,7,July,Q3
+572,ORD-000572,2024-05-20,2024-05-22,First Class,CUST-1853,Customer 1853,Corporate,United States,North America,Florida,Delhi,Technology,Copiers,Laser Copier,1,0.05,774.09,106.37,2,2024,5,May,Q2
+573,ORD-000573,2024-01-02,2024-01-05,Second Class,CUST-1493,Customer 1493,Consumer,Australia,Oceania,New South Wales,Sydney,Office Supplies,Paper,Copy Paper,8,0.0,278.47,24.48,3,2024,1,January,Q1
+574,ORD-000574,2023-05-24,2023-05-29,Standard Class,CUST-0404,Customer 0404,Home Office,Mexico,North America,Yucatán,Melbourne,Furniture,Tables,Conference Table,3,0.25,1135.71,28.85,5,2023,5,May,Q2
+575,ORD-000575,2023-03-10,2023-03-13,Second Class,CUST-1329,Customer 1329,Consumer,China,Asia,Guangdong,Sydney,Technology,Machines,Desktop Computer,1,0.05,1110.01,179.78,3,2023,3,March,Q1
+576,ORD-000576,2023-04-09,2023-04-12,Second Class,CUST-0283,Customer 0283,Corporate,China,Asia,Jiangsu,Sydney,Technology,Copiers,Laser Copier,6,0.1,4907.41,573.51,3,2023,4,April,Q2
+577,ORD-000577,2024-01-31,2024-02-05,Standard Class,CUST-1258,Customer 1258,Home Office,Spain,Europe,Andalusia,Madrid,Office Supplies,Paper,Copy Paper,2,0.15,56.84,-6.6,5,2024,1,January,Q1
+578,ORD-000578,2023-01-25,2023-01-30,Standard Class,CUST-0705,Customer 0705,Corporate,Germany,Europe,Saxony,São Paulo,Office Supplies,Binders,Premium Binder,7,0.15,225.91,-11.64,5,2023,1,January,Q1
+579,ORD-000579,2024-04-13,2024-04-19,Standard Class,CUST-0777,Customer 0777,Corporate,Canada,North America,Alberta,Madrid,Office Supplies,Supplies,Office Supplies Kit,2,0.15,106.27,-0.45,6,2024,4,April,Q2
+580,ORD-000580,2024-04-28,2024-04-29,First Class,CUST-1404,Customer 1404,Home Office,United States,North America,California,New York,Technology,Machines,Desktop Computer,2,0.0,1769.63,328.72,1,2024,4,April,Q2
+581,ORD-000581,2024-07-18,2024-07-24,Standard Class,CUST-1978,Customer 1978,Home Office,Mexico,North America,Jalisco,Delhi,Office Supplies,Supplies,Office Supplies Kit,3,0.15,168.33,-2.71,6,2024,7,July,Q3
+582,ORD-000582,2023-05-31,2023-06-04,Standard Class,CUST-0307,Customer 0307,Consumer,United Kingdom,Europe,England,Mumbai,Office Supplies,Storage,Storage Box,7,0.1,536.18,37.61,4,2023,5,May,Q2
+583,ORD-000583,2023-05-24,2023-05-25,First Class,CUST-1958,Customer 1958,Home Office,China,Asia,Guangdong,New York,Office Supplies,Binders,Premium Binder,6,0.1,160.26,1.91,1,2023,5,May,Q2
+584,ORD-000584,2024-07-22,2024-07-27,Standard Class,CUST-1620,Customer 1620,Consumer,Japan,Asia,Osaka,Delhi,Furniture,Bookcases,Office Bookcase,3,0.0,531.82,77.87,5,2024,7,July,Q3
+585,ORD-000585,2023-02-08,2023-02-12,Standard Class,CUST-1401,Customer 1401,Corporate,Australia,Oceania,Queensland,Paris,Furniture,Bookcases,Office Bookcase,2,0.0,340.93,58.87,4,2023,2,February,Q1
+586,ORD-000586,2023-04-19,2023-04-22,Second Class,CUST-0659,Customer 0659,Consumer,United States,North America,New York,Los Angeles,Technology,Accessories,Wireless Keyboard,2,0.25,130.99,-90.03,3,2023,4,April,Q2
+587,ORD-000587,2024-11-23,2024-11-23,Same Day,CUST-0684,Customer 0684,Corporate,Mexico,North America,Jalisco,Paris,Technology,Accessories,USB-C Hub,8,0.0,630.16,68.75,0,2024,11,November,Q4
+588,ORD-000588,2023-02-11,2023-02-15,Second Class,CUST-1291,Customer 1291,Consumer,Mexico,North America,Yucatán,Paris,Office Supplies,Paper,Copy Paper,4,0.05,143.5,-13.84,4,2023,2,February,Q1
+589,ORD-000589,2023-07-05,2023-07-06,First Class,CUST-1406,Customer 1406,Corporate,United Kingdom,Europe,Northern Ireland,Mumbai,Office Supplies,Fasteners,Fastener Pack,5,0.0,70.29,4.0,1,2023,7,July,Q3
+590,ORD-000590,2024-02-02,2024-02-05,Standard Class,CUST-0846,Customer 0846,Home Office,Mexico,North America,Puebla,Toronto,Technology,Machines,Desktop Computer,3,0.0,2523.17,461.42,3,2024,2,February,Q1
+591,ORD-000591,2023-08-11,2023-08-13,Second Class,CUST-1241,Customer 1241,Consumer,India,Asia,Maharashtra,Bengaluru,Furniture,Tables,Conference Table,3,0.0,1195.06,171.32,2,2023,8,August,Q3
+592,ORD-000592,2024-09-25,2024-10-01,Standard Class,CUST-0076,Customer 0076,Home Office,United States,North America,Illinois,Paris,Office Supplies,Binders,Premium Binder,3,0.1,98.79,-3.32,6,2024,9,September,Q3
+593,ORD-000593,2023-05-13,2023-05-15,Second Class,CUST-1965,Customer 1965,Home Office,Brazil,South America,Rio de Janeiro,Toronto,Furniture,Bookcases,Office Bookcase,4,0.2,785.03,11.66,2,2023,5,May,Q2
+594,ORD-000594,2023-06-12,2023-06-15,Second Class,CUST-0647,Customer 0647,Consumer,China,Asia,Guangdong,Sydney,Office Supplies,Fasteners,Fastener Pack,6,0.05,86.31,9.81,3,2023,6,June,Q2
+595,ORD-000595,2023-08-03,2023-08-09,Standard Class,CUST-1155,Customer 1155,Consumer,China,Asia,Jiangsu,Paris,Office Supplies,Supplies,Office Supplies Kit,3,0.05,159.6,25.64,6,2023,8,August,Q3
+596,ORD-000596,2023-08-23,2023-08-25,Second Class,CUST-1383,Customer 1383,Corporate,Brazil,South America,Paraná,Shanghai,Furniture,Chairs,Ergonomic Office Chair,3,0.1,821.24,80.87,2,2023,8,August,Q3
+597,ORD-000597,2024-10-19,2024-10-23,Second Class,CUST-0254,Customer 0254,Consumer,United States,North America,California,Paris,Furniture,Chairs,Ergonomic Office Chair,2,0.05,521.18,73.05,4,2024,10,October,Q4
+598,ORD-000598,2024-08-10,2024-08-12,First Class,CUST-0464,Customer 0464,Home Office,Canada,North America,British Columbia,Berlin,Technology,Accessories,USB-C Hub,1,0.2,77.06,23.91,2,2024,8,August,Q3
+599,ORD-000599,2023-01-09,2023-01-11,First Class,CUST-1342,Customer 1342,Corporate,Japan,Asia,Tokyo,São Paulo,Technology,Machines,Desktop Computer,7,0.05,7292.63,1147.07,2,2023,1,January,Q1
+600,ORD-000600,2023-03-15,2023-03-16,First Class,CUST-1281,Customer 1281,Consumer,United States,North America,Texas,New York,Office Supplies,Supplies,Office Supplies Kit,2,0.1,113.12,3.73,1,2023,3,March,Q1
+601,ORD-000601,2024-05-06,2024-05-08,First Class,CUST-0527,Customer 0527,Consumer,France,Europe,Nouvelle-Aquitaine,Los Angeles,Office Supplies,Binders,Premium Binder,5,0.1,128.26,7.68,2,2024,5,May,Q2
+602,ORD-000602,2023-09-10,2023-09-13,Second Class,CUST-0940,Customer 0940,Corporate,Mexico,North America,Jalisco,Paris,Office Supplies,Fasteners,Fastener Pack,4,0.15,43.72,-3.04,3,2023,9,September,Q3
+603,ORD-000603,2023-08-18,2023-08-20,First Class,CUST-0523,Customer 0523,Home Office,Germany,Europe,Hesse,Paris,Office Supplies,Storage,Storage Box,5,0.1,467.37,36.42,2,2023,8,August,Q3
+604,ORD-000604,2024-06-02,2024-06-06,Second Class,CUST-1921,Customer 1921,Home Office,United Kingdom,Europe,Northern Ireland,Tokyo,Furniture,Furnishings,Office Desk Lamp,7,0.0,577.07,54.47,4,2024,6,June,Q2
+605,ORD-000605,2023-06-23,2023-06-26,Second Class,CUST-1283,Customer 1283,Home Office,India,Asia,Maharashtra,Berlin,Technology,Accessories,USB-C Hub,4,0.0,331.45,42.84,3,2023,6,June,Q2
+606,ORD-000606,2024-10-14,2024-10-21,Standard Class,CUST-1174,Customer 1174,Corporate,Germany,Europe,North Rhine-Westphalia,New York,Office Supplies,Binders,Premium Binder,7,0.25,201.0,-20.08,7,2024,10,October,Q4
+607,ORD-000607,2023-06-17,2023-06-23,Standard Class,CUST-0427,Customer 0427,Corporate,Brazil,South America,Rio de Janeiro,London,Furniture,Bookcases,Office Bookcase,1,0.15,164.34,6.74,6,2023,6,June,Q2
+608,ORD-000608,2023-06-19,2023-06-22,Standard Class,CUST-1670,Customer 1670,Corporate,United Kingdom,Europe,Northern Ireland,São Paulo,Technology,Accessories,Wireless Keyboard,4,0.0,260.07,23.15,3,2023,6,June,Q2
+609,ORD-000609,2024-01-28,2024-02-01,Standard Class,CUST-0534,Customer 0534,Corporate,United Kingdom,Europe,Wales,Melbourne,Technology,Copiers,Laser Copier,5,0.2,4908.7,346.38,4,2024,1,January,Q1
+610,ORD-000610,2024-09-25,2024-10-01,Standard Class,CUST-1133,Customer 1133,Consumer,Japan,Asia,Kanagawa,São Paulo,Office Supplies,Labels,Address Labels,2,0.1,41.37,-13.11,6,2024,9,September,Q3
+611,ORD-000611,2023-07-13,2023-07-20,Standard Class,CUST-0306,Customer 0306,Consumer,United Kingdom,Europe,England,São Paulo,Furniture,Bookcases,Office Bookcase,5,0.1,973.19,80.83,7,2023,7,July,Q3
+612,ORD-000612,2024-05-31,2024-06-07,Standard Class,CUST-1820,Customer 1820,Corporate,China,Asia,Shanghai,Tokyo,Office Supplies,Appliances,Printer,5,0.0,2518.06,320.38,7,2024,5,May,Q2
+613,ORD-000613,2023-01-29,2023-02-02,Second Class,CUST-1870,Customer 1870,Consumer,India,Asia,Tamil Nadu,Paris,Furniture,Furnishings,Office Desk Lamp,6,0.15,523.18,31.28,4,2023,1,January,Q1
+614,ORD-000614,2023-06-14,2023-06-19,Standard Class,CUST-1023,Customer 1023,Consumer,China,Asia,Guangdong,Toronto,Technology,Machines,Desktop Computer,2,0.0,1711.58,319.05,5,2023,6,June,Q2
+615,ORD-000615,2024-02-26,2024-03-02,Standard Class,CUST-0238,Customer 0238,Home Office,Mexico,North America,Nuevo León,Berlin,Technology,Phones,Smartphone,4,0.15,2573.21,216.57,5,2024,2,February,Q1
+616,ORD-000616,2023-12-05,2023-12-07,Second Class,CUST-0736,Customer 0736,Corporate,France,Europe,Occitanie,São Paulo,Technology,Phones,Smartphone,2,0.0,1165.03,162.45,2,2023,12,December,Q4
+617,ORD-000617,2024-10-09,2024-10-13,Standard Class,CUST-0378,Customer 0378,Home Office,Spain,Europe,Valencia,Shanghai,Technology,Copiers,Laser Copier,5,0.15,4305.81,393.26,4,2024,10,October,Q4
+618,ORD-000618,2024-05-10,2024-05-13,Second Class,CUST-1565,Customer 1565,Home Office,Japan,Asia,Aichi,London,Furniture,Chairs,Ergonomic Office Chair,3,0.0,807.65,113.98,3,2024,5,May,Q2
+619,ORD-000619,2023-12-31,2024-01-03,Second Class,CUST-0389,Customer 0389,Home Office,India,Asia,Delhi,Sydney,Technology,Accessories,USB-C Hub,4,0.0,289.45,31.46,3,2023,12,December,Q4
+620,ORD-000620,2023-12-08,2023-12-14,Standard Class,CUST-0364,Customer 0364,Corporate,Germany,Europe,Bavaria,São Paulo,Office Supplies,Supplies,Office Supplies Kit,2,0.0,127.4,24.08,6,2023,12,December,Q4
+621,ORD-000621,2024-05-14,2024-05-18,Second Class,CUST-1443,Customer 1443,Home Office,Australia,Oceania,Queensland,New York,Office Supplies,Supplies,Office Supplies Kit,1,0.0,57.7,3.97,4,2024,5,May,Q2
+622,ORD-000622,2024-10-18,2024-10-23,Standard Class,CUST-0651,Customer 0651,Home Office,Mexico,North America,Nuevo León,Mumbai,Technology,Copiers,Laser Copier,1,0.1,945.31,103.45,5,2024,10,October,Q4
+623,ORD-000623,2024-05-25,2024-06-01,Standard Class,CUST-1281,Customer 1281,Consumer,United States,North America,California,Los Angeles,Office Supplies,Envelopes,Business Envelopes,1,0.0,19.05,-4.84,7,2024,5,May,Q2
+624,ORD-000624,2023-11-23,2023-11-27,Second Class,CUST-0880,Customer 0880,Corporate,Brazil,South America,Paraná,Berlin,Office Supplies,Paper,Copy Paper,4,0.3,113.0,-12.73,4,2023,11,November,Q4
+625,ORD-000625,2023-08-05,2023-08-07,First Class,CUST-0775,Customer 0775,Corporate,France,Europe,Île-de-France,Bengaluru,Office Supplies,Envelopes,Business Envelopes,6,0.1,140.88,6.37,2,2023,8,August,Q3
+626,ORD-000626,2023-10-28,2023-10-31,Standard Class,CUST-0387,Customer 0387,Corporate,Mexico,North America,Yucatán,Paris,Office Supplies,Labels,Address Labels,1,0.1,20.58,-12.91,3,2023,10,October,Q4
+627,ORD-000627,2023-05-12,2023-05-12,Same Day,CUST-0470,Customer 0470,Corporate,United States,North America,Texas,Sydney,Furniture,Bookcases,Office Bookcase,1,0.0,208.05,25.75,0,2023,5,May,Q2
+628,ORD-000628,2023-03-11,2023-03-18,Standard Class,CUST-0031,Customer 0031,Home Office,France,Europe,Nouvelle-Aquitaine,São Paulo,Office Supplies,Storage,Storage Box,3,0.05,278.19,24.95,7,2023,3,March,Q1
+629,ORD-000629,2023-09-09,2023-09-10,First Class,CUST-0387,Customer 0387,Home Office,United States,North America,New York,Shanghai,Office Supplies,Fasteners,Fastener Pack,5,0.0,55.22,-11.12,1,2023,9,September,Q3
+630,ORD-000630,2024-02-19,2024-02-22,Second Class,CUST-1297,Customer 1297,Consumer,India,Asia,Uttar Pradesh,New York,Office Supplies,Appliances,Printer,1,0.15,385.67,12.76,3,2024,2,February,Q1
+631,ORD-000631,2024-03-20,2024-03-24,Second Class,CUST-1554,Customer 1554,Consumer,Japan,Asia,Osaka,Bengaluru,Office Supplies,Fasteners,Fastener Pack,2,0.05,27.8,0.38,4,2024,3,March,Q1
+632,ORD-000632,2023-07-01,2023-07-05,Standard Class,CUST-0079,Customer 0079,Home Office,Australia,Oceania,New South Wales,Madrid,Technology,Copiers,Laser Copier,2,0.15,1512.38,151.42,4,2023,7,July,Q3
+633,ORD-000633,2023-06-16,2023-06-17,First Class,CUST-1277,Customer 1277,Corporate,United States,North America,Illinois,Berlin,Technology,Phones,Smartphone,2,0.05,1417.16,190.31,1,2023,6,June,Q2
+634,ORD-000634,2023-04-01,2023-04-06,Standard Class,CUST-1911,Customer 1911,Corporate,France,Europe,Auvergne-Rhône-Alpes,Toronto,Office Supplies,Envelopes,Business Envelopes,2,0.3,45.62,-8.29,5,2023,4,April,Q2
+635,ORD-000635,2024-12-14,2024-12-15,Same Day,CUST-1653,Customer 1653,Consumer,United States,North America,Texas,Shanghai,Office Supplies,Paper,Copy Paper,2,0.0,63.84,15.1,1,2024,12,December,Q4
+636,ORD-000636,2024-06-14,2024-06-19,Standard Class,CUST-0486,Customer 0486,Consumer,Australia,Oceania,Victoria,São Paulo,Furniture,Tables,Conference Table,5,0.0,1757.2,243.45,5,2024,6,June,Q2
+637,ORD-000637,2023-02-08,2023-02-12,Standard Class,CUST-1379,Customer 1379,Home Office,Germany,Europe,Bavaria,Berlin,Office Supplies,Labels,Address Labels,4,0.1,85.02,-2.2,4,2023,2,February,Q1
+638,ORD-000638,2023-05-06,2023-05-09,Second Class,CUST-1872,Customer 1872,Corporate,Mexico,North America,Yucatán,Los Angeles,Office Supplies,Supplies,Office Supplies Kit,1,0.25,63.33,-0.67,3,2023,5,May,Q2
+639,ORD-000639,2024-03-26,2024-03-28,First Class,CUST-0105,Customer 0105,Home Office,France,Europe,Nouvelle-Aquitaine,Sydney,Technology,Accessories,Wireless Keyboard,4,0.1,299.71,29.19,2,2024,3,March,Q1
+640,ORD-000640,2023-06-22,2023-06-28,Standard Class,CUST-0606,Customer 0606,Corporate,Germany,Europe,Bavaria,Los Angeles,Furniture,Chairs,Ergonomic Office Chair,3,0.0,714.47,102.3,6,2023,6,June,Q2
+641,ORD-000641,2024-10-14,2024-10-18,Standard Class,CUST-0099,Customer 0099,Corporate,United States,North America,Illinois,Melbourne,Furniture,Tables,Conference Table,7,0.1,2174.24,203.37,4,2024,10,October,Q4
+642,ORD-000642,2023-08-08,2023-08-10,First Class,CUST-1780,Customer 1780,Consumer,United States,North America,New York,Bengaluru,Office Supplies,Binders,Premium Binder,2,0.2,67.16,-11.33,2,2023,8,August,Q3
+643,ORD-000643,2024-09-29,2024-10-03,Second Class,CUST-1681,Customer 1681,Home Office,United Kingdom,Europe,Scotland,New York,Technology,Machines,Desktop Computer,5,0.0,4279.13,773.05,4,2024,9,September,Q3
+644,ORD-000644,2023-02-27,2023-03-06,Standard Class,CUST-1871,Customer 1871,Home Office,France,Europe,Île-de-France,Bengaluru,Technology,Copiers,Laser Copier,5,0.0,4379.43,708.18,7,2023,2,February,Q1
+645,ORD-000645,2024-10-21,2024-10-23,First Class,CUST-0170,Customer 0170,Home Office,India,Asia,Delhi,Sydney,Office Supplies,Supplies,Office Supplies Kit,2,0.15,103.69,10.29,2,2024,10,October,Q4
+646,ORD-000646,2024-04-20,2024-04-24,Second Class,CUST-1266,Customer 1266,Corporate,United States,North America,Illinois,Bengaluru,Technology,Phones,Smartphone,7,0.2,4680.86,269.92,4,2024,4,April,Q2
+647,ORD-000647,2024-03-31,2024-04-03,Second Class,CUST-0795,Customer 0795,Home Office,Brazil,South America,Minas Gerais,Bengaluru,Office Supplies,Storage,Storage Box,3,0.15,243.97,4.87,3,2024,3,March,Q1
+648,ORD-000648,2023-12-27,2024-01-02,Standard Class,CUST-1985,Customer 1985,Home Office,China,Asia,Zhejiang,Shanghai,Furniture,Bookcases,Office Bookcase,4,0.3,838.02,-2.61,6,2023,12,December,Q4
+649,ORD-000649,2023-01-01,2023-01-05,Second Class,CUST-0798,Customer 0798,Home Office,Spain,Europe,Madrid,New York,Technology,Accessories,USB-C Hub,1,0.0,95.11,14.22,4,2023,1,January,Q1
+650,ORD-000650,2024-01-22,2024-01-29,Standard Class,CUST-1950,Customer 1950,Home Office,China,Asia,Zhejiang,Madrid,Furniture,Furnishings,Office Desk Lamp,2,0.1,149.03,8.47,7,2024,1,January,Q1
+651,ORD-000651,2023-12-14,2023-12-18,Second Class,CUST-1276,Customer 1276,Corporate,India,Asia,Tamil Nadu,Paris,Office Supplies,Art,Art Set,3,0.15,91.83,1.23,4,2023,12,December,Q4
+652,ORD-000652,2023-07-09,2023-07-15,Standard Class,CUST-0069,Customer 0069,Corporate,Mexico,North America,Jalisco,São Paulo,Technology,Accessories,Wireless Keyboard,2,0.15,140.68,11.72,6,2023,7,July,Q3
+653,ORD-000653,2024-05-19,2024-05-26,Standard Class,CUST-1217,Customer 1217,Home Office,Japan,Asia,Osaka,Delhi,Office Supplies,Art,Art Set,3,0.15,103.09,3.58,7,2024,5,May,Q2
+654,ORD-000654,2023-07-10,2023-07-17,Standard Class,CUST-0516,Customer 0516,Consumer,Canada,North America,Quebec,Madrid,Furniture,Bookcases,Office Bookcase,2,0.2,430.23,8.3,7,2023,7,July,Q3
+655,ORD-000655,2024-05-22,2024-05-24,First Class,CUST-0139,Customer 0139,Consumer,Brazil,South America,Paraná,Toronto,Office Supplies,Art,Art Set,4,0.05,123.38,14.14,2,2024,5,May,Q2
+656,ORD-000656,2024-01-04,2024-01-05,First Class,CUST-0186,Customer 0186,Home Office,Canada,North America,Quebec,Berlin,Office Supplies,Envelopes,Business Envelopes,3,0.0,58.85,-6.09,1,2024,1,January,Q1
+657,ORD-000657,2024-02-13,2024-02-16,Standard Class,CUST-0141,Customer 0141,Home Office,United States,North America,New York,New York,Technology,Accessories,USB-C Hub,1,0.05,87.58,19.99,3,2024,2,February,Q1
+658,ORD-000658,2023-04-27,2023-05-01,Second Class,CUST-0778,Customer 0778,Home Office,Australia,Oceania,Western Australia,São Paulo,Technology,Accessories,Wireless Keyboard,4,0.15,290.04,8.06,4,2023,4,April,Q2
+659,ORD-000659,2023-05-14,2023-05-17,Second Class,CUST-0876,Customer 0876,Home Office,Mexico,North America,Jalisco,Madrid,Technology,Copiers,Laser Copier,3,0.0,2587.95,418.46,3,2023,5,May,Q2
+660,ORD-000660,2023-02-27,2023-03-03,Standard Class,CUST-1013,Customer 1013,Home Office,Germany,Europe,North Rhine-Westphalia,Paris,Technology,Copiers,Laser Copier,2,0.15,1609.97,147.6,4,2023,2,February,Q1
+661,ORD-000661,2024-07-09,2024-07-13,Second Class,CUST-0728,Customer 0728,Home Office,United States,North America,Illinois,London,Furniture,Bookcases,Office Bookcase,1,0.0,172.52,16.89,4,2024,7,July,Q3
+662,ORD-000662,2024-11-15,2024-11-17,Second Class,CUST-0468,Customer 0468,Consumer,Canada,North America,Alberta,Berlin,Furniture,Tables,Conference Table,2,0.0,677.8,105.75,2,2024,11,November,Q4
+663,ORD-000663,2024-11-02,2024-11-06,Standard Class,CUST-1298,Customer 1298,Home Office,United States,North America,Florida,Bengaluru,Office Supplies,Labels,Address Labels,2,0.1,33.44,6.11,4,2024,11,November,Q4
+664,ORD-000664,2023-06-22,2023-06-28,Standard Class,CUST-1623,Customer 1623,Home Office,Spain,Europe,Catalonia,Melbourne,Technology,Phones,Smartphone,7,0.15,5222.15,430.36,6,2023,6,June,Q2
+665,ORD-000665,2023-05-29,2023-05-29,Same Day,CUST-0617,Customer 0617,Consumer,United Kingdom,Europe,England,Tokyo,Furniture,Chairs,Ergonomic Office Chair,3,0.05,628.4,94.08,0,2023,5,May,Q2
+666,ORD-000666,2023-03-21,2023-03-28,Standard Class,CUST-0682,Customer 0682,Home Office,Spain,Europe,Andalusia,Toronto,Furniture,Tables,Conference Table,1,0.15,347.39,33.02,7,2023,3,March,Q1
+667,ORD-000667,2023-08-01,2023-08-06,Standard Class,CUST-0107,Customer 0107,Corporate,Mexico,North America,Nuevo León,Bengaluru,Technology,Accessories,USB-C Hub,1,0.05,88.93,3.12,5,2023,8,August,Q3
+668,ORD-000668,2023-07-22,2023-07-24,First Class,CUST-0099,Customer 0099,Consumer,Australia,Oceania,New South Wales,Paris,Furniture,Tables,Conference Table,1,0.0,297.97,23.63,2,2023,7,July,Q3
+669,ORD-000669,2023-08-17,2023-08-18,First Class,CUST-1196,Customer 1196,Home Office,Germany,Europe,North Rhine-Westphalia,Berlin,Technology,Copiers,Laser Copier,3,0.0,2951.14,473.04,1,2023,8,August,Q3
+670,ORD-000670,2024-11-06,2024-11-11,Standard Class,CUST-0830,Customer 0830,Home Office,Spain,Europe,Catalonia,Bengaluru,Technology,Accessories,USB-C Hub,1,0.15,87.78,16.55,5,2024,11,November,Q4
+671,ORD-000671,2023-08-15,2023-08-17,First Class,CUST-0859,Customer 0859,Home Office,France,Europe,Auvergne-Rhône-Alpes,New York,Technology,Phones,Smartphone,3,0.05,1707.58,222.6,2,2023,8,August,Q3
+672,ORD-000672,2024-10-20,2024-10-21,First Class,CUST-0847,Customer 0847,Corporate,Germany,Europe,North Rhine-Westphalia,New York,Office Supplies,Binders,Premium Binder,2,0.2,65.14,11.29,1,2024,10,October,Q4
+673,ORD-000673,2024-06-15,2024-06-20,Standard Class,CUST-1688,Customer 1688,Consumer,Australia,Oceania,Western Australia,São Paulo,Technology,Accessories,USB-C Hub,5,0.1,408.22,29.91,5,2024,6,June,Q2
+674,ORD-000674,2024-03-16,2024-03-22,Standard Class,CUST-1310,Customer 1310,Consumer,Canada,North America,Quebec,Paris,Office Supplies,Paper,Copy Paper,2,0.05,69.01,1.65,6,2024,3,March,Q1
+675,ORD-000675,2024-02-06,2024-02-09,Standard Class,CUST-0449,Customer 0449,Corporate,Spain,Europe,Catalonia,São Paulo,Office Supplies,Envelopes,Business Envelopes,3,0.05,76.47,2.12,3,2024,2,February,Q1
+676,ORD-000676,2023-02-16,2023-02-19,Second Class,CUST-1577,Customer 1577,Home Office,United Kingdom,Europe,Scotland,Tokyo,Furniture,Bookcases,Office Bookcase,5,0.0,1042.57,127.04,3,2023,2,February,Q1
+677,ORD-000677,2023-08-21,2023-08-25,Second Class,CUST-0765,Customer 0765,Consumer,Germany,Europe,North Rhine-Westphalia,Bengaluru,Furniture,Furnishings,Office Desk Lamp,3,0.1,223.44,-38.05,4,2023,8,August,Q3
+678,ORD-000678,2023-11-01,2023-11-08,Standard Class,CUST-1091,Customer 1091,Home Office,United States,North America,New York,Toronto,Office Supplies,Appliances,Printer,5,0.1,1959.7,179.63,7,2023,11,November,Q4
+679,ORD-000679,2024-06-09,2024-06-15,Standard Class,CUST-1511,Customer 1511,Home Office,United Kingdom,Europe,Northern Ireland,Tokyo,Technology,Phones,Smartphone,4,0.15,2444.25,216.39,6,2024,6,June,Q2
+680,ORD-000680,2023-05-23,2023-05-28,Standard Class,CUST-1560,Customer 1560,Home Office,United States,North America,New York,Tokyo,Office Supplies,Storage,Storage Box,2,0.0,190.07,32.34,5,2023,5,May,Q2
+681,ORD-000681,2024-02-19,2024-02-23,Standard Class,CUST-1312,Customer 1312,Corporate,Australia,Oceania,Victoria,Sydney,Office Supplies,Storage,Storage Box,3,0.0,299.7,35.32,4,2024,2,February,Q1
+682,ORD-000682,2024-05-27,2024-05-29,First Class,CUST-1983,Customer 1983,Corporate,Spain,Europe,Valencia,Bengaluru,Office Supplies,Fasteners,Fastener Pack,8,0.0,84.03,1.46,2,2024,5,May,Q2
+683,ORD-000683,2024-01-08,2024-01-15,Standard Class,CUST-0644,Customer 0644,Corporate,Brazil,South America,São Paulo,Berlin,Office Supplies,Paper,Copy Paper,4,0.0,109.47,8.38,7,2024,1,January,Q1
+684,ORD-000684,2024-07-19,2024-07-20,First Class,CUST-0994,Customer 0994,Consumer,Brazil,South America,Minas Gerais,London,Technology,Machines,Desktop Computer,7,0.05,7567.88,1197.18,1,2024,7,July,Q3
+685,ORD-000685,2023-09-16,2023-09-18,First Class,CUST-0001,Customer 0001,Home Office,Canada,North America,British Columbia,Shanghai,Technology,Copiers,Laser Copier,1,0.25,837.51,40.86,2,2023,9,September,Q3
+686,ORD-000686,2024-10-17,2024-10-24,Standard Class,CUST-0021,Customer 0021,Home Office,United Kingdom,Europe,Scotland,Toronto,Furniture,Tables,Conference Table,3,0.1,994.1,87.13,7,2024,10,October,Q4
+687,ORD-000687,2024-04-15,2024-04-15,Same Day,CUST-0392,Customer 0392,Consumer,United States,North America,Illinois,Melbourne,Office Supplies,Labels,Address Labels,7,0.15,115.41,-5.72,0,2024,4,April,Q2
+688,ORD-000688,2023-01-12,2023-01-18,Standard Class,CUST-1326,Customer 1326,Home Office,India,Asia,Karnataka,Shanghai,Technology,Accessories,USB-C Hub,2,0.05,155.4,23.65,6,2023,1,January,Q1
+689,ORD-000689,2023-11-26,2023-11-28,Second Class,CUST-0140,Customer 0140,Corporate,United Kingdom,Europe,Wales,Los Angeles,Furniture,Furnishings,Office Desk Lamp,8,0.0,714.01,69.43,2,2023,11,November,Q4
+690,ORD-000690,2023-12-24,2023-12-26,Second Class,CUST-1153,Customer 1153,Corporate,France,Europe,Auvergne-Rhône-Alpes,Mumbai,Office Supplies,Appliances,Printer,1,0.0,500.63,65.28,2,2023,12,December,Q4
+691,ORD-000691,2024-02-12,2024-02-14,First Class,CUST-1430,Customer 1430,Consumer,Canada,North America,Ontario,London,Office Supplies,Paper,Copy Paper,7,0.0,216.39,12.36,2,2024,2,February,Q1
+692,ORD-000692,2024-10-29,2024-11-01,Second Class,CUST-0206,Customer 0206,Home Office,China,Asia,Zhejiang,Los Angeles,Office Supplies,Appliances,Printer,3,0.1,1495.99,120.02,3,2024,10,October,Q4
+693,ORD-000693,2024-01-08,2024-01-10,Second Class,CUST-1497,Customer 1497,Corporate,China,Asia,Shanghai,São Paulo,Office Supplies,Binders,Premium Binder,1,0.05,26.74,-0.1,2,2024,1,January,Q1
+694,ORD-000694,2023-01-08,2023-01-13,Standard Class,CUST-0668,Customer 0668,Home Office,United States,North America,California,Mumbai,Office Supplies,Art,Art Set,6,0.2,241.3,-6.08,5,2023,1,January,Q1
+695,ORD-000695,2023-05-02,2023-05-06,Second Class,CUST-0200,Customer 0200,Corporate,Brazil,South America,Rio de Janeiro,São Paulo,Office Supplies,Supplies,Office Supplies Kit,2,0.3,101.66,-10.11,4,2023,5,May,Q2
+696,ORD-000696,2023-12-14,2023-12-20,Standard Class,CUST-1088,Customer 1088,Corporate,Germany,Europe,Saxony,Shanghai,Furniture,Chairs,Ergonomic Office Chair,1,0.05,273.42,26.39,6,2023,12,December,Q4
+697,ORD-000697,2024-11-06,2024-11-11,Standard Class,CUST-1448,Customer 1448,Consumer,France,Europe,Nouvelle-Aquitaine,São Paulo,Office Supplies,Paper,Copy Paper,1,0.15,31.16,-1.04,5,2024,11,November,Q4
+698,ORD-000698,2023-03-31,2023-04-02,Second Class,CUST-1125,Customer 1125,Home Office,China,Asia,Guangdong,Shanghai,Office Supplies,Appliances,Printer,4,0.1,1543.09,136.11,2,2023,3,March,Q1
+699,ORD-000699,2024-10-09,2024-10-12,Standard Class,CUST-0729,Customer 0729,Home Office,United States,North America,Florida,Berlin,Office Supplies,Fasteners,Fastener Pack,8,0.0,113.01,14.62,3,2024,10,October,Q4
+700,ORD-000700,2024-11-28,2024-12-02,Second Class,CUST-1079,Customer 1079,Corporate,United States,North America,Texas,Sydney,Office Supplies,Art,Art Set,1,0.2,32.37,-11.48,4,2024,11,November,Q4
+701,ORD-000701,2023-11-12,2023-11-14,Second Class,CUST-0343,Customer 0343,Consumer,Spain,Europe,Andalusia,Delhi,Technology,Machines,Desktop Computer,3,0.0,3411.86,626.99,2,2023,11,November,Q4
+702,ORD-000702,2023-06-27,2023-07-04,Standard Class,CUST-1852,Customer 1852,Corporate,Brazil,South America,Rio de Janeiro,Mumbai,Office Supplies,Envelopes,Business Envelopes,1,0.15,19.54,2.2,7,2023,6,June,Q2
+703,ORD-000703,2024-06-23,2024-06-24,First Class,CUST-1644,Customer 1644,Corporate,United Kingdom,Europe,England,Los Angeles,Office Supplies,Binders,Premium Binder,5,0.05,119.49,-3.34,1,2024,6,June,Q2
+704,ORD-000704,2023-02-10,2023-02-17,Standard Class,CUST-0229,Customer 0229,Home Office,Germany,Europe,North Rhine-Westphalia,Delhi,Office Supplies,Appliances,Printer,1,0.05,485.01,48.91,7,2023,2,February,Q1
+705,ORD-000705,2024-12-04,2024-12-09,Standard Class,CUST-0041,Customer 0041,Corporate,Spain,Europe,Madrid,Mumbai,Technology,Accessories,USB-C Hub,2,0.05,168.85,3.13,5,2024,12,December,Q4
+706,ORD-000706,2024-05-16,2024-05-18,First Class,CUST-0720,Customer 0720,Corporate,China,Asia,Shanghai,Sydney,Office Supplies,Labels,Address Labels,1,0.2,17.96,-13.69,2,2024,5,May,Q2
+707,ORD-000707,2023-05-25,2023-05-27,First Class,CUST-1083,Customer 1083,Consumer,Germany,Europe,North Rhine-Westphalia,New York,Technology,Copiers,Laser Copier,3,0.0,2240.65,372.28,2,2023,5,May,Q2
+708,ORD-000708,2023-07-20,2023-07-24,Standard Class,CUST-1476,Customer 1476,Home Office,Canada,North America,Quebec,Madrid,Office Supplies,Fasteners,Fastener Pack,6,0.0,75.69,-1.81,4,2023,7,July,Q3
+709,ORD-000709,2024-12-24,2024-12-25,Same Day,CUST-1510,Customer 1510,Corporate,Brazil,South America,Minas Gerais,Madrid,Office Supplies,Binders,Premium Binder,3,0.05,82.98,8.24,1,2024,12,December,Q4
+710,ORD-000710,2024-04-05,2024-04-06,Same Day,CUST-1956,Customer 1956,Home Office,China,Asia,Beijing,Melbourne,Office Supplies,Paper,Copy Paper,1,0.0,32.62,1.07,1,2024,4,April,Q2
+711,ORD-000711,2024-07-11,2024-07-16,Standard Class,CUST-0801,Customer 0801,Consumer,Australia,Oceania,New South Wales,Los Angeles,Office Supplies,Fasteners,Fastener Pack,3,0.15,38.54,-0.53,5,2024,7,July,Q3
+712,ORD-000712,2024-06-30,2024-07-03,Standard Class,CUST-0365,Customer 0365,Home Office,United States,North America,Illinois,Berlin,Technology,Machines,Desktop Computer,5,0.15,5101.39,576.85,3,2024,6,June,Q2
+713,ORD-000713,2023-09-10,2023-09-14,Standard Class,CUST-0493,Customer 0493,Home Office,China,Asia,Zhejiang,Paris,Office Supplies,Fasteners,Fastener Pack,1,0.2,14.23,-17.24,4,2023,9,September,Q3
+714,ORD-000714,2024-01-25,2024-01-28,Standard Class,CUST-1521,Customer 1521,Corporate,India,Asia,Delhi,Delhi,Furniture,Furnishings,Office Desk Lamp,1,0.15,80.95,13.18,3,2024,1,January,Q1
+715,ORD-000715,2024-08-16,2024-08-21,Standard Class,CUST-0222,Customer 0222,Consumer,Mexico,North America,Yucatán,Sydney,Office Supplies,Envelopes,Business Envelopes,1,0.2,21.31,-1.43,5,2024,8,August,Q3
+716,ORD-000716,2023-09-13,2023-09-17,Standard Class,CUST-1069,Customer 1069,Consumer,Australia,Oceania,Queensland,Los Angeles,Technology,Copiers,Laser Copier,5,0.15,4102.83,375.48,4,2023,9,September,Q3
+717,ORD-000717,2024-12-09,2024-12-11,First Class,CUST-1913,Customer 1913,Home Office,Mexico,North America,Puebla,Bengaluru,Office Supplies,Binders,Premium Binder,4,0.25,113.9,-1.1,2,2024,12,December,Q4
+718,ORD-000718,2024-03-25,2024-03-27,First Class,CUST-0511,Customer 0511,Corporate,China,Asia,Guangdong,Delhi,Office Supplies,Binders,Premium Binder,3,0.0,79.02,-0.24,2,2024,3,March,Q1
+719,ORD-000719,2023-01-10,2023-01-11,First Class,CUST-0075,Customer 0075,Corporate,India,Asia,Uttar Pradesh,London,Office Supplies,Supplies,Office Supplies Kit,2,0.1,107.99,6.53,1,2023,1,January,Q1
+720,ORD-000720,2023-08-30,2023-09-05,Standard Class,CUST-1074,Customer 1074,Consumer,China,Asia,Shanghai,Shanghai,Furniture,Furnishings,Office Desk Lamp,2,0.3,171.71,-7.33,6,2023,8,August,Q3
+721,ORD-000721,2023-09-08,2023-09-10,Second Class,CUST-1071,Customer 1071,Corporate,Mexico,North America,Nuevo León,Berlin,Office Supplies,Storage,Storage Box,8,0.15,782.62,31.12,2,2023,9,September,Q3
+722,ORD-000722,2023-01-05,2023-01-09,Second Class,CUST-0461,Customer 0461,Home Office,Spain,Europe,Madrid,Paris,Office Supplies,Envelopes,Business Envelopes,2,0.2,47.07,-3.12,4,2023,1,January,Q1
+723,ORD-000723,2023-04-29,2023-05-02,Second Class,CUST-0631,Customer 0631,Consumer,Canada,North America,Ontario,Tokyo,Office Supplies,Supplies,Office Supplies Kit,7,0.0,405.79,28.28,3,2023,4,April,Q2
+724,ORD-000724,2024-01-09,2024-01-14,Standard Class,CUST-1708,Customer 1708,Corporate,Mexico,North America,Nuevo León,Melbourne,Technology,Copiers,Laser Copier,3,0.2,2548.69,181.31,5,2024,1,January,Q1
+725,ORD-000725,2023-03-06,2023-03-13,Standard Class,CUST-1988,Customer 1988,Corporate,Canada,North America,British Columbia,Shanghai,Office Supplies,Binders,Premium Binder,1,0.15,30.03,-2.09,7,2023,3,March,Q1
+726,ORD-000726,2023-05-26,2023-05-30,Second Class,CUST-0856,Customer 0856,Consumer,United States,North America,New York,Paris,Furniture,Tables,Conference Table,3,0.0,1188.72,151.85,4,2023,5,May,Q2
+727,ORD-000727,2023-08-12,2023-08-14,First Class,CUST-1057,Customer 1057,Corporate,Canada,North America,Quebec,Delhi,Office Supplies,Storage,Storage Box,8,0.0,753.61,76.94,2,2023,8,August,Q3
+728,ORD-000728,2023-08-27,2023-09-02,Standard Class,CUST-0993,Customer 0993,Home Office,Spain,Europe,Catalonia,Madrid,Technology,Machines,Desktop Computer,2,0.0,1638.58,290.64,6,2023,8,August,Q3
+729,ORD-000729,2023-06-26,2023-06-29,Second Class,CUST-1356,Customer 1356,Consumer,India,Asia,Karnataka,Mumbai,Furniture,Bookcases,Office Bookcase,6,0.2,1194.37,38.6,3,2023,6,June,Q2
+730,ORD-000730,2023-10-09,2023-10-12,Standard Class,CUST-1301,Customer 1301,Home Office,Canada,North America,British Columbia,Melbourne,Technology,Machines,Desktop Computer,2,0.15,2093.77,228.71,3,2023,10,October,Q4
+731,ORD-000731,2023-03-04,2023-03-06,Second Class,CUST-0993,Customer 0993,Corporate,Germany,Europe,Saxony,Melbourne,Furniture,Chairs,Ergonomic Office Chair,3,0.2,636.95,28.57,2,2023,3,March,Q1
+732,ORD-000732,2023-08-05,2023-08-06,First Class,CUST-1198,Customer 1198,Home Office,United Kingdom,Europe,Northern Ireland,Shanghai,Office Supplies,Art,Art Set,6,0.05,189.54,20.34,1,2023,8,August,Q3
+733,ORD-000733,2024-11-19,2024-11-23,Standard Class,CUST-1249,Customer 1249,Home Office,Mexico,North America,Puebla,Bengaluru,Office Supplies,Storage,Storage Box,7,0.25,669.83,-1.63,4,2024,11,November,Q4
+734,ORD-000734,2024-04-05,2024-04-09,Standard Class,CUST-0713,Customer 0713,Corporate,India,Asia,Delhi,Shanghai,Office Supplies,Paper,Copy Paper,3,0.1,100.38,1.45,4,2024,4,April,Q2
+735,ORD-000735,2024-09-01,2024-09-08,Standard Class,CUST-1439,Customer 1439,Corporate,France,Europe,Nouvelle-Aquitaine,Melbourne,Office Supplies,Paper,Copy Paper,4,0.0,145.61,12.24,7,2024,9,September,Q3
+736,ORD-000736,2023-04-15,2023-04-18,Standard Class,CUST-1086,Customer 1086,Corporate,Japan,Asia,Aichi,Bengaluru,Technology,Phones,Smartphone,1,0.0,594.53,95.66,3,2023,4,April,Q2
+737,ORD-000737,2023-04-09,2023-04-16,Standard Class,CUST-1914,Customer 1914,Corporate,United States,North America,Texas,Melbourne,Office Supplies,Envelopes,Business Envelopes,2,0.3,37.87,-2.92,7,2023,4,April,Q2
+738,ORD-000738,2024-05-25,2024-05-27,First Class,CUST-0734,Customer 0734,Home Office,United Kingdom,Europe,Wales,Bengaluru,Office Supplies,Binders,Premium Binder,2,0.05,50.77,-7.26,2,2024,5,May,Q2
+739,ORD-000739,2024-01-20,2024-01-25,Standard Class,CUST-1296,Customer 1296,Home Office,Germany,Europe,Hesse,Shanghai,Technology,Accessories,Wireless Keyboard,1,0.0,65.55,-91.45,5,2024,1,January,Q1
+740,ORD-000740,2024-02-09,2024-02-13,Standard Class,CUST-0780,Customer 0780,Corporate,Brazil,South America,Minas Gerais,Tokyo,Technology,Copiers,Laser Copier,2,0.0,1756.36,289.04,4,2024,2,February,Q1
+741,ORD-000741,2024-06-01,2024-06-04,Second Class,CUST-0054,Customer 0054,Consumer,Spain,Europe,Catalonia,London,Office Supplies,Storage,Storage Box,2,0.0,195.53,24.3,3,2024,6,June,Q2
+742,ORD-000742,2024-04-20,2024-04-27,Standard Class,CUST-0880,Customer 0880,Home Office,China,Asia,Guangdong,Shanghai,Office Supplies,Fasteners,Fastener Pack,8,0.2,105.66,-3.75,7,2024,4,April,Q2
+743,ORD-000743,2024-12-09,2024-12-10,Same Day,CUST-0393,Customer 0393,Corporate,United Kingdom,Europe,England,Mumbai,Technology,Copiers,Laser Copier,4,0.1,4068.56,472.41,1,2024,12,December,Q4
+744,ORD-000744,2024-10-06,2024-10-11,Standard Class,CUST-1315,Customer 1315,Consumer,India,Asia,Karnataka,Paris,Technology,Copiers,Laser Copier,3,0.1,2237.76,255.56,5,2024,10,October,Q4
+745,ORD-000745,2024-03-12,2024-03-17,Standard Class,CUST-1717,Customer 1717,Corporate,India,Asia,Karnataka,Shanghai,Office Supplies,Fasteners,Fastener Pack,10,0.25,107.47,1.64,5,2024,3,March,Q1
+746,ORD-000746,2023-01-23,2023-01-26,Second Class,CUST-0939,Customer 0939,Corporate,India,Asia,Karnataka,Delhi,Office Supplies,Supplies,Office Supplies Kit,1,0.1,48.37,12.95,3,2023,1,January,Q1
+747,ORD-000747,2024-07-18,2024-07-20,First Class,CUST-1350,Customer 1350,Consumer,United States,North America,Illinois,Melbourne,Office Supplies,Appliances,Printer,3,0.2,1308.46,41.97,2,2024,7,July,Q3
+748,ORD-000748,2024-11-07,2024-11-11,Second Class,CUST-0473,Customer 0473,Corporate,Canada,North America,British Columbia,Shanghai,Office Supplies,Labels,Address Labels,4,0.05,67.92,10.8,4,2024,11,November,Q4
+749,ORD-000749,2024-12-14,2024-12-17,Second Class,CUST-0312,Customer 0312,Home Office,Mexico,North America,Puebla,Tokyo,Office Supplies,Binders,Premium Binder,1,0.3,30.5,15.92,3,2024,12,December,Q4
+750,ORD-000750,2024-04-02,2024-04-09,Standard Class,CUST-1472,Customer 1472,Home Office,Brazil,South America,Minas Gerais,Melbourne,Office Supplies,Fasteners,Fastener Pack,4,0.0,43.03,6.36,7,2024,4,April,Q2
+751,ORD-000751,2023-03-24,2023-03-28,Second Class,CUST-0156,Customer 0156,Consumer,China,Asia,Guangdong,Berlin,Technology,Accessories,Wireless Keyboard,1,0.15,57.6,10.89,4,2023,3,March,Q1
+752,ORD-000752,2023-05-25,2023-05-27,First Class,CUST-0727,Customer 0727,Home Office,India,Asia,Karnataka,Shanghai,Technology,Accessories,USB-C Hub,1,0.15,80.88,-0.12,2,2023,5,May,Q2
+753,ORD-000753,2023-03-26,2023-03-30,Standard Class,CUST-0797,Customer 0797,Corporate,China,Asia,Jiangsu,Melbourne,Office Supplies,Supplies,Office Supplies Kit,1,0.0,53.99,0.83,4,2023,3,March,Q1
+754,ORD-000754,2023-03-19,2023-03-23,Standard Class,CUST-1366,Customer 1366,Consumer,France,Europe,Nouvelle-Aquitaine,Shanghai,Office Supplies,Labels,Address Labels,7,0.05,143.67,2.27,4,2023,3,March,Q1
+755,ORD-000755,2024-04-01,2024-04-04,Second Class,CUST-0378,Customer 0378,Consumer,United States,North America,New York,New York,Technology,Accessories,Wireless Keyboard,4,0.05,297.22,25.76,3,2024,4,April,Q2
+756,ORD-000756,2023-01-01,2023-01-04,Standard Class,CUST-0442,Customer 0442,Consumer,Australia,Oceania,Victoria,São Paulo,Office Supplies,Storage,Storage Box,4,0.0,302.97,19.8,3,2023,1,January,Q1
+757,ORD-000757,2023-02-20,2023-02-23,Second Class,CUST-1176,Customer 1176,Home Office,India,Asia,Delhi,Toronto,Office Supplies,Art,Art Set,3,0.1,119.1,2.79,3,2023,2,February,Q1
+758,ORD-000758,2024-11-15,2024-11-19,Standard Class,CUST-1684,Customer 1684,Consumer,France,Europe,Île-de-France,Sydney,Office Supplies,Storage,Storage Box,2,0.3,178.07,0.46,4,2024,11,November,Q4
+759,ORD-000759,2024-12-17,2024-12-18,First Class,CUST-0667,Customer 0667,Home Office,Brazil,South America,São Paulo,Paris,Office Supplies,Supplies,Office Supplies Kit,4,0.1,225.77,-0.23,1,2024,12,December,Q4
+760,ORD-000760,2024-03-21,2024-03-23,Second Class,CUST-0743,Customer 0743,Consumer,Brazil,South America,Paraná,Shanghai,Office Supplies,Envelopes,Business Envelopes,2,0.1,38.86,2.02,2,2024,3,March,Q1
+761,ORD-000761,2024-03-24,2024-03-31,Standard Class,CUST-1761,Customer 1761,Corporate,Mexico,North America,Yucatán,Sydney,Technology,Copiers,Laser Copier,1,0.0,942.54,151.99,7,2024,3,March,Q1
+762,ORD-000762,2024-05-02,2024-05-07,Standard Class,CUST-1427,Customer 1427,Consumer,Germany,Europe,Hesse,Toronto,Furniture,Chairs,Ergonomic Office Chair,4,0.0,836.04,123.0,5,2024,5,May,Q2
+763,ORD-000763,2023-02-03,2023-02-03,Same Day,CUST-0346,Customer 0346,Corporate,Mexico,North America,Jalisco,São Paulo,Office Supplies,Binders,Premium Binder,1,0.1,26.52,4.64,0,2023,2,February,Q1
+764,ORD-000764,2023-12-14,2023-12-19,Standard Class,CUST-1318,Customer 1318,Home Office,Canada,North America,British Columbia,Los Angeles,Office Supplies,Storage,Storage Box,1,0.3,75.09,0.59,5,2023,12,December,Q4
+765,ORD-000765,2023-04-05,2023-04-12,Standard Class,CUST-1596,Customer 1596,Home Office,China,Asia,Jiangsu,Shanghai,Office Supplies,Binders,Premium Binder,5,0.2,145.01,-5.88,7,2023,4,April,Q2
+766,ORD-000766,2023-03-13,2023-03-16,Standard Class,CUST-1923,Customer 1923,Corporate,Spain,Europe,Valencia,Mumbai,Technology,Accessories,Wireless Keyboard,4,0.05,279.72,35.76,3,2023,3,March,Q1
+767,ORD-000767,2024-07-04,2024-07-08,Standard Class,CUST-0919,Customer 0919,Consumer,Brazil,South America,Minas Gerais,Paris,Office Supplies,Fasteners,Fastener Pack,4,0.1,55.77,4.76,4,2024,7,July,Q3
+768,ORD-000768,2023-06-03,2023-06-07,Standard Class,CUST-0109,Customer 0109,Corporate,Spain,Europe,Andalusia,Tokyo,Technology,Phones,Smartphone,2,0.1,1438.91,163.67,4,2023,6,June,Q2
+769,ORD-000769,2023-09-07,2023-09-08,First Class,CUST-0827,Customer 0827,Corporate,United States,North America,Illinois,Los Angeles,Office Supplies,Paper,Copy Paper,2,0.15,75.93,-1.1,1,2023,9,September,Q3
+770,ORD-000770,2024-11-04,2024-11-08,Standard Class,CUST-1755,Customer 1755,Corporate,United Kingdom,Europe,England,Tokyo,Technology,Copiers,Laser Copier,4,0.15,3795.53,348.51,4,2024,11,November,Q4
+771,ORD-000771,2024-03-13,2024-03-20,Standard Class,CUST-1115,Customer 1115,Home Office,India,Asia,Delhi,Berlin,Office Supplies,Paper,Copy Paper,5,0.15,152.69,-2.81,7,2024,3,March,Q1
+772,ORD-000772,2023-04-28,2023-04-29,First Class,CUST-0074,Customer 0074,Home Office,United States,North America,California,Melbourne,Technology,Phones,Smartphone,3,0.0,2031.23,314.11,1,2023,4,April,Q2
+773,ORD-000773,2023-11-02,2023-11-05,Second Class,CUST-1304,Customer 1304,Consumer,Japan,Asia,Osaka,Shanghai,Office Supplies,Paper,Copy Paper,8,0.25,258.63,-14.77,3,2023,11,November,Q4
+774,ORD-000774,2023-09-25,2023-10-01,Standard Class,CUST-0440,Customer 0440,Home Office,Brazil,South America,Paraná,Tokyo,Furniture,Tables,Conference Table,8,0.0,2934.65,410.15,6,2023,9,September,Q3
+775,ORD-000775,2023-02-23,2023-02-27,Standard Class,CUST-1009,Customer 1009,Corporate,France,Europe,Occitanie,Melbourne,Technology,Phones,Smartphone,2,0.1,1365.3,159.04,4,2023,2,February,Q1
+776,ORD-000776,2023-08-24,2023-08-29,Standard Class,CUST-1716,Customer 1716,Home Office,China,Asia,Beijing,Shanghai,Office Supplies,Supplies,Office Supplies Kit,6,0.2,361.59,-10.76,5,2023,8,August,Q3
+777,ORD-000777,2024-01-24,2024-01-27,Standard Class,CUST-1253,Customer 1253,Corporate,Spain,Europe,Valencia,Shanghai,Furniture,Tables,Conference Table,3,0.1,923.02,90.54,3,2024,1,January,Q1
+778,ORD-000778,2024-02-05,2024-02-07,First Class,CUST-0553,Customer 0553,Corporate,Mexico,North America,Puebla,Madrid,Office Supplies,Labels,Address Labels,3,0.0,60.01,2.51,2,2024,2,February,Q1
+779,ORD-000779,2024-09-15,2024-09-19,Second Class,CUST-1218,Customer 1218,Corporate,United Kingdom,Europe,Scotland,New York,Office Supplies,Appliances,Printer,1,0.0,378.13,47.15,4,2024,9,September,Q3
+780,ORD-000780,2023-10-30,2023-11-03,Second Class,CUST-0354,Customer 0354,Consumer,Germany,Europe,Hesse,Sydney,Furniture,Furnishings,Office Desk Lamp,3,0.1,193.31,3.01,4,2023,10,October,Q4
+781,ORD-000781,2023-07-26,2023-07-28,First Class,CUST-0918,Customer 0918,Home Office,United States,North America,Illinois,New York,Technology,Copiers,Laser Copier,7,0.0,6138.12,976.79,2,2023,7,July,Q3
+782,ORD-000782,2023-08-17,2023-08-21,Second Class,CUST-0881,Customer 0881,Corporate,Germany,Europe,Hesse,Los Angeles,Office Supplies,Envelopes,Business Envelopes,5,0.05,115.89,1.08,4,2023,8,August,Q3
+783,ORD-000783,2024-07-31,2024-08-04,Second Class,CUST-1138,Customer 1138,Corporate,Australia,Oceania,New South Wales,Berlin,Office Supplies,Binders,Premium Binder,5,0.05,120.71,9.7,4,2024,7,July,Q3
+784,ORD-000784,2023-03-16,2023-03-19,Standard Class,CUST-0962,Customer 0962,Consumer,Japan,Asia,Tokyo,Mumbai,Technology,Accessories,Wireless Keyboard,1,0.15,66.97,10.34,3,2023,3,March,Q1
+785,ORD-000785,2024-03-10,2024-03-12,Second Class,CUST-0028,Customer 0028,Home Office,Spain,Europe,Andalusia,São Paulo,Technology,Accessories,USB-C Hub,2,0.0,165.94,7.34,2,2024,3,March,Q1
+786,ORD-000786,2023-04-13,2023-04-17,Second Class,CUST-1001,Customer 1001,Corporate,Spain,Europe,Andalusia,London,Technology,Machines,Desktop Computer,2,0.15,1649.91,176.0,4,2023,4,April,Q2
+787,ORD-000787,2024-02-26,2024-02-28,First Class,CUST-0744,Customer 0744,Corporate,India,Asia,Maharashtra,Mumbai,Furniture,Bookcases,Office Bookcase,2,0.05,395.66,42.96,2,2024,2,February,Q1
+788,ORD-000788,2024-12-04,2024-12-10,Standard Class,CUST-0106,Customer 0106,Corporate,France,Europe,Occitanie,São Paulo,Office Supplies,Art,Art Set,3,0.1,96.98,8.45,6,2024,12,December,Q4
+789,ORD-000789,2023-11-02,2023-11-08,Standard Class,CUST-0728,Customer 0728,Corporate,Australia,Oceania,New South Wales,Berlin,Technology,Accessories,USB-C Hub,2,0.0,180.49,11.75,6,2023,11,November,Q4
+790,ORD-000790,2023-04-08,2023-04-10,Second Class,CUST-0806,Customer 0806,Home Office,France,Europe,Occitanie,São Paulo,Office Supplies,Storage,Storage Box,3,0.1,244.49,20.44,2,2023,4,April,Q2
+791,ORD-000791,2023-12-01,2023-12-02,Same Day,CUST-0360,Customer 0360,Consumer,Canada,North America,British Columbia,Los Angeles,Furniture,Chairs,Ergonomic Office Chair,3,0.15,732.43,60.31,1,2023,12,December,Q4
+792,ORD-000792,2024-03-10,2024-03-14,Standard Class,CUST-0214,Customer 0214,Home Office,Mexico,North America,Yucatán,Sydney,Office Supplies,Appliances,Printer,2,0.0,976.2,132.88,4,2024,3,March,Q1
+793,ORD-000793,2024-03-22,2024-03-25,Standard Class,CUST-0835,Customer 0835,Consumer,Brazil,South America,Rio de Janeiro,Madrid,Office Supplies,Fasteners,Fastener Pack,1,0.2,13.59,-7.36,3,2024,3,March,Q1
+794,ORD-000794,2023-11-04,2023-11-07,Standard Class,CUST-0442,Customer 0442,Home Office,Brazil,South America,Paraná,Tokyo,Technology,Accessories,Wireless Keyboard,7,0.2,511.26,4.22,3,2023,11,November,Q4
+795,ORD-000795,2023-09-06,2023-09-08,First Class,CUST-1770,Customer 1770,Consumer,Spain,Europe,Madrid,Berlin,Technology,Phones,Smartphone,1,0.0,589.0,85.88,2,2023,9,September,Q3
+796,ORD-000796,2023-06-15,2023-06-21,Standard Class,CUST-0165,Customer 0165,Corporate,United States,North America,New York,Tokyo,Office Supplies,Envelopes,Business Envelopes,1,0.1,19.07,-1.83,6,2023,6,June,Q2
+797,ORD-000797,2024-04-25,2024-04-28,Standard Class,CUST-0386,Customer 0386,Corporate,China,Asia,Jiangsu,Delhi,Furniture,Chairs,Ergonomic Office Chair,6,0.1,1529.3,158.02,3,2024,4,April,Q2
+798,ORD-000798,2023-12-01,2023-12-02,Same Day,CUST-1465,Customer 1465,Consumer,Brazil,South America,Paraná,Sydney,Office Supplies,Fasteners,Fastener Pack,10,0.0,119.25,2.84,1,2023,12,December,Q4
+799,ORD-000799,2024-06-25,2024-06-28,Second Class,CUST-1239,Customer 1239,Corporate,Japan,Asia,Tokyo,Paris,Office Supplies,Binders,Premium Binder,5,0.05,163.54,21.31,3,2024,6,June,Q2
+800,ORD-000800,2023-04-16,2023-04-22,Standard Class,CUST-0461,Customer 0461,Corporate,Australia,Oceania,New South Wales,Sydney,Technology,Phones,Smartphone,1,0.25,632.03,10.1,6,2023,4,April,Q2
+801,ORD-000801,2024-07-16,2024-07-22,Standard Class,CUST-1615,Customer 1615,Home Office,Japan,Asia,Osaka,São Paulo,Technology,Copiers,Laser Copier,2,0.1,1689.28,187.51,6,2024,7,July,Q3
+802,ORD-000802,2023-03-22,2023-03-27,Standard Class,CUST-1889,Customer 1889,Consumer,Japan,Asia,Aichi,Paris,Office Supplies,Appliances,Printer,8,0.25,3474.58,57.46,5,2023,3,March,Q1
+803,ORD-000803,2023-05-13,2023-05-19,Standard Class,CUST-0301,Customer 0301,Corporate,Brazil,South America,Paraná,Sydney,Technology,Accessories,USB-C Hub,5,0.15,451.5,28.41,6,2023,5,May,Q2
+804,ORD-000804,2023-05-18,2023-05-20,Second Class,CUST-0053,Customer 0053,Consumer,United States,North America,California,Bengaluru,Office Supplies,Appliances,Printer,3,0.0,1189.32,160.3,2,2023,5,May,Q2
+805,ORD-000805,2023-07-03,2023-07-09,Standard Class,CUST-1101,Customer 1101,Home Office,Mexico,North America,Puebla,Bengaluru,Office Supplies,Paper,Copy Paper,2,0.0,75.5,11.45,6,2023,7,July,Q3
+806,ORD-000806,2024-02-05,2024-02-10,Standard Class,CUST-0468,Customer 0468,Corporate,United Kingdom,Europe,Wales,Madrid,Technology,Accessories,Wireless Keyboard,1,0.15,67.53,12.16,5,2024,2,February,Q1
+807,ORD-000807,2023-11-26,2023-12-01,Standard Class,CUST-1031,Customer 1031,Home Office,France,Europe,Île-de-France,New York,Furniture,Furnishings,Office Desk Lamp,1,0.1,85.83,-35.72,5,2023,11,November,Q4
+808,ORD-000808,2024-05-22,2024-05-26,Standard Class,CUST-0376,Customer 0376,Consumer,India,Asia,Maharashtra,London,Office Supplies,Labels,Address Labels,4,0.0,74.45,-10.12,4,2024,5,May,Q2
+809,ORD-000809,2023-03-10,2023-03-15,Standard Class,CUST-1485,Customer 1485,Corporate,India,Asia,Uttar Pradesh,Mumbai,Office Supplies,Art,Art Set,1,0.1,39.21,-11.94,5,2023,3,March,Q1
+810,ORD-000810,2024-06-29,2024-07-04,Standard Class,CUST-1447,Customer 1447,Corporate,India,Asia,Tamil Nadu,Delhi,Furniture,Furnishings,Office Desk Lamp,10,0.15,651.0,30.34,5,2024,6,June,Q2
+811,ORD-000811,2023-02-22,2023-02-25,Second Class,CUST-0580,Customer 0580,Consumer,Japan,Asia,Aichi,Los Angeles,Furniture,Chairs,Ergonomic Office Chair,1,0.15,271.13,31.03,3,2023,2,February,Q1
+812,ORD-000812,2024-03-25,2024-03-31,Standard Class,CUST-1855,Customer 1855,Corporate,United States,North America,Florida,São Paulo,Office Supplies,Supplies,Office Supplies Kit,4,0.0,227.34,25.55,6,2024,3,March,Q1
+813,ORD-000813,2023-07-24,2023-07-28,Second Class,CUST-1710,Customer 1710,Corporate,Australia,Oceania,Victoria,Los Angeles,Technology,Phones,Smartphone,1,0.0,654.74,91.65,4,2023,7,July,Q3
+814,ORD-000814,2023-05-06,2023-05-08,First Class,CUST-0219,Customer 0219,Home Office,India,Asia,Uttar Pradesh,Melbourne,Furniture,Chairs,Ergonomic Office Chair,3,0.25,640.13,21.42,2,2023,5,May,Q2
+815,ORD-000815,2023-02-12,2023-02-13,Same Day,CUST-1248,Customer 1248,Home Office,Spain,Europe,Andalusia,São Paulo,Technology,Accessories,USB-C Hub,1,0.2,88.76,0.36,1,2023,2,February,Q1
+816,ORD-000816,2023-04-21,2023-04-26,Standard Class,CUST-0514,Customer 0514,Consumer,Canada,North America,Alberta,Bengaluru,Office Supplies,Appliances,Printer,5,0.05,1881.41,194.05,5,2023,4,April,Q2
+817,ORD-000817,2024-10-24,2024-10-30,Standard Class,CUST-1167,Customer 1167,Consumer,Japan,Asia,Tokyo,Shanghai,Technology,Accessories,USB-C Hub,3,0.2,220.15,10.88,6,2024,10,October,Q4
+818,ORD-000818,2023-07-02,2023-07-03,First Class,CUST-1541,Customer 1541,Corporate,United States,North America,Illinois,São Paulo,Technology,Machines,Desktop Computer,1,0.0,849.54,170.16,1,2023,7,July,Q3
+819,ORD-000819,2023-04-05,2023-04-09,Standard Class,CUST-0259,Customer 0259,Consumer,United States,North America,Florida,Los Angeles,Furniture,Chairs,Ergonomic Office Chair,6,0.0,1227.31,180.13,4,2023,4,April,Q2
+820,ORD-000820,2024-01-09,2024-01-11,First Class,CUST-1680,Customer 1680,Consumer,Australia,Oceania,New South Wales,Tokyo,Technology,Phones,Smartphone,3,0.0,2109.26,326.76,2,2024,1,January,Q1
+821,ORD-000821,2024-06-03,2024-06-10,Standard Class,CUST-1585,Customer 1585,Corporate,France,Europe,Île-de-France,Shanghai,Technology,Accessories,USB-C Hub,7,0.0,529.09,61.7,7,2024,6,June,Q2
+822,ORD-000822,2023-12-26,2024-01-01,Standard Class,CUST-1882,Customer 1882,Consumer,India,Asia,Maharashtra,Los Angeles,Furniture,Furnishings,Office Desk Lamp,7,0.2,473.72,-7.56,6,2023,12,December,Q4
+823,ORD-000823,2024-11-26,2024-11-29,Standard Class,CUST-1670,Customer 1670,Consumer,Germany,Europe,Saxony,Tokyo,Office Supplies,Appliances,Printer,7,0.1,2828.25,248.3,3,2024,11,November,Q4
+824,ORD-000824,2023-10-08,2023-10-09,Same Day,CUST-0803,Customer 0803,Consumer,United Kingdom,Europe,England,Melbourne,Office Supplies,Paper,Copy Paper,1,0.0,32.79,0.22,1,2023,10,October,Q4
+825,ORD-000825,2023-07-14,2023-07-17,Standard Class,CUST-0166,Customer 0166,Corporate,Japan,Asia,Kanagawa,Toronto,Office Supplies,Fasteners,Fastener Pack,1,0.2,12.31,9.68,3,2023,7,July,Q3
+826,ORD-000826,2023-07-14,2023-07-21,Standard Class,CUST-1622,Customer 1622,Home Office,Canada,North America,British Columbia,Melbourne,Office Supplies,Appliances,Printer,10,0.15,4109.78,268.63,7,2023,7,July,Q3
+827,ORD-000827,2024-10-28,2024-10-30,Second Class,CUST-0576,Customer 0576,Consumer,United States,North America,Florida,Los Angeles,Furniture,Bookcases,Office Bookcase,3,0.0,552.54,64.08,2,2024,10,October,Q4
+828,ORD-000828,2023-04-03,2023-04-05,First Class,CUST-0469,Customer 0469,Corporate,Canada,North America,Alberta,Delhi,Technology,Accessories,Wireless Keyboard,2,0.1,129.94,20.49,2,2023,4,April,Q2
+829,ORD-000829,2024-11-02,2024-11-04,First Class,CUST-1952,Customer 1952,Home Office,United States,North America,California,Paris,Office Supplies,Appliances,Printer,5,0.15,2389.66,142.35,2,2024,11,November,Q4
+830,ORD-000830,2023-03-02,2023-03-06,Standard Class,CUST-1793,Customer 1793,Corporate,Mexico,North America,Yucatán,Paris,Office Supplies,Envelopes,Business Envelopes,2,0.15,37.86,-7.42,4,2023,3,March,Q1
+831,ORD-000831,2024-09-25,2024-09-27,First Class,CUST-1661,Customer 1661,Home Office,France,Europe,Île-de-France,Tokyo,Technology,Accessories,Wireless Keyboard,5,0.15,374.99,28.27,2,2024,9,September,Q3
+832,ORD-000832,2023-02-20,2023-02-23,Standard Class,CUST-1072,Customer 1072,Home Office,Spain,Europe,Valencia,Madrid,Technology,Copiers,Laser Copier,6,0.0,4770.39,750.88,3,2023,2,February,Q1
+833,ORD-000833,2024-02-07,2024-02-12,Standard Class,CUST-1303,Customer 1303,Consumer,Mexico,North America,Puebla,Madrid,Office Supplies,Art,Art Set,5,0.05,192.96,11.08,5,2024,2,February,Q1
+834,ORD-000834,2023-01-05,2023-01-10,Standard Class,CUST-1298,Customer 1298,Consumer,China,Asia,Jiangsu,Delhi,Office Supplies,Envelopes,Business Envelopes,2,0.2,43.64,8.69,5,2023,1,January,Q1
+835,ORD-000835,2024-04-10,2024-04-13,Second Class,CUST-0145,Customer 0145,Home Office,India,Asia,Uttar Pradesh,Mumbai,Furniture,Chairs,Ergonomic Office Chair,2,0.2,457.45,37.98,3,2024,4,April,Q2
+836,ORD-000836,2024-08-26,2024-09-02,Standard Class,CUST-0229,Customer 0229,Corporate,China,Asia,Zhejiang,Madrid,Office Supplies,Fasteners,Fastener Pack,2,0.0,25.57,-2.18,7,2024,8,August,Q3
+837,ORD-000837,2024-11-12,2024-11-13,First Class,CUST-0543,Customer 0543,Consumer,United Kingdom,Europe,Scotland,Bengaluru,Office Supplies,Appliances,Printer,3,0.0,1410.08,97.05,1,2024,11,November,Q4
+838,ORD-000838,2024-06-17,2024-06-17,Same Day,CUST-0989,Customer 0989,Home Office,Germany,Europe,Bavaria,Bengaluru,Office Supplies,Appliances,Printer,1,0.2,423.14,7.94,0,2024,6,June,Q2
+839,ORD-000839,2024-02-09,2024-02-12,Standard Class,CUST-1974,Customer 1974,Corporate,Spain,Europe,Valencia,Toronto,Furniture,Tables,Conference Table,3,0.05,1063.96,119.68,3,2024,2,February,Q1
+840,ORD-000840,2024-05-27,2024-05-28,First Class,CUST-0973,Customer 0973,Corporate,Mexico,North America,Puebla,Sydney,Technology,Copiers,Laser Copier,3,0.05,2220.03,307.1,1,2024,5,May,Q2
+841,ORD-000841,2024-10-06,2024-10-07,First Class,CUST-0316,Customer 0316,Corporate,Canada,North America,Alberta,Madrid,Technology,Copiers,Laser Copier,3,0.05,2992.17,414.45,1,2024,10,October,Q4
+842,ORD-000842,2023-08-21,2023-08-24,Second Class,CUST-1791,Customer 1791,Home Office,Canada,North America,Quebec,Paris,Technology,Copiers,Laser Copier,5,0.05,4872.26,661.55,3,2023,8,August,Q3
+843,ORD-000843,2024-06-07,2024-06-13,Standard Class,CUST-0834,Customer 0834,Home Office,United Kingdom,Europe,England,Madrid,Office Supplies,Binders,Premium Binder,3,0.05,83.1,18.85,6,2024,6,June,Q2
+844,ORD-000844,2023-12-12,2023-12-14,Second Class,CUST-0073,Customer 0073,Consumer,United States,North America,Florida,Tokyo,Technology,Phones,Smartphone,2,0.1,1453.05,137.55,2,2023,12,December,Q4
+845,ORD-000845,2023-02-15,2023-02-22,Standard Class,CUST-0086,Customer 0086,Corporate,Canada,North America,Quebec,São Paulo,Furniture,Bookcases,Office Bookcase,4,0.0,690.95,83.35,7,2023,2,February,Q1
+846,ORD-000846,2024-06-29,2024-07-02,Second Class,CUST-0362,Customer 0362,Consumer,India,Asia,Karnataka,Toronto,Furniture,Furnishings,Office Desk Lamp,5,0.3,414.62,-12.94,3,2024,6,June,Q2
+847,ORD-000847,2023-03-19,2023-03-24,Standard Class,CUST-1042,Customer 1042,Corporate,Germany,Europe,Hesse,São Paulo,Office Supplies,Envelopes,Business Envelopes,2,0.25,45.36,-16.36,5,2023,3,March,Q1
+848,ORD-000848,2024-12-30,2025-01-05,Standard Class,CUST-1915,Customer 1915,Corporate,France,Europe,Nouvelle-Aquitaine,Mumbai,Furniture,Bookcases,Office Bookcase,4,0.25,728.11,16.05,6,2024,12,December,Q4
+849,ORD-000849,2023-03-14,2023-03-18,Standard Class,CUST-1298,Customer 1298,Consumer,India,Asia,Maharashtra,São Paulo,Office Supplies,Binders,Premium Binder,1,0.2,24.35,-6.41,4,2023,3,March,Q1
+850,ORD-000850,2023-09-06,2023-09-09,Standard Class,CUST-1107,Customer 1107,Home Office,Germany,Europe,Hesse,Tokyo,Office Supplies,Binders,Premium Binder,2,0.15,66.52,0.95,3,2023,9,September,Q3
+851,ORD-000851,2023-02-16,2023-02-19,Standard Class,CUST-1389,Customer 1389,Corporate,Japan,Asia,Aichi,Madrid,Office Supplies,Envelopes,Business Envelopes,7,0.0,176.04,13.19,3,2023,2,February,Q1
+852,ORD-000852,2023-05-01,2023-05-03,Second Class,CUST-0102,Customer 0102,Corporate,United Kingdom,Europe,Northern Ireland,Paris,Technology,Machines,Desktop Computer,7,0.0,7499.11,1338.21,2,2023,5,May,Q2
+853,ORD-000853,2023-08-02,2023-08-05,Standard Class,CUST-1215,Customer 1215,Home Office,India,Asia,Uttar Pradesh,Shanghai,Office Supplies,Paper,Copy Paper,3,0.0,91.85,-3.07,3,2023,8,August,Q3
+854,ORD-000854,2023-08-27,2023-08-30,Standard Class,CUST-1311,Customer 1311,Consumer,France,Europe,Île-de-France,Delhi,Technology,Accessories,USB-C Hub,4,0.05,304.43,45.23,3,2023,8,August,Q3
+855,ORD-000855,2023-02-25,2023-02-28,Standard Class,CUST-0285,Customer 0285,Home Office,France,Europe,Occitanie,Madrid,Office Supplies,Fasteners,Fastener Pack,6,0.1,75.64,-0.15,3,2023,2,February,Q1
+856,ORD-000856,2023-12-16,2023-12-19,Standard Class,CUST-0856,Customer 0856,Consumer,Japan,Asia,Osaka,Berlin,Technology,Machines,Desktop Computer,8,0.3,8710.95,370.42,3,2023,12,December,Q4
+857,ORD-000857,2023-04-17,2023-04-21,Standard Class,CUST-0097,Customer 0097,Home Office,Brazil,South America,São Paulo,Sydney,Office Supplies,Paper,Copy Paper,3,0.05,113.0,1.82,4,2023,4,April,Q2
+858,ORD-000858,2023-02-17,2023-02-21,Second Class,CUST-0882,Customer 0882,Consumer,Australia,Oceania,Victoria,Shanghai,Office Supplies,Art,Art Set,3,0.1,99.13,3.21,4,2023,2,February,Q1
+859,ORD-000859,2024-07-26,2024-07-30,Standard Class,CUST-1747,Customer 1747,Home Office,United States,North America,California,São Paulo,Office Supplies,Fasteners,Fastener Pack,2,0.15,25.5,1.31,4,2024,7,July,Q3
+860,ORD-000860,2023-12-03,2023-12-08,Standard Class,CUST-0255,Customer 0255,Consumer,United Kingdom,Europe,Scotland,Tokyo,Technology,Phones,Smartphone,1,0.0,717.19,91.59,5,2023,12,December,Q4
+861,ORD-000861,2023-01-26,2023-01-28,Second Class,CUST-1616,Customer 1616,Home Office,Japan,Asia,Aichi,São Paulo,Furniture,Chairs,Ergonomic Office Chair,3,0.25,669.05,24.85,2,2023,1,January,Q1
+862,ORD-000862,2023-09-14,2023-09-19,Standard Class,CUST-1203,Customer 1203,Corporate,India,Asia,Tamil Nadu,Shanghai,Furniture,Tables,Conference Table,5,0.1,1737.07,158.36,5,2023,9,September,Q3
+863,ORD-000863,2023-01-08,2023-01-08,Same Day,CUST-1568,Customer 1568,Corporate,Spain,Europe,Andalusia,London,Technology,Phones,Smartphone,5,0.0,2975.75,448.13,0,2023,1,January,Q1
+864,ORD-000864,2024-09-16,2024-09-17,First Class,CUST-0789,Customer 0789,Consumer,Spain,Europe,Catalonia,Berlin,Furniture,Bookcases,Office Bookcase,7,0.25,1379.22,14.39,1,2024,9,September,Q3
+865,ORD-000865,2023-09-10,2023-09-14,Standard Class,CUST-1950,Customer 1950,Home Office,United Kingdom,Europe,Scotland,Toronto,Office Supplies,Paper,Copy Paper,1,0.1,36.87,3.75,4,2023,9,September,Q3
+866,ORD-000866,2024-11-22,2024-11-28,Standard Class,CUST-0263,Customer 0263,Consumer,Australia,Oceania,New South Wales,Bengaluru,Furniture,Furnishings,Office Desk Lamp,3,0.1,260.36,25.55,6,2024,11,November,Q4
+867,ORD-000867,2024-12-19,2024-12-23,Second Class,CUST-0806,Customer 0806,Corporate,India,Asia,Tamil Nadu,Delhi,Office Supplies,Envelopes,Business Envelopes,1,0.1,23.86,17.88,4,2024,12,December,Q4
+868,ORD-000868,2023-10-30,2023-11-02,Second Class,CUST-0652,Customer 0652,Consumer,Mexico,North America,Puebla,Madrid,Office Supplies,Appliances,Printer,2,0.15,816.06,41.93,3,2023,10,October,Q4
+869,ORD-000869,2024-09-30,2024-10-07,Standard Class,CUST-1723,Customer 1723,Corporate,Mexico,North America,Jalisco,Los Angeles,Office Supplies,Appliances,Printer,7,0.0,3179.21,410.24,7,2024,9,September,Q3
+870,ORD-000870,2023-02-25,2023-02-28,Standard Class,CUST-0348,Customer 0348,Home Office,United States,North America,Illinois,Sydney,Office Supplies,Paper,Copy Paper,3,0.2,110.64,2.63,3,2023,2,February,Q1
+871,ORD-000871,2024-12-26,2024-12-30,Second Class,CUST-1038,Customer 1038,Corporate,India,Asia,Karnataka,Madrid,Office Supplies,Storage,Storage Box,5,0.25,454.35,-6.69,4,2024,12,December,Q4
+872,ORD-000872,2024-06-09,2024-06-10,First Class,CUST-1351,Customer 1351,Consumer,France,Europe,Auvergne-Rhône-Alpes,New York,Office Supplies,Fasteners,Fastener Pack,1,0.1,11.93,-49.96,1,2024,6,June,Q2
+873,ORD-000873,2024-04-18,2024-04-21,Standard Class,CUST-0529,Customer 0529,Consumer,Canada,North America,British Columbia,Tokyo,Office Supplies,Supplies,Office Supplies Kit,2,0.15,128.91,1.36,3,2024,4,April,Q2
+874,ORD-000874,2023-01-28,2023-02-03,Standard Class,CUST-1687,Customer 1687,Home Office,Spain,Europe,Madrid,Toronto,Furniture,Furnishings,Office Desk Lamp,4,0.2,342.7,13.3,6,2023,1,January,Q1
+875,ORD-000875,2023-03-19,2023-03-26,Standard Class,CUST-1613,Customer 1613,Home Office,Australia,Oceania,Victoria,Bengaluru,Office Supplies,Supplies,Office Supplies Kit,1,0.05,63.74,-6.86,7,2023,3,March,Q1
+876,ORD-000876,2023-08-04,2023-08-11,Standard Class,CUST-1044,Customer 1044,Corporate,India,Asia,Delhi,London,Office Supplies,Paper,Copy Paper,2,0.3,74.63,-3.83,7,2023,8,August,Q3
+877,ORD-000877,2024-01-21,2024-01-23,First Class,CUST-0506,Customer 0506,Corporate,India,Asia,Tamil Nadu,Madrid,Office Supplies,Paper,Copy Paper,1,0.15,31.61,-15.5,2,2024,1,January,Q1
+878,ORD-000878,2023-12-31,2024-01-02,Second Class,CUST-0251,Customer 0251,Consumer,Canada,North America,Quebec,New York,Office Supplies,Binders,Premium Binder,4,0.05,128.9,13.08,2,2023,12,December,Q4
+879,ORD-000879,2024-10-27,2024-10-31,Second Class,CUST-1669,Customer 1669,Consumer,Canada,North America,Alberta,London,Technology,Machines,Desktop Computer,8,0.15,7977.13,899.36,4,2024,10,October,Q4
+880,ORD-000880,2024-06-09,2024-06-11,First Class,CUST-0134,Customer 0134,Consumer,Germany,Europe,Saxony,Melbourne,Technology,Copiers,Laser Copier,6,0.1,4403.11,501.81,2,2024,6,June,Q2
+881,ORD-000881,2024-11-29,2024-12-06,Standard Class,CUST-0909,Customer 0909,Corporate,Japan,Asia,Osaka,London,Technology,Accessories,Wireless Keyboard,8,0.0,557.72,63.58,7,2024,11,November,Q4
+882,ORD-000882,2023-11-08,2023-11-15,Standard Class,CUST-1002,Customer 1002,Home Office,Brazil,South America,Paraná,Shanghai,Furniture,Bookcases,Office Bookcase,6,0.15,1095.89,45.54,7,2023,11,November,Q4
+883,ORD-000883,2023-01-07,2023-01-12,Standard Class,CUST-1667,Customer 1667,Consumer,United States,North America,Texas,New York,Office Supplies,Paper,Copy Paper,6,0.1,181.69,10.79,5,2023,1,January,Q1
+884,ORD-000884,2023-01-03,2023-01-06,Second Class,CUST-0181,Customer 0181,Home Office,Spain,Europe,Andalusia,Toronto,Office Supplies,Supplies,Office Supplies Kit,3,0.15,196.29,-1.98,3,2023,1,January,Q1
+885,ORD-000885,2024-09-14,2024-09-17,Standard Class,CUST-1951,Customer 1951,Home Office,Canada,North America,Ontario,Sydney,Furniture,Bookcases,Office Bookcase,3,0.0,469.41,60.33,3,2024,9,September,Q3
+886,ORD-000886,2023-12-29,2024-01-02,Standard Class,CUST-1155,Customer 1155,Home Office,Mexico,North America,Nuevo León,Bengaluru,Furniture,Chairs,Ergonomic Office Chair,2,0.1,566.91,51.83,4,2023,12,December,Q4
+887,ORD-000887,2024-05-22,2024-05-23,Same Day,CUST-1416,Customer 1416,Consumer,United Kingdom,Europe,Northern Ireland,Shanghai,Office Supplies,Fasteners,Fastener Pack,5,0.15,54.34,16.64,1,2024,5,May,Q2
+888,ORD-000888,2023-10-01,2023-10-03,Second Class,CUST-1095,Customer 1095,Corporate,Mexico,North America,Puebla,Los Angeles,Office Supplies,Supplies,Office Supplies Kit,1,0.3,54.01,10.05,2,2023,10,October,Q4
+889,ORD-000889,2024-05-20,2024-05-22,First Class,CUST-1074,Customer 1074,Corporate,Germany,Europe,Bavaria,Melbourne,Office Supplies,Appliances,Printer,1,0.2,418.33,33.32,2,2024,5,May,Q2
+890,ORD-000890,2023-01-15,2023-01-15,Same Day,CUST-0110,Customer 0110,Corporate,Germany,Europe,Hesse,London,Office Supplies,Fasteners,Fastener Pack,8,0.2,106.16,13.28,0,2023,1,January,Q1
+891,ORD-000891,2023-07-11,2023-07-11,Same Day,CUST-1607,Customer 1607,Corporate,Canada,North America,Alberta,Shanghai,Office Supplies,Supplies,Office Supplies Kit,1,0.0,50.9,-0.5,0,2023,7,July,Q3
+892,ORD-000892,2024-09-22,2024-09-28,Standard Class,CUST-1099,Customer 1099,Consumer,Germany,Europe,Hesse,São Paulo,Office Supplies,Appliances,Printer,8,0.2,4015.66,153.55,6,2024,9,September,Q3
+893,ORD-000893,2024-04-29,2024-05-04,Standard Class,CUST-0984,Customer 0984,Corporate,Japan,Asia,Kanagawa,New York,Technology,Accessories,USB-C Hub,5,0.0,444.86,74.04,5,2024,4,April,Q2
+894,ORD-000894,2023-01-28,2023-01-30,First Class,CUST-0955,Customer 0955,Home Office,France,Europe,Nouvelle-Aquitaine,Delhi,Office Supplies,Binders,Premium Binder,2,0.0,63.08,-91.92,2,2023,1,January,Q1
+895,ORD-000895,2024-12-14,2024-12-18,Standard Class,CUST-0021,Customer 0021,Consumer,China,Asia,Zhejiang,Berlin,Technology,Accessories,Wireless Keyboard,4,0.0,230.69,-57.21,4,2024,12,December,Q4
+896,ORD-000896,2023-02-08,2023-02-09,First Class,CUST-1428,Customer 1428,Consumer,India,Asia,Uttar Pradesh,New York,Technology,Copiers,Laser Copier,5,0.2,4321.01,297.51,1,2023,2,February,Q1
+897,ORD-000897,2023-09-30,2023-10-02,First Class,CUST-1629,Customer 1629,Home Office,India,Asia,Tamil Nadu,Tokyo,Office Supplies,Art,Art Set,2,0.0,82.67,1.78,2,2023,9,September,Q3
+898,ORD-000898,2023-08-19,2023-08-25,Standard Class,CUST-1770,Customer 1770,Home Office,Canada,North America,British Columbia,São Paulo,Furniture,Chairs,Ergonomic Office Chair,5,0.0,1133.43,176.65,6,2023,8,August,Q3
+899,ORD-000899,2023-03-27,2023-03-31,Standard Class,CUST-1866,Customer 1866,Home Office,Germany,Europe,Saxony,São Paulo,Technology,Copiers,Laser Copier,5,0.0,3828.76,596.84,4,2023,3,March,Q1
+900,ORD-000900,2024-04-18,2024-04-24,Standard Class,CUST-1457,Customer 1457,Home Office,United Kingdom,Europe,Northern Ireland,Madrid,Office Supplies,Appliances,Printer,2,0.1,856.71,79.09,6,2024,4,April,Q2
+901,ORD-000901,2023-05-06,2023-05-08,Second Class,CUST-1488,Customer 1488,Home Office,France,Europe,Occitanie,Berlin,Furniture,Tables,Conference Table,1,0.2,411.47,24.77,2,2023,5,May,Q2
+902,ORD-000902,2024-06-20,2024-06-23,Standard Class,CUST-1482,Customer 1482,Corporate,United States,North America,Texas,Shanghai,Technology,Accessories,Wireless Keyboard,2,0.05,132.65,-58.17,3,2024,6,June,Q2
+903,ORD-000903,2023-05-25,2023-06-01,Standard Class,CUST-0294,Customer 0294,Corporate,Germany,Europe,North Rhine-Westphalia,Sydney,Office Supplies,Art,Art Set,2,0.1,69.42,2.62,7,2023,5,May,Q2
+904,ORD-000904,2024-06-08,2024-06-09,First Class,CUST-0289,Customer 0289,Home Office,France,Europe,Occitanie,Mumbai,Office Supplies,Envelopes,Business Envelopes,1,0.0,23.71,2.87,1,2024,6,June,Q2
+905,ORD-000905,2023-07-31,2023-08-03,Standard Class,CUST-1658,Customer 1658,Home Office,Brazil,South America,Minas Gerais,Toronto,Furniture,Furnishings,Office Desk Lamp,5,0.0,441.72,46.07,3,2023,7,July,Q3
+906,ORD-000906,2023-01-25,2023-01-27,Second Class,CUST-1989,Customer 1989,Consumer,United States,North America,Illinois,Mumbai,Furniture,Tables,Conference Table,2,0.0,607.02,90.5,2,2023,1,January,Q1
+907,ORD-000907,2024-08-02,2024-08-04,First Class,CUST-1595,Customer 1595,Consumer,India,Asia,Tamil Nadu,Berlin,Furniture,Bookcases,Office Bookcase,6,0.05,975.98,88.64,2,2024,8,August,Q3
+908,ORD-000908,2024-01-29,2024-02-05,Standard Class,CUST-0780,Customer 0780,Home Office,Brazil,South America,Rio de Janeiro,Shanghai,Furniture,Chairs,Ergonomic Office Chair,2,0.1,430.3,66.76,7,2024,1,January,Q1
+909,ORD-000909,2023-03-08,2023-03-15,Standard Class,CUST-1416,Customer 1416,Home Office,Canada,North America,Quebec,Los Angeles,Office Supplies,Supplies,Office Supplies Kit,3,0.0,145.18,11.42,7,2023,3,March,Q1
+910,ORD-000910,2023-08-21,2023-08-24,Second Class,CUST-1478,Customer 1478,Corporate,Spain,Europe,Valencia,Sydney,Office Supplies,Fasteners,Fastener Pack,4,0.2,45.88,-2.88,3,2023,8,August,Q3
+911,ORD-000911,2023-04-19,2023-04-21,First Class,CUST-1367,Customer 1367,Consumer,Canada,North America,Quebec,Sydney,Office Supplies,Storage,Storage Box,6,0.3,474.43,-1.05,2,2023,4,April,Q2
+912,ORD-000912,2023-05-26,2023-05-29,Second Class,CUST-1712,Customer 1712,Home Office,United Kingdom,Europe,Northern Ireland,Sydney,Office Supplies,Labels,Address Labels,3,0.0,56.27,-11.82,3,2023,5,May,Q2
+913,ORD-000913,2023-04-21,2023-04-25,Second Class,CUST-0618,Customer 0618,Consumer,Japan,Asia,Osaka,Bengaluru,Office Supplies,Labels,Address Labels,2,0.0,34.72,17.21,4,2023,4,April,Q2
+914,ORD-000914,2023-08-16,2023-08-18,Second Class,CUST-0707,Customer 0707,Home Office,France,Europe,Auvergne-Rhône-Alpes,Berlin,Technology,Phones,Smartphone,6,0.15,3868.11,319.87,2,2023,8,August,Q3
+915,ORD-000915,2023-04-21,2023-04-28,Standard Class,CUST-1574,Customer 1574,Home Office,Japan,Asia,Aichi,São Paulo,Office Supplies,Storage,Storage Box,2,0.0,200.54,15.81,7,2023,4,April,Q2
+916,ORD-000916,2024-04-14,2024-04-21,Standard Class,CUST-1058,Customer 1058,Home Office,Spain,Europe,Madrid,Mumbai,Technology,Copiers,Laser Copier,1,0.05,768.81,96.75,7,2024,4,April,Q2
+917,ORD-000917,2023-02-03,2023-02-03,Same Day,CUST-0132,Customer 0132,Corporate,Japan,Asia,Aichi,Toronto,Office Supplies,Art,Art Set,3,0.05,103.53,-4.2,0,2023,2,February,Q1
+918,ORD-000918,2024-09-14,2024-09-16,First Class,CUST-1927,Customer 1927,Home Office,United States,North America,Texas,Tokyo,Office Supplies,Labels,Address Labels,5,0.2,84.6,-6.12,2,2024,9,September,Q3
+919,ORD-000919,2024-01-04,2024-01-06,Second Class,CUST-1877,Customer 1877,Consumer,United States,North America,Illinois,Delhi,Technology,Accessories,USB-C Hub,1,0.1,83.38,9.31,2,2024,1,January,Q1
+920,ORD-000920,2024-08-17,2024-08-20,Second Class,CUST-0364,Customer 0364,Consumer,Australia,Oceania,Western Australia,Los Angeles,Office Supplies,Fasteners,Fastener Pack,3,0.0,39.88,6.97,3,2024,8,August,Q3
+921,ORD-000921,2024-07-07,2024-07-09,Second Class,CUST-1866,Customer 1866,Consumer,Brazil,South America,Paraná,Los Angeles,Furniture,Chairs,Ergonomic Office Chair,4,0.0,1090.51,165.7,2,2024,7,July,Q3
+922,ORD-000922,2024-02-29,2024-03-05,Standard Class,CUST-0992,Customer 0992,Consumer,United Kingdom,Europe,Northern Ireland,Sydney,Technology,Phones,Smartphone,7,0.0,4688.11,699.13,5,2024,2,February,Q1
+923,ORD-000923,2024-09-04,2024-09-10,Standard Class,CUST-0333,Customer 0333,Corporate,India,Asia,Uttar Pradesh,Shanghai,Office Supplies,Storage,Storage Box,2,0.05,195.37,25.86,6,2024,9,September,Q3
+924,ORD-000924,2024-06-01,2024-06-07,Standard Class,CUST-0981,Customer 0981,Corporate,Japan,Asia,Tokyo,New York,Furniture,Furnishings,Office Desk Lamp,2,0.1,168.72,30.67,6,2024,6,June,Q2
+925,ORD-000925,2024-11-22,2024-11-29,Standard Class,CUST-0083,Customer 0083,Corporate,Germany,Europe,Saxony,Mumbai,Office Supplies,Binders,Premium Binder,3,0.2,76.02,10.44,7,2024,11,November,Q4
+926,ORD-000926,2023-10-09,2023-10-16,Standard Class,CUST-0315,Customer 0315,Home Office,Germany,Europe,Hesse,New York,Office Supplies,Fasteners,Fastener Pack,2,0.05,22.46,-2.26,7,2023,10,October,Q4
+927,ORD-000927,2023-11-16,2023-11-22,Standard Class,CUST-0382,Customer 0382,Corporate,Spain,Europe,Madrid,Toronto,Office Supplies,Envelopes,Business Envelopes,5,0.05,119.36,8.49,6,2023,11,November,Q4
+928,ORD-000928,2024-03-18,2024-03-24,Standard Class,CUST-0764,Customer 0764,Home Office,United Kingdom,Europe,England,Madrid,Office Supplies,Art,Art Set,4,0.05,166.76,14.12,6,2024,3,March,Q1
+929,ORD-000929,2023-11-11,2023-11-18,Standard Class,CUST-0008,Customer 0008,Consumer,United Kingdom,Europe,Northern Ireland,Tokyo,Furniture,Bookcases,Office Bookcase,5,0.0,883.48,118.85,7,2023,11,November,Q4
+930,ORD-000930,2024-01-12,2024-01-16,Standard Class,CUST-0445,Customer 0445,Consumer,United States,North America,Florida,Shanghai,Technology,Accessories,Wireless Keyboard,6,0.25,362.87,0.02,4,2024,1,January,Q1
+931,ORD-000931,2023-10-16,2023-10-22,Standard Class,CUST-0113,Customer 0113,Corporate,India,Asia,Tamil Nadu,Toronto,Technology,Copiers,Laser Copier,7,0.0,6867.46,1091.07,6,2023,10,October,Q4
+932,ORD-000932,2024-03-12,2024-03-14,First Class,CUST-0616,Customer 0616,Home Office,France,Europe,Auvergne-Rhône-Alpes,London,Technology,Copiers,Laser Copier,3,0.0,2345.65,384.37,2,2024,3,March,Q1
+933,ORD-000933,2024-10-23,2024-10-26,Second Class,CUST-1330,Customer 1330,Home Office,India,Asia,Maharashtra,Madrid,Furniture,Tables,Conference Table,10,0.0,3829.33,539.36,3,2024,10,October,Q4
+934,ORD-000934,2023-10-04,2023-10-06,First Class,CUST-1915,Customer 1915,Consumer,Mexico,North America,Puebla,Los Angeles,Office Supplies,Art,Art Set,2,0.1,60.34,-6.76,2,2023,10,October,Q4
+935,ORD-000935,2024-12-10,2024-12-15,Standard Class,CUST-1108,Customer 1108,Consumer,United Kingdom,Europe,Wales,Mumbai,Technology,Accessories,USB-C Hub,4,0.25,274.13,10.44,5,2024,12,December,Q4
+936,ORD-000936,2024-08-04,2024-08-05,First Class,CUST-1800,Customer 1800,Consumer,Canada,North America,British Columbia,Mumbai,Office Supplies,Envelopes,Business Envelopes,3,0.0,66.53,18.7,1,2024,8,August,Q3
+937,ORD-000937,2024-05-17,2024-05-19,First Class,CUST-0144,Customer 0144,Corporate,China,Asia,Shanghai,Delhi,Furniture,Bookcases,Office Bookcase,5,0.05,971.81,89.2,2,2024,5,May,Q2
+938,ORD-000938,2024-09-15,2024-09-20,Standard Class,CUST-1840,Customer 1840,Home Office,United Kingdom,Europe,Wales,Berlin,Office Supplies,Supplies,Office Supplies Kit,3,0.0,148.48,6.24,5,2024,9,September,Q3
+939,ORD-000939,2024-05-30,2024-06-03,Second Class,CUST-0190,Customer 0190,Home Office,Spain,Europe,Andalusia,London,Technology,Phones,Smartphone,5,0.15,3631.42,299.83,4,2024,5,May,Q2
+940,ORD-000940,2023-12-16,2023-12-22,Standard Class,CUST-0056,Customer 0056,Consumer,Japan,Asia,Kanagawa,London,Technology,Phones,Smartphone,7,0.1,4072.51,433.06,6,2023,12,December,Q4
+941,ORD-000941,2024-03-21,2024-03-25,Second Class,CUST-1436,Customer 1436,Home Office,Canada,North America,British Columbia,New York,Office Supplies,Supplies,Office Supplies Kit,5,0.15,285.12,5.82,4,2024,3,March,Q1
+942,ORD-000942,2023-12-16,2023-12-22,Standard Class,CUST-0714,Customer 0714,Home Office,Spain,Europe,Madrid,Paris,Technology,Accessories,Wireless Keyboard,5,0.1,311.32,32.42,6,2023,12,December,Q4
+943,ORD-000943,2024-08-29,2024-08-30,First Class,CUST-0621,Customer 0621,Corporate,Brazil,South America,Minas Gerais,Toronto,Office Supplies,Paper,Copy Paper,1,0.2,35.63,1.02,1,2024,8,August,Q3
+944,ORD-000944,2024-10-25,2024-10-28,Standard Class,CUST-0021,Customer 0021,Consumer,China,Asia,Guangdong,Melbourne,Office Supplies,Binders,Premium Binder,2,0.05,63.36,11.1,3,2024,10,October,Q4
+945,ORD-000945,2023-05-17,2023-05-21,Second Class,CUST-0630,Customer 0630,Home Office,China,Asia,Jiangsu,Shanghai,Technology,Phones,Smartphone,8,0.1,4540.29,470.96,4,2023,5,May,Q2
+946,ORD-000946,2023-08-31,2023-09-04,Second Class,CUST-0613,Customer 0613,Consumer,United States,North America,Texas,Madrid,Furniture,Tables,Conference Table,4,0.15,1284.38,83.3,4,2023,8,August,Q3
+947,ORD-000947,2024-06-26,2024-06-30,Standard Class,CUST-1324,Customer 1324,Home Office,United Kingdom,Europe,Scotland,Los Angeles,Technology,Machines,Desktop Computer,3,0.1,3312.91,444.52,4,2024,6,June,Q2
+948,ORD-000948,2023-02-09,2023-02-12,Standard Class,CUST-0847,Customer 0847,Consumer,United States,North America,Texas,London,Technology,Accessories,Wireless Keyboard,2,0.0,129.41,4.76,3,2023,2,February,Q1
+949,ORD-000949,2023-08-17,2023-08-19,Second Class,CUST-1862,Customer 1862,Consumer,Germany,Europe,Hesse,Bengaluru,Office Supplies,Labels,Address Labels,1,0.05,18.3,3.78,2,2023,8,August,Q3
+950,ORD-000950,2024-07-01,2024-07-06,Standard Class,CUST-1577,Customer 1577,Home Office,Spain,Europe,Catalonia,Toronto,Office Supplies,Art,Art Set,2,0.0,63.62,-11.04,5,2024,7,July,Q3
+951,ORD-000951,2023-08-11,2023-08-17,Standard Class,CUST-0291,Customer 0291,Corporate,Mexico,North America,Puebla,London,Technology,Phones,Smartphone,3,0.05,2336.52,294.28,6,2023,8,August,Q3
+952,ORD-000952,2023-01-06,2023-01-12,Standard Class,CUST-1080,Customer 1080,Consumer,Mexico,North America,Puebla,Mumbai,Furniture,Tables,Conference Table,2,0.1,821.15,75.72,6,2023,1,January,Q1
+953,ORD-000953,2023-11-18,2023-11-22,Standard Class,CUST-0119,Customer 0119,Consumer,Germany,Europe,North Rhine-Westphalia,Madrid,Office Supplies,Paper,Copy Paper,1,0.0,27.22,-41.32,4,2023,11,November,Q4
+954,ORD-000954,2024-04-12,2024-04-19,Standard Class,CUST-1493,Customer 1493,Home Office,Brazil,South America,Minas Gerais,Melbourne,Office Supplies,Supplies,Office Supplies Kit,3,0.1,172.05,5.29,7,2024,4,April,Q2
+955,ORD-000955,2023-03-16,2023-03-22,Standard Class,CUST-1425,Customer 1425,Consumer,Mexico,North America,Puebla,Delhi,Office Supplies,Envelopes,Business Envelopes,3,0.2,76.25,-2.25,6,2023,3,March,Q1
+956,ORD-000956,2023-01-04,2023-01-08,Second Class,CUST-1818,Customer 1818,Home Office,Spain,Europe,Madrid,Berlin,Office Supplies,Labels,Address Labels,2,0.05,36.02,11.14,4,2023,1,January,Q1
+957,ORD-000957,2024-10-07,2024-10-13,Standard Class,CUST-0319,Customer 0319,Consumer,Mexico,North America,Nuevo León,Shanghai,Office Supplies,Paper,Copy Paper,3,0.0,96.28,-2.55,6,2024,10,October,Q4
+958,ORD-000958,2023-04-28,2023-05-02,Second Class,CUST-1738,Customer 1738,Home Office,Germany,Europe,Saxony,São Paulo,Furniture,Furnishings,Office Desk Lamp,7,0.2,515.96,8.02,4,2023,4,April,Q2
+959,ORD-000959,2024-08-28,2024-09-03,Standard Class,CUST-1058,Customer 1058,Home Office,Canada,North America,British Columbia,New York,Technology,Accessories,USB-C Hub,3,0.15,206.42,17.35,6,2024,8,August,Q3
+960,ORD-000960,2024-05-18,2024-05-24,Standard Class,CUST-1663,Customer 1663,Home Office,Japan,Asia,Kanagawa,Berlin,Office Supplies,Envelopes,Business Envelopes,6,0.0,148.71,8.75,6,2024,5,May,Q2
+961,ORD-000961,2024-07-27,2024-08-02,Standard Class,CUST-0455,Customer 0455,Corporate,Japan,Asia,Osaka,Berlin,Technology,Phones,Smartphone,7,0.05,4594.93,581.87,6,2024,7,July,Q3
+962,ORD-000962,2024-03-16,2024-03-22,Standard Class,CUST-0672,Customer 0672,Consumer,United States,North America,Florida,Delhi,Furniture,Bookcases,Office Bookcase,1,0.15,186.46,0.68,6,2024,3,March,Q1
+963,ORD-000963,2023-07-13,2023-07-20,Standard Class,CUST-1796,Customer 1796,Corporate,Australia,Oceania,Queensland,Paris,Office Supplies,Envelopes,Business Envelopes,1,0.1,20.67,15.5,7,2023,7,July,Q3
+964,ORD-000964,2024-12-15,2024-12-18,Standard Class,CUST-1277,Customer 1277,Home Office,France,Europe,Nouvelle-Aquitaine,Paris,Furniture,Furnishings,Office Desk Lamp,3,0.1,253.0,14.5,3,2024,12,December,Q4
+965,ORD-000965,2024-01-27,2024-01-31,Standard Class,CUST-0522,Customer 0522,Home Office,Spain,Europe,Andalusia,Tokyo,Furniture,Bookcases,Office Bookcase,3,0.1,609.02,43.15,4,2024,1,January,Q1
+966,ORD-000966,2023-01-26,2023-01-29,Standard Class,CUST-0999,Customer 0999,Home Office,United States,North America,New York,Melbourne,Technology,Copiers,Laser Copier,3,0.15,2660.98,263.11,3,2023,1,January,Q1
+967,ORD-000967,2024-03-10,2024-03-12,First Class,CUST-0620,Customer 0620,Home Office,China,Asia,Jiangsu,Melbourne,Office Supplies,Fasteners,Fastener Pack,2,0.05,28.0,2.55,2,2024,3,March,Q1
+968,ORD-000968,2023-06-22,2023-06-23,First Class,CUST-0847,Customer 0847,Corporate,Australia,Oceania,Queensland,Bengaluru,Technology,Machines,Desktop Computer,4,0.15,3384.13,401.06,1,2023,6,June,Q2
+969,ORD-000969,2023-10-27,2023-10-31,Second Class,CUST-1464,Customer 1464,Consumer,India,Asia,Delhi,Los Angeles,Technology,Copiers,Laser Copier,1,0.3,956.52,12.58,4,2023,10,October,Q4
+970,ORD-000970,2024-10-06,2024-10-09,Standard Class,CUST-0496,Customer 0496,Corporate,Mexico,North America,Nuevo León,Berlin,Office Supplies,Art,Art Set,8,0.05,292.74,14.94,3,2024,10,October,Q4
+971,ORD-000971,2023-11-22,2023-11-26,Standard Class,CUST-1059,Customer 1059,Consumer,Mexico,North America,Yucatán,Mumbai,Office Supplies,Binders,Premium Binder,2,0.15,52.13,-10.83,4,2023,11,November,Q4
+972,ORD-000972,2024-02-14,2024-02-16,Second Class,CUST-0545,Customer 0545,Consumer,Brazil,South America,Paraná,Sydney,Technology,Copiers,Laser Copier,7,0.0,5333.02,852.31,2,2024,2,February,Q1
+973,ORD-000973,2023-04-28,2023-04-29,Same Day,CUST-0025,Customer 0025,Consumer,Japan,Asia,Aichi,Sydney,Office Supplies,Envelopes,Business Envelopes,1,0.0,21.02,0.25,1,2023,4,April,Q2
+974,ORD-000974,2024-12-24,2024-12-25,First Class,CUST-0175,Customer 0175,Consumer,United States,North America,Illinois,Berlin,Office Supplies,Labels,Address Labels,2,0.25,41.39,-6.25,1,2024,12,December,Q4
+975,ORD-000975,2023-08-13,2023-08-19,Standard Class,CUST-1007,Customer 1007,Consumer,India,Asia,Tamil Nadu,Shanghai,Technology,Accessories,Wireless Keyboard,2,0.0,146.34,17.99,6,2023,8,August,Q3
+976,ORD-000976,2024-06-15,2024-06-20,Standard Class,CUST-0523,Customer 0523,Consumer,Japan,Asia,Osaka,Toronto,Office Supplies,Paper,Copy Paper,10,0.0,344.25,17.38,5,2024,6,June,Q2
+977,ORD-000977,2023-04-23,2023-04-25,First Class,CUST-1570,Customer 1570,Home Office,Mexico,North America,Nuevo León,Berlin,Furniture,Chairs,Ergonomic Office Chair,1,0.1,211.59,21.33,2,2023,4,April,Q2
+978,ORD-000978,2023-05-20,2023-05-25,Standard Class,CUST-1188,Customer 1188,Home Office,China,Asia,Beijing,Berlin,Office Supplies,Storage,Storage Box,4,0.05,402.62,25.16,5,2023,5,May,Q2
+979,ORD-000979,2024-07-12,2024-07-16,Second Class,CUST-0401,Customer 0401,Consumer,Brazil,South America,Paraná,Melbourne,Office Supplies,Supplies,Office Supplies Kit,6,0.1,315.78,25.75,4,2024,7,July,Q3
+980,ORD-000980,2023-01-01,2023-01-08,Standard Class,CUST-1548,Customer 1548,Home Office,United States,North America,Illinois,Toronto,Technology,Accessories,USB-C Hub,4,0.0,339.98,35.33,7,2023,1,January,Q1
+981,ORD-000981,2023-03-31,2023-04-02,First Class,CUST-0208,Customer 0208,Corporate,Brazil,South America,Rio de Janeiro,Mumbai,Office Supplies,Storage,Storage Box,2,0.0,192.28,20.93,2,2023,3,March,Q1
+982,ORD-000982,2024-10-15,2024-10-18,Standard Class,CUST-0609,Customer 0609,Consumer,United States,North America,New York,London,Office Supplies,Supplies,Office Supplies Kit,8,0.05,394.46,17.08,3,2024,10,October,Q4
+983,ORD-000983,2023-11-16,2023-11-19,Second Class,CUST-0119,Customer 0119,Consumer,United Kingdom,Europe,Northern Ireland,Melbourne,Office Supplies,Envelopes,Business Envelopes,7,0.1,166.05,-4.19,3,2023,11,November,Q4
+984,ORD-000984,2024-07-03,2024-07-07,Second Class,CUST-0282,Customer 0282,Corporate,United Kingdom,Europe,Northern Ireland,Shanghai,Technology,Copiers,Laser Copier,3,0.1,2196.32,246.75,4,2024,7,July,Q3
+985,ORD-000985,2023-05-19,2023-05-23,Standard Class,CUST-1994,Customer 1994,Consumer,Japan,Asia,Aichi,São Paulo,Furniture,Furnishings,Office Desk Lamp,3,0.1,199.27,9.91,4,2023,5,May,Q2
+986,ORD-000986,2024-05-25,2024-05-28,Second Class,CUST-0269,Customer 0269,Corporate,Germany,Europe,Bavaria,Bengaluru,Office Supplies,Supplies,Office Supplies Kit,8,0.1,485.36,-85.33,3,2024,5,May,Q2
+987,ORD-000987,2023-09-16,2023-09-19,Second Class,CUST-0722,Customer 0722,Home Office,Spain,Europe,Catalonia,Mumbai,Office Supplies,Storage,Storage Box,10,0.0,768.64,68.01,3,2023,9,September,Q3
+988,ORD-000988,2024-11-03,2024-11-08,Standard Class,CUST-0725,Customer 0725,Corporate,Brazil,South America,Rio de Janeiro,London,Furniture,Chairs,Ergonomic Office Chair,3,0.15,723.76,56.4,5,2024,11,November,Q4
+989,ORD-000989,2024-11-20,2024-11-24,Standard Class,CUST-1647,Customer 1647,Consumer,Germany,Europe,Bavaria,Melbourne,Furniture,Bookcases,Office Bookcase,6,0.0,1011.87,113.5,4,2024,11,November,Q4
+990,ORD-000990,2023-01-10,2023-01-11,First Class,CUST-1002,Customer 1002,Consumer,Brazil,South America,Minas Gerais,Delhi,Office Supplies,Envelopes,Business Envelopes,2,0.0,43.89,-5.65,1,2023,1,January,Q1
+991,ORD-000991,2023-09-18,2023-09-21,Second Class,CUST-0855,Customer 0855,Home Office,Mexico,North America,Puebla,London,Office Supplies,Fasteners,Fastener Pack,2,0.15,21.05,8.7,3,2023,9,September,Q3
+992,ORD-000992,2024-10-11,2024-10-15,Second Class,CUST-1519,Customer 1519,Consumer,France,Europe,Île-de-France,Melbourne,Office Supplies,Envelopes,Business Envelopes,1,0.0,24.51,-9.67,4,2024,10,October,Q4
+993,ORD-000993,2023-06-21,2023-06-25,Standard Class,CUST-1239,Customer 1239,Consumer,Brazil,South America,Rio de Janeiro,Madrid,Technology,Machines,Desktop Computer,2,0.1,1667.56,225.72,4,2023,6,June,Q2
+994,ORD-000994,2023-01-13,2023-01-18,Standard Class,CUST-0676,Customer 0676,Consumer,Mexico,North America,Nuevo León,Bengaluru,Office Supplies,Fasteners,Fastener Pack,4,0.05,54.88,15.09,5,2023,1,January,Q1
+995,ORD-000995,2023-06-17,2023-06-21,Standard Class,CUST-1733,Customer 1733,Corporate,India,Asia,Uttar Pradesh,Tokyo,Office Supplies,Art,Art Set,3,0.1,113.6,13.63,4,2023,6,June,Q2
+996,ORD-000996,2024-10-03,2024-10-05,Second Class,CUST-0359,Customer 0359,Home Office,United Kingdom,Europe,Wales,London,Technology,Accessories,USB-C Hub,2,0.05,159.33,20.53,2,2024,10,October,Q4
+997,ORD-000997,2024-08-18,2024-08-24,Standard Class,CUST-1197,Customer 1197,Home Office,Germany,Europe,Hesse,Berlin,Office Supplies,Supplies,Office Supplies Kit,2,0.3,126.86,-5.84,6,2024,8,August,Q3
+998,ORD-000998,2023-11-17,2023-11-21,Standard Class,CUST-0335,Customer 0335,Consumer,Australia,Oceania,Victoria,Delhi,Office Supplies,Storage,Storage Box,2,0.05,155.57,17.95,4,2023,11,November,Q4
+999,ORD-000999,2023-11-15,2023-11-19,Second Class,CUST-1496,Customer 1496,Home Office,France,Europe,Île-de-France,Sydney,Office Supplies,Supplies,Office Supplies Kit,10,0.1,518.43,26.28,4,2023,11,November,Q4
+1000,ORD-001000,2024-09-04,2024-09-11,Standard Class,CUST-1804,Customer 1804,Home Office,China,Asia,Beijing,Berlin,Office Supplies,Binders,Premium Binder,6,0.2,150.86,8.36,7,2024,9,September,Q3

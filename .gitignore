@@ -1,0 +1,16 @@
+# Dependencies / Build
+node_modules/
+.env
+.env.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python / Cache
+__pycache__/
+*.pyc
+
+# IDE / Antigravity temporary files
+.antigravity/
