@@ -446,6 +446,38 @@
         .callout-title { font-weight: 700; color: var(--primary-light); font-size: 0.95rem; }
         .callout-desc { font-size: 0.88rem; color: var(--text-muted); }
 
+        /* TAB NAVIGATION STYLES FOR MODAL OVERLAY */
+        .dash-tabs { display: flex; gap: 8px; border-bottom: 1px solid var(--border-dark); padding: 0 28px; background: rgba(15, 23, 42, 0.5); }
+        .dash-tab-btn { background: none; border: none; padding: 14px 20px; font-family: var(--font-heading); font-size: 0.92rem; font-weight: 700; color: var(--text-muted); cursor: pointer; border-bottom: 3px solid transparent; transition: var(--transition); display: inline-flex; align-items: center; gap: 8px; }
+        .dash-tab-btn:hover { color: var(--text-main); }
+        .dash-tab-btn.active { color: var(--primary-light); border-bottom-color: var(--primary-light); background: rgba(124, 58, 237, 0.08); }
+
+        /* PROJECT DETAILS VIEW STYLES */
+        .project-detail-box { display: flex; flex-direction: column; gap: 20px; padding: 4px; }
+        .detail-section-card { background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-md); padding: 22px; }
+        .detail-section-title { font-family: var(--font-heading); font-size: 1.05rem; font-weight: 800; color: var(--text-main); margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
+        .detail-section-title i { color: var(--primary-light); }
+        
+        .tools-badge-list { display: flex; flex-wrap: wrap; gap: 8px; }
+        .tool-badge-item { background: rgba(124, 58, 237, 0.15); border: 1px solid rgba(124, 58, 237, 0.3); color: var(--text-main); padding: 6px 14px; border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
+
+        .steps-timeline { display: flex; flex-direction: column; gap: 12px; }
+        .step-item { background: rgba(15, 23, 42, 0.6); border: 1px solid var(--border-dark); border-radius: var(--radius-sm); padding: 14px 18px; display: flex; gap: 14px; align-items: flex-start; }
+        .step-num { background: var(--primary-light); color: #fff; width: 28px; height: 28px; border-radius: 50%; font-weight: 800; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0; }
+        .step-title { font-weight: 700; color: var(--text-main); font-size: 0.95rem; margin-bottom: 4px; }
+        .step-desc { font-size: 0.86rem; color: var(--text-muted); line-height: 1.5; }
+
+        .insights-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+        .insight-card { background: rgba(15, 23, 42, 0.6); border: 1px solid var(--border-dark); border-radius: var(--radius-sm); padding: 16px; }
+        .insight-val { font-family: var(--font-heading); font-size: 1.35rem; font-weight: 800; color: var(--primary-light); margin-bottom: 4px; }
+        .insight-lbl { font-size: 0.85rem; font-weight: 700; color: var(--text-main); margin-bottom: 6px; }
+        .insight-desc { font-size: 0.82rem; color: var(--text-muted); line-height: 1.4; }
+
+        .project-desc-box { cursor: pointer; transition: var(--transition); }
+        .project-desc-box:hover { color: var(--primary-light); }
+        .btn-insights-link { background: rgba(124, 58, 237, 0.12); border: 1px solid rgba(124, 58, 237, 0.3); color: var(--primary-light); margin-left: 6px; }
+        .btn-insights-link:hover { background: var(--primary-light); color: #fff; }
+
         /* SQL CODE VIEWER STYLES */
         .sql-code-box {
             background: #0B1120;
@@ -850,15 +882,19 @@
                         <span class="tag"><i class="fa-solid fa-chart-column"></i> Power BI</span>
                         <span class="tag">Healthcare ETL</span>
                     </div>
-                    <h3><a href="#" onclick="openProjectDash('hospital'); return false;" class="project-title-link">Hospital Healthcare Analytics</a></h3>
-                    <p>Patient demographic & appointment performance analysis across 100 patients and 320 appointments — computed live from raw GitHub CSV files (patients, appointments, billing, doctors).</p>
-                    <div class="project-metric-pill" id="card-metric-hospital">
+                    <h3><a href="#" onclick="openProjectDash('hospital', 'insights'); return false;" class="project-title-link">Hospital Healthcare Analytics</a></h3>
+                    <p class="project-desc-box" onclick="openProjectDash('hospital', 'insights')" title="Click to view Project Brief & Insights">Patient demographic & appointment performance analysis across 100 patients and 320 appointments — computed live from raw GitHub CSV files (patients, appointments, billing, doctors).</p>
+                    <div class="project-metric-pill" id="card-metric-hospital" onclick="openProjectDash('hospital', 'insights')" style="cursor:pointer;" title="Click to view Project Brief & Insights">
                         <i class="fa-solid fa-indian-rupee-sign"></i> ₹10.17 Lakh Revenue | 70 Orthopedics Visits
                     </div>
                     <div class="project-card-footer">
-                        <button class="project-link-btn" onclick="openProjectDash('hospital')">
-                            <span>View Live Dashboard</span>
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <button class="project-link-btn" onclick="openProjectDash('hospital', 'dash')">
+                            <span>Live Dashboard</span>
+                            <i class="fa-solid fa-chart-column"></i>
+                        </button>
+                        <button class="project-link-btn btn-insights-link" onclick="openProjectDash('hospital', 'insights')">
+                            <span>Brief & Insights</span>
+                            <i class="fa-solid fa-file-contract"></i>
                         </button>
                         <div class="project-actions">
                             <a href="https://github.com/yashbhadauria14-dot/Hospital-Healthcare-Analytics" target="_blank" class="btn-icon" title="View GitHub Repository">
@@ -875,15 +911,19 @@
                         <span class="tag">SheetJS Parsing</span>
                         <span class="tag">Pivot Tables</span>
                     </div>
-                    <h3><a href="#" onclick="openProjectDash('retail'); return false;" class="project-title-link">Retail Sales Analytics</a></h3>
-                    <p>Interactive dashboard tracking revenue & unit volume across 190K+ raw Excel records (Sales_Dataset.xlsx), parsed client-side via SheetJS to compute category dominance & channel split.</p>
-                    <div class="project-metric-pill" id="card-metric-retail">
+                    <h3><a href="#" onclick="openProjectDash('retail', 'insights'); return false;" class="project-title-link">Retail Sales Analytics</a></h3>
+                    <p class="project-desc-box" onclick="openProjectDash('retail', 'insights')" title="Click to view Project Brief & Insights">Interactive dashboard tracking revenue & unit volume across 190K+ raw Excel records (Sales_Dataset.xlsx), parsed client-side via SheetJS to compute category dominance & channel split.</p>
+                    <div class="project-metric-pill" id="card-metric-retail" onclick="openProjectDash('retail', 'insights')" style="cursor:pointer;" title="Click to view Project Brief & Insights">
                         <i class="fa-solid fa-chart-line"></i> Raw Excel Parsing | 40.5% Yogurt Category
                     </div>
                     <div class="project-card-footer">
-                        <button class="project-link-btn" onclick="openProjectDash('retail')">
-                            <span>View Live Dashboard</span>
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <button class="project-link-btn" onclick="openProjectDash('retail', 'dash')">
+                            <span>Live Dashboard</span>
+                            <i class="fa-solid fa-chart-line"></i>
+                        </button>
+                        <button class="project-link-btn btn-insights-link" onclick="openProjectDash('retail', 'insights')">
+                            <span>Brief & Insights</span>
+                            <i class="fa-solid fa-file-contract"></i>
                         </button>
                         <div class="project-actions">
                             <a href="https://github.com/yashbhadauria14-dot/Retail-Sales-Analytics-" target="_blank" class="btn-icon" title="View GitHub Repository">
@@ -900,15 +940,19 @@
                         <span class="tag"><i class="fa-solid fa-filter"></i> Client-Side Cleaning</span>
                         <span class="tag">Power BI</span>
                     </div>
-                    <h3><a href="#" onclick="openProjectDash('etl'); return false;" class="project-title-link">Sales Performance & BI ETL Pipeline</a></h3>
-                    <p>Replicates documented ETL cleaning: loads raw 520-row Excel file, removes 20 exact duplicate rows, drops 18 invalid date rows, and derives Profit (Sales - Cost) on 482 clean records.</p>
-                    <div class="project-metric-pill" id="card-metric-etl">
+                    <h3><a href="#" onclick="openProjectDash('etl', 'insights'); return false;" class="project-title-link">Sales Performance & BI ETL Pipeline</a></h3>
+                    <p class="project-desc-box" onclick="openProjectDash('etl', 'insights')" title="Click to view Project Brief & Insights">Replicates documented ETL cleaning: loads raw 520-row Excel file, removes 20 exact duplicate rows, drops 18 invalid date rows, and derives Profit (Sales - Cost) on 482 clean records.</p>
+                    <div class="project-metric-pill" id="card-metric-etl" onclick="openProjectDash('etl', 'insights')" style="cursor:pointer;" title="Click to view Project Brief & Insights">
                         <i class="fa-solid fa-network-wired"></i> 520 → 482 Records | 25.20% Margin
                     </div>
                     <div class="project-card-footer">
-                        <button class="project-link-btn" onclick="openProjectDash('etl')">
-                            <span>View Live Dashboard</span>
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <button class="project-link-btn" onclick="openProjectDash('etl', 'dash')">
+                            <span>Live Dashboard</span>
+                            <i class="fa-solid fa-network-wired"></i>
+                        </button>
+                        <button class="project-link-btn btn-insights-link" onclick="openProjectDash('etl', 'insights')">
+                            <span>Brief & Insights</span>
+                            <i class="fa-solid fa-file-contract"></i>
                         </button>
                         <div class="project-actions">
                             <a href="https://github.com/yashbhadauria14-dot/Sales-Performance-Business-Intelligence-End-to-End-ETL-Project" target="_blank" class="btn-icon" title="View GitHub Repository">
@@ -925,15 +969,19 @@
                         <span class="tag">1,000 CSV Rows</span>
                         <span class="tag">Global Logistics</span>
                     </div>
-                    <h3><a href="#" onclick="openProjectDash('superstore'); return false;" class="project-title-link">Global Superstore Sales Analytics</a></h3>
-                    <p>Global retail supply chain dashboard computed live from 1,000-row CSV file — analyzing $841.9K sales, $90.1K profit (10.70% margin), Technology category leadership, & shipping modes.</p>
-                    <div class="project-metric-pill" id="card-metric-superstore">
+                    <h3><a href="#" onclick="openProjectDash('superstore', 'insights'); return false;" class="project-title-link">Global Superstore Sales Analytics</a></h3>
+                    <p class="project-desc-box" onclick="openProjectDash('superstore', 'insights')" title="Click to view Project Brief & Insights">Global retail supply chain dashboard computed live from 1,000-row CSV file — analyzing $841.9K sales, $90.1K profit (10.70% margin), Technology category leadership, & shipping modes.</p>
+                    <div class="project-metric-pill" id="card-metric-superstore" onclick="openProjectDash('superstore', 'insights')" style="cursor:pointer;" title="Click to view Project Brief & Insights">
                         <i class="fa-solid fa-globe"></i> $841.9K Sales | 10.70% Margin
                     </div>
                     <div class="project-card-footer">
-                        <button class="project-link-btn" onclick="openProjectDash('superstore')">
-                            <span>View Live Dashboard</span>
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <button class="project-link-btn" onclick="openProjectDash('superstore', 'dash')">
+                            <span>Live Dashboard</span>
+                            <i class="fa-solid fa-globe"></i>
+                        </button>
+                        <button class="project-link-btn btn-insights-link" onclick="openProjectDash('superstore', 'insights')">
+                            <span>Brief & Insights</span>
+                            <i class="fa-solid fa-file-contract"></i>
                         </button>
                         <div class="project-actions">
                             <a href="https://github.com/yashbhadauria14-dot/Power-BI-Project" target="_blank" class="btn-icon" title="View GitHub Repository">
@@ -950,15 +998,19 @@
                         <span class="tag">3NF Schema</span>
                         <span class="tag">Window Functions</span>
                     </div>
-                    <h3><a href="#" onclick="openProjectDash('bookstore'); return false;" class="project-title-link">Mini MySQL Project — Online Bookstore</a></h3>
-                    <p>Relational e-commerce SQL query suite. Fetches & displays actual SQL script from raw GitHub — featuring DDL table definitions, 3NF schema, JOINs, and window functions.</p>
-                    <div class="project-metric-pill" id="card-metric-bookstore">
+                    <h3><a href="#" onclick="openProjectDash('bookstore', 'insights'); return false;" class="project-title-link">Mini MySQL Project — Online Bookstore</a></h3>
+                    <p class="project-desc-box" onclick="openProjectDash('bookstore', 'insights')" title="Click to view Project Brief & Insights">Relational e-commerce SQL query suite. Fetches & displays actual SQL script from raw GitHub — featuring DDL table definitions, 3NF schema, JOINs, and window functions.</p>
+                    <div class="project-metric-pill" id="card-metric-bookstore" onclick="openProjectDash('bookstore', 'insights')" style="cursor:pointer;" title="Click to view Project Brief & Insights">
                         <i class="fa-solid fa-file-code"></i> Raw SQL Code Showcase
                     </div>
                     <div class="project-card-footer">
-                        <button class="project-link-btn" onclick="openProjectDash('bookstore')">
+                        <button class="project-link-btn" onclick="openProjectDash('bookstore', 'dash')">
                             <span>View SQL Script</span>
                             <i class="fa-solid fa-code"></i>
+                        </button>
+                        <button class="project-link-btn btn-insights-link" onclick="openProjectDash('bookstore', 'insights')">
+                            <span>Brief & Insights</span>
+                            <i class="fa-solid fa-file-contract"></i>
                         </button>
                         <div class="project-actions">
                             <a href="https://github.com/yashbhadauria14-dot/Mini-MySQL-Project" target="_blank" class="btn-icon" title="View GitHub Repository">
@@ -975,15 +1027,19 @@
                         <span class="tag"><i class="fa-solid fa-chart-line"></i> Logistic Regression</span>
                         <span class="tag">1,200 CRM Records</span>
                     </div>
-                    <h3><a href="#" onclick="openProjectDash('churn'); return false;" class="project-title-link">Customer Churn Analysis — Telecom Business</a></h3>
-                    <p>End-to-end Python & ML analysis on 1,200 raw CRM records (telecom_customer_churn.csv). Features automated data cleaning, derived tenure buckets, churn metric aggregation, Seaborn visualizations, and Logistic Regression modeling.</p>
-                    <div class="project-metric-pill" id="card-metric-churn">
+                    <h3><a href="#" onclick="openProjectDash('churn', 'insights'); return false;" class="project-title-link">Customer Churn Analysis — Telecom Business</a></h3>
+                    <p class="project-desc-box" onclick="openProjectDash('churn', 'insights')" title="Click to view Project Brief & Insights">End-to-end Python & ML analysis on 1,200 raw CRM records (telecom_customer_churn.csv). Features automated data cleaning, derived tenure buckets, churn metric aggregation, Seaborn visualizations, and Logistic Regression modeling.</p>
+                    <div class="project-metric-pill" id="card-metric-churn" onclick="openProjectDash('churn', 'insights')" style="cursor:pointer;" title="Click to view Project Brief & Insights">
                         <i class="fa-solid fa-triangle-exclamation"></i> 39.58% Churn Rate | ₹46.45 Lakh Revenue at Risk
                     </div>
                     <div class="project-card-footer">
-                        <button class="project-link-btn" onclick="openProjectDash('churn')">
-                            <span>View Live Analysis</span>
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        <button class="project-link-btn" onclick="openProjectDash('churn', 'dash')">
+                            <span>Live Analysis</span>
+                            <i class="fa-solid fa-chart-column"></i>
+                        </button>
+                        <button class="project-link-btn btn-insights-link" onclick="openProjectDash('churn', 'insights')">
+                            <span>Brief & Insights</span>
+                            <i class="fa-solid fa-file-contract"></i>
                         </button>
                         <div class="project-actions">
                             <a href="https://github.com/yashbhadauria14-dot/portfolio/blob/main/telecom_customer_churn_analysis.ipynb" target="_blank" class="btn-icon" title="View Jupyter Notebook">
@@ -1073,7 +1129,22 @@
                     <button class="dash-close-btn" onclick="closeProjectDash()">&times;</button>
                 </div>
             </div>
+
+            <!-- MODAL TAB NAVIGATION BAR -->
+            <div class="dash-tabs" id="dashTabs">
+                <button class="dash-tab-btn active" id="tabBtnDash" onclick="switchDashTab('dash')">
+                    <i class="fa-solid fa-chart-column"></i> 📊 Live Dashboard & Visuals
+                </button>
+                <button class="dash-tab-btn" id="tabBtnInsights" onclick="switchDashTab('insights')">
+                    <i class="fa-solid fa-file-contract"></i> 📄 Project Brief, Steps & Insights
+                </button>
+            </div>
+
             <div class="dash-body" id="dashBody">
+                <!-- Injected dynamically via JavaScript -->
+            </div>
+
+            <div class="dash-body" id="dashInsightsBody" style="display:none;">
                 <!-- Injected dynamically via JavaScript -->
             </div>
         </div>
@@ -1122,11 +1193,37 @@
             `;
         }
 
-        function openProjectDash(projectId, forceRefresh = false) {
+        function switchDashTab(tabName) {
+            const dashBody = document.getElementById('dashBody');
+            const insightsBody = document.getElementById('dashInsightsBody');
+            const btnDash = document.getElementById('tabBtnDash');
+            const btnInsights = document.getElementById('tabBtnInsights');
+
+            if (tabName === 'insights') {
+                dashBody.style.display = 'none';
+                insightsBody.style.display = 'flex';
+                insightsBody.style.flexDirection = 'column';
+                btnDash.classList.remove('active');
+                btnInsights.classList.add('active');
+            } else {
+                dashBody.style.display = 'flex';
+                insightsBody.style.display = 'none';
+                btnDash.classList.add('active');
+                btnInsights.classList.remove('active');
+            }
+        }
+
+        function openProjectDash(projectId, defaultTab = 'dash', forceRefresh = false) {
+            if (typeof defaultTab === 'boolean') {
+                forceRefresh = defaultTab;
+                defaultTab = 'dash';
+            }
+
             activeProjectId = projectId;
             const overlay = document.getElementById('dashOverlay');
             const titleEl = document.getElementById('dashTitle');
             const bodyEl = document.getElementById('dashBody');
+            const insightsBodyEl = document.getElementById('dashInsightsBody');
             
             Object.keys(chartStore).forEach(k => {
                 if (chartStore[k]) { chartStore[k].destroy(); delete chartStore[k]; }
@@ -1134,6 +1231,12 @@
 
             overlay.classList.add('active');
             showLoadingState(bodyEl, `Connecting to GitHub repository for ${projectId.toUpperCase()}...`);
+
+            // Populate Project Brief & Insights View
+            renderProjectInsightsView(projectId, insightsBodyEl);
+
+            // Switch to target tab
+            switchDashTab(defaultTab);
 
             if (projectId === 'hospital') {
                 titleEl.innerHTML = '<i class="fa-solid fa-hospital" style="color:var(--primary-light);"></i> Hospital Healthcare Analytics Dashboard (Live)';
@@ -1154,6 +1257,176 @@
                 titleEl.innerHTML = '<i class="fa-solid fa-triangle-exclamation" style="color:var(--accent-red);"></i> Customer Churn Analysis & Retention Strategy (1,200 CRM Records)';
                 loadChurnDashboard(bodyEl, forceRefresh);
             }
+        }
+
+        const projectInsightsStore = {
+            hospital: {
+                title: "Hospital Healthcare Analytics Case Study",
+                tools: ["MySQL", "Power BI", "SQL Server", "Relational Joins", "Window Functions", "DAX Measures"],
+                steps: [
+                    { num: 1, title: "Database Integration & Architecture", desc: "Joined 5 relational healthcare tables (patients, appointments, billing, doctors, treatments) via foreign key constraints." },
+                    { num: 2, title: "Data ETL & Standardization", desc: "Cleaned null billing records, formatted datetime strings, and normalized doctor specialization taxonomy." },
+                    { num: 3, title: "SQL Aggregation Engine", desc: "Executed complex SQL queries for patient visit frequency, doctor specialty demand, and billing collection rates." },
+                    { num: 4, title: "Power BI Executive Dashboard", desc: "Designed interactive visual dashboard with specialty drill-downs, payment status pie charts, and appointment volume trackers." }
+                ],
+                insights: [
+                    { val: "₹10.17 Lakh", lbl: "Paid Billing Revenue", desc: "Total collected revenue across verified paid patient billing records." },
+                    { val: "70 Visits", lbl: "#1 Specialty (Orthopedics)", desc: "Orthopedics emerged as the highest demand medical department." },
+                    { val: "24.4%", lbl: "Cancellation Rate", desc: "320 logged visits revealed a 24.4% missed appointment rate." }
+                ],
+                recommendation: "Implement automated 24-hour SMS appointment reminders and optimize doctor consultation slot scheduling to recover ₹1.8 Lakhs in cancelled consultation capacity.",
+                repo: "https://github.com/yashbhadauria14-dot/Hospital-Healthcare-Analytics"
+            },
+            retail: {
+                title: "Retail Sales & Category Analytics Case Study",
+                tools: ["Advanced MS Excel", "Power Query", "Pivot Tables", "SheetJS Client Parser", "XLOOKUP / INDEX-MATCH"],
+                steps: [
+                    { num: 1, title: "High-Volume Data Ingestion", desc: "Ingested and parsed 190,000+ raw retail transactional line items (Sales_Dataset.xlsx)." },
+                    { num: 2, title: "Power Query Data Cleaning", desc: "Normalized product category titles, eliminated missing rows, and validated unit transaction values." },
+                    { num: 3, title: "Multi-Pivot Table Analytics", desc: "Summarized gross revenue, unit sales volume, and sales channel distribution across product lines." },
+                    { num: 4, title: "Interactive Excel Dashboard", desc: "Engineered client-side interactive dashboard with dynamic category slicers and KPI summary cards." }
+                ],
+                insights: [
+                    { val: "190,000+", lbl: "Transaction Rows", desc: "Processed 190K+ line items client-side via SheetJS with 100% data fidelity." },
+                    { val: "40.5%", lbl: "Yogurt Category Share", desc: "Yogurt category generated 40.5% of total retail sales revenue." },
+                    { val: "Multi-Channel", lbl: "Sales Channels", desc: "Mapped revenue split across online orders vs in-store retail transactions." }
+                ],
+                recommendation: "Reallocate 15% retail shelf space from low-velocity items to high-margin Yogurt SKUs, projecting a 7.5% lift in total dairy division revenue.",
+                repo: "https://github.com/yashbhadauria14-dot/Retail-Sales-Analytics-"
+            },
+            etl: {
+                title: "Sales Performance & Business Intelligence End-to-End ETL Project",
+                tools: ["Python (Pandas, NumPy)", "Power BI", "Power Query", "Data Pipeline Automation"],
+                steps: [
+                    { num: 1, title: "Raw Export Data Audit", desc: "Loaded raw 520-row sales transaction Excel export for automated data verification." },
+                    { num: 2, title: "Python ETL Cleaning Pipeline", desc: "Identified and removed 20 exact duplicate rows, filtered out 18 corrupted date rows, and imputed missing costs." },
+                    { num: 3, title: "Feature Engineering", desc: "Calculated Profit = Sales - TotalCost and Profit Margin % = (Profit / Sales) * 100 on 482 clean records." },
+                    { num: 4, title: "Power BI Margin Report", desc: "Built Star Schema data model and published executive profit margin tracker dashboard." }
+                ],
+                insights: [
+                    { val: "520 → 482", lbl: "Cleaned Record Yield", desc: "Successfully cleaned raw dataset, yielding 482 verified clean records." },
+                    { val: "25.20%", lbl: "Portfolio Margin", desc: "Overall portfolio achieved a healthy 25.20% net profit margin." },
+                    { val: "20 Duplicates", lbl: "Duplicates Removed", desc: "Eliminated duplicate transactions to prevent revenue double-counting." }
+                ],
+                recommendation: "Rationalize 3 un-profitable product lines contributing negative margins due to excessive freight overhead, preserving net profit.",
+                repo: "https://github.com/yashbhadauria14-dot/Sales-Performance-Business-Intelligence-End-to-End-ETL-Project"
+            },
+            superstore: {
+                title: "Global Superstore Sales & Logistics Analytics Case Study",
+                tools: ["Power BI Desktop", "DAX Measures", "Star Schema Data Modeling", "Logistics Analytics"],
+                steps: [
+                    { num: 1, title: "Global Logistics Dataset", desc: "Ingested 1,000-row global supply chain dataset covering global markets, product categories, and shipping modes." },
+                    { num: 2, title: "Star Schema Modeling", desc: "Constructed relational data model connecting Fact Sales with Geography, Category, and Shipping Dimension tables." },
+                    { num: 3, title: "DAX Measure Engineering", desc: "Authored DAX logic for Total Sales ($), Total Profit ($), Profit Margin (%), and Delivery Latency." },
+                    { num: 4, title: "Executive Report Design", desc: "Constructed multi-page report with interactive geographical slicers and category breakdown visuals." }
+                ],
+                insights: [
+                    { val: "$841.9K", lbl: "Total Sales", desc: "Global sales volume analyzed across international market regions." },
+                    { val: "$90.1K", lbl: "Net Profit (10.70%)", desc: "Achieved $90.1K net profit with 10.70% overall profit margin." },
+                    { val: "$42.3K", lbl: "Technology Profit", desc: "Technology category produced 46.9% of company profit ($42.3K)." }
+                ],
+                recommendation: "Expand warehouse fulfillment capacity in high-margin technology hubs, reducing delivery times by 1.8 days while lowering freight overhead.",
+                repo: "https://github.com/yashbhadauria14-dot/Power-BI-Project"
+            },
+            bookstore: {
+                title: "Mini MySQL Project — Online Bookstore Relational Database",
+                tools: ["MySQL Workbench", "3NF Schema Architecture", "Window Functions", "Relational Joins", "CTEs"],
+                steps: [
+                    { num: 1, title: "3NF Database Schema Design", desc: "Architected 3rd Normal Form relational database schema (Books, Authors, Customers, Orders, OrderDetails)." },
+                    { num: 2, title: "DDL Execution & Constraints", desc: "Implemented Primary Keys, Foreign Keys, cascading deletion rules, and relational indexes." },
+                    { num: 3, title: "Advanced SQL Query Suite", desc: "Authored queries featuring INNER/LEFT JOINs, GROUP BY, HAVING, DENSE_RANK(), and SUM() OVER()." },
+                    { num: 4, title: "Customer LTV & Trend Analysis", desc: "Structured queries to calculate customer Lifetime Value (LTV) and top author sales rankings." }
+                ],
+                insights: [
+                    { val: "3NF Schema", lbl: "Database Design", desc: "Zero data redundancy with robust foreign key constraints." },
+                    { val: "Window Funcs", lbl: "Advanced Querying", desc: "Utilized DENSE_RANK and SUM OVER for customer revenue ranking." },
+                    { val: "Raw SQL", lbl: "Code Integrity", desc: "Production-ready SQL query suite directly viewable from GitHub." }
+                ],
+                recommendation: "Production-ready relational database architecture ready for deployment to scalable e-commerce backends and automated BI pipelines.",
+                repo: "https://github.com/yashbhadauria14-dot/Mini-MySQL-Project"
+            },
+            churn: {
+                title: "Customer Churn Analysis & Retention Strategy — Telecom Business",
+                tools: ["Python (Pandas, NumPy)", "Matplotlib", "Seaborn", "Scikit-Learn (Logistic Regression)", "Jupyter Notebook"],
+                steps: [
+                    { num: 1, title: "CRM Raw Export Audit", desc: "Ingested telecom_customer_churn.csv (1,225 rows with duplicates, missing values, and inconsistent text casing)." },
+                    { num: 2, title: "Data Cleaning & Imputation", desc: "Dropped 25 duplicates, imputed missing SatisfactionScore with Median (3.0), imputed PaymentMethod with 'Unknown', and standardized city casing." },
+                    { num: 3, title: "Feature Engineering", desc: "Engineered TenureBucket (New <12mo, Mid 12-36mo, Loyal 36mo+) and binary target ChurnNumeric." },
+                    { num: 4, title: "Exploratory Analysis & Visuals", desc: "Computed overall churn rate (39.58%), revenue at risk (₹46.45 Lakhs), and generated 6 publication-grade Seaborn charts." },
+                    { num: 5, title: "Predictive Machine Learning", desc: "Fitted Logistic Regression model achieving 72.92% Accuracy and 0.797 ROC-AUC score." }
+                ],
+                insights: [
+                    { val: "39.58%", lbl: "Overall Churn Rate", desc: "475 out of 1,200 unique customers churned from portfolio." },
+                    { val: "₹46.45 Lakh", lbl: "Annual Revenue Risk", desc: "₹3,87,103/month in recurring subscriber billing at risk." },
+                    { val: "58.3%", lbl: "Month-to-Month Churn", desc: "Month-to-Month contracts exhibit 10x higher churn than 2-Year plans." }
+                ],
+                recommendation: "Implement 3-pronged retention campaign (Month-to-Month conversion discount, proactive support alert after 2 calls, AutoPay discount) saving ₹18.5 Lakhs annually.",
+                repo: "https://github.com/yashbhadauria14-dot/portfolio",
+                notebook: "https://github.com/yashbhadauria14-dot/portfolio/blob/main/telecom_customer_churn_analysis.ipynb"
+            }
+        };
+
+        function renderProjectInsightsView(projectId, containerEl) {
+            const data = projectInsightsStore[projectId];
+            if (!data) return;
+
+            const toolsHtml = data.tools.map(t => `<span class="tool-badge-item"><i class="fa-solid fa-check"></i> ${t}</span>`).join('');
+            
+            const stepsHtml = data.steps.map(s => `
+                <div class="step-item">
+                    <div class="step-num">${s.num}</div>
+                    <div>
+                        <div class="step-title">${s.title}</div>
+                        <div class="step-desc">${s.desc}</div>
+                    </div>
+                </div>
+            `).join('');
+
+            const insightsHtml = data.insights.map(i => `
+                <div class="insight-card">
+                    <div class="insight-val">${i.val}</div>
+                    <div class="insight-lbl">${i.lbl}</div>
+                    <div class="insight-desc">${i.desc}</div>
+                </div>
+            `).join('');
+
+            const notebookBtnHtml = data.notebook ? `
+                <a href="${data.notebook}" target="_blank" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.85rem;">
+                    <i class="fa-solid fa-book-bookmark"></i> View Jupyter Notebook
+                </a>
+            ` : '';
+
+            containerEl.innerHTML = `
+                <div class="project-detail-box">
+                    <div class="detail-section-card">
+                        <div class="detail-section-title"><i class="fa-solid fa-screwdriver-wrench"></i> Tools & Technologies Used</div>
+                        <div class="tools-badge-list">${toolsHtml}</div>
+                    </div>
+
+                    <div class="detail-section-card">
+                        <div class="detail-section-title"><i class="fa-solid fa-diagram-project"></i> Analytical Steps & Methodology Taken</div>
+                        <div class="steps-timeline">${stepsHtml}</div>
+                    </div>
+
+                    <div class="detail-section-card">
+                        <div class="detail-section-title"><i class="fa-solid fa-chart-line"></i> Key Quantified Findings & Insights</div>
+                        <div class="insights-grid">${insightsHtml}</div>
+                    </div>
+
+                    <div class="stat-callout-box">
+                        <div>
+                            <div class="callout-title"><i class="fa-solid fa-bullseye"></i> Executive Business Recommendation & Strategic Impact</div>
+                            <div class="callout-desc">${data.recommendation}</div>
+                        </div>
+                        <div style="display:flex; gap:10px; align-items:center;">
+                            ${notebookBtnHtml}
+                            <a href="${data.repo}" target="_blank" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.85rem;">
+                                <i class="fa-brands fa-github"></i> GitHub Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `;
         }
 
         /* --------------------------------------------------------------------------
